@@ -10,6 +10,9 @@
     "url": "git+https://github.com/hello-pangea/color-picker.git"
   },
   "author": "case <case@casesandberg.com>",
+  "maintainers": [
+    "Reece Carolan <reece@hellopangea.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hello-pangea/color-picker/issues"
