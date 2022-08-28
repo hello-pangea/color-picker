@@ -1,6 +1,7 @@
 {
   "name": "@hello-pangea/color-picker",
   "version": "2.19.3",
+  "private": false,
   "description": "A Collection of Color Pickers from Sketch, Photoshop, Chrome & more",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -126,5 +127,8 @@
         ]
       }
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
