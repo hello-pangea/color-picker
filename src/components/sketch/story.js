@@ -1,12 +1,11 @@
-import React from 'react'
-import { storiesOf } from '@storybook/react'
-import SyncColorField from '../../../.storybook/SyncColorField'
+import React from "react";
+import { storiesOf } from "@storybook/react";
+import SyncColorField from "../../../.storybook/SyncColorField";
 
-import Sketch from './Sketch'
+import Sketch from "./Sketch";
 
-storiesOf('Pickers', module)
-  .add('SketchPicker', () => (
-    <SyncColorField component={ Sketch }>
-      <Sketch />
-    </SyncColorField>
-  ))
+storiesOf("Pickers", module).add("SketchPicker", () => (
+  <SyncColorField component={Sketch}>
+    <Sketch />
+  </SyncColorField>
+));

@@ -3,7 +3,7 @@ import { SketchPicker } from "react-color";
 
 const App = () => {
   const [color, setColor] = useState();
-  const handleChange = color => setColor(color);
+  const handleChange = (color) => setColor(color);
   return (
     <div className="App">
       <SketchPicker color={color} onChangeComplete={handleChange} />

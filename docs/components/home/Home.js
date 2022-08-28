@@ -1,31 +1,30 @@
-'use strict'
+"use strict";
 
-import React from 'react'
-import reactCSS from 'reactcss'
+import React from "react";
+import reactCSS from "reactcss";
 
-import HomeFeature from './HomeFeature'
-import HomeDocumentation from './HomeDocumentation'
+import HomeFeature from "./HomeFeature";
+import HomeDocumentation from "./HomeDocumentation";
 
 class Home extends React.Component {
   state = {
-    primaryColor: '#194D33',
-  }
+    primaryColor: "#194D33",
+  };
 
-  handleChange = (primaryColor) => this.setState({ primaryColor })
+  handleChange = (primaryColor) => this.setState({ primaryColor });
 
   render() {
     const styles = reactCSS({
-      'default': {
+      default: {
         home: {
-          fontFamily: 'Roboto',
+          fontFamily: "Roboto",
         },
       },
-    })
+    });
 
     return (
-      <div style={ styles.home }>
-
-        <style>{ `
+      <div style={styles.home}>
+        <style>{`
           html, body {
             background: #eee;
             overflow-x: hidden;
@@ -37,13 +36,16 @@ class Home extends React.Component {
             display: -webkit-flex;
             display: flex;
           }
-        ` }</style>
+        `}</style>
 
-        <HomeFeature primaryColor={ this.state.primaryColor } onChange={ this.handleChange } />
-        <HomeDocumentation primaryColor={ this.state.primaryColor } />
+        <HomeFeature
+          primaryColor={this.state.primaryColor}
+          onChange={this.handleChange}
+        />
+        <HomeDocumentation primaryColor={this.state.primaryColor} />
       </div>
-    )
+    );
   }
 }
 
-export default Home
+export default Home;

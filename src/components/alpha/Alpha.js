@@ -1,45 +1,55 @@
-import React from 'react'
-import reactCSS from 'reactcss'
+import React from "react";
+import reactCSS from "reactcss";
 
-import { ColorWrap, Alpha } from '../common'
-import AlphaPointer from './AlphaPointer'
+import { ColorWrap, Alpha } from "../common";
+import AlphaPointer from "./AlphaPointer";
 
-export const AlphaPicker = ({ rgb, hsl, width, height, onChange, direction, style,
-  renderers, pointer, className = '' }) => {
+export const AlphaPicker = ({
+  rgb,
+  hsl,
+  width,
+  height,
+  onChange,
+  direction,
+  style,
+  renderers,
+  pointer,
+  className = "",
+}) => {
   const styles = reactCSS({
-    'default': {
+    default: {
       picker: {
-        position: 'relative',
+        position: "relative",
         width,
         height,
       },
       alpha: {
-        radius: '2px',
+        radius: "2px",
         style,
       },
     },
-  })
+  });
 
   return (
-    <div style={ styles.picker } className={ `alpha-picker ${ className }` }>
+    <div style={styles.picker} className={`alpha-picker ${className}`}>
       <Alpha
-        { ...styles.alpha }
-        rgb={ rgb }
-        hsl={ hsl }
-        pointer={ pointer }
-        renderers={ renderers }
-        onChange={ onChange }
-        direction={ direction }
+        {...styles.alpha}
+        rgb={rgb}
+        hsl={hsl}
+        pointer={pointer}
+        renderers={renderers}
+        onChange={onChange}
+        direction={direction}
       />
     </div>
-  )
-}
+  );
+};
 
 AlphaPicker.defaultProps = {
-  width: '316px',
-  height: '16px',
-  direction: 'horizontal',
+  width: "316px",
+  height: "16px",
+  direction: "horizontal",
   pointer: AlphaPointer,
-}
+};
 
-export default ColorWrap(AlphaPicker)
+export default ColorWrap(AlphaPicker);

@@ -1,17 +1,17 @@
-import React from 'react'
+import React from "react";
 
 export const MyPointer = () => {
   return (
     <div
       style={{
-        transform: 'translate(-50%, -10px)',
-        cursor: 'pointer',
+        transform: "translate(-50%, -10px)",
+        cursor: "pointer",
         fontSize: 32,
       }}
     >
       🔥
     </div>
-  )
-}
+  );
+};
 
-export default MyPointer
+export default MyPointer;

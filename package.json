@@ -5,6 +5,10 @@
   "description": "A Collection of Color Pickers from Sketch, Photoshop, Chrome & more",
   "main": "dist/color-picker.cjs.js",
   "module": "dist/color-picker.esm.js",
+  "files": [
+    "/dist",
+    "/src"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hello-pangea/color-picker.git"
@@ -20,7 +24,8 @@
   "scripts": {
     "test": "npm run jest && npm run eslint",
     "jest": "jest",
-    "eslint": "eslint src/**/*.js",
+    "format": "prettier --write .",
+    "type-check": "tsc --pretty --noEmit",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -c .storybook -o .out",
     "chromatic": "chromatic --project-token=9z2kaxsuz",
@@ -63,15 +68,19 @@
     "@babel/preset-react": "7.18.6",
     "@rollup/plugin-babel": "5.3.1",
     "@rollup/plugin-node-resolve": "13.3.0",
-    "@case/eslint-config": "^0.3.1",
     "@storybook/core": "^6.5.10",
     "@storybook/react": "^6.5.10",
+    "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "@typescript-eslint/parser": "^5.35.1",
     "css-loader": "^0.24.0",
     "enzyme": "2.8.2",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
     "fbjs": "^0.8.6",
     "jest": "^20.0.4",
     "jsx-loader": "^0.13.2",
     "object-assign": "^4.1.0",
+    "prettier": "^2.7.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-hot-loader": "^1.2.8",
@@ -83,21 +92,12 @@
     "rollup-plugin-dts": "4.2.2",
     "rollup-plugin-size-snapshot": "0.12.0",
     "rollup-plugin-terser": "7.0.2",
-    "style-loader": "^0.13.0"
+    "style-loader": "^0.13.0",
+    "typescript": "^4.8.2"
   },
-  "files": [
-    "lib",
-    "es"
-  ],
   "jest": {
     "rootDir": "src",
     "testRegex": "spec.js$"
-  },
-  "eslintConfig": {
-    "extends": "@case",
-    "rules": {
-      "no-magic-numbers": 0
-    }
   },
   "payload": {
     "builds": [

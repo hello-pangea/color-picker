@@ -1,1 +1,1 @@
-export default from './components/google/Google'
+export default from "./components/google/Google";

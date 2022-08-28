@@ -1,12 +1,11 @@
-import React from 'react'
-import { storiesOf } from '@storybook/react'
-import SyncColorField from '../../../.storybook/SyncColorField'
+import React from "react";
+import { storiesOf } from "@storybook/react";
+import SyncColorField from "../../../.storybook/SyncColorField";
 
-import Photoshop from './Photoshop'
+import Photoshop from "./Photoshop";
 
-storiesOf('Pickers', module)
-  .add('PhotoshopPicker', () => (
-    <SyncColorField component={ Photoshop }>
-      <Photoshop />
-    </SyncColorField>
-  ))
+storiesOf("Pickers", module).add("PhotoshopPicker", () => (
+  <SyncColorField component={Photoshop}>
+    <Photoshop />
+  </SyncColorField>
+));

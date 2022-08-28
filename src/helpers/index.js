@@ -1,2 +1,2 @@
-export * from './checkboard'
-export * from './color'
+export * from "./checkboard";
+export * from "./color";
