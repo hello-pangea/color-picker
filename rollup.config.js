@@ -1,0 +1,64 @@
+import babel from "@rollup/plugin-babel";
+import resolve from "@rollup/plugin-node-resolve";
+import dts from "rollup-plugin-dts";
+import { sizeSnapshot } from "rollup-plugin-size-snapshot";
+
+import pkg from "./package.json";
+
+const input = "./src/index.js";
+const extensions = [".ts", ".tsx", ".js", ".jsx"];
+
+// Treat as externals all not relative and not absolute paths
+// e.g. 'react'
+const excludeAllExternals = (id) => !id.startsWith(".") && !id.startsWith("/");
+
+const getBabelOptions = ({ useESModules }) => ({
+  extensions,
+  exclude: "node_modules/**",
+  babelHelpers: "runtime",
+  plugins: [["@babel/plugin-transform-runtime", { useESModules }]],
+});
+
+const snapshotArgs =
+  process.env.SNAPSHOT === "match"
+    ? {
+        matchSnapshot: true,
+        threshold: 1000,
+      }
+    : {};
+
+export default [
+  // CommonJS (cjs) build
+  // - Keeping console.log statements
+  // - All external packages are not bundled
+  {
+    input,
+    output: { file: pkg.main, format: "cjs" },
+    external: excludeAllExternals,
+    plugins: [
+      resolve({ extensions }),
+      babel(getBabelOptions({ useESModules: false })),
+    ],
+  },
+
+  // EcmaScript Module (esm) build
+  // - Keeping console.log statements
+  // - All external packages are not bundled
+  {
+    input,
+    output: { file: pkg.module, format: "esm" },
+    external: excludeAllExternals,
+    plugins: [
+      resolve({ extensions }),
+      babel(getBabelOptions({ useESModules: true })),
+      sizeSnapshot(snapshotArgs),
+    ],
+  },
+
+  // TypeScript declaration
+  // {
+  //   input,
+  //   output: [{ file: "dist/dnd.d.ts", format: "es" }],
+  //   plugins: [dts()],
+  // },
+];
