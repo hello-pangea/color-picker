@@ -1,8 +1,39 @@
-*.log
-*.DS_Store
-node_modules
-package-lock.json
+# editors
+.idea
+.vscode
+
+# library
+node_modules/
 
 lib
 es
 .babelrc_backup
+
+# MacOS
+.DS_Store
+
+# generated files
+dist/
+
+# generated site
+site/
+
+# coverage reports
+coverage/
+
+# test reports
+test-reports/
+
+# test outputs
+cypress/videos/
+cypress/screenshots/
+
+# storybook
+.storybook.out
+.cache/
+build-storybook.log
+
+# logs
+yarn-error.log
+npm-debug.log
+npm-debug.log.*
