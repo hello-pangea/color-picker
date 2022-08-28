@@ -1,7 +1,6 @@
 # [React Color](http://casesandberg.github.io/react-color/)
 
 [![Npm Version][npm-version-image]][npm-version-url]
-[![Build Status][travis-svg]][travis-url]
 [![License][license-image]][license-url]
 [![Downloads][downloads-image]][downloads-url]
 
@@ -38,11 +37,9 @@ You can import `AlphaPicker` `BlockPicker` `ChromePicker` `CirclePicker` `Compac
 
 > 100% inline styles via [ReactCSS](http://reactcss.com/)
 
-[travis-svg]: https://travis-ci.org/casesandberg/react-color.svg
-[travis-url]: https://travis-ci.org/casesandberg/react-color
-[license-image]: http://img.shields.io/npm/l/react-color.svg
+[license-image]: https://img.shields.io/npm/l/@hello-pangea/color-picker
 [license-url]: LICENSE
-[downloads-image]: http://img.shields.io/npm/dm/react-color.svg
-[downloads-url]: http://npm-stat.com/charts.html?package=react-color
-[npm-version-image]: https://img.shields.io/npm/v/react-color.svg
-[npm-version-url]: https://www.npmjs.com/package/react-color
+[downloads-image]: https://img.shields.io/npm/dm/@hello-pangea/color-picker
+[downloads-url]: https://npm-stat.com/charts.html?package=@hello-pangea/color-picker
+[npm-version-image]: https://img.shields.io/npm/v/@hello-pangea/color-picker
+[npm-version-url]: https://www.npmjs.com/package/@hello-pangea/color-picker
