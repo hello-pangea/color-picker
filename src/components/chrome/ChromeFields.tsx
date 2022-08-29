@@ -1,4 +1,3 @@
-import isUndefined from "lodash/isUndefined";
 import React, { useEffect, useState } from "react";
 import reactCSS from "reactcss";
 import UnfoldMoreHorizontalIcon from "../../../icons/unfold-more-horizontal.svg";
@@ -101,8 +100,8 @@ export default function ChromeFields({
       props.onChange(
         {
           h: data.h || props.hsl.h,
-          s: Number(!isUndefined(data.s) ? data.s : props.hsl.s),
-          l: Number(!isUndefined(data.l) ? data.l : props.hsl.l),
+          s: Number(data.s !== undefined ? data.s : props.hsl.s),
+          l: Number(data.l !== undefined ? data.l : props.hsl.l),
           source: "hsl",
         },
         e

@@ -1,4 +1,3 @@
-import map from "lodash/map";
 import merge from "lodash/merge";
 import React from "react";
 import reactCSS from "reactcss";
@@ -104,7 +103,7 @@ export function Compact({
     <Raised styles={passedStyles}>
       <div style={styles.compact} className={`compact-picker ${className}`}>
         <div>
-          {map(colors, (c) => (
+          {colors.map((c) => (
             <CompactColor
               key={c}
               color={c}

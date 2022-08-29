@@ -1,4 +1,3 @@
-import map from "lodash/map";
 import merge from "lodash/merge";
 import React from "react";
 import reactCSS from "reactcss";
@@ -163,7 +162,7 @@ export const Twitter = ({
       <div style={styles.triangle} />
 
       <div style={styles.body}>
-        {map(colors, (c, i) => {
+        {colors.map((c, i) => {
           return (
             <Swatch
               key={i}

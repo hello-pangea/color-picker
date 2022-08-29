@@ -1,4 +1,3 @@
-import map from "lodash/map";
 import merge from "lodash/merge";
 import * as material from "material-colors";
 import React from "react";
@@ -70,7 +69,7 @@ export function Circle({
 
   return (
     <div style={styles.card} className={`circle-picker ${className}`}>
-      {map(colors, (c) => (
+      {colors.map((c) => (
         <CircleSwatch
           key={c}
           color={c}

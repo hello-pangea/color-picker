@@ -1,4 +1,3 @@
-import map from "lodash/map";
 import merge from "lodash/merge";
 import React from "react";
 import reactCSS from "reactcss";
@@ -139,7 +138,7 @@ export function Github({
     <div style={styles.card} className={`github-picker ${className}`}>
       <div style={styles.triangleShadow} />
       <div style={styles.triangle} />
-      {map(colors, (c) => (
+      {colors.map((c) => (
         <GithubSwatch
           color={c}
           key={c}
