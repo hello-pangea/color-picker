@@ -14,7 +14,7 @@
     }
   },
   "color-picker.esm.js": {
-    "bundled": 135308,
+    "bundled": 135240,
     "minified": 80531,
     "gzipped": 15970,
     "treeshaked": {

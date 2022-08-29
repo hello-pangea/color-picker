@@ -49,9 +49,8 @@
   ],
   "dependencies": {
     "@babel/runtime": "^7.18.9",
-    "@icons/material": "^0.2.4",
+    "@icons/material": "^0.4.1",
     "lodash": "^4.17.21",
-    "lodash-es": "^4.17.21",
     "material-colors": "^1.2.6",
     "prop-types": "^15.8.1",
     "reactcss": "^1.2.3",
