@@ -1,30 +1,33 @@
-# [React Color](http://casesandberg.github.io/react-color/)
+# Pangea color picker
+
+Simple color picker for React.
 
 [![Npm Version][npm-version-image]][npm-version-url]
 [![License][license-image]][license-url]
 [![Downloads][downloads-image]][downloads-url]
 
 - **13 Different Pickers** - Sketch, Photoshop, Chrome and many more
-
 - **Make Your Own** - Use the building block components to make your own
+
+This library is a fork of [react-color](https://github.com/casesandberg/react-color) and builds on the amazing work of @casesandberg
 
 ## Demo
 
 ![Demo](https://media.giphy.com/media/26FfggT53qE304CwE/giphy.gif)
 
-[**Live Demo**](http://casesandberg.github.io/react-color/)
+[**Live Demo**](https://colorpicker.hellopangea.com)
 
 ## Installation & Usage
 
 ```sh
-npm install react-color --save
+npm install @hello-pangea/color-picker
 ```
 
 ### Include the Component
 
 ```js
 import React from "react";
-import { SketchPicker } from "react-color";
+import { SketchPicker } from "@hello-pangea/color-picker";
 
 class Component extends React.Component {
   render() {
