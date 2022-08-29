@@ -1,15 +1,23 @@
-import React from "react";
 import PropTypes from "prop-types";
+import React from "react";
 import reactCSS from "reactcss";
+import { ChangeColor } from "../../context/useColor";
 
+import { Color } from "../../types/colors";
 import { Swatch } from "../common";
+
+type Props = {
+  colors: (string | { color: string; title: string })[];
+  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
+  onClick?: (newColor: ChangeColor, event: React.MouseEvent) => void;
+};
 
 export const SketchPresetColors = ({
   colors,
   onClick = () => {},
   onSwatchHover,
-}) => {
-  const styles = reactCSS(
+}: Props) => {
+  const styles = reactCSS<any>(
     {
       default: {
         colors: {
@@ -41,7 +49,7 @@ export const SketchPresetColors = ({
     }
   );
 
-  const handleClick = (hex, e) => {
+  const handleClick = (hex: string, e: React.MouseEvent) => {
     onClick(
       {
         hex,
@@ -58,7 +66,7 @@ export const SketchPresetColors = ({
           typeof colorObjOrString === "string"
             ? { color: colorObjOrString }
             : colorObjOrString;
-        const key = `${c.color}${c.title || ""}`;
+        const key = `${c.color}${("title" in c ? c.title : "") || ""}`;
         return (
           <div key={key} style={styles.swatchWrap}>
             <Swatch

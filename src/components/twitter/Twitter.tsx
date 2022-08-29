@@ -1,24 +1,44 @@
 import map from "lodash/map";
 import merge from "lodash/merge";
-import PropTypes from "prop-types";
 import React from "react";
 import reactCSS from "reactcss";
 import { useColor, withColorProvider } from "../../context/useColor";
 import * as color from "../../helpers/color";
+import { Color } from "../../types/colors";
 import { EditableInput, Swatch } from "../common";
+
+type Props = {
+  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
+  width?: string | number;
+  triangle?: "hide" | "top-left" | "top-right";
+  colors?: string[];
+  styles?: React.CSSProperties;
+  className?: string;
+};
 
 export const Twitter = ({
   onSwatchHover,
-  colors,
-  width,
-  triangle,
+  colors = [
+    "#FF6900",
+    "#FCB900",
+    "#7BDCB5",
+    "#00D084",
+    "#8ED1FC",
+    "#0693E3",
+    "#ABB8C3",
+    "#EB144C",
+    "#F78DA7",
+    "#9900EF",
+  ],
+  width = 276,
+  triangle = "top-left",
   styles: passedStyles = {},
   className = "",
-}) => {
+}: Props) => {
   const { colors: currentColors, changeColor } = useColor();
   const { hex } = currentColors;
 
-  const styles = reactCSS(
+  const styles: any = reactCSS(
     merge(
       {
         default: {
@@ -117,7 +137,7 @@ export const Twitter = ({
           },
         },
       },
-      passedStyles
+      passedStyles as any
     ),
     {
       "hide-triangle": triangle === "hide",
@@ -126,7 +146,7 @@ export const Twitter = ({
     }
   );
 
-  const handleChange = (hexcode, e) => {
+  const handleChange = (hexcode: string, e: React.MouseEvent) => {
     color.isValidHex(hexcode) &&
       changeColor(
         {
@@ -169,31 +189,6 @@ export const Twitter = ({
       </div>
     </div>
   );
-};
-
-Twitter.propTypes = {
-  width: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  triangle: PropTypes.oneOf(["hide", "top-left", "top-right"]),
-  colors: PropTypes.arrayOf(PropTypes.string),
-  styles: PropTypes.object,
-};
-
-Twitter.defaultProps = {
-  width: 276,
-  colors: [
-    "#FF6900",
-    "#FCB900",
-    "#7BDCB5",
-    "#00D084",
-    "#8ED1FC",
-    "#0693E3",
-    "#ABB8C3",
-    "#EB144C",
-    "#F78DA7",
-    "#9900EF",
-  ],
-  triangle: "top-left",
-  styles: {},
 };
 
 export default withColorProvider(Twitter);

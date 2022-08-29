@@ -1,25 +1,51 @@
 import merge from "lodash/merge";
-import PropTypes from "prop-types";
 import React from "react";
 import reactCSS from "reactcss";
 import { useColor, withColorProvider } from "../../context/useColor";
+import { Color } from "../../types/colors";
 import { Alpha, Checkboard, Hue, Saturation } from "../common";
 import SketchFields from "./SketchFields";
 import SketchPresetColors from "./SketchPresetColors";
 
-const Sketch = ({
-  width,
+type Props = {
+  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
+  disableAlpha?: boolean;
+  width?: string | number;
+  className?: string;
+  presetColors?: string[];
+  styles?: React.CSSProperties;
+  renderers?: any;
+};
+
+export function Sketch({
+  width = 200,
   onSwatchHover,
-  disableAlpha,
-  presetColors,
+  disableAlpha = false,
+  presetColors = [
+    "#D0021B",
+    "#F5A623",
+    "#F8E71C",
+    "#8B572A",
+    "#7ED321",
+    "#417505",
+    "#BD10E0",
+    "#9013FE",
+    "#4A90E2",
+    "#50E3C2",
+    "#B8E986",
+    "#000000",
+    "#4A4A4A",
+    "#9B9B9B",
+    "#FFFFFF",
+  ],
   renderers,
   styles: passedStyles = {},
   className = "",
-}) => {
+}: Props) {
   const { colors, changeColor } = useColor();
   const { rgb, hex, hsv, hsl } = colors;
 
-  const styles = reactCSS(
+  const styles: any = reactCSS(
     merge(
       {
         default: {
@@ -100,7 +126,7 @@ const Sketch = ({
           },
         },
       },
-      passedStyles
+      passedStyles as any
     ),
     { disableAlpha }
   );
@@ -150,35 +176,6 @@ const Sketch = ({
       />
     </div>
   );
-};
-
-Sketch.propTypes = {
-  disableAlpha: PropTypes.bool,
-  width: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  styles: PropTypes.object,
-};
-
-Sketch.defaultProps = {
-  disableAlpha: false,
-  width: 200,
-  styles: {},
-  presetColors: [
-    "#D0021B",
-    "#F5A623",
-    "#F8E71C",
-    "#8B572A",
-    "#7ED321",
-    "#417505",
-    "#BD10E0",
-    "#9013FE",
-    "#4A90E2",
-    "#50E3C2",
-    "#B8E986",
-    "#000000",
-    "#4A4A4A",
-    "#9B9B9B",
-    "#FFFFFF",
-  ],
-};
+}
 
 export default withColorProvider(Sketch);

@@ -1,39 +1,32 @@
 import { debounce } from "lodash";
-import React, { createContext, useCallback, useContext, useState } from "react";
+import React, {
+  Context,
+  createContext,
+  useCallback,
+  useContext,
+  useState,
+} from "react";
 import * as color from "../helpers/color";
+import { Hex, Hsl, Hsv, Rgb } from "../types/colors";
 
 type Colors = {
-  hex: string;
-  hsl: {
-    h: number;
-    l: number;
-    s: number;
-    a: number;
-  };
-  hsv: {
-    h: number;
-    s: number;
-    v: number;
-    a: number;
-  };
-  rgb: {
-    r: number;
-    g: number;
-    b: number;
-    a: number;
-  };
+  hex: Hex;
+  hsl: Hsl;
+  hsv: Hsv;
+  rgb: Rgb;
   oldHue: number;
 };
 
+export type ChangeColor = Hsl | Hsv | Rgb | { hex: Hex; source: string };
+
 export interface ColorContextType {
-  colors: Colors | null;
-  changeColor: (data: any, event: any) => void;
+  colors: Colors;
+  changeColor: (newColor: ChangeColor, event: React.MouseEvent) => void;
 }
 
-export const ColorContext = createContext<ColorContextType>({
-  colors: null,
-  changeColor: () => {},
-});
+export const ColorContext = createContext<ColorContextType | undefined>(
+  undefined
+);
 
 type Props = {
   children: React.ReactNode;
@@ -62,10 +55,13 @@ export default function ColorProvider({
     []
   );
 
-  function changeColor(data: any, event: any) {
-    const isValidColor = color.simpleCheckForValidColor(data);
+  function changeColor(newColor: ChangeColor, event: React.MouseEvent) {
+    const isValidColor = color.simpleCheckForValidColor(newColor);
     if (isValidColor) {
-      const newColors = color.toState(data, data.h || colors.oldHue);
+      const newColors = color.toState(
+        newColor,
+        ("h" in newColor ? newColor.h : undefined) || colors.oldHue
+      );
 
       setColors(newColors);
 
@@ -86,12 +82,12 @@ export default function ColorProvider({
   );
 }
 
-export const useColor = (): ColorContextType => useContext(ColorContext);
+export const useColor = (): ColorContextType =>
+  useContext(ColorContext as Context<ColorContextType>);
 
-export const withColorProvider =
-  (Component: React.FunctionComponent) => (props: any) =>
-    (
-      <ColorProvider>
-        <Component {...props} />
-      </ColorProvider>
-    );
+export const withColorProvider = (Component: React.FC<any>) => (props: any) =>
+  (
+    <ColorProvider>
+      <Component {...props} />
+    </ColorProvider>
+  );

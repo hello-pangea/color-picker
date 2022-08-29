@@ -1,11 +1,22 @@
 import React from "react";
 import reactCSS from "reactcss";
-import map from "lodash/map";
-
+import { Color, Hex } from "../../types/colors";
 import SwatchesColor from "./SwatchesColor";
 
-export const SwatchesGroup = ({ onClick, onSwatchHover, group, active }) => {
-  const styles = reactCSS({
+type Props = {
+  onClick: (color: Color, event: React.MouseEvent) => void;
+  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
+  active: Hex;
+  group: string[];
+};
+
+export default function SwatchesGroup({
+  onClick,
+  onSwatchHover,
+  group,
+  active,
+}: Props) {
+  const styles = reactCSS<any>({
     default: {
       group: {
         paddingBottom: "10px",
@@ -18,7 +29,7 @@ export const SwatchesGroup = ({ onClick, onSwatchHover, group, active }) => {
 
   return (
     <div style={styles.group}>
-      {map(group, (color, i) => (
+      {group.map((color, i) => (
         <SwatchesColor
           key={color}
           color={color}
@@ -31,6 +42,4 @@ export const SwatchesGroup = ({ onClick, onSwatchHover, group, active }) => {
       ))}
     </div>
   );
-};
-
-export default SwatchesGroup;
+}

@@ -1,19 +1,29 @@
 import React from "react";
 import reactCSS from "reactcss";
 import * as colorUtils from "../../helpers/color";
-
-import { Swatch } from "../common";
+// @ts-ignore
 import CheckIcon from "@icons/material/CheckIcon";
+import { Color } from "../../types/colors";
+import { Swatch } from "../common";
 
-export const SwatchesColor = ({
+type Props = {
+  color: string;
+  onClick: (color: Color, event: React.MouseEvent) => void;
+  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
+  first: boolean;
+  last: boolean;
+  active: boolean;
+};
+
+export default function SwatchesColor({
   color,
   onClick = () => {},
   onSwatchHover,
   first,
   last,
   active,
-}) => {
-  const styles = reactCSS(
+}: Props) {
+  const styles = reactCSS<any>(
     {
       default: {
         color: {
@@ -82,6 +92,4 @@ export const SwatchesColor = ({
       </div>
     </Swatch>
   );
-};
-
-export default SwatchesColor;
+}

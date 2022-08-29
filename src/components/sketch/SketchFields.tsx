@@ -2,12 +2,28 @@
 
 import React from "react";
 import reactCSS from "reactcss";
+import { ChangeColor } from "../../context/useColor";
 import * as color from "../../helpers/color";
+import { Hex, Hsl, Rgb } from "../../types/colors";
 
 import { EditableInput } from "../common";
 
-export const SketchFields = ({ onChange, rgb, hsl, hex, disableAlpha }) => {
-  const styles = reactCSS(
+type Props = {
+  onChange: (color: ChangeColor, event: React.MouseEvent) => void;
+  rgb: Rgb;
+  hsl: Hsl;
+  hex: Hex;
+  disableAlpha: boolean;
+};
+
+export const SketchFields = ({
+  onChange,
+  rgb,
+  hsl,
+  hex,
+  disableAlpha,
+}: Props) => {
+  const styles = reactCSS<any>(
     {
       default: {
         fields: {
@@ -51,8 +67,8 @@ export const SketchFields = ({ onChange, rgb, hsl, hex, disableAlpha }) => {
     { disableAlpha }
   );
 
-  const handleChange = (data, e) => {
-    if (data.hex) {
+  const handleChange = (data: ChangeColor, e: React.MouseEvent) => {
+    if ("hex" in data) {
       color.isValidHex(data.hex) &&
         onChange(
           {
@@ -61,7 +77,7 @@ export const SketchFields = ({ onChange, rgb, hsl, hex, disableAlpha }) => {
           },
           e
         );
-    } else if (data.r || data.g || data.b) {
+    } else if ("r" in data || "g" in data || "b" in data) {
       onChange(
         {
           r: data.r || rgb.r,
