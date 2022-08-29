@@ -1,8 +1,7 @@
 import React from "react";
 import reactCSS from "reactcss";
+import CheckIcon from "../../../icons/check.svg";
 import * as colorUtils from "../../helpers/color";
-// @ts-ignore
-import CheckIcon from "@icons/material/CheckIcon";
 import { Color } from "../../types/colors";
 import { Swatch } from "../common";
 
@@ -88,7 +87,12 @@ export default function SwatchesColor({
       focusStyle={{ boxShadow: `0 0 4px ${color}` }}
     >
       <div style={styles.check}>
-        <CheckIcon />
+        <img
+          width="24"
+          height="24"
+          style={{ fill: "white", stroke: "white" }}
+          src={CheckIcon}
+        />
       </div>
     </Swatch>
   );

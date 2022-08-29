@@ -1,12 +1,12 @@
 import babel from "@rollup/plugin-babel";
 import resolve from "@rollup/plugin-node-resolve";
-import dts from "rollup-plugin-dts";
 import { sizeSnapshot } from "rollup-plugin-size-snapshot";
+import svg from "rollup-plugin-svg";
 
 import pkg from "./package.json";
 
 const input = "./src/index.js";
-const extensions = [".ts", ".tsx", ".js", ".jsx"];
+const extensions = [".ts", ".tsx", ".js", ".jsx", ".svg"];
 
 // Treat as externals all not relative and not absolute paths
 // e.g. 'react'
@@ -36,6 +36,7 @@ export default [
     output: { file: pkg.main, format: "cjs" },
     external: excludeAllExternals,
     plugins: [
+      svg(),
       resolve({ extensions }),
       babel(getBabelOptions({ useESModules: false })),
     ],
@@ -49,6 +50,7 @@ export default [
     output: { file: pkg.module, format: "esm" },
     external: excludeAllExternals,
     plugins: [
+      svg(),
       resolve({ extensions }),
       babel(getBabelOptions({ useESModules: true })),
       sizeSnapshot(snapshotArgs),

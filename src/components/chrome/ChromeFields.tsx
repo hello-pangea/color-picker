@@ -1,9 +1,8 @@
 import isUndefined from "lodash/isUndefined";
 import React, { useEffect, useState } from "react";
 import reactCSS from "reactcss";
+import UnfoldMoreHorizontalIcon from "../../../icons/unfold-more-horizontal.svg";
 import * as color from "../../helpers/color";
-// @ts-ignore
-import UnfoldMoreHorizontalIcon from "@icons/material/UnfoldMoreHorizontalIcon";
 import { EditableInput } from "../common";
 
 type Props = {
@@ -294,11 +293,13 @@ export default function ChromeFields({
       {fields}
       <div style={styles.toggle}>
         <div style={styles.icon} onClick={toggleViews}>
-          <UnfoldMoreHorizontalIcon
-            style={styles.svg}
+          <img
+            width="24"
+            height="24"
             onMouseOver={showHighlight}
             onMouseEnter={showHighlight}
             onMouseOut={hideHighlight}
+            src={UnfoldMoreHorizontalIcon}
           />
         </div>
       </div>

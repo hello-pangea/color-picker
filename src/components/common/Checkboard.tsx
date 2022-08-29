@@ -16,7 +16,7 @@ export default function Checkboard({
   white = "transparent",
   grey = "rgba(0,0,0,.08)",
   size = 8,
-  renderers,
+  renderers = {},
   borderRadius,
   boxShadow,
   children,
