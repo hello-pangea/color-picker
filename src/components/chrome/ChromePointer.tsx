@@ -1,7 +1,7 @@
 import React from "react";
 import reactCSS from "reactcss";
 
-export const ChromePointer = () => {
+export default function ChromePointer() {
   const styles = reactCSS({
     default: {
       picker: {
@@ -16,6 +16,4 @@ export const ChromePointer = () => {
   });
 
   return <div style={styles.picker} />;
-};
-
-export default ChromePointer;
+}

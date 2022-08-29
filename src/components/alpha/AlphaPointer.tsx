@@ -1,8 +1,12 @@
 import React from "react";
 import reactCSS from "reactcss";
 
-export const AlphaPointer = ({ direction }) => {
-  const styles = reactCSS(
+type Props = {
+  direction: "horizontal" | "vertical";
+};
+
+export const AlphaPointer = ({ direction }: Props) => {
+  const styles = reactCSS<any>(
     {
       default: {
         picker: {

@@ -1,7 +1,7 @@
 import React from "react";
 import reactCSS from "reactcss";
 
-export const ChromePointerCircle = () => {
+export default function ChromePointerCircle() {
   const styles = reactCSS({
     default: {
       picker: {
@@ -15,6 +15,4 @@ export const ChromePointerCircle = () => {
   });
 
   return <div style={styles.picker} />;
-};
-
-export default ChromePointerCircle;
+}

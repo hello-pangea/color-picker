@@ -1,5 +1,4 @@
 import merge from "lodash/merge";
-import PropTypes from "prop-types";
 import React from "react";
 import reactCSS from "reactcss";
 import { useColor, withColorProvider } from "../../context/useColor";
@@ -8,18 +7,27 @@ import ChromeFields from "./ChromeFields";
 import ChromePointer from "./ChromePointer";
 import ChromePointerCircle from "./ChromePointerCircle";
 
+type Props = {
+  width?: string | number;
+  disableAlpha?: boolean;
+  styles?: React.CSSProperties;
+  renderers?: any;
+  className?: string;
+  defaultView?: "hex" | "rgb" | "hsl";
+};
+
 export const Chrome = ({
-  width,
-  disableAlpha,
+  width = 225,
+  disableAlpha = false,
   renderers,
   styles: passedStyles = {},
   className = "",
   defaultView,
-}) => {
+}: Props) => {
   const { colors, changeColor } = useColor();
   const { rgb, hex, hsl, hsv } = colors;
 
-  const styles = reactCSS(
+  const styles = reactCSS<any>(
     merge(
       {
         default: {
@@ -101,7 +109,7 @@ export const Chrome = ({
           },
         },
       },
-      passedStyles
+      passedStyles as any
     ),
     { disableAlpha }
   );
@@ -152,24 +160,10 @@ export const Chrome = ({
           hex={hex}
           view={defaultView}
           onChange={changeColor}
-          disableAlpha={disableAlpha}
         />
       </div>
     </div>
   );
-};
-
-Chrome.propTypes = {
-  width: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  disableAlpha: PropTypes.bool,
-  styles: PropTypes.object,
-  defaultView: PropTypes.oneOf(["hex", "rgb", "hsl"]),
-};
-
-Chrome.defaultProps = {
-  width: 225,
-  disableAlpha: false,
-  styles: {},
 };
 
 export default withColorProvider(Chrome);

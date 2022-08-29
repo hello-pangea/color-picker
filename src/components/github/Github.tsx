@@ -1,22 +1,48 @@
 import map from "lodash/map";
 import merge from "lodash/merge";
-import PropTypes from "prop-types";
 import React from "react";
 import reactCSS from "reactcss";
 import { useColor, withColorProvider } from "../../context/useColor";
+import { Color, Hex } from "../../types/colors";
 import GithubSwatch from "./GithubSwatch";
 
-export const Github = ({
-  width,
-  colors,
+type Props = {
+  width?: string | number;
+  styles?: React.CSSProperties;
+  className?: string;
+  triangle?: "hide" | "top-left" | "top-right" | "bottom-left" | "bottom-right";
+  colors?: string[];
+  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
+};
+
+export function Github({
+  width = 200,
+  colors = [
+    "#B80000",
+    "#DB3E00",
+    "#FCCB00",
+    "#008B02",
+    "#006B76",
+    "#1273DE",
+    "#004DCF",
+    "#5300EB",
+    "#EB9694",
+    "#FAD0C3",
+    "#FEF3BD",
+    "#C1E1C5",
+    "#BEDADC",
+    "#C4DEF6",
+    "#BED3F3",
+    "#D4C4FB",
+  ],
   onSwatchHover,
-  triangle,
+  triangle = "top-left",
   styles: passedStyles = {},
   className = "",
-}) => {
+}: Props) {
   const { changeColor } = useColor();
 
-  const styles = reactCSS(
+  const styles = reactCSS<any>(
     merge(
       {
         default: {
@@ -95,7 +121,7 @@ export const Github = ({
           },
         },
       },
-      passedStyles
+      passedStyles as any
     ),
     {
       "hide-triangle": triangle === "hide",
@@ -106,7 +132,8 @@ export const Github = ({
     }
   );
 
-  const handleChange = (hex, e) => changeColor({ hex, source: "hex" }, e);
+  const handleChange = (hex: Hex, e: React.MouseEvent) =>
+    changeColor({ hex, source: "hex" }, e);
 
   return (
     <div style={styles.card} className={`github-picker ${className}`}>
@@ -122,43 +149,6 @@ export const Github = ({
       ))}
     </div>
   );
-};
-
-Github.propTypes = {
-  width: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  colors: PropTypes.arrayOf(PropTypes.string),
-  triangle: PropTypes.oneOf([
-    "hide",
-    "top-left",
-    "top-right",
-    "bottom-left",
-    "bottom-right",
-  ]),
-  styles: PropTypes.object,
-};
-
-Github.defaultProps = {
-  width: 200,
-  colors: [
-    "#B80000",
-    "#DB3E00",
-    "#FCCB00",
-    "#008B02",
-    "#006B76",
-    "#1273DE",
-    "#004DCF",
-    "#5300EB",
-    "#EB9694",
-    "#FAD0C3",
-    "#FEF3BD",
-    "#C1E1C5",
-    "#BEDADC",
-    "#C4DEF6",
-    "#BED3F3",
-    "#D4C4FB",
-  ],
-  triangle: "top-left",
-  styles: {},
-};
+}
 
 export default withColorProvider(Github);

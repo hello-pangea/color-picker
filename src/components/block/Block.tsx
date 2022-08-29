@@ -1,25 +1,44 @@
 import merge from "lodash/merge";
-import PropTypes from "prop-types";
 import React from "react";
 import reactCSS from "reactcss";
 import { useColor, withColorProvider } from "../../context/useColor";
 import * as color from "../../helpers/color";
+import { Color, Hex } from "../../types/colors";
 import { Checkboard, EditableInput } from "../common";
 import BlockSwatches from "./BlockSwatches";
 
+type Props = {
+  width?: string | number;
+  colors?: string[];
+  triangle?: "top" | "hide";
+  className?: string;
+  styles?: React.CSSProperties;
+  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
+};
+
 export const Block = ({
   onSwatchHover,
-  colors,
-  width,
-  triangle,
+  colors = [
+    "#D9E3F0",
+    "#F47373",
+    "#697689",
+    "#37D67A",
+    "#2CCCE4",
+    "#555555",
+    "#dce775",
+    "#ff8a65",
+    "#ba68c8",
+  ],
+  width = 170,
+  triangle = "top",
   styles: passedStyles = {},
   className = "",
-}) => {
+}: Props) => {
   const { colors: currentColors, changeColor } = useColor();
   const { hex } = currentColors;
 
   const transparent = hex === "transparent";
-  const handleChange = (hexCode, e) => {
+  const handleChange = (hexCode: Hex, e: React.MouseEvent) => {
     color.isValidHex(hexCode) &&
       changeColor(
         {
@@ -30,7 +49,7 @@ export const Block = ({
       );
   };
 
-  const styles = reactCSS(
+  const styles = reactCSS<any>(
     merge(
       {
         default: {
@@ -88,7 +107,7 @@ export const Block = ({
           },
         },
       },
-      passedStyles
+      passedStyles as any
     ),
     { "hide-triangle": triangle === "hide" }
   );
@@ -116,30 +135,6 @@ export const Block = ({
       </div>
     </div>
   );
-};
-
-Block.propTypes = {
-  width: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  colors: PropTypes.arrayOf(PropTypes.string),
-  triangle: PropTypes.oneOf(["top", "hide"]),
-  styles: PropTypes.object,
-};
-
-Block.defaultProps = {
-  width: 170,
-  colors: [
-    "#D9E3F0",
-    "#F47373",
-    "#697689",
-    "#37D67A",
-    "#2CCCE4",
-    "#555555",
-    "#dce775",
-    "#ff8a65",
-    "#ba68c8",
-  ],
-  triangle: "top",
-  styles: {},
 };
 
 export default withColorProvider(Block);

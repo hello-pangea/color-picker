@@ -1,11 +1,16 @@
 import React from "react";
 import reactCSS from "reactcss";
-import map from "lodash/map";
-
+import { Color, Hex } from "../../types/colors";
 import { Swatch } from "../common";
 
-export const BlockSwatches = ({ colors, onClick, onSwatchHover }) => {
-  const styles = reactCSS({
+type Props = {
+  colors: string[];
+  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
+  onClick: (hexCode: Hex, e: React.MouseEvent) => void;
+};
+
+export const BlockSwatches = ({ colors, onClick, onSwatchHover }: Props) => {
+  const styles = reactCSS<any>({
     default: {
       swatches: {
         marginRight: "-10px",
@@ -26,7 +31,7 @@ export const BlockSwatches = ({ colors, onClick, onSwatchHover }) => {
 
   return (
     <div style={styles.swatches}>
-      {map(colors, (c) => (
+      {colors.map((c) => (
         <Swatch
           key={c}
           color={c}

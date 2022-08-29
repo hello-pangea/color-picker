@@ -4,19 +4,29 @@ import { useColor, withColorProvider } from "../../context/useColor";
 import { Alpha } from "../common";
 import AlphaPointer from "./AlphaPointer";
 
-export const AlphaPicker = ({
-  width,
-  height,
-  direction,
+type Props = {
+  width?: string | number;
+  height?: string | number;
+  direction?: "horizontal" | "vertical";
+  pointer?: typeof AlphaPointer;
+  renderers?: any;
+  className?: string;
+  style?: React.CSSProperties;
+};
+
+export function AlphaPicker({
+  width = "316px",
+  height = "16px",
+  direction = "horizontal",
   style,
   renderers,
-  pointer,
+  pointer = AlphaPointer,
   className = "",
-}) => {
+}: Props) {
   const { colors: currentColors, changeColor } = useColor();
   const { hsl, rgb } = currentColors;
 
-  const styles = reactCSS({
+  const styles = reactCSS<any>({
     default: {
       picker: {
         position: "relative",
@@ -43,13 +53,6 @@ export const AlphaPicker = ({
       />
     </div>
   );
-};
-
-AlphaPicker.defaultProps = {
-  width: "316px",
-  height: "16px",
-  direction: "horizontal",
-  pointer: AlphaPointer,
-};
+}
 
 export default withColorProvider(AlphaPicker);
