@@ -1,7 +1,19 @@
 import React from "react";
+// @ts-ignore
 import reactCSS, { handleHover } from "reactcss";
-
+import { Color, Hex } from "../../types/colors";
 import { Swatch } from "../common";
+
+type Props = {
+  circleSize?: number;
+  circleSpacing?: number;
+  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
+  className?: string;
+  color: string;
+  active?: boolean;
+  hover?: any;
+  onClick: (hexCode: Hex, e: React.MouseEvent) => void;
+};
 
 export const CircleSwatch = ({
   color,
@@ -9,10 +21,10 @@ export const CircleSwatch = ({
   onSwatchHover,
   hover,
   active,
-  circleSize,
-  circleSpacing,
-}) => {
-  const styles = reactCSS(
+  circleSize = 28,
+  circleSpacing = 14,
+}: Props) => {
+  const styles = reactCSS<any>(
     {
       default: {
         swatch: {
@@ -57,11 +69,6 @@ export const CircleSwatch = ({
       />
     </div>
   );
-};
-
-CircleSwatch.defaultProps = {
-  circleSize: 28,
-  circleSpacing: 14,
 };
 
 export default handleHover(CircleSwatch);

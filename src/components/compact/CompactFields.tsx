@@ -1,10 +1,16 @@
 import React from "react";
 import reactCSS from "reactcss";
-
+import { Hex, Rgb } from "../../types/colors";
 import { EditableInput } from "../common";
 
-export const CompactFields = ({ hex, rgb, onChange }) => {
-  const styles = reactCSS({
+type Props = {
+  hex: Hex;
+  rgb: Rgb;
+  onChange: any;
+};
+
+export default function CompactFields({ hex, rgb, onChange }: Props) {
+  const styles = reactCSS<any>({
     default: {
       fields: {
         display: "flex",
@@ -65,7 +71,7 @@ export const CompactFields = ({ hex, rgb, onChange }) => {
     },
   });
 
-  const handleChange = (data, e) => {
+  const handleChange = (data: any, e: React.MouseEvent) => {
     if (data.r || data.g || data.b) {
       onChange(
         {
@@ -132,6 +138,4 @@ export const CompactFields = ({ hex, rgb, onChange }) => {
       />
     </div>
   );
-};
-
-export default CompactFields;
+}

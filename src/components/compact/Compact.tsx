@@ -1,89 +1,24 @@
 import map from "lodash/map";
 import merge from "lodash/merge";
-import PropTypes from "prop-types";
 import React from "react";
 import reactCSS from "reactcss";
 import { useColor, withColorProvider } from "../../context/useColor";
 import * as color from "../../helpers/color";
+import { Color } from "../../types/colors";
 import { Raised } from "../common";
 import CompactColor from "./CompactColor";
 import CompactFields from "./CompactFields";
 
-export const Compact = ({
+type Props = {
+  colors?: string[];
+  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
+  styles?: React.CSSProperties;
+  className?: string;
+};
+
+export function Compact({
   onSwatchHover,
-  colors,
-  styles: passedStyles = {},
-  className = "",
-}) => {
-  const { colors: currentColors, changeColor } = useColor();
-  const { rgb, hex } = currentColors;
-
-  const styles = reactCSS(
-    merge(
-      {
-        default: {
-          Compact: {
-            background: "#f6f6f6",
-            radius: "4px",
-          },
-          compact: {
-            paddingTop: "5px",
-            paddingLeft: "5px",
-            boxSizing: "initial",
-            width: "240px",
-          },
-          clear: {
-            clear: "both",
-          },
-        },
-      },
-      passedStyles
-    )
-  );
-
-  const handleChange = (data, e) => {
-    if (data.hex) {
-      color.isValidHex(data.hex) &&
-        changeColor(
-          {
-            hex: data.hex,
-            source: "hex",
-          },
-          e
-        );
-    } else {
-      changeColor(data, e);
-    }
-  };
-
-  return (
-    <Raised style={styles.Compact} styles={passedStyles}>
-      <div style={styles.compact} className={`compact-picker ${className}`}>
-        <div>
-          {map(colors, (c) => (
-            <CompactColor
-              key={c}
-              color={c}
-              active={c.toLowerCase() === hex}
-              onClick={handleChange}
-              onSwatchHover={onSwatchHover}
-            />
-          ))}
-          <div style={styles.clear} />
-        </div>
-        <CompactFields hex={hex} rgb={rgb} onChange={handleChange} />
-      </div>
-    </Raised>
-  );
-};
-
-Compact.propTypes = {
-  colors: PropTypes.arrayOf(PropTypes.string),
-  styles: PropTypes.object,
-};
-
-Compact.defaultProps = {
-  colors: [
+  colors = [
     "#4D4D4D",
     "#999999",
     "#FFFFFF",
@@ -121,7 +56,69 @@ Compact.defaultProps = {
     "#653294",
     "#AB149E",
   ],
-  styles: {},
-};
+  styles: passedStyles = {},
+  className = "",
+}: Props) {
+  const { colors: currentColors, changeColor } = useColor();
+  const { rgb, hex } = currentColors;
+
+  const styles = reactCSS<any>(
+    merge(
+      {
+        default: {
+          Compact: {
+            background: "#f6f6f6",
+            radius: "4px",
+          },
+          compact: {
+            paddingTop: "5px",
+            paddingLeft: "5px",
+            boxSizing: "initial",
+            width: "240px",
+          },
+          clear: {
+            clear: "both",
+          },
+        },
+      },
+      passedStyles as any
+    )
+  );
+
+  const handleChange = (data: any, e: React.MouseEvent) => {
+    if (data.hex) {
+      color.isValidHex(data.hex) &&
+        changeColor(
+          {
+            hex: data.hex,
+            source: "hex",
+          },
+          e
+        );
+    } else {
+      changeColor(data, e);
+    }
+  };
+
+  return (
+    <Raised style={styles.Compact} styles={passedStyles}>
+      <div style={styles.compact} className={`compact-picker ${className}`}>
+        <div>
+          {map(colors, (c) => (
+            <CompactColor
+              key={c}
+              color={c}
+              active={c.toLowerCase() === hex}
+              onClick={handleChange}
+              onSwatchHover={onSwatchHover}
+            />
+          ))}
+          <div style={styles.clear} />
+        </div>
+        <CompactFields hex={hex} rgb={rgb} onChange={handleChange} />
+      </div>
+    </Raised>
+  );
+}
 
 export default withColorProvider(Compact);

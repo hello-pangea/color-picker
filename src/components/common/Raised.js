@@ -1,14 +1,14 @@
-import React from "react";
-import PropTypes from "prop-types";
-import reactCSS from "reactcss";
 import merge from "lodash/merge";
+import PropTypes from "prop-types";
+import React from "react";
+import reactCSS from "reactcss";
 
 export const Raised = ({
   zDepth,
   radius,
   background,
   children,
-  styles: passedStyles = {},
+  style: passedStyles = {},
 }) => {
   const styles = reactCSS(
     merge(
@@ -97,7 +97,7 @@ Raised.defaultProps = {
   background: "#fff",
   zDepth: 1,
   radius: 2,
-  styles: {},
+  style: {},
 };
 
 export default Raised;

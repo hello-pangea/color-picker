@@ -1,15 +1,25 @@
 import React from "react";
 import reactCSS from "reactcss";
+import { Hsl } from "../../types/colors";
 
-export const SliderSwatch = ({
+type Props = {
+  hsl: Hsl;
+  onClick: any;
+  offset: number;
+  active?: boolean;
+  first?: boolean;
+  last?: boolean;
+};
+
+export default function SliderSwatch({
   hsl,
   offset,
   onClick = () => {},
   active,
   first,
   last,
-}) => {
-  const styles = reactCSS(
+}: Props) {
+  const styles = reactCSS<any>(
     {
       default: {
         swatch: {
@@ -38,7 +48,7 @@ export const SliderSwatch = ({
     { active, first, last }
   );
 
-  const handleClick = (e) =>
+  const handleClick = (e: React.MouseEvent) =>
     onClick(
       {
         h: hsl.h,
@@ -50,6 +60,4 @@ export const SliderSwatch = ({
     );
 
   return <div style={styles.swatch} onClick={handleClick} />;
-};
-
-export default SliderSwatch;
+}

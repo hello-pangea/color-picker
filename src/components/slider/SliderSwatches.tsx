@@ -1,10 +1,15 @@
 import React from "react";
 import reactCSS from "reactcss";
-
+import { Hsl } from "../../types/colors";
 import SliderSwatch from "./SliderSwatch";
 
-export const SliderSwatches = ({ onClick, hsl }) => {
-  const styles = reactCSS({
+type Props = {
+  onClick: any;
+  hsl: Hsl;
+};
+
+export default function SliderSwatches({ onClick, hsl }: Props) {
+  const styles = reactCSS<any>({
     default: {
       swatches: {
         marginTop: "20px",
@@ -29,7 +34,7 @@ export const SliderSwatches = ({ onClick, hsl }) => {
       <div style={styles.swatch}>
         <SliderSwatch
           hsl={hsl}
-          offset=".80"
+          offset={0.8}
           active={
             Math.abs(hsl.l - 0.8) < epsilon && Math.abs(hsl.s - 0.5) < epsilon
           }
@@ -40,7 +45,7 @@ export const SliderSwatches = ({ onClick, hsl }) => {
       <div style={styles.swatch}>
         <SliderSwatch
           hsl={hsl}
-          offset=".65"
+          offset={0.65}
           active={
             Math.abs(hsl.l - 0.65) < epsilon && Math.abs(hsl.s - 0.5) < epsilon
           }
@@ -50,7 +55,7 @@ export const SliderSwatches = ({ onClick, hsl }) => {
       <div style={styles.swatch}>
         <SliderSwatch
           hsl={hsl}
-          offset=".50"
+          offset={0.5}
           active={
             Math.abs(hsl.l - 0.5) < epsilon && Math.abs(hsl.s - 0.5) < epsilon
           }
@@ -60,7 +65,7 @@ export const SliderSwatches = ({ onClick, hsl }) => {
       <div style={styles.swatch}>
         <SliderSwatch
           hsl={hsl}
-          offset=".35"
+          offset={0.35}
           active={
             Math.abs(hsl.l - 0.35) < epsilon && Math.abs(hsl.s - 0.5) < epsilon
           }
@@ -70,7 +75,7 @@ export const SliderSwatches = ({ onClick, hsl }) => {
       <div style={styles.swatch}>
         <SliderSwatch
           hsl={hsl}
-          offset=".20"
+          offset={0.2}
           active={
             Math.abs(hsl.l - 0.2) < epsilon && Math.abs(hsl.s - 0.5) < epsilon
           }
@@ -81,6 +86,4 @@ export const SliderSwatches = ({ onClick, hsl }) => {
       <div style={styles.clear} />
     </div>
   );
-};
-
-export default SliderSwatches;
+}

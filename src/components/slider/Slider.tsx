@@ -1,5 +1,4 @@
 import merge from "lodash/merge";
-import PropTypes from "prop-types";
 import React from "react";
 import reactCSS from "reactcss";
 import { useColor, withColorProvider } from "../../context/useColor";
@@ -7,11 +6,21 @@ import { Hue } from "../common";
 import SliderPointer from "./SliderPointer";
 import SliderSwatches from "./SliderSwatches";
 
-const Slider = ({ pointer, styles: passedStyles = {}, className = "" }) => {
+type Props = {
+  pointer: typeof SliderPointer;
+  styles?: React.CSSProperties;
+  className?: string;
+};
+
+const Slider = ({
+  pointer = SliderPointer,
+  styles: passedStyles = {},
+  className = "",
+}: Props) => {
   const { colors, changeColor } = useColor();
   const { hsl } = colors;
 
-  const styles = reactCSS(
+  const styles = reactCSS<any>(
     merge(
       {
         default: {
@@ -24,7 +33,7 @@ const Slider = ({ pointer, styles: passedStyles = {}, className = "" }) => {
           },
         },
       },
-      passedStyles
+      passedStyles as any
     )
   );
 
@@ -43,14 +52,6 @@ const Slider = ({ pointer, styles: passedStyles = {}, className = "" }) => {
       </div>
     </div>
   );
-};
-
-Slider.propTypes = {
-  styles: PropTypes.object,
-};
-Slider.defaultProps = {
-  pointer: SliderPointer,
-  styles: {},
 };
 
 export default withColorProvider(Slider);

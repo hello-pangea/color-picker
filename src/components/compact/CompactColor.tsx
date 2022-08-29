@@ -1,16 +1,23 @@
 import React from "react";
 import reactCSS from "reactcss";
 import * as colorUtils from "../../helpers/color";
-
+import { Color } from "../../types/colors";
 import { Swatch } from "../common";
 
-export const CompactColor = ({
+type Props = {
+  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
+  color: string;
+  active: boolean;
+  onClick: any;
+};
+
+export default function CompactColor({
   color,
   onClick = () => {},
   onSwatchHover,
   active,
-}) => {
-  const styles = reactCSS(
+}: Props) {
+  const styles = reactCSS<any>(
     {
       default: {
         color: {
@@ -67,6 +74,4 @@ export const CompactColor = ({
       <div style={styles.dot} />
     </Swatch>
   );
-};
-
-export default CompactColor;
+}

@@ -1,73 +1,26 @@
 import map from "lodash/map";
 import merge from "lodash/merge";
 import * as material from "material-colors";
-import PropTypes from "prop-types";
 import React from "react";
 import reactCSS from "reactcss";
 import { useColor, withColorProvider } from "../../context/useColor";
+import { Color, Hex } from "../../types/colors";
 import CircleSwatch from "./CircleSwatch";
 
-export const Circle = ({
-  width,
+type Props = {
+  width?: string | number;
+  circleSize?: number;
+  circleSpacing?: number;
+  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
+  className?: string;
+  colors?: string[];
+  styles?: React.CSSProperties;
+};
+
+export function Circle({
+  width = 252,
   onSwatchHover,
-  colors,
-  circleSize,
-  styles: passedStyles = {},
-  circleSpacing,
-  className = "",
-}) => {
-  const { colors: currentColors, changeColor } = useColor();
-  const { hex } = currentColors;
-
-  const styles = reactCSS(
-    merge(
-      {
-        default: {
-          card: {
-            width,
-            display: "flex",
-            flexWrap: "wrap",
-            marginRight: -circleSpacing,
-            marginBottom: -circleSpacing,
-          },
-        },
-      },
-      passedStyles
-    )
-  );
-
-  const handleChange = (hexCode, e) =>
-    changeColor({ hex: hexCode, source: "hex" }, e);
-
-  return (
-    <div style={styles.card} className={`circle-picker ${className}`}>
-      {map(colors, (c) => (
-        <CircleSwatch
-          key={c}
-          color={c}
-          onClick={handleChange}
-          onSwatchHover={onSwatchHover}
-          active={hex === c.toLowerCase()}
-          circleSize={circleSize}
-          circleSpacing={circleSpacing}
-        />
-      ))}
-    </div>
-  );
-};
-
-Circle.propTypes = {
-  width: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  circleSize: PropTypes.number,
-  circleSpacing: PropTypes.number,
-  styles: PropTypes.object,
-};
-
-Circle.defaultProps = {
-  width: 252,
-  circleSize: 28,
-  circleSpacing: 14,
-  colors: [
+  colors = [
     material.red["500"],
     material.pink["500"],
     material.purple["500"],
@@ -87,7 +40,49 @@ Circle.defaultProps = {
     material.brown["500"],
     material.blueGrey["500"],
   ],
-  styles: {},
-};
+  circleSize = 28,
+  styles: passedStyles = {},
+  circleSpacing = 14,
+  className = "",
+}: Props) {
+  const { colors: currentColors, changeColor } = useColor();
+  const { hex } = currentColors;
+
+  const styles = reactCSS<any>(
+    merge(
+      {
+        default: {
+          card: {
+            width,
+            display: "flex",
+            flexWrap: "wrap",
+            marginRight: -circleSpacing,
+            marginBottom: -circleSpacing,
+          },
+        },
+      },
+      passedStyles as any
+    )
+  );
+
+  const handleChange = (hexCode: Hex, e: React.MouseEvent) =>
+    changeColor({ hex: hexCode, source: "hex" }, e);
+
+  return (
+    <div style={styles.card} className={`circle-picker ${className}`}>
+      {map(colors, (c) => (
+        <CircleSwatch
+          key={c}
+          color={c}
+          onClick={handleChange}
+          onSwatchHover={onSwatchHover}
+          active={hex === c.toLowerCase()}
+          circleSize={circleSize}
+          circleSpacing={circleSpacing}
+        />
+      ))}
+    </div>
+  );
+}
 
 export default withColorProvider(Circle);

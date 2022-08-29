@@ -1,7 +1,7 @@
 import React from "react";
 import reactCSS from "reactcss";
 
-export const SliderPointer = () => {
+export default function SliderPointer() {
   const styles = reactCSS({
     default: {
       picker: {
@@ -16,6 +16,4 @@ export const SliderPointer = () => {
   });
 
   return <div style={styles.picker} />;
-};
-
-export default SliderPointer;
+}
