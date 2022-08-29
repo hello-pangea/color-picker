@@ -3,7 +3,7 @@
 exports[`Alpha renders correctly 1`] = `
 <div
   style={
-    Object {
+    {
       "MozBorderRadius": undefined,
       "OBorderRadius": undefined,
       "WebkitBorderRadius": undefined,
@@ -19,7 +19,7 @@ exports[`Alpha renders correctly 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "MozBorderRadius": undefined,
         "OBorderRadius": undefined,
         "WebkitBorderRadius": undefined,
@@ -36,7 +36,7 @@ exports[`Alpha renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "MozBorderRadius": undefined,
           "MozBoxShadow": undefined,
           "OBorderRadius": undefined,
@@ -59,7 +59,7 @@ exports[`Alpha renders correctly 1`] = `
   </div>
   <div
     style={
-      Object {
+      {
         "MozBorderRadius": undefined,
         "MozBoxShadow": undefined,
         "OBorderRadius": undefined,
@@ -67,7 +67,7 @@ exports[`Alpha renders correctly 1`] = `
         "WebkitBorderRadius": undefined,
         "WebkitBoxShadow": undefined,
         "background": "linear-gradient(to right, rgba(255,0,0, 0) 0%,
-                 rgba(255,0,0, 1) 100%)",
+           rgba(255,0,0, 1) 100%)",
         "borderRadius": undefined,
         "bottom": "0px",
         "boxShadow": undefined,
@@ -85,7 +85,7 @@ exports[`Alpha renders correctly 1`] = `
     onTouchMove={[Function]}
     onTouchStart={[Function]}
     style={
-      Object {
+      {
         "height": "100%",
         "margin": "0 3px",
         "position": "relative",
@@ -94,7 +94,7 @@ exports[`Alpha renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "left": "100%",
           "position": "absolute",
         }
@@ -102,7 +102,7 @@ exports[`Alpha renders correctly 1`] = `
     >
       <div
         style={
-          Object {
+          {
             "MozBorderRadius": "1px",
             "MozBoxShadow": "0 0 2px rgba(0, 0, 0, .6)",
             "MozTransform": "translateX(-2px)",
@@ -133,7 +133,7 @@ exports[`Alpha renders correctly 1`] = `
 exports[`Checkboard renders children correctly 1`] = `
 <button
   style={
-    Object {
+    {
       "MozBorderRadius": undefined,
       "MozBoxShadow": undefined,
       "OBorderRadius": undefined,
@@ -160,7 +160,7 @@ exports[`Checkboard renders children correctly 1`] = `
 exports[`Checkboard renders correctly 1`] = `
 <div
   style={
-    Object {
+    {
       "MozBorderRadius": undefined,
       "MozBoxShadow": undefined,
       "OBorderRadius": undefined,
@@ -185,7 +185,7 @@ exports[`Checkboard renders correctly 1`] = `
 exports[`EditableInput renders correctly 1`] = `
 <div
   style={
-    Object {
+    {
       "position": "relative",
     }
   }
@@ -197,13 +197,13 @@ exports[`EditableInput renders correctly 1`] = `
     onKeyDown={[Function]}
     placeholder="#fff"
     spellCheck="false"
-    style={Object {}}
+    style={{}}
     value="UNDEFINED"
   />
   <label
     htmlFor="rc-editable-input-1"
     onMouseDown={[Function]}
-    style={Object {}}
+    style={{}}
   >
     Hex
   </label>
@@ -213,7 +213,7 @@ exports[`EditableInput renders correctly 1`] = `
 exports[`Hue renders correctly 1`] = `
 <div
   style={
-    Object {
+    {
       "MozBorderRadius": undefined,
       "MozBoxShadow": undefined,
       "OBorderRadius": undefined,
@@ -238,7 +238,7 @@ exports[`Hue renders correctly 1`] = `
     onTouchMove={[Function]}
     onTouchStart={[Function]}
     style={
-      Object {
+      {
         "MozBorderRadius": undefined,
         "OBorderRadius": undefined,
         "WebkitBorderRadius": undefined,
@@ -252,24 +252,24 @@ exports[`Hue renders correctly 1`] = `
   >
     <style>
       
-                  .hue-horizontal {
-                    background: linear-gradient(to right, #f00 0%, #ff0 17%, #0f0
-                      33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
-                    background: -webkit-linear-gradient(to right, #f00 0%, #ff0
-                      17%, #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
-                  }
-      
-                  .hue-vertical {
-                    background: linear-gradient(to top, #f00 0%, #ff0 17%, #0f0 33%,
-                      #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
-                    background: -webkit-linear-gradient(to top, #f00 0%, #ff0 17%,
-                      #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
-                  }
-                
+            .hue-horizontal {
+              background: linear-gradient(to right, #f00 0%, #ff0 17%, #0f0
+                33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
+              background: -webkit-linear-gradient(to right, #f00 0%, #ff0
+                17%, #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
+            }
+
+            .hue-vertical {
+              background: linear-gradient(to top, #f00 0%, #ff0 17%, #0f0 33%,
+                #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
+              background: -webkit-linear-gradient(to top, #f00 0%, #ff0 17%,
+                #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
+            }
+          
     </style>
     <div
       style={
-        Object {
+        {
           "left": "0%",
           "position": "absolute",
         }
@@ -277,7 +277,7 @@ exports[`Hue renders correctly 1`] = `
     >
       <div
         style={
-          Object {
+          {
             "MozBorderRadius": "1px",
             "MozBoxShadow": "0 0 2px rgba(0, 0, 0, .6)",
             "MozTransform": "translateX(-2px)",
@@ -311,7 +311,7 @@ exports[`Saturation renders correctly 1`] = `
   onTouchMove={[Function]}
   onTouchStart={[Function]}
   style={
-    Object {
+    {
       "MozBorderRadius": undefined,
       "OBorderRadius": undefined,
       "WebkitBorderRadius": undefined,
@@ -328,20 +328,20 @@ exports[`Saturation renders correctly 1`] = `
 >
   <style>
     
-              .saturation-white {
-                background: -webkit-linear-gradient(to right, #fff, rgba(255,255,255,0));
-                background: linear-gradient(to right, #fff, rgba(255,255,255,0));
-              }
-              .saturation-black {
-                background: -webkit-linear-gradient(to top, #000, rgba(0,0,0,0));
-                background: linear-gradient(to top, #000, rgba(0,0,0,0));
-              }
-            
+          .saturation-white {
+            background: -webkit-linear-gradient(to right, #fff, rgba(255,255,255,0));
+            background: linear-gradient(to right, #fff, rgba(255,255,255,0));
+          }
+          .saturation-black {
+            background: -webkit-linear-gradient(to top, #000, rgba(0,0,0,0));
+            background: linear-gradient(to top, #000, rgba(0,0,0,0));
+          }
+        
   </style>
   <div
     className="saturation-white"
     style={
-      Object {
+      {
         "MozBorderRadius": undefined,
         "OBorderRadius": undefined,
         "WebkitBorderRadius": undefined,
@@ -358,7 +358,7 @@ exports[`Saturation renders correctly 1`] = `
     <div
       className="saturation-black"
       style={
-        Object {
+        {
           "MozBorderRadius": undefined,
           "MozBoxShadow": undefined,
           "OBorderRadius": undefined,
@@ -379,7 +379,7 @@ exports[`Saturation renders correctly 1`] = `
     />
     <div
       style={
-        Object {
+        {
           "cursor": "default",
           "left": "100%",
           "position": "absolute",
@@ -389,27 +389,27 @@ exports[`Saturation renders correctly 1`] = `
     >
       <div
         style={
-          Object {
+          {
             "MozBorderRadius": "50%",
             "MozBoxShadow": "0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0,0,0,.3),
-                      0 0 1px 2px rgba(0,0,0,.4)",
+            0 0 1px 2px rgba(0,0,0,.4)",
             "MozTransform": "translate(-2px, -2px)",
             "OBorderRadius": "50%",
             "OBoxShadow": "0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0,0,0,.3),
-                      0 0 1px 2px rgba(0,0,0,.4)",
+            0 0 1px 2px rgba(0,0,0,.4)",
             "OTransform": "translate(-2px, -2px)",
             "WebkitBorderRadius": "50%",
             "WebkitBoxShadow": "0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0,0,0,.3),
-                      0 0 1px 2px rgba(0,0,0,.4)",
+            0 0 1px 2px rgba(0,0,0,.4)",
             "WebkitTransform": "translate(-2px, -2px)",
             "borderRadius": "50%",
             "boxShadow": "0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0,0,0,.3),
-                      0 0 1px 2px rgba(0,0,0,.4)",
+            0 0 1px 2px rgba(0,0,0,.4)",
             "cursor": "hand",
             "height": "4px",
             "msBorderRadius": "50%",
             "msBoxShadow": "0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0,0,0,.3),
-                      0 0 1px 2px rgba(0,0,0,.4)",
+            0 0 1px 2px rgba(0,0,0,.4)",
             "msTransform": "translate(-2px, -2px)",
             "transform": "translate(-2px, -2px)",
             "width": "4px",
@@ -430,7 +430,7 @@ exports[`Swatch renders correctly 1`] = `
     onClick={[Function]}
     onKeyDown={[Function]}
     style={
-      Object {
+      {
         "background": "#333",
         "cursor": "pointer",
         "height": "100%",
@@ -455,7 +455,7 @@ exports[`Swatch renders custom title correctly 1`] = `
     onClick={[Function]}
     onKeyDown={[Function]}
     style={
-      Object {
+      {
         "background": "#fff",
         "cursor": "pointer",
         "height": "100%",
@@ -480,7 +480,7 @@ exports[`Swatch renders with an onMouseOver handler correctly 1`] = `
     onKeyDown={[Function]}
     onMouseOver={[Function]}
     style={
-      Object {
+      {
         "background": "#fff",
         "cursor": "pointer",
         "height": "100%",

@@ -4,7 +4,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
 <div
   className="github-picker "
   style={
-    Object {
+    {
       "MozBorderRadius": "4px",
       "MozBoxShadow": "0 3px 12px rgba(0,0,0,0.15)",
       "OBorderRadius": "4px",
@@ -27,7 +27,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "border": "8px solid transparent",
         "borderBottomColor": "rgba(0,0,0,0.15)",
         "display": "none",
@@ -37,7 +37,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
   />
   <div
     style={
-      Object {
+      {
         "border": "7px solid transparent",
         "borderBottomColor": "#fff",
         "display": "none",
@@ -51,7 +51,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -66,7 +66,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#B80000",
               "cursor": "pointer",
               "height": "100%",
@@ -87,7 +87,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -102,7 +102,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#DB3E00",
               "cursor": "pointer",
               "height": "100%",
@@ -123,7 +123,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -138,7 +138,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#FCCB00",
               "cursor": "pointer",
               "height": "100%",
@@ -159,7 +159,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -174,7 +174,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#008B02",
               "cursor": "pointer",
               "height": "100%",
@@ -195,7 +195,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -210,7 +210,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#006B76",
               "cursor": "pointer",
               "height": "100%",
@@ -231,7 +231,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -246,7 +246,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#1273DE",
               "cursor": "pointer",
               "height": "100%",
@@ -267,7 +267,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -282,7 +282,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#004DCF",
               "cursor": "pointer",
               "height": "100%",
@@ -303,7 +303,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -318,7 +318,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#5300EB",
               "cursor": "pointer",
               "height": "100%",
@@ -339,7 +339,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -354,7 +354,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#EB9694",
               "cursor": "pointer",
               "height": "100%",
@@ -375,7 +375,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -390,7 +390,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#FAD0C3",
               "cursor": "pointer",
               "height": "100%",
@@ -411,7 +411,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -426,7 +426,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#FEF3BD",
               "cursor": "pointer",
               "height": "100%",
@@ -447,7 +447,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -462,7 +462,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#C1E1C5",
               "cursor": "pointer",
               "height": "100%",
@@ -483,7 +483,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -498,7 +498,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#BEDADC",
               "cursor": "pointer",
               "height": "100%",
@@ -519,7 +519,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -534,7 +534,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#C4DEF6",
               "cursor": "pointer",
               "height": "100%",
@@ -555,7 +555,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -570,7 +570,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#BED3F3",
               "cursor": "pointer",
               "height": "100%",
@@ -591,7 +591,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -606,7 +606,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#D4C4FB",
               "cursor": "pointer",
               "height": "100%",
@@ -628,7 +628,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
 <div
   className="github-picker "
   style={
-    Object {
+    {
       "MozBorderRadius": "4px",
       "MozBoxShadow": "0 3px 12px rgba(0,0,0,0.15)",
       "OBorderRadius": "4px",
@@ -651,7 +651,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "border": "8px solid transparent",
         "borderBottomColor": "rgba(0,0,0,0.15)",
         "position": "absolute",
@@ -662,7 +662,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
   />
   <div
     style={
-      Object {
+      {
         "border": "7px solid transparent",
         "borderBottomColor": "#fff",
         "position": "absolute",
@@ -677,7 +677,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -692,7 +692,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#B80000",
               "cursor": "pointer",
               "height": "100%",
@@ -713,7 +713,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -728,7 +728,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#DB3E00",
               "cursor": "pointer",
               "height": "100%",
@@ -749,7 +749,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -764,7 +764,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#FCCB00",
               "cursor": "pointer",
               "height": "100%",
@@ -785,7 +785,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -800,7 +800,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#008B02",
               "cursor": "pointer",
               "height": "100%",
@@ -821,7 +821,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -836,7 +836,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#006B76",
               "cursor": "pointer",
               "height": "100%",
@@ -857,7 +857,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -872,7 +872,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#1273DE",
               "cursor": "pointer",
               "height": "100%",
@@ -893,7 +893,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -908,7 +908,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#004DCF",
               "cursor": "pointer",
               "height": "100%",
@@ -929,7 +929,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -944,7 +944,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#5300EB",
               "cursor": "pointer",
               "height": "100%",
@@ -965,7 +965,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -980,7 +980,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#EB9694",
               "cursor": "pointer",
               "height": "100%",
@@ -1001,7 +1001,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -1016,7 +1016,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#FAD0C3",
               "cursor": "pointer",
               "height": "100%",
@@ -1037,7 +1037,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -1052,7 +1052,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#FEF3BD",
               "cursor": "pointer",
               "height": "100%",
@@ -1073,7 +1073,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -1088,7 +1088,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#C1E1C5",
               "cursor": "pointer",
               "height": "100%",
@@ -1109,7 +1109,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -1124,7 +1124,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#BEDADC",
               "cursor": "pointer",
               "height": "100%",
@@ -1145,7 +1145,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -1160,7 +1160,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#C4DEF6",
               "cursor": "pointer",
               "height": "100%",
@@ -1181,7 +1181,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -1196,7 +1196,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#BED3F3",
               "cursor": "pointer",
               "height": "100%",
@@ -1217,7 +1217,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -1232,7 +1232,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#D4C4FB",
               "cursor": "pointer",
               "height": "100%",
@@ -1254,7 +1254,7 @@ exports[`Github renders correctly 1`] = `
 <div
   className="github-picker "
   style={
-    Object {
+    {
       "MozBorderRadius": "4px",
       "MozBoxShadow": "0 3px 12px rgba(0,0,0,0.15)",
       "OBorderRadius": "4px",
@@ -1277,7 +1277,7 @@ exports[`Github renders correctly 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "border": "8px solid transparent",
         "borderBottomColor": "rgba(0,0,0,0.15)",
         "left": "9px",
@@ -1288,7 +1288,7 @@ exports[`Github renders correctly 1`] = `
   />
   <div
     style={
-      Object {
+      {
         "border": "7px solid transparent",
         "borderBottomColor": "#fff",
         "left": "10px",
@@ -1303,7 +1303,7 @@ exports[`Github renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -1318,7 +1318,7 @@ exports[`Github renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#B80000",
               "cursor": "pointer",
               "height": "100%",
@@ -1339,7 +1339,7 @@ exports[`Github renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -1354,7 +1354,7 @@ exports[`Github renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#DB3E00",
               "cursor": "pointer",
               "height": "100%",
@@ -1375,7 +1375,7 @@ exports[`Github renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -1390,7 +1390,7 @@ exports[`Github renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#FCCB00",
               "cursor": "pointer",
               "height": "100%",
@@ -1411,7 +1411,7 @@ exports[`Github renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -1426,7 +1426,7 @@ exports[`Github renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#008B02",
               "cursor": "pointer",
               "height": "100%",
@@ -1447,7 +1447,7 @@ exports[`Github renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -1462,7 +1462,7 @@ exports[`Github renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#006B76",
               "cursor": "pointer",
               "height": "100%",
@@ -1483,7 +1483,7 @@ exports[`Github renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -1498,7 +1498,7 @@ exports[`Github renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#1273DE",
               "cursor": "pointer",
               "height": "100%",
@@ -1519,7 +1519,7 @@ exports[`Github renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -1534,7 +1534,7 @@ exports[`Github renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#004DCF",
               "cursor": "pointer",
               "height": "100%",
@@ -1555,7 +1555,7 @@ exports[`Github renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -1570,7 +1570,7 @@ exports[`Github renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#5300EB",
               "cursor": "pointer",
               "height": "100%",
@@ -1591,7 +1591,7 @@ exports[`Github renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -1606,7 +1606,7 @@ exports[`Github renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#EB9694",
               "cursor": "pointer",
               "height": "100%",
@@ -1627,7 +1627,7 @@ exports[`Github renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -1642,7 +1642,7 @@ exports[`Github renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#FAD0C3",
               "cursor": "pointer",
               "height": "100%",
@@ -1663,7 +1663,7 @@ exports[`Github renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -1678,7 +1678,7 @@ exports[`Github renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#FEF3BD",
               "cursor": "pointer",
               "height": "100%",
@@ -1699,7 +1699,7 @@ exports[`Github renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -1714,7 +1714,7 @@ exports[`Github renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#C1E1C5",
               "cursor": "pointer",
               "height": "100%",
@@ -1735,7 +1735,7 @@ exports[`Github renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -1750,7 +1750,7 @@ exports[`Github renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#BEDADC",
               "cursor": "pointer",
               "height": "100%",
@@ -1771,7 +1771,7 @@ exports[`Github renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -1786,7 +1786,7 @@ exports[`Github renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#C4DEF6",
               "cursor": "pointer",
               "height": "100%",
@@ -1807,7 +1807,7 @@ exports[`Github renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -1822,7 +1822,7 @@ exports[`Github renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#BED3F3",
               "cursor": "pointer",
               "height": "100%",
@@ -1843,7 +1843,7 @@ exports[`Github renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "fontSize": "0",
           "height": "25px",
           "width": "25px",
@@ -1858,7 +1858,7 @@ exports[`Github renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "background": "#D4C4FB",
               "cursor": "pointer",
               "height": "100%",
@@ -1883,7 +1883,7 @@ exports[`GithubSwatch renders correctly 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "fontSize": "0",
         "height": "25px",
         "width": "25px",
@@ -1898,7 +1898,7 @@ exports[`GithubSwatch renders correctly 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "background": "#333",
             "cursor": "pointer",
             "height": "100%",

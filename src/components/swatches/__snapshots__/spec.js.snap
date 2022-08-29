@@ -4,7 +4,7 @@ exports[`Swatches renders correctly 1`] = `
 <div
   className="swatches-picker "
   style={
-    Object {
+    {
       "height": 240,
       "width": 320,
     }
@@ -12,7 +12,7 @@ exports[`Swatches renders correctly 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "display": "inline-block",
         "position": "relative",
       }
@@ -20,7 +20,7 @@ exports[`Swatches renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "MozBorderRadius": 2,
           "MozBoxShadow": "0 2px 10px rgba(0,0,0,.12), 0 2px 5px rgba(0,0,0,.16)",
           "OBorderRadius": 2,
@@ -42,14 +42,14 @@ exports[`Swatches renders correctly 1`] = `
     />
     <div
       style={
-        Object {
+        {
           "position": "relative",
         }
       }
     >
       <div
         style={
-          Object {
+          {
             "height": 240,
             "overflowY": "scroll",
           }
@@ -57,14 +57,14 @@ exports[`Swatches renders correctly 1`] = `
       >
         <div
           style={
-            Object {
+            {
               "padding": "16px 0 6px 16px",
             }
           }
         >
           <div
             style={
-              Object {
+              {
                 "float": "left",
                 "marginRight": "10px",
                 "paddingBottom": "10px",
@@ -80,7 +80,7 @@ exports[`Swatches renders correctly 1`] = `
                 onClick={[Function]}
                 onKeyDown={[Function]}
                 style={
-                  Object {
+                  {
                     "MozBorderRadius": "0 0 2px 2px",
                     "OBorderRadius": "0 0 2px 2px",
                     "WebkitBorderRadius": "0 0 2px 2px",
@@ -101,7 +101,7 @@ exports[`Swatches renders correctly 1`] = `
               >
                 <div
                   style={
-                    Object {
+                    {
                       "color": "#000",
                       "display": "none",
                       "marginLeft": "8px",
@@ -110,7 +110,7 @@ exports[`Swatches renders correctly 1`] = `
                 >
                   <svg
                     style={
-                      Object {
+                      {
                         "fill": "currentColor",
                         "height": 24,
                         "width": 24,
@@ -128,7 +128,7 @@ exports[`Swatches renders correctly 1`] = `
           </div>
           <div
             style={
-              Object {
+              {
                 "float": "left",
                 "marginRight": "10px",
                 "paddingBottom": "10px",
@@ -144,7 +144,7 @@ exports[`Swatches renders correctly 1`] = `
                 onClick={[Function]}
                 onKeyDown={[Function]}
                 style={
-                  Object {
+                  {
                     "MozBorderRadius": "0 0 2px 2px",
                     "OBorderRadius": "0 0 2px 2px",
                     "WebkitBorderRadius": "0 0 2px 2px",
@@ -165,7 +165,7 @@ exports[`Swatches renders correctly 1`] = `
               >
                 <div
                   style={
-                    Object {
+                    {
                       "color": "#fff",
                       "display": "none",
                       "marginLeft": "8px",
@@ -174,7 +174,7 @@ exports[`Swatches renders correctly 1`] = `
                 >
                   <svg
                     style={
-                      Object {
+                      {
                         "fill": "currentColor",
                         "height": 24,
                         "width": 24,
@@ -192,7 +192,7 @@ exports[`Swatches renders correctly 1`] = `
           </div>
           <div
             style={
-              Object {
+              {
                 "clear": "both",
               }
             }
@@ -213,7 +213,7 @@ exports[`SwatchesColor renders correctly 1`] = `
     onClick={[Function]}
     onKeyDown={[Function]}
     style={
-      Object {
+      {
         "background": undefined,
         "cursor": "pointer",
         "height": "24px",
@@ -224,11 +224,10 @@ exports[`SwatchesColor renders correctly 1`] = `
       }
     }
     tabIndex={0}
-    title={undefined}
   >
     <div
       style={
-        Object {
+        {
           "color": "#fff",
           "display": "none",
           "marginLeft": "8px",
@@ -237,7 +236,7 @@ exports[`SwatchesColor renders correctly 1`] = `
     >
       <svg
         style={
-          Object {
+          {
             "fill": "currentColor",
             "height": 24,
             "width": 24,
@@ -263,7 +262,7 @@ exports[`SwatchesColor renders with props 1`] = `
     onClick={[Function]}
     onKeyDown={[Function]}
     style={
-      Object {
+      {
         "MozBorderRadius": "0 0 2px 2px",
         "OBorderRadius": "0 0 2px 2px",
         "WebkitBorderRadius": "0 0 2px 2px",
@@ -280,11 +279,10 @@ exports[`SwatchesColor renders with props 1`] = `
       }
     }
     tabIndex={0}
-    title={undefined}
   >
     <div
       style={
-        Object {
+        {
           "color": "#fff",
           "display": "block",
           "marginLeft": "8px",
@@ -293,7 +291,7 @@ exports[`SwatchesColor renders with props 1`] = `
     >
       <svg
         style={
-          Object {
+          {
             "fill": "currentColor",
             "height": 24,
             "width": 24,
@@ -313,7 +311,7 @@ exports[`SwatchesColor renders with props 1`] = `
 exports[`SwatchesGroup renders correctly 1`] = `
 <div
   style={
-    Object {
+    {
       "float": "left",
       "marginRight": "10px",
       "paddingBottom": "10px",
@@ -329,7 +327,7 @@ exports[`SwatchesGroup renders correctly 1`] = `
       onClick={[Function]}
       onKeyDown={[Function]}
       style={
-        Object {
+        {
           "MozBorderRadius": "0 0 2px 2px",
           "OBorderRadius": "0 0 2px 2px",
           "WebkitBorderRadius": "0 0 2px 2px",
@@ -350,7 +348,7 @@ exports[`SwatchesGroup renders correctly 1`] = `
     >
       <div
         style={
-          Object {
+          {
             "color": "#000",
             "display": "none",
             "marginLeft": "8px",
@@ -359,7 +357,7 @@ exports[`SwatchesGroup renders correctly 1`] = `
       >
         <svg
           style={
-            Object {
+            {
               "fill": "currentColor",
               "height": 24,
               "width": 24,

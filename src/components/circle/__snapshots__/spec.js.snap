@@ -4,7 +4,7 @@ exports[`Circle renders correctly 1`] = `
 <div
   className="circle-picker "
   style={
-    Object {
+    {
       "display": "flex",
       "flexWrap": "wrap",
       "marginBottom": -14,
@@ -19,7 +19,7 @@ exports[`Circle renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "MozTransform": "scale(1)",
           "MozTransition": "100ms transform ease",
           "OTransform": "scale(1)",
@@ -45,7 +45,7 @@ exports[`Circle renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "50%",
               "MozBoxShadow": "inset 0 0 0 15px #f44336",
               "MozTransition": "100ms box-shadow ease",
@@ -81,7 +81,7 @@ exports[`Circle renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "MozTransform": "scale(1)",
           "MozTransition": "100ms transform ease",
           "OTransform": "scale(1)",
@@ -107,7 +107,7 @@ exports[`Circle renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "50%",
               "MozBoxShadow": "inset 0 0 0 15px #e91e63",
               "MozTransition": "100ms box-shadow ease",
@@ -143,7 +143,7 @@ exports[`Circle renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "MozTransform": "scale(1)",
           "MozTransition": "100ms transform ease",
           "OTransform": "scale(1)",
@@ -169,7 +169,7 @@ exports[`Circle renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "50%",
               "MozBoxShadow": "inset 0 0 0 15px #9c27b0",
               "MozTransition": "100ms box-shadow ease",
@@ -205,7 +205,7 @@ exports[`Circle renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "MozTransform": "scale(1)",
           "MozTransition": "100ms transform ease",
           "OTransform": "scale(1)",
@@ -231,7 +231,7 @@ exports[`Circle renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "50%",
               "MozBoxShadow": "inset 0 0 0 15px #673ab7",
               "MozTransition": "100ms box-shadow ease",
@@ -267,7 +267,7 @@ exports[`Circle renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "MozTransform": "scale(1)",
           "MozTransition": "100ms transform ease",
           "OTransform": "scale(1)",
@@ -293,7 +293,7 @@ exports[`Circle renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "50%",
               "MozBoxShadow": "inset 0 0 0 15px #3f51b5",
               "MozTransition": "100ms box-shadow ease",
@@ -329,7 +329,7 @@ exports[`Circle renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "MozTransform": "scale(1)",
           "MozTransition": "100ms transform ease",
           "OTransform": "scale(1)",
@@ -355,7 +355,7 @@ exports[`Circle renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "50%",
               "MozBoxShadow": "inset 0 0 0 15px #2196f3",
               "MozTransition": "100ms box-shadow ease",
@@ -391,7 +391,7 @@ exports[`Circle renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "MozTransform": "scale(1)",
           "MozTransition": "100ms transform ease",
           "OTransform": "scale(1)",
@@ -417,7 +417,7 @@ exports[`Circle renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "50%",
               "MozBoxShadow": "inset 0 0 0 15px #03a9f4",
               "MozTransition": "100ms box-shadow ease",
@@ -453,7 +453,7 @@ exports[`Circle renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "MozTransform": "scale(1)",
           "MozTransition": "100ms transform ease",
           "OTransform": "scale(1)",
@@ -479,7 +479,7 @@ exports[`Circle renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "50%",
               "MozBoxShadow": "inset 0 0 0 15px #00bcd4",
               "MozTransition": "100ms box-shadow ease",
@@ -515,7 +515,7 @@ exports[`Circle renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "MozTransform": "scale(1)",
           "MozTransition": "100ms transform ease",
           "OTransform": "scale(1)",
@@ -541,7 +541,7 @@ exports[`Circle renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "50%",
               "MozBoxShadow": "inset 0 0 0 15px #009688",
               "MozTransition": "100ms box-shadow ease",
@@ -577,7 +577,7 @@ exports[`Circle renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "MozTransform": "scale(1)",
           "MozTransition": "100ms transform ease",
           "OTransform": "scale(1)",
@@ -603,7 +603,7 @@ exports[`Circle renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "50%",
               "MozBoxShadow": "inset 0 0 0 15px #4caf50",
               "MozTransition": "100ms box-shadow ease",
@@ -639,7 +639,7 @@ exports[`Circle renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "MozTransform": "scale(1)",
           "MozTransition": "100ms transform ease",
           "OTransform": "scale(1)",
@@ -665,7 +665,7 @@ exports[`Circle renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "50%",
               "MozBoxShadow": "inset 0 0 0 15px #8bc34a",
               "MozTransition": "100ms box-shadow ease",
@@ -701,7 +701,7 @@ exports[`Circle renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "MozTransform": "scale(1)",
           "MozTransition": "100ms transform ease",
           "OTransform": "scale(1)",
@@ -727,7 +727,7 @@ exports[`Circle renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "50%",
               "MozBoxShadow": "inset 0 0 0 15px #cddc39",
               "MozTransition": "100ms box-shadow ease",
@@ -763,7 +763,7 @@ exports[`Circle renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "MozTransform": "scale(1)",
           "MozTransition": "100ms transform ease",
           "OTransform": "scale(1)",
@@ -789,7 +789,7 @@ exports[`Circle renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "50%",
               "MozBoxShadow": "inset 0 0 0 15px #ffeb3b",
               "MozTransition": "100ms box-shadow ease",
@@ -825,7 +825,7 @@ exports[`Circle renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "MozTransform": "scale(1)",
           "MozTransition": "100ms transform ease",
           "OTransform": "scale(1)",
@@ -851,7 +851,7 @@ exports[`Circle renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "50%",
               "MozBoxShadow": "inset 0 0 0 15px #ffc107",
               "MozTransition": "100ms box-shadow ease",
@@ -887,7 +887,7 @@ exports[`Circle renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "MozTransform": "scale(1)",
           "MozTransition": "100ms transform ease",
           "OTransform": "scale(1)",
@@ -913,7 +913,7 @@ exports[`Circle renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "50%",
               "MozBoxShadow": "inset 0 0 0 15px #ff9800",
               "MozTransition": "100ms box-shadow ease",
@@ -949,7 +949,7 @@ exports[`Circle renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "MozTransform": "scale(1)",
           "MozTransition": "100ms transform ease",
           "OTransform": "scale(1)",
@@ -975,7 +975,7 @@ exports[`Circle renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "50%",
               "MozBoxShadow": "inset 0 0 0 15px #ff5722",
               "MozTransition": "100ms box-shadow ease",
@@ -1011,7 +1011,7 @@ exports[`Circle renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "MozTransform": "scale(1)",
           "MozTransition": "100ms transform ease",
           "OTransform": "scale(1)",
@@ -1037,7 +1037,7 @@ exports[`Circle renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "50%",
               "MozBoxShadow": "inset 0 0 0 15px #795548",
               "MozTransition": "100ms box-shadow ease",
@@ -1073,7 +1073,7 @@ exports[`Circle renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "MozTransform": "scale(1)",
           "MozTransition": "100ms transform ease",
           "OTransform": "scale(1)",
@@ -1099,7 +1099,7 @@ exports[`Circle renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "50%",
               "MozBoxShadow": "inset 0 0 0 15px #607d8b",
               "MozTransition": "100ms box-shadow ease",
@@ -1139,7 +1139,7 @@ exports[`CircleSwatch renders correctly 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "MozTransform": "scale(1)",
         "MozTransition": "100ms transform ease",
         "OTransform": "scale(1)",
@@ -1165,7 +1165,7 @@ exports[`CircleSwatch renders correctly 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "50%",
             "MozBoxShadow": "inset 0 0 0 15px undefined",
             "MozTransition": "100ms box-shadow ease",
@@ -1190,7 +1190,6 @@ exports[`CircleSwatch renders correctly 1`] = `
           }
         }
         tabIndex={0}
-        title={undefined}
       />
     </span>
   </div>
@@ -1204,7 +1203,7 @@ exports[`CircleSwatch renders with sizing and spacing 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "MozTransform": "scale(1)",
         "MozTransition": "100ms transform ease",
         "OTransform": "scale(1)",
@@ -1230,7 +1229,7 @@ exports[`CircleSwatch renders with sizing and spacing 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "50%",
             "MozBoxShadow": "inset 0 0 0 21px undefined",
             "MozTransition": "100ms box-shadow ease",
@@ -1255,7 +1254,6 @@ exports[`CircleSwatch renders with sizing and spacing 1`] = `
           }
         }
         tabIndex={0}
-        title={undefined}
       />
     </span>
   </div>

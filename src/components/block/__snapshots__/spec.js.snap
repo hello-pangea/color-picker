@@ -4,7 +4,7 @@ exports[`Block \`triangle="hide"\` 1`] = `
 <div
   className="block-picker "
   style={
-    Object {
+    {
       "MozBorderRadius": "6px",
       "MozBoxShadow": "0 1px rgba(0,0,0,.1)",
       "OBorderRadius": "6px",
@@ -23,7 +23,7 @@ exports[`Block \`triangle="hide"\` 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "borderColor": "transparent transparent #22194d transparent",
         "borderStyle": "solid",
         "borderWidth": "0 10px 10px 10px",
@@ -39,7 +39,7 @@ exports[`Block \`triangle="hide"\` 1`] = `
   />
   <div
     style={
-      Object {
+      {
         "MozBorderRadius": "6px 6px 0 0",
         "OBorderRadius": "6px 6px 0 0",
         "WebkitBorderRadius": "6px 6px 0 0",
@@ -57,7 +57,7 @@ exports[`Block \`triangle="hide"\` 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "color": "#fff",
           "fontSize": "18px",
           "position": "relative",
@@ -69,14 +69,14 @@ exports[`Block \`triangle="hide"\` 1`] = `
   </div>
   <div
     style={
-      Object {
+      {
         "padding": "10px",
       }
     }
   >
     <div
       style={
-        Object {
+        {
           "marginRight": "-10px",
         }
       }
@@ -89,7 +89,7 @@ exports[`Block \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "4px",
               "OBorderRadius": "4px",
               "WebkitBorderRadius": "4px",
@@ -118,7 +118,7 @@ exports[`Block \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "4px",
               "OBorderRadius": "4px",
               "WebkitBorderRadius": "4px",
@@ -147,7 +147,7 @@ exports[`Block \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "4px",
               "OBorderRadius": "4px",
               "WebkitBorderRadius": "4px",
@@ -176,7 +176,7 @@ exports[`Block \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "4px",
               "OBorderRadius": "4px",
               "WebkitBorderRadius": "4px",
@@ -205,7 +205,7 @@ exports[`Block \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "4px",
               "OBorderRadius": "4px",
               "WebkitBorderRadius": "4px",
@@ -234,7 +234,7 @@ exports[`Block \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "4px",
               "OBorderRadius": "4px",
               "WebkitBorderRadius": "4px",
@@ -263,7 +263,7 @@ exports[`Block \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "4px",
               "OBorderRadius": "4px",
               "WebkitBorderRadius": "4px",
@@ -292,7 +292,7 @@ exports[`Block \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "4px",
               "OBorderRadius": "4px",
               "WebkitBorderRadius": "4px",
@@ -321,7 +321,7 @@ exports[`Block \`triangle="hide"\` 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "4px",
               "OBorderRadius": "4px",
               "WebkitBorderRadius": "4px",
@@ -344,7 +344,7 @@ exports[`Block \`triangle="hide"\` 1`] = `
       </span>
       <div
         style={
-          Object {
+          {
             "clear": "both",
           }
         }
@@ -352,7 +352,7 @@ exports[`Block \`triangle="hide"\` 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "position": "relative",
         }
       }
@@ -362,10 +362,9 @@ exports[`Block \`triangle="hide"\` 1`] = `
         onBlur={[Function]}
         onChange={[Function]}
         onKeyDown={[Function]}
-        placeholder={undefined}
         spellCheck="false"
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "MozBoxShadow": "inset 0 0 0 1px #ddd",
             "OBorderRadius": "4px",
@@ -397,7 +396,7 @@ exports[`Block renders correctly 1`] = `
 <div
   className="block-picker "
   style={
-    Object {
+    {
       "MozBorderRadius": "6px",
       "MozBoxShadow": "0 1px rgba(0,0,0,.1)",
       "OBorderRadius": "6px",
@@ -416,7 +415,7 @@ exports[`Block renders correctly 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "borderColor": "transparent transparent #22194d transparent",
         "borderStyle": "solid",
         "borderWidth": "0 10px 10px 10px",
@@ -431,7 +430,7 @@ exports[`Block renders correctly 1`] = `
   />
   <div
     style={
-      Object {
+      {
         "MozBorderRadius": "6px 6px 0 0",
         "OBorderRadius": "6px 6px 0 0",
         "WebkitBorderRadius": "6px 6px 0 0",
@@ -449,7 +448,7 @@ exports[`Block renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "color": "#fff",
           "fontSize": "18px",
           "position": "relative",
@@ -461,14 +460,14 @@ exports[`Block renders correctly 1`] = `
   </div>
   <div
     style={
-      Object {
+      {
         "padding": "10px",
       }
     }
   >
     <div
       style={
-        Object {
+        {
           "marginRight": "-10px",
         }
       }
@@ -481,7 +480,7 @@ exports[`Block renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "4px",
               "OBorderRadius": "4px",
               "WebkitBorderRadius": "4px",
@@ -510,7 +509,7 @@ exports[`Block renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "4px",
               "OBorderRadius": "4px",
               "WebkitBorderRadius": "4px",
@@ -539,7 +538,7 @@ exports[`Block renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "4px",
               "OBorderRadius": "4px",
               "WebkitBorderRadius": "4px",
@@ -568,7 +567,7 @@ exports[`Block renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "4px",
               "OBorderRadius": "4px",
               "WebkitBorderRadius": "4px",
@@ -597,7 +596,7 @@ exports[`Block renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "4px",
               "OBorderRadius": "4px",
               "WebkitBorderRadius": "4px",
@@ -626,7 +625,7 @@ exports[`Block renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "4px",
               "OBorderRadius": "4px",
               "WebkitBorderRadius": "4px",
@@ -655,7 +654,7 @@ exports[`Block renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "4px",
               "OBorderRadius": "4px",
               "WebkitBorderRadius": "4px",
@@ -684,7 +683,7 @@ exports[`Block renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "4px",
               "OBorderRadius": "4px",
               "WebkitBorderRadius": "4px",
@@ -713,7 +712,7 @@ exports[`Block renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "4px",
               "OBorderRadius": "4px",
               "WebkitBorderRadius": "4px",
@@ -736,7 +735,7 @@ exports[`Block renders correctly 1`] = `
       </span>
       <div
         style={
-          Object {
+          {
             "clear": "both",
           }
         }
@@ -744,7 +743,7 @@ exports[`Block renders correctly 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "position": "relative",
         }
       }
@@ -754,10 +753,9 @@ exports[`Block renders correctly 1`] = `
         onBlur={[Function]}
         onChange={[Function]}
         onKeyDown={[Function]}
-        placeholder={undefined}
         spellCheck="false"
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "MozBoxShadow": "inset 0 0 0 1px #ddd",
             "OBorderRadius": "4px",
@@ -788,7 +786,7 @@ exports[`Block renders correctly 1`] = `
 exports[`BlockSwatches renders correctly 1`] = `
 <div
   style={
-    Object {
+    {
       "marginRight": "-10px",
     }
   }
@@ -801,7 +799,7 @@ exports[`BlockSwatches renders correctly 1`] = `
       onClick={[Function]}
       onKeyDown={[Function]}
       style={
-        Object {
+        {
           "MozBorderRadius": "4px",
           "OBorderRadius": "4px",
           "WebkitBorderRadius": "4px",
@@ -830,7 +828,7 @@ exports[`BlockSwatches renders correctly 1`] = `
       onClick={[Function]}
       onKeyDown={[Function]}
       style={
-        Object {
+        {
           "MozBorderRadius": "4px",
           "OBorderRadius": "4px",
           "WebkitBorderRadius": "4px",
@@ -859,7 +857,7 @@ exports[`BlockSwatches renders correctly 1`] = `
       onClick={[Function]}
       onKeyDown={[Function]}
       style={
-        Object {
+        {
           "MozBorderRadius": "4px",
           "OBorderRadius": "4px",
           "WebkitBorderRadius": "4px",
@@ -882,7 +880,7 @@ exports[`BlockSwatches renders correctly 1`] = `
   </span>
   <div
     style={
-      Object {
+      {
         "clear": "both",
       }
     }

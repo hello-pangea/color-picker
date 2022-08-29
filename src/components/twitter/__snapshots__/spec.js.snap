@@ -4,7 +4,7 @@ exports[`Twitter \`triangle="hide"\` 1`] = `
 <div
   className="twitter-picker "
   style={
-    Object {
+    {
       "MozBorderRadius": "4px",
       "MozBoxShadow": "0 1px 4px rgba(0,0,0,0.25)",
       "OBorderRadius": "4px",
@@ -24,7 +24,7 @@ exports[`Twitter \`triangle="hide"\` 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "borderColor": "transparent transparent rgba(0,0,0,.1) transparent",
         "borderStyle": "solid",
         "borderWidth": "0 9px 10px 9px",
@@ -37,7 +37,7 @@ exports[`Twitter \`triangle="hide"\` 1`] = `
   />
   <div
     style={
-      Object {
+      {
         "borderColor": "transparent transparent #fff transparent",
         "borderStyle": "solid",
         "borderWidth": "0 9px 10px 9px",
@@ -50,7 +50,7 @@ exports[`Twitter \`triangle="hide"\` 1`] = `
   />
   <div
     style={
-      Object {
+      {
         "padding": "15px 9px 9px 15px",
       }
     }
@@ -63,7 +63,7 @@ exports[`Twitter \`triangle="hide"\` 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -91,7 +91,7 @@ exports[`Twitter \`triangle="hide"\` 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -119,7 +119,7 @@ exports[`Twitter \`triangle="hide"\` 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -147,7 +147,7 @@ exports[`Twitter \`triangle="hide"\` 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -175,7 +175,7 @@ exports[`Twitter \`triangle="hide"\` 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -203,7 +203,7 @@ exports[`Twitter \`triangle="hide"\` 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -231,7 +231,7 @@ exports[`Twitter \`triangle="hide"\` 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -259,7 +259,7 @@ exports[`Twitter \`triangle="hide"\` 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -287,7 +287,7 @@ exports[`Twitter \`triangle="hide"\` 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -315,7 +315,7 @@ exports[`Twitter \`triangle="hide"\` 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -337,7 +337,7 @@ exports[`Twitter \`triangle="hide"\` 1`] = `
     </span>
     <div
       style={
-        Object {
+        {
           "MozBorderRadius": "4px 0 0 4px",
           "OBorderRadius": "4px 0 0 4px",
           "WebkitBorderRadius": "4px 0 0 4px",
@@ -359,7 +359,7 @@ exports[`Twitter \`triangle="hide"\` 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "position": "relative",
         }
       }
@@ -369,10 +369,9 @@ exports[`Twitter \`triangle="hide"\` 1`] = `
         onBlur={[Function]}
         onChange={[Function]}
         onKeyDown={[Function]}
-        placeholder={undefined}
         spellCheck="false"
         style={
-          Object {
+          {
             "MozBorderRadius": "0 4px 4px 0",
             "MozBoxShadow": "inset 0 0 0 1px #F0F0F0",
             "OBorderRadius": "0 4px 4px 0",
@@ -399,7 +398,7 @@ exports[`Twitter \`triangle="hide"\` 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "clear": "both",
         }
       }
@@ -412,7 +411,7 @@ exports[`Twitter \`triangle="top-right"\` 1`] = `
 <div
   className="twitter-picker "
   style={
-    Object {
+    {
       "MozBorderRadius": "4px",
       "MozBoxShadow": "0 1px 4px rgba(0,0,0,0.25)",
       "OBorderRadius": "4px",
@@ -432,7 +431,7 @@ exports[`Twitter \`triangle="top-right"\` 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "borderColor": "transparent transparent rgba(0,0,0,.1) transparent",
         "borderStyle": "solid",
         "borderWidth": "0 9px 10px 9px",
@@ -446,7 +445,7 @@ exports[`Twitter \`triangle="top-right"\` 1`] = `
   />
   <div
     style={
-      Object {
+      {
         "borderColor": "transparent transparent #fff transparent",
         "borderStyle": "solid",
         "borderWidth": "0 9px 10px 9px",
@@ -460,7 +459,7 @@ exports[`Twitter \`triangle="top-right"\` 1`] = `
   />
   <div
     style={
-      Object {
+      {
         "padding": "15px 9px 9px 15px",
       }
     }
@@ -473,7 +472,7 @@ exports[`Twitter \`triangle="top-right"\` 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -501,7 +500,7 @@ exports[`Twitter \`triangle="top-right"\` 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -529,7 +528,7 @@ exports[`Twitter \`triangle="top-right"\` 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -557,7 +556,7 @@ exports[`Twitter \`triangle="top-right"\` 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -585,7 +584,7 @@ exports[`Twitter \`triangle="top-right"\` 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -613,7 +612,7 @@ exports[`Twitter \`triangle="top-right"\` 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -641,7 +640,7 @@ exports[`Twitter \`triangle="top-right"\` 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -669,7 +668,7 @@ exports[`Twitter \`triangle="top-right"\` 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -697,7 +696,7 @@ exports[`Twitter \`triangle="top-right"\` 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -725,7 +724,7 @@ exports[`Twitter \`triangle="top-right"\` 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -747,7 +746,7 @@ exports[`Twitter \`triangle="top-right"\` 1`] = `
     </span>
     <div
       style={
-        Object {
+        {
           "MozBorderRadius": "4px 0 0 4px",
           "OBorderRadius": "4px 0 0 4px",
           "WebkitBorderRadius": "4px 0 0 4px",
@@ -769,7 +768,7 @@ exports[`Twitter \`triangle="top-right"\` 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "position": "relative",
         }
       }
@@ -779,10 +778,9 @@ exports[`Twitter \`triangle="top-right"\` 1`] = `
         onBlur={[Function]}
         onChange={[Function]}
         onKeyDown={[Function]}
-        placeholder={undefined}
         spellCheck="false"
         style={
-          Object {
+          {
             "MozBorderRadius": "0 4px 4px 0",
             "MozBoxShadow": "inset 0 0 0 1px #F0F0F0",
             "OBorderRadius": "0 4px 4px 0",
@@ -809,7 +807,7 @@ exports[`Twitter \`triangle="top-right"\` 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "clear": "both",
         }
       }
@@ -822,7 +820,7 @@ exports[`Twitter renders correctly 1`] = `
 <div
   className="twitter-picker "
   style={
-    Object {
+    {
       "MozBorderRadius": "4px",
       "MozBoxShadow": "0 1px 4px rgba(0,0,0,0.25)",
       "OBorderRadius": "4px",
@@ -842,7 +840,7 @@ exports[`Twitter renders correctly 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "borderColor": "transparent transparent rgba(0,0,0,.1) transparent",
         "borderStyle": "solid",
         "borderWidth": "0 9px 10px 9px",
@@ -856,7 +854,7 @@ exports[`Twitter renders correctly 1`] = `
   />
   <div
     style={
-      Object {
+      {
         "borderColor": "transparent transparent #fff transparent",
         "borderStyle": "solid",
         "borderWidth": "0 9px 10px 9px",
@@ -870,7 +868,7 @@ exports[`Twitter renders correctly 1`] = `
   />
   <div
     style={
-      Object {
+      {
         "padding": "15px 9px 9px 15px",
       }
     }
@@ -883,7 +881,7 @@ exports[`Twitter renders correctly 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -911,7 +909,7 @@ exports[`Twitter renders correctly 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -939,7 +937,7 @@ exports[`Twitter renders correctly 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -967,7 +965,7 @@ exports[`Twitter renders correctly 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -995,7 +993,7 @@ exports[`Twitter renders correctly 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -1023,7 +1021,7 @@ exports[`Twitter renders correctly 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -1051,7 +1049,7 @@ exports[`Twitter renders correctly 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -1079,7 +1077,7 @@ exports[`Twitter renders correctly 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -1107,7 +1105,7 @@ exports[`Twitter renders correctly 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -1135,7 +1133,7 @@ exports[`Twitter renders correctly 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "4px",
             "OBorderRadius": "4px",
             "WebkitBorderRadius": "4px",
@@ -1157,7 +1155,7 @@ exports[`Twitter renders correctly 1`] = `
     </span>
     <div
       style={
-        Object {
+        {
           "MozBorderRadius": "4px 0 0 4px",
           "OBorderRadius": "4px 0 0 4px",
           "WebkitBorderRadius": "4px 0 0 4px",
@@ -1179,7 +1177,7 @@ exports[`Twitter renders correctly 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "position": "relative",
         }
       }
@@ -1189,10 +1187,9 @@ exports[`Twitter renders correctly 1`] = `
         onBlur={[Function]}
         onChange={[Function]}
         onKeyDown={[Function]}
-        placeholder={undefined}
         spellCheck="false"
         style={
-          Object {
+          {
             "MozBorderRadius": "0 4px 4px 0",
             "MozBoxShadow": "inset 0 0 0 1px #F0F0F0",
             "OBorderRadius": "0 4px 4px 0",
@@ -1219,7 +1216,7 @@ exports[`Twitter renders correctly 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "clear": "both",
         }
       }

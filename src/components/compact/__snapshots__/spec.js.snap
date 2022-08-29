@@ -3,7 +3,7 @@
 exports[`Compact renders correctly 1`] = `
 <div
   style={
-    Object {
+    {
       "display": "inline-block",
       "position": "relative",
     }
@@ -11,7 +11,7 @@ exports[`Compact renders correctly 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "MozBorderRadius": 2,
         "MozBoxShadow": "0 2px 10px rgba(0,0,0,.12), 0 2px 5px rgba(0,0,0,.16)",
         "OBorderRadius": 2,
@@ -33,7 +33,7 @@ exports[`Compact renders correctly 1`] = `
   />
   <div
     style={
-      Object {
+      {
         "position": "relative",
       }
     }
@@ -41,7 +41,7 @@ exports[`Compact renders correctly 1`] = `
     <div
       className="compact-picker "
       style={
-        Object {
+        {
           "boxSizing": "initial",
           "paddingLeft": "5px",
           "paddingTop": "5px",
@@ -58,7 +58,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#4D4D4D",
                 "cursor": "pointer",
                 "float": "left",
@@ -75,7 +75,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -101,7 +101,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#999999",
                 "cursor": "pointer",
                 "float": "left",
@@ -118,7 +118,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -144,7 +144,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "MozBoxShadow": "inset 0 0 0 1px #ddd",
                 "OBoxShadow": "inset 0 0 0 1px #ddd",
                 "WebkitBoxShadow": "inset 0 0 0 1px #ddd",
@@ -166,7 +166,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -192,7 +192,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#F44E3B",
                 "cursor": "pointer",
                 "float": "left",
@@ -209,7 +209,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -235,7 +235,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#FE9200",
                 "cursor": "pointer",
                 "float": "left",
@@ -252,7 +252,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -278,7 +278,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#FCDC00",
                 "cursor": "pointer",
                 "float": "left",
@@ -295,7 +295,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -321,7 +321,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#DBDF00",
                 "cursor": "pointer",
                 "float": "left",
@@ -338,7 +338,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -364,7 +364,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#A4DD00",
                 "cursor": "pointer",
                 "float": "left",
@@ -381,7 +381,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -407,7 +407,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#68CCCA",
                 "cursor": "pointer",
                 "float": "left",
@@ -424,7 +424,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -450,7 +450,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#73D8FF",
                 "cursor": "pointer",
                 "float": "left",
@@ -467,7 +467,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -493,7 +493,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#AEA1FF",
                 "cursor": "pointer",
                 "float": "left",
@@ -510,7 +510,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -536,7 +536,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#FDA1FF",
                 "cursor": "pointer",
                 "float": "left",
@@ -553,7 +553,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -579,7 +579,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#333333",
                 "cursor": "pointer",
                 "float": "left",
@@ -596,7 +596,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -622,7 +622,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#808080",
                 "cursor": "pointer",
                 "float": "left",
@@ -639,7 +639,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -665,7 +665,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#cccccc",
                 "cursor": "pointer",
                 "float": "left",
@@ -682,7 +682,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -708,7 +708,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#D33115",
                 "cursor": "pointer",
                 "float": "left",
@@ -725,7 +725,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -751,7 +751,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#E27300",
                 "cursor": "pointer",
                 "float": "left",
@@ -768,7 +768,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -794,7 +794,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#FCC400",
                 "cursor": "pointer",
                 "float": "left",
@@ -811,7 +811,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -837,7 +837,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#B0BC00",
                 "cursor": "pointer",
                 "float": "left",
@@ -854,7 +854,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -880,7 +880,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#68BC00",
                 "cursor": "pointer",
                 "float": "left",
@@ -897,7 +897,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -923,7 +923,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#16A5A5",
                 "cursor": "pointer",
                 "float": "left",
@@ -940,7 +940,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -966,7 +966,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#009CE0",
                 "cursor": "pointer",
                 "float": "left",
@@ -983,7 +983,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -1009,7 +1009,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#7B64FF",
                 "cursor": "pointer",
                 "float": "left",
@@ -1026,7 +1026,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -1052,7 +1052,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#FA28FF",
                 "cursor": "pointer",
                 "float": "left",
@@ -1069,7 +1069,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -1095,7 +1095,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#000000",
                 "cursor": "pointer",
                 "float": "left",
@@ -1112,7 +1112,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -1138,7 +1138,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#666666",
                 "cursor": "pointer",
                 "float": "left",
@@ -1155,7 +1155,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -1181,7 +1181,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#B3B3B3",
                 "cursor": "pointer",
                 "float": "left",
@@ -1198,7 +1198,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -1224,7 +1224,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#9F0500",
                 "cursor": "pointer",
                 "float": "left",
@@ -1241,7 +1241,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -1267,7 +1267,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#C45100",
                 "cursor": "pointer",
                 "float": "left",
@@ -1284,7 +1284,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -1310,7 +1310,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#FB9E00",
                 "cursor": "pointer",
                 "float": "left",
@@ -1327,7 +1327,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -1353,7 +1353,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#808900",
                 "cursor": "pointer",
                 "float": "left",
@@ -1370,7 +1370,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -1396,7 +1396,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#194D33",
                 "cursor": "pointer",
                 "float": "left",
@@ -1413,7 +1413,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -1439,7 +1439,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#0C797D",
                 "cursor": "pointer",
                 "float": "left",
@@ -1456,7 +1456,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -1482,7 +1482,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#0062B1",
                 "cursor": "pointer",
                 "float": "left",
@@ -1499,7 +1499,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -1525,7 +1525,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#653294",
                 "cursor": "pointer",
                 "float": "left",
@@ -1542,7 +1542,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -1568,7 +1568,7 @@ exports[`Compact renders correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#AB149E",
                 "cursor": "pointer",
                 "float": "left",
@@ -1585,7 +1585,7 @@ exports[`Compact renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -1605,7 +1605,7 @@ exports[`Compact renders correctly 1`] = `
         </span>
         <div
           style={
-            Object {
+            {
               "clear": "both",
             }
           }
@@ -1614,7 +1614,7 @@ exports[`Compact renders correctly 1`] = `
       <div
         className="flexbox-fix"
         style={
-          Object {
+          {
             "display": "flex",
             "paddingBottom": "6px",
             "paddingRight": "5px",
@@ -1624,7 +1624,7 @@ exports[`Compact renders correctly 1`] = `
       >
         <div
           style={
-            Object {
+            {
               "background": "#22194d",
               "height": "9px",
               "left": "5px",
@@ -1636,7 +1636,7 @@ exports[`Compact renders correctly 1`] = `
         />
         <div
           style={
-            Object {
+            {
               "MozBoxFlex": "6",
               "WebkitBoxFlex": "6",
               "WebkitFlex": "6",
@@ -1651,10 +1651,9 @@ exports[`Compact renders correctly 1`] = `
             onBlur={[Function]}
             onChange={[Function]}
             onKeyDown={[Function]}
-            placeholder={undefined}
             spellCheck="false"
             style={
-              Object {
+              {
                 "background": "none",
                 "border": "none",
                 "color": "#333",
@@ -1672,7 +1671,7 @@ exports[`Compact renders correctly 1`] = `
             htmlFor="rc-editable-input-1"
             onMouseDown={[Function]}
             style={
-              Object {
+              {
                 "display": "none",
               }
             }
@@ -1682,7 +1681,7 @@ exports[`Compact renders correctly 1`] = `
         </div>
         <div
           style={
-            Object {
+            {
               "MozBoxFlex": "3",
               "WebkitBoxFlex": "3",
               "WebkitFlex": "3",
@@ -1697,10 +1696,9 @@ exports[`Compact renders correctly 1`] = `
             onBlur={[Function]}
             onChange={[Function]}
             onKeyDown={[Function]}
-            placeholder={undefined}
             spellCheck="false"
             style={
-              Object {
+              {
                 "background": "none",
                 "border": "none",
                 "color": "#333",
@@ -1718,7 +1716,7 @@ exports[`Compact renders correctly 1`] = `
             htmlFor="rc-editable-input-2"
             onMouseDown={[Function]}
             style={
-              Object {
+              {
                 "color": "#999",
                 "fontSize": "12px",
                 "left": "0px",
@@ -1734,7 +1732,7 @@ exports[`Compact renders correctly 1`] = `
         </div>
         <div
           style={
-            Object {
+            {
               "MozBoxFlex": "3",
               "WebkitBoxFlex": "3",
               "WebkitFlex": "3",
@@ -1749,10 +1747,9 @@ exports[`Compact renders correctly 1`] = `
             onBlur={[Function]}
             onChange={[Function]}
             onKeyDown={[Function]}
-            placeholder={undefined}
             spellCheck="false"
             style={
-              Object {
+              {
                 "background": "none",
                 "border": "none",
                 "color": "#333",
@@ -1770,7 +1767,7 @@ exports[`Compact renders correctly 1`] = `
             htmlFor="rc-editable-input-3"
             onMouseDown={[Function]}
             style={
-              Object {
+              {
                 "color": "#999",
                 "fontSize": "12px",
                 "left": "0px",
@@ -1786,7 +1783,7 @@ exports[`Compact renders correctly 1`] = `
         </div>
         <div
           style={
-            Object {
+            {
               "MozBoxFlex": "3",
               "WebkitBoxFlex": "3",
               "WebkitFlex": "3",
@@ -1801,10 +1798,9 @@ exports[`Compact renders correctly 1`] = `
             onBlur={[Function]}
             onChange={[Function]}
             onKeyDown={[Function]}
-            placeholder={undefined}
             spellCheck="false"
             style={
-              Object {
+              {
                 "background": "none",
                 "border": "none",
                 "color": "#333",
@@ -1822,7 +1818,7 @@ exports[`Compact renders correctly 1`] = `
             htmlFor="rc-editable-input-4"
             onMouseDown={[Function]}
             style={
-              Object {
+              {
                 "color": "#999",
                 "fontSize": "12px",
                 "left": "0px",
@@ -1845,7 +1841,7 @@ exports[`Compact renders correctly 1`] = `
 exports[`Compact with onSwatchHover renders correctly 1`] = `
 <div
   style={
-    Object {
+    {
       "display": "inline-block",
       "position": "relative",
     }
@@ -1853,7 +1849,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "MozBorderRadius": 2,
         "MozBoxShadow": "0 2px 10px rgba(0,0,0,.12), 0 2px 5px rgba(0,0,0,.16)",
         "OBorderRadius": 2,
@@ -1875,7 +1871,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
   />
   <div
     style={
-      Object {
+      {
         "position": "relative",
       }
     }
@@ -1883,7 +1879,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
     <div
       className="compact-picker "
       style={
-        Object {
+        {
           "boxSizing": "initial",
           "paddingLeft": "5px",
           "paddingTop": "5px",
@@ -1901,7 +1897,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#4D4D4D",
                 "cursor": "pointer",
                 "float": "left",
@@ -1918,7 +1914,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -1945,7 +1941,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#999999",
                 "cursor": "pointer",
                 "float": "left",
@@ -1962,7 +1958,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -1989,7 +1985,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "MozBoxShadow": "inset 0 0 0 1px #ddd",
                 "OBoxShadow": "inset 0 0 0 1px #ddd",
                 "WebkitBoxShadow": "inset 0 0 0 1px #ddd",
@@ -2011,7 +2007,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -2038,7 +2034,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#F44E3B",
                 "cursor": "pointer",
                 "float": "left",
@@ -2055,7 +2051,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -2082,7 +2078,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#FE9200",
                 "cursor": "pointer",
                 "float": "left",
@@ -2099,7 +2095,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -2126,7 +2122,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#FCDC00",
                 "cursor": "pointer",
                 "float": "left",
@@ -2143,7 +2139,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -2170,7 +2166,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#DBDF00",
                 "cursor": "pointer",
                 "float": "left",
@@ -2187,7 +2183,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -2214,7 +2210,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#A4DD00",
                 "cursor": "pointer",
                 "float": "left",
@@ -2231,7 +2227,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -2258,7 +2254,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#68CCCA",
                 "cursor": "pointer",
                 "float": "left",
@@ -2275,7 +2271,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -2302,7 +2298,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#73D8FF",
                 "cursor": "pointer",
                 "float": "left",
@@ -2319,7 +2315,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -2346,7 +2342,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#AEA1FF",
                 "cursor": "pointer",
                 "float": "left",
@@ -2363,7 +2359,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -2390,7 +2386,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#FDA1FF",
                 "cursor": "pointer",
                 "float": "left",
@@ -2407,7 +2403,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -2434,7 +2430,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#333333",
                 "cursor": "pointer",
                 "float": "left",
@@ -2451,7 +2447,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -2478,7 +2474,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#808080",
                 "cursor": "pointer",
                 "float": "left",
@@ -2495,7 +2491,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -2522,7 +2518,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#cccccc",
                 "cursor": "pointer",
                 "float": "left",
@@ -2539,7 +2535,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -2566,7 +2562,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#D33115",
                 "cursor": "pointer",
                 "float": "left",
@@ -2583,7 +2579,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -2610,7 +2606,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#E27300",
                 "cursor": "pointer",
                 "float": "left",
@@ -2627,7 +2623,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -2654,7 +2650,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#FCC400",
                 "cursor": "pointer",
                 "float": "left",
@@ -2671,7 +2667,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -2698,7 +2694,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#B0BC00",
                 "cursor": "pointer",
                 "float": "left",
@@ -2715,7 +2711,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -2742,7 +2738,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#68BC00",
                 "cursor": "pointer",
                 "float": "left",
@@ -2759,7 +2755,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -2786,7 +2782,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#16A5A5",
                 "cursor": "pointer",
                 "float": "left",
@@ -2803,7 +2799,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -2830,7 +2826,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#009CE0",
                 "cursor": "pointer",
                 "float": "left",
@@ -2847,7 +2843,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -2874,7 +2870,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#7B64FF",
                 "cursor": "pointer",
                 "float": "left",
@@ -2891,7 +2887,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -2918,7 +2914,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#FA28FF",
                 "cursor": "pointer",
                 "float": "left",
@@ -2935,7 +2931,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -2962,7 +2958,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#000000",
                 "cursor": "pointer",
                 "float": "left",
@@ -2979,7 +2975,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -3006,7 +3002,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#666666",
                 "cursor": "pointer",
                 "float": "left",
@@ -3023,7 +3019,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -3050,7 +3046,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#B3B3B3",
                 "cursor": "pointer",
                 "float": "left",
@@ -3067,7 +3063,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -3094,7 +3090,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#9F0500",
                 "cursor": "pointer",
                 "float": "left",
@@ -3111,7 +3107,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -3138,7 +3134,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#C45100",
                 "cursor": "pointer",
                 "float": "left",
@@ -3155,7 +3151,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -3182,7 +3178,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#FB9E00",
                 "cursor": "pointer",
                 "float": "left",
@@ -3199,7 +3195,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -3226,7 +3222,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#808900",
                 "cursor": "pointer",
                 "float": "left",
@@ -3243,7 +3239,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -3270,7 +3266,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#194D33",
                 "cursor": "pointer",
                 "float": "left",
@@ -3287,7 +3283,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -3314,7 +3310,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#0C797D",
                 "cursor": "pointer",
                 "float": "left",
@@ -3331,7 +3327,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -3358,7 +3354,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#0062B1",
                 "cursor": "pointer",
                 "float": "left",
@@ -3375,7 +3371,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -3402,7 +3398,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#653294",
                 "cursor": "pointer",
                 "float": "left",
@@ -3419,7 +3415,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -3446,7 +3442,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onKeyDown={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "background": "#AB149E",
                 "cursor": "pointer",
                 "float": "left",
@@ -3463,7 +3459,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": "50%",
                   "OBorderRadius": "50%",
                   "WebkitBorderRadius": "50%",
@@ -3483,7 +3479,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
         </span>
         <div
           style={
-            Object {
+            {
               "clear": "both",
             }
           }
@@ -3492,7 +3488,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
       <div
         className="flexbox-fix"
         style={
-          Object {
+          {
             "display": "flex",
             "paddingBottom": "6px",
             "paddingRight": "5px",
@@ -3502,7 +3498,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
       >
         <div
           style={
-            Object {
+            {
               "background": "#22194d",
               "height": "9px",
               "left": "5px",
@@ -3514,7 +3510,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
         />
         <div
           style={
-            Object {
+            {
               "MozBoxFlex": "6",
               "WebkitBoxFlex": "6",
               "WebkitFlex": "6",
@@ -3529,10 +3525,9 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onBlur={[Function]}
             onChange={[Function]}
             onKeyDown={[Function]}
-            placeholder={undefined}
             spellCheck="false"
             style={
-              Object {
+              {
                 "background": "none",
                 "border": "none",
                 "color": "#333",
@@ -3550,7 +3545,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             htmlFor="rc-editable-input-5"
             onMouseDown={[Function]}
             style={
-              Object {
+              {
                 "display": "none",
               }
             }
@@ -3560,7 +3555,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
         </div>
         <div
           style={
-            Object {
+            {
               "MozBoxFlex": "3",
               "WebkitBoxFlex": "3",
               "WebkitFlex": "3",
@@ -3575,10 +3570,9 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onBlur={[Function]}
             onChange={[Function]}
             onKeyDown={[Function]}
-            placeholder={undefined}
             spellCheck="false"
             style={
-              Object {
+              {
                 "background": "none",
                 "border": "none",
                 "color": "#333",
@@ -3596,7 +3590,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             htmlFor="rc-editable-input-6"
             onMouseDown={[Function]}
             style={
-              Object {
+              {
                 "color": "#999",
                 "fontSize": "12px",
                 "left": "0px",
@@ -3612,7 +3606,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
         </div>
         <div
           style={
-            Object {
+            {
               "MozBoxFlex": "3",
               "WebkitBoxFlex": "3",
               "WebkitFlex": "3",
@@ -3627,10 +3621,9 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onBlur={[Function]}
             onChange={[Function]}
             onKeyDown={[Function]}
-            placeholder={undefined}
             spellCheck="false"
             style={
-              Object {
+              {
                 "background": "none",
                 "border": "none",
                 "color": "#333",
@@ -3648,7 +3641,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             htmlFor="rc-editable-input-7"
             onMouseDown={[Function]}
             style={
-              Object {
+              {
                 "color": "#999",
                 "fontSize": "12px",
                 "left": "0px",
@@ -3664,7 +3657,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
         </div>
         <div
           style={
-            Object {
+            {
               "MozBoxFlex": "3",
               "WebkitBoxFlex": "3",
               "WebkitFlex": "3",
@@ -3679,10 +3672,9 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onBlur={[Function]}
             onChange={[Function]}
             onKeyDown={[Function]}
-            placeholder={undefined}
             spellCheck="false"
             style={
-              Object {
+              {
                 "background": "none",
                 "border": "none",
                 "color": "#333",
@@ -3700,7 +3692,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             htmlFor="rc-editable-input-8"
             onMouseDown={[Function]}
             style={
-              Object {
+              {
                 "color": "#999",
                 "fontSize": "12px",
                 "left": "0px",
@@ -3729,7 +3721,7 @@ exports[`CompactColor renders correctly 1`] = `
     onClick={[Function]}
     onKeyDown={[Function]}
     style={
-      Object {
+      {
         "background": undefined,
         "cursor": "pointer",
         "float": "left",
@@ -3742,11 +3734,10 @@ exports[`CompactColor renders correctly 1`] = `
       }
     }
     tabIndex={0}
-    title={undefined}
   >
     <div
       style={
-        Object {
+        {
           "MozBorderRadius": "50%",
           "OBorderRadius": "50%",
           "WebkitBorderRadius": "50%",
@@ -3770,7 +3761,7 @@ exports[`CompactFields renders correctly 1`] = `
 <div
   className="flexbox-fix"
   style={
-    Object {
+    {
       "display": "flex",
       "paddingBottom": "6px",
       "paddingRight": "5px",
@@ -3780,7 +3771,7 @@ exports[`CompactFields renders correctly 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "background": "#ff0000",
         "height": "9px",
         "left": "5px",
@@ -3792,7 +3783,7 @@ exports[`CompactFields renders correctly 1`] = `
   />
   <div
     style={
-      Object {
+      {
         "MozBoxFlex": "6",
         "WebkitBoxFlex": "6",
         "WebkitFlex": "6",
@@ -3807,10 +3798,9 @@ exports[`CompactFields renders correctly 1`] = `
       onBlur={[Function]}
       onChange={[Function]}
       onKeyDown={[Function]}
-      placeholder={undefined}
       spellCheck="false"
       style={
-        Object {
+        {
           "background": "none",
           "border": "none",
           "color": "#333",
@@ -3828,7 +3818,7 @@ exports[`CompactFields renders correctly 1`] = `
       htmlFor="rc-editable-input-17"
       onMouseDown={[Function]}
       style={
-        Object {
+        {
           "display": "none",
         }
       }
@@ -3838,7 +3828,7 @@ exports[`CompactFields renders correctly 1`] = `
   </div>
   <div
     style={
-      Object {
+      {
         "MozBoxFlex": "3",
         "WebkitBoxFlex": "3",
         "WebkitFlex": "3",
@@ -3853,10 +3843,9 @@ exports[`CompactFields renders correctly 1`] = `
       onBlur={[Function]}
       onChange={[Function]}
       onKeyDown={[Function]}
-      placeholder={undefined}
       spellCheck="false"
       style={
-        Object {
+        {
           "background": "none",
           "border": "none",
           "color": "#333",
@@ -3874,7 +3863,7 @@ exports[`CompactFields renders correctly 1`] = `
       htmlFor="rc-editable-input-18"
       onMouseDown={[Function]}
       style={
-        Object {
+        {
           "color": "#999",
           "fontSize": "12px",
           "left": "0px",
@@ -3890,7 +3879,7 @@ exports[`CompactFields renders correctly 1`] = `
   </div>
   <div
     style={
-      Object {
+      {
         "MozBoxFlex": "3",
         "WebkitBoxFlex": "3",
         "WebkitFlex": "3",
@@ -3905,10 +3894,9 @@ exports[`CompactFields renders correctly 1`] = `
       onBlur={[Function]}
       onChange={[Function]}
       onKeyDown={[Function]}
-      placeholder={undefined}
       spellCheck="false"
       style={
-        Object {
+        {
           "background": "none",
           "border": "none",
           "color": "#333",
@@ -3926,7 +3914,7 @@ exports[`CompactFields renders correctly 1`] = `
       htmlFor="rc-editable-input-19"
       onMouseDown={[Function]}
       style={
-        Object {
+        {
           "color": "#999",
           "fontSize": "12px",
           "left": "0px",
@@ -3942,7 +3930,7 @@ exports[`CompactFields renders correctly 1`] = `
   </div>
   <div
     style={
-      Object {
+      {
         "MozBoxFlex": "3",
         "WebkitBoxFlex": "3",
         "WebkitFlex": "3",
@@ -3957,10 +3945,9 @@ exports[`CompactFields renders correctly 1`] = `
       onBlur={[Function]}
       onChange={[Function]}
       onKeyDown={[Function]}
-      placeholder={undefined}
       spellCheck="false"
       style={
-        Object {
+        {
           "background": "none",
           "border": "none",
           "color": "#333",
@@ -3978,7 +3965,7 @@ exports[`CompactFields renders correctly 1`] = `
       htmlFor="rc-editable-input-20"
       onMouseDown={[Function]}
       style={
-        Object {
+        {
           "color": "#999",
           "fontSize": "12px",
           "left": "0px",

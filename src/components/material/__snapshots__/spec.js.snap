@@ -3,7 +3,7 @@
 exports[`Material renders correctly 1`] = `
 <div
   style={
-    Object {
+    {
       "display": "inline-block",
       "position": "relative",
     }
@@ -11,7 +11,7 @@ exports[`Material renders correctly 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "MozBorderRadius": 2,
         "MozBoxShadow": "0 2px 10px rgba(0,0,0,.12), 0 2px 5px rgba(0,0,0,.16)",
         "OBorderRadius": 2,
@@ -33,7 +33,7 @@ exports[`Material renders correctly 1`] = `
   />
   <div
     style={
-      Object {
+      {
         "position": "relative",
       }
     }
@@ -41,7 +41,7 @@ exports[`Material renders correctly 1`] = `
     <div
       className="material-picker "
       style={
-        Object {
+        {
           "fontFamily": "Roboto",
           "height": "98px",
           "padding": "16px",
@@ -51,7 +51,7 @@ exports[`Material renders correctly 1`] = `
     >
       <div
         style={
-          Object {
+          {
             "position": "relative",
           }
         }
@@ -61,10 +61,9 @@ exports[`Material renders correctly 1`] = `
           onBlur={[Function]}
           onChange={[Function]}
           onKeyDown={[Function]}
-          placeholder={undefined}
           spellCheck="false"
           style={
-            Object {
+            {
               "border": "0px",
               "borderBottom": "2px solid #22194d",
               "color": "#333",
@@ -82,7 +81,7 @@ exports[`Material renders correctly 1`] = `
           htmlFor="rc-editable-input-1"
           onMouseDown={[Function]}
           style={
-            Object {
+            {
               "color": "#999999",
               "fontSize": "11px",
               "left": "0px",
@@ -98,7 +97,7 @@ exports[`Material renders correctly 1`] = `
       <div
         className="flexbox-fix"
         style={
-          Object {
+          {
             "display": "flex",
             "marginRight": "-10px",
             "paddingTop": "11px",
@@ -107,7 +106,7 @@ exports[`Material renders correctly 1`] = `
       >
         <div
           style={
-            Object {
+            {
               "MozBoxFlex": "1",
               "WebkitBoxFlex": "1",
               "WebkitFlex": "1",
@@ -119,7 +118,7 @@ exports[`Material renders correctly 1`] = `
         >
           <div
             style={
-              Object {
+              {
                 "position": "relative",
               }
             }
@@ -129,10 +128,9 @@ exports[`Material renders correctly 1`] = `
               onBlur={[Function]}
               onChange={[Function]}
               onKeyDown={[Function]}
-              placeholder={undefined}
               spellCheck="false"
               style={
-                Object {
+                {
                   "border": "0px",
                   "borderBottom": "1px solid #eee",
                   "color": "#333",
@@ -150,7 +148,7 @@ exports[`Material renders correctly 1`] = `
               htmlFor="rc-editable-input-2"
               onMouseDown={[Function]}
               style={
-                Object {
+                {
                   "color": "#999999",
                   "fontSize": "11px",
                   "left": "0px",
@@ -166,7 +164,7 @@ exports[`Material renders correctly 1`] = `
         </div>
         <div
           style={
-            Object {
+            {
               "MozBoxFlex": "1",
               "WebkitBoxFlex": "1",
               "WebkitFlex": "1",
@@ -178,7 +176,7 @@ exports[`Material renders correctly 1`] = `
         >
           <div
             style={
-              Object {
+              {
                 "position": "relative",
               }
             }
@@ -188,10 +186,9 @@ exports[`Material renders correctly 1`] = `
               onBlur={[Function]}
               onChange={[Function]}
               onKeyDown={[Function]}
-              placeholder={undefined}
               spellCheck="false"
               style={
-                Object {
+                {
                   "border": "0px",
                   "borderBottom": "1px solid #eee",
                   "color": "#333",
@@ -209,7 +206,7 @@ exports[`Material renders correctly 1`] = `
               htmlFor="rc-editable-input-3"
               onMouseDown={[Function]}
               style={
-                Object {
+                {
                   "color": "#999999",
                   "fontSize": "11px",
                   "left": "0px",
@@ -225,7 +222,7 @@ exports[`Material renders correctly 1`] = `
         </div>
         <div
           style={
-            Object {
+            {
               "MozBoxFlex": "1",
               "WebkitBoxFlex": "1",
               "WebkitFlex": "1",
@@ -237,7 +234,7 @@ exports[`Material renders correctly 1`] = `
         >
           <div
             style={
-              Object {
+              {
                 "position": "relative",
               }
             }
@@ -247,10 +244,9 @@ exports[`Material renders correctly 1`] = `
               onBlur={[Function]}
               onChange={[Function]}
               onKeyDown={[Function]}
-              placeholder={undefined}
               spellCheck="false"
               style={
-                Object {
+                {
                   "border": "0px",
                   "borderBottom": "1px solid #eee",
                   "color": "#333",
@@ -268,7 +264,7 @@ exports[`Material renders correctly 1`] = `
               htmlFor="rc-editable-input-4"
               onMouseDown={[Function]}
               style={
-                Object {
+                {
                   "color": "#999999",
                   "fontSize": "11px",
                   "left": "0px",

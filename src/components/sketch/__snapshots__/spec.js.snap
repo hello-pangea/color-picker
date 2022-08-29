@@ -4,7 +4,7 @@ exports[`Sketch renders correctly 1`] = `
 <div
   className="sketch-picker "
   style={
-    Object {
+    {
       "MozBorderRadius": "4px",
       "MozBoxShadow": "0 0 0 1px rgba(0,0,0,.15), 0 8px 16px rgba(0,0,0,.15)",
       "OBorderRadius": "4px",
@@ -24,7 +24,7 @@ exports[`Sketch renders correctly 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "overflow": "hidden",
         "paddingBottom": "75%",
         "position": "relative",
@@ -37,7 +37,7 @@ exports[`Sketch renders correctly 1`] = `
       onTouchMove={[Function]}
       onTouchStart={[Function]}
       style={
-        Object {
+        {
           "MozBorderRadius": undefined,
           "OBorderRadius": undefined,
           "WebkitBorderRadius": undefined,
@@ -54,20 +54,20 @@ exports[`Sketch renders correctly 1`] = `
     >
       <style>
         
-                  .saturation-white {
-                    background: -webkit-linear-gradient(to right, #fff, rgba(255,255,255,0));
-                    background: linear-gradient(to right, #fff, rgba(255,255,255,0));
-                  }
-                  .saturation-black {
-                    background: -webkit-linear-gradient(to top, #000, rgba(0,0,0,0));
-                    background: linear-gradient(to top, #000, rgba(0,0,0,0));
-                  }
-                
+          .saturation-white {
+            background: -webkit-linear-gradient(to right, #fff, rgba(255,255,255,0));
+            background: linear-gradient(to right, #fff, rgba(255,255,255,0));
+          }
+          .saturation-black {
+            background: -webkit-linear-gradient(to top, #000, rgba(0,0,0,0));
+            background: linear-gradient(to top, #000, rgba(0,0,0,0));
+          }
+        
       </style>
       <div
         className="saturation-white"
         style={
-          Object {
+          {
             "MozBorderRadius": undefined,
             "OBorderRadius": undefined,
             "WebkitBorderRadius": undefined,
@@ -84,7 +84,7 @@ exports[`Sketch renders correctly 1`] = `
         <div
           className="saturation-black"
           style={
-            Object {
+            {
               "MozBorderRadius": undefined,
               "MozBoxShadow": undefined,
               "OBorderRadius": undefined,
@@ -105,7 +105,7 @@ exports[`Sketch renders correctly 1`] = `
         />
         <div
           style={
-            Object {
+            {
               "cursor": "default",
               "left": "66.66666666666667%",
               "position": "absolute",
@@ -115,27 +115,27 @@ exports[`Sketch renders correctly 1`] = `
         >
           <div
             style={
-              Object {
+              {
                 "MozBorderRadius": "50%",
                 "MozBoxShadow": "0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0,0,0,.3),
-                          0 0 1px 2px rgba(0,0,0,.4)",
+            0 0 1px 2px rgba(0,0,0,.4)",
                 "MozTransform": "translate(-2px, -2px)",
                 "OBorderRadius": "50%",
                 "OBoxShadow": "0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0,0,0,.3),
-                          0 0 1px 2px rgba(0,0,0,.4)",
+            0 0 1px 2px rgba(0,0,0,.4)",
                 "OTransform": "translate(-2px, -2px)",
                 "WebkitBorderRadius": "50%",
                 "WebkitBoxShadow": "0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0,0,0,.3),
-                          0 0 1px 2px rgba(0,0,0,.4)",
+            0 0 1px 2px rgba(0,0,0,.4)",
                 "WebkitTransform": "translate(-2px, -2px)",
                 "borderRadius": "50%",
                 "boxShadow": "0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0,0,0,.3),
-                          0 0 1px 2px rgba(0,0,0,.4)",
+            0 0 1px 2px rgba(0,0,0,.4)",
                 "cursor": "hand",
                 "height": "4px",
                 "msBorderRadius": "50%",
                 "msBoxShadow": "0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0,0,0,.3),
-                          0 0 1px 2px rgba(0,0,0,.4)",
+            0 0 1px 2px rgba(0,0,0,.4)",
                 "msTransform": "translate(-2px, -2px)",
                 "transform": "translate(-2px, -2px)",
                 "width": "4px",
@@ -149,14 +149,14 @@ exports[`Sketch renders correctly 1`] = `
   <div
     className="flexbox-fix"
     style={
-      Object {
+      {
         "display": "flex",
       }
     }
   >
     <div
       style={
-        Object {
+        {
           "MozBoxFlex": "1",
           "WebkitBoxFlex": "1",
           "WebkitFlex": "1",
@@ -168,7 +168,7 @@ exports[`Sketch renders correctly 1`] = `
     >
       <div
         style={
-          Object {
+          {
             "height": "10px",
             "overflow": "hidden",
             "position": "relative",
@@ -177,7 +177,7 @@ exports[`Sketch renders correctly 1`] = `
       >
         <div
           style={
-            Object {
+            {
               "MozBorderRadius": undefined,
               "MozBoxShadow": undefined,
               "OBorderRadius": undefined,
@@ -202,7 +202,7 @@ exports[`Sketch renders correctly 1`] = `
             onTouchMove={[Function]}
             onTouchStart={[Function]}
             style={
-              Object {
+              {
                 "MozBorderRadius": undefined,
                 "OBorderRadius": undefined,
                 "WebkitBorderRadius": undefined,
@@ -216,24 +216,24 @@ exports[`Sketch renders correctly 1`] = `
           >
             <style>
               
-                          .hue-horizontal {
-                            background: linear-gradient(to right, #f00 0%, #ff0 17%, #0f0
-                              33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
-                            background: -webkit-linear-gradient(to right, #f00 0%, #ff0
-                              17%, #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
-                          }
-              
-                          .hue-vertical {
-                            background: linear-gradient(to top, #f00 0%, #ff0 17%, #0f0 33%,
-                              #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
-                            background: -webkit-linear-gradient(to top, #f00 0%, #ff0 17%,
-                              #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
-                          }
-                        
+            .hue-horizontal {
+              background: linear-gradient(to right, #f00 0%, #ff0 17%, #0f0
+                33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
+              background: -webkit-linear-gradient(to right, #f00 0%, #ff0
+                17%, #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
+            }
+
+            .hue-vertical {
+              background: linear-gradient(to top, #f00 0%, #ff0 17%, #0f0 33%,
+                #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
+              background: -webkit-linear-gradient(to top, #f00 0%, #ff0 17%,
+                #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
+            }
+          
             </style>
             <div
               style={
-                Object {
+                {
                   "left": "69.44444444444443%",
                   "position": "absolute",
                 }
@@ -241,7 +241,7 @@ exports[`Sketch renders correctly 1`] = `
             >
               <div
                 style={
-                  Object {
+                  {
                     "MozBorderRadius": "1px",
                     "MozBoxShadow": "0 0 2px rgba(0, 0, 0, .6)",
                     "MozTransform": "translateX(-2px)",
@@ -270,7 +270,7 @@ exports[`Sketch renders correctly 1`] = `
       </div>
       <div
         style={
-          Object {
+          {
             "height": "10px",
             "marginTop": "4px",
             "overflow": "hidden",
@@ -280,7 +280,7 @@ exports[`Sketch renders correctly 1`] = `
       >
         <div
           style={
-            Object {
+            {
               "MozBorderRadius": undefined,
               "OBorderRadius": undefined,
               "WebkitBorderRadius": undefined,
@@ -296,7 +296,7 @@ exports[`Sketch renders correctly 1`] = `
         >
           <div
             style={
-              Object {
+              {
                 "MozBorderRadius": undefined,
                 "OBorderRadius": undefined,
                 "WebkitBorderRadius": undefined,
@@ -313,7 +313,7 @@ exports[`Sketch renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": undefined,
                   "MozBoxShadow": undefined,
                   "OBorderRadius": undefined,
@@ -336,7 +336,7 @@ exports[`Sketch renders correctly 1`] = `
           </div>
           <div
             style={
-              Object {
+              {
                 "MozBorderRadius": undefined,
                 "MozBoxShadow": undefined,
                 "OBorderRadius": undefined,
@@ -344,7 +344,7 @@ exports[`Sketch renders correctly 1`] = `
                 "WebkitBorderRadius": undefined,
                 "WebkitBoxShadow": undefined,
                 "background": "linear-gradient(to right, rgba(34,25,77, 0) 0%,
-                         rgba(34,25,77, 1) 100%)",
+           rgba(34,25,77, 1) 100%)",
                 "borderRadius": undefined,
                 "bottom": "0px",
                 "boxShadow": undefined,
@@ -362,7 +362,7 @@ exports[`Sketch renders correctly 1`] = `
             onTouchMove={[Function]}
             onTouchStart={[Function]}
             style={
-              Object {
+              {
                 "height": "100%",
                 "margin": "0 3px",
                 "position": "relative",
@@ -371,7 +371,7 @@ exports[`Sketch renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "left": "100%",
                   "position": "absolute",
                 }
@@ -379,7 +379,7 @@ exports[`Sketch renders correctly 1`] = `
             >
               <div
                 style={
-                  Object {
+                  {
                     "MozBorderRadius": "1px",
                     "MozBoxShadow": "0 0 2px rgba(0, 0, 0, .6)",
                     "MozTransform": "translateX(-2px)",
@@ -409,7 +409,7 @@ exports[`Sketch renders correctly 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "MozBorderRadius": "3px",
           "OBorderRadius": "3px",
           "WebkitBorderRadius": "3px",
@@ -425,7 +425,7 @@ exports[`Sketch renders correctly 1`] = `
     >
       <div
         style={
-          Object {
+          {
             "MozBorderRadius": undefined,
             "MozBoxShadow": undefined,
             "OBorderRadius": undefined,
@@ -447,7 +447,7 @@ exports[`Sketch renders correctly 1`] = `
       />
       <div
         style={
-          Object {
+          {
             "MozBorderRadius": "2px",
             "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15), inset 0 0 4px rgba(0,0,0,.25)",
             "OBorderRadius": "2px",
@@ -472,7 +472,7 @@ exports[`Sketch renders correctly 1`] = `
   <div
     className="flexbox-fix"
     style={
-      Object {
+      {
         "display": "flex",
         "paddingTop": "4px",
       }
@@ -480,7 +480,7 @@ exports[`Sketch renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "MozBoxFlex": "2",
           "WebkitBoxFlex": "2",
           "WebkitFlex": "2",
@@ -491,7 +491,7 @@ exports[`Sketch renders correctly 1`] = `
     >
       <div
         style={
-          Object {
+          {
             "position": "relative",
           }
         }
@@ -501,10 +501,9 @@ exports[`Sketch renders correctly 1`] = `
           onBlur={[Function]}
           onChange={[Function]}
           onKeyDown={[Function]}
-          placeholder={undefined}
           spellCheck="false"
           style={
-            Object {
+            {
               "MozBoxShadow": "inset 0 0 0 1px #ccc",
               "OBoxShadow": "inset 0 0 0 1px #ccc",
               "WebkitBoxShadow": "inset 0 0 0 1px #ccc",
@@ -522,7 +521,7 @@ exports[`Sketch renders correctly 1`] = `
           htmlFor="rc-editable-input-1"
           onMouseDown={[Function]}
           style={
-            Object {
+            {
               "color": "#222",
               "display": "block",
               "fontSize": "11px",
@@ -539,7 +538,7 @@ exports[`Sketch renders correctly 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "MozBoxFlex": "1",
           "WebkitBoxFlex": "1",
           "WebkitFlex": "1",
@@ -551,7 +550,7 @@ exports[`Sketch renders correctly 1`] = `
     >
       <div
         style={
-          Object {
+          {
             "position": "relative",
           }
         }
@@ -561,10 +560,9 @@ exports[`Sketch renders correctly 1`] = `
           onBlur={[Function]}
           onChange={[Function]}
           onKeyDown={[Function]}
-          placeholder={undefined}
           spellCheck="false"
           style={
-            Object {
+            {
               "MozBoxShadow": "inset 0 0 0 1px #ccc",
               "OBoxShadow": "inset 0 0 0 1px #ccc",
               "WebkitBoxShadow": "inset 0 0 0 1px #ccc",
@@ -582,7 +580,7 @@ exports[`Sketch renders correctly 1`] = `
           htmlFor="rc-editable-input-2"
           onMouseDown={[Function]}
           style={
-            Object {
+            {
               "color": "#222",
               "cursor": "ew-resize",
               "display": "block",
@@ -600,7 +598,7 @@ exports[`Sketch renders correctly 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "MozBoxFlex": "1",
           "WebkitBoxFlex": "1",
           "WebkitFlex": "1",
@@ -612,7 +610,7 @@ exports[`Sketch renders correctly 1`] = `
     >
       <div
         style={
-          Object {
+          {
             "position": "relative",
           }
         }
@@ -622,10 +620,9 @@ exports[`Sketch renders correctly 1`] = `
           onBlur={[Function]}
           onChange={[Function]}
           onKeyDown={[Function]}
-          placeholder={undefined}
           spellCheck="false"
           style={
-            Object {
+            {
               "MozBoxShadow": "inset 0 0 0 1px #ccc",
               "OBoxShadow": "inset 0 0 0 1px #ccc",
               "WebkitBoxShadow": "inset 0 0 0 1px #ccc",
@@ -643,7 +640,7 @@ exports[`Sketch renders correctly 1`] = `
           htmlFor="rc-editable-input-3"
           onMouseDown={[Function]}
           style={
-            Object {
+            {
               "color": "#222",
               "cursor": "ew-resize",
               "display": "block",
@@ -661,7 +658,7 @@ exports[`Sketch renders correctly 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "MozBoxFlex": "1",
           "WebkitBoxFlex": "1",
           "WebkitFlex": "1",
@@ -673,7 +670,7 @@ exports[`Sketch renders correctly 1`] = `
     >
       <div
         style={
-          Object {
+          {
             "position": "relative",
           }
         }
@@ -683,10 +680,9 @@ exports[`Sketch renders correctly 1`] = `
           onBlur={[Function]}
           onChange={[Function]}
           onKeyDown={[Function]}
-          placeholder={undefined}
           spellCheck="false"
           style={
-            Object {
+            {
               "MozBoxShadow": "inset 0 0 0 1px #ccc",
               "OBoxShadow": "inset 0 0 0 1px #ccc",
               "WebkitBoxShadow": "inset 0 0 0 1px #ccc",
@@ -704,7 +700,7 @@ exports[`Sketch renders correctly 1`] = `
           htmlFor="rc-editable-input-4"
           onMouseDown={[Function]}
           style={
-            Object {
+            {
               "color": "#222",
               "cursor": "ew-resize",
               "display": "block",
@@ -722,7 +718,7 @@ exports[`Sketch renders correctly 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "MozBoxFlex": "1",
           "WebkitBoxFlex": "1",
           "WebkitFlex": "1",
@@ -734,7 +730,7 @@ exports[`Sketch renders correctly 1`] = `
     >
       <div
         style={
-          Object {
+          {
             "position": "relative",
           }
         }
@@ -744,10 +740,9 @@ exports[`Sketch renders correctly 1`] = `
           onBlur={[Function]}
           onChange={[Function]}
           onKeyDown={[Function]}
-          placeholder={undefined}
           spellCheck="false"
           style={
-            Object {
+            {
               "MozBoxShadow": "inset 0 0 0 1px #ccc",
               "OBoxShadow": "inset 0 0 0 1px #ccc",
               "WebkitBoxShadow": "inset 0 0 0 1px #ccc",
@@ -765,7 +760,7 @@ exports[`Sketch renders correctly 1`] = `
           htmlFor="rc-editable-input-5"
           onMouseDown={[Function]}
           style={
-            Object {
+            {
               "color": "#222",
               "cursor": "ew-resize",
               "display": "block",
@@ -785,7 +780,7 @@ exports[`Sketch renders correctly 1`] = `
   <div
     className="flexbox-fix"
     style={
-      Object {
+      {
         "borderTop": "1px solid #eee",
         "display": "flex",
         "flexWrap": "wrap",
@@ -797,7 +792,7 @@ exports[`Sketch renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "height": "16px",
           "margin": "0 10px 10px 0",
           "width": "16px",
@@ -812,7 +807,7 @@ exports[`Sketch renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "3px",
               "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "OBorderRadius": "3px",
@@ -838,7 +833,7 @@ exports[`Sketch renders correctly 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "height": "16px",
           "margin": "0 10px 10px 0",
           "width": "16px",
@@ -853,7 +848,7 @@ exports[`Sketch renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "3px",
               "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "OBorderRadius": "3px",
@@ -879,7 +874,7 @@ exports[`Sketch renders correctly 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "height": "16px",
           "margin": "0 10px 10px 0",
           "width": "16px",
@@ -894,7 +889,7 @@ exports[`Sketch renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "3px",
               "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "OBorderRadius": "3px",
@@ -920,7 +915,7 @@ exports[`Sketch renders correctly 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "height": "16px",
           "margin": "0 10px 10px 0",
           "width": "16px",
@@ -935,7 +930,7 @@ exports[`Sketch renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "3px",
               "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "OBorderRadius": "3px",
@@ -961,7 +956,7 @@ exports[`Sketch renders correctly 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "height": "16px",
           "margin": "0 10px 10px 0",
           "width": "16px",
@@ -976,7 +971,7 @@ exports[`Sketch renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "3px",
               "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "OBorderRadius": "3px",
@@ -1002,7 +997,7 @@ exports[`Sketch renders correctly 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "height": "16px",
           "margin": "0 10px 10px 0",
           "width": "16px",
@@ -1017,7 +1012,7 @@ exports[`Sketch renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "3px",
               "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "OBorderRadius": "3px",
@@ -1043,7 +1038,7 @@ exports[`Sketch renders correctly 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "height": "16px",
           "margin": "0 10px 10px 0",
           "width": "16px",
@@ -1058,7 +1053,7 @@ exports[`Sketch renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "3px",
               "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "OBorderRadius": "3px",
@@ -1084,7 +1079,7 @@ exports[`Sketch renders correctly 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "height": "16px",
           "margin": "0 10px 10px 0",
           "width": "16px",
@@ -1099,7 +1094,7 @@ exports[`Sketch renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "3px",
               "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "OBorderRadius": "3px",
@@ -1125,7 +1120,7 @@ exports[`Sketch renders correctly 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "height": "16px",
           "margin": "0 10px 10px 0",
           "width": "16px",
@@ -1140,7 +1135,7 @@ exports[`Sketch renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "3px",
               "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "OBorderRadius": "3px",
@@ -1166,7 +1161,7 @@ exports[`Sketch renders correctly 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "height": "16px",
           "margin": "0 10px 10px 0",
           "width": "16px",
@@ -1181,7 +1176,7 @@ exports[`Sketch renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "3px",
               "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "OBorderRadius": "3px",
@@ -1207,7 +1202,7 @@ exports[`Sketch renders correctly 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "height": "16px",
           "margin": "0 10px 10px 0",
           "width": "16px",
@@ -1222,7 +1217,7 @@ exports[`Sketch renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "3px",
               "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "OBorderRadius": "3px",
@@ -1248,7 +1243,7 @@ exports[`Sketch renders correctly 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "height": "16px",
           "margin": "0 10px 10px 0",
           "width": "16px",
@@ -1263,7 +1258,7 @@ exports[`Sketch renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "3px",
               "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "OBorderRadius": "3px",
@@ -1289,7 +1284,7 @@ exports[`Sketch renders correctly 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "height": "16px",
           "margin": "0 10px 10px 0",
           "width": "16px",
@@ -1304,7 +1299,7 @@ exports[`Sketch renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "3px",
               "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "OBorderRadius": "3px",
@@ -1330,7 +1325,7 @@ exports[`Sketch renders correctly 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "height": "16px",
           "margin": "0 10px 10px 0",
           "width": "16px",
@@ -1345,7 +1340,7 @@ exports[`Sketch renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "3px",
               "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "OBorderRadius": "3px",
@@ -1371,7 +1366,7 @@ exports[`Sketch renders correctly 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "height": "16px",
           "margin": "0 10px 10px 0",
           "width": "16px",
@@ -1386,7 +1381,7 @@ exports[`Sketch renders correctly 1`] = `
           onClick={[Function]}
           onKeyDown={[Function]}
           style={
-            Object {
+            {
               "MozBorderRadius": "3px",
               "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "OBorderRadius": "3px",
@@ -1418,7 +1413,7 @@ exports[`SketchFields renders correctly 1`] = `
 <div
   className="flexbox-fix"
   style={
-    Object {
+    {
       "display": "flex",
       "paddingTop": "4px",
     }
@@ -1426,7 +1421,7 @@ exports[`SketchFields renders correctly 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "MozBoxFlex": "2",
         "WebkitBoxFlex": "2",
         "WebkitFlex": "2",
@@ -1437,7 +1432,7 @@ exports[`SketchFields renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "position": "relative",
         }
       }
@@ -1447,10 +1442,9 @@ exports[`SketchFields renders correctly 1`] = `
         onBlur={[Function]}
         onChange={[Function]}
         onKeyDown={[Function]}
-        placeholder={undefined}
         spellCheck="false"
         style={
-          Object {
+          {
             "MozBoxShadow": "inset 0 0 0 1px #ccc",
             "OBoxShadow": "inset 0 0 0 1px #ccc",
             "WebkitBoxShadow": "inset 0 0 0 1px #ccc",
@@ -1468,7 +1462,7 @@ exports[`SketchFields renders correctly 1`] = `
         htmlFor="rc-editable-input-21"
         onMouseDown={[Function]}
         style={
-          Object {
+          {
             "color": "#222",
             "display": "block",
             "fontSize": "11px",
@@ -1485,7 +1479,7 @@ exports[`SketchFields renders correctly 1`] = `
   </div>
   <div
     style={
-      Object {
+      {
         "MozBoxFlex": "1",
         "WebkitBoxFlex": "1",
         "WebkitFlex": "1",
@@ -1497,7 +1491,7 @@ exports[`SketchFields renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "position": "relative",
         }
       }
@@ -1507,10 +1501,9 @@ exports[`SketchFields renders correctly 1`] = `
         onBlur={[Function]}
         onChange={[Function]}
         onKeyDown={[Function]}
-        placeholder={undefined}
         spellCheck="false"
         style={
-          Object {
+          {
             "MozBoxShadow": "inset 0 0 0 1px #ccc",
             "OBoxShadow": "inset 0 0 0 1px #ccc",
             "WebkitBoxShadow": "inset 0 0 0 1px #ccc",
@@ -1528,7 +1521,7 @@ exports[`SketchFields renders correctly 1`] = `
         htmlFor="rc-editable-input-22"
         onMouseDown={[Function]}
         style={
-          Object {
+          {
             "color": "#222",
             "cursor": "ew-resize",
             "display": "block",
@@ -1546,7 +1539,7 @@ exports[`SketchFields renders correctly 1`] = `
   </div>
   <div
     style={
-      Object {
+      {
         "MozBoxFlex": "1",
         "WebkitBoxFlex": "1",
         "WebkitFlex": "1",
@@ -1558,7 +1551,7 @@ exports[`SketchFields renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "position": "relative",
         }
       }
@@ -1568,10 +1561,9 @@ exports[`SketchFields renders correctly 1`] = `
         onBlur={[Function]}
         onChange={[Function]}
         onKeyDown={[Function]}
-        placeholder={undefined}
         spellCheck="false"
         style={
-          Object {
+          {
             "MozBoxShadow": "inset 0 0 0 1px #ccc",
             "OBoxShadow": "inset 0 0 0 1px #ccc",
             "WebkitBoxShadow": "inset 0 0 0 1px #ccc",
@@ -1589,7 +1581,7 @@ exports[`SketchFields renders correctly 1`] = `
         htmlFor="rc-editable-input-23"
         onMouseDown={[Function]}
         style={
-          Object {
+          {
             "color": "#222",
             "cursor": "ew-resize",
             "display": "block",
@@ -1607,7 +1599,7 @@ exports[`SketchFields renders correctly 1`] = `
   </div>
   <div
     style={
-      Object {
+      {
         "MozBoxFlex": "1",
         "WebkitBoxFlex": "1",
         "WebkitFlex": "1",
@@ -1619,7 +1611,7 @@ exports[`SketchFields renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "position": "relative",
         }
       }
@@ -1629,10 +1621,9 @@ exports[`SketchFields renders correctly 1`] = `
         onBlur={[Function]}
         onChange={[Function]}
         onKeyDown={[Function]}
-        placeholder={undefined}
         spellCheck="false"
         style={
-          Object {
+          {
             "MozBoxShadow": "inset 0 0 0 1px #ccc",
             "OBoxShadow": "inset 0 0 0 1px #ccc",
             "WebkitBoxShadow": "inset 0 0 0 1px #ccc",
@@ -1650,7 +1641,7 @@ exports[`SketchFields renders correctly 1`] = `
         htmlFor="rc-editable-input-24"
         onMouseDown={[Function]}
         style={
-          Object {
+          {
             "color": "#222",
             "cursor": "ew-resize",
             "display": "block",
@@ -1668,7 +1659,7 @@ exports[`SketchFields renders correctly 1`] = `
   </div>
   <div
     style={
-      Object {
+      {
         "MozBoxFlex": "1",
         "WebkitBoxFlex": "1",
         "WebkitFlex": "1",
@@ -1680,7 +1671,7 @@ exports[`SketchFields renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "position": "relative",
         }
       }
@@ -1690,10 +1681,9 @@ exports[`SketchFields renders correctly 1`] = `
         onBlur={[Function]}
         onChange={[Function]}
         onKeyDown={[Function]}
-        placeholder={undefined}
         spellCheck="false"
         style={
-          Object {
+          {
             "MozBoxShadow": "inset 0 0 0 1px #ccc",
             "OBoxShadow": "inset 0 0 0 1px #ccc",
             "WebkitBoxShadow": "inset 0 0 0 1px #ccc",
@@ -1711,7 +1701,7 @@ exports[`SketchFields renders correctly 1`] = `
         htmlFor="rc-editable-input-25"
         onMouseDown={[Function]}
         style={
-          Object {
+          {
             "color": "#222",
             "cursor": "ew-resize",
             "display": "block",
@@ -1734,7 +1724,7 @@ exports[`SketchPresetColors renders correctly 1`] = `
 <div
   className="flexbox-fix"
   style={
-    Object {
+    {
       "borderTop": "1px solid #eee",
       "display": "flex",
       "flexWrap": "wrap",
@@ -1746,7 +1736,7 @@ exports[`SketchPresetColors renders correctly 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "height": "16px",
         "margin": "0 10px 10px 0",
         "width": "16px",
@@ -1761,7 +1751,7 @@ exports[`SketchPresetColors renders correctly 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "3px",
             "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "OBorderRadius": "3px",
@@ -1787,7 +1777,7 @@ exports[`SketchPresetColors renders correctly 1`] = `
   </div>
   <div
     style={
-      Object {
+      {
         "height": "16px",
         "margin": "0 10px 10px 0",
         "width": "16px",
@@ -1802,7 +1792,7 @@ exports[`SketchPresetColors renders correctly 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "3px",
             "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "OBorderRadius": "3px",
@@ -1828,7 +1818,7 @@ exports[`SketchPresetColors renders correctly 1`] = `
   </div>
   <div
     style={
-      Object {
+      {
         "height": "16px",
         "margin": "0 10px 10px 0",
         "width": "16px",
@@ -1843,7 +1833,7 @@ exports[`SketchPresetColors renders correctly 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "3px",
             "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "OBorderRadius": "3px",
@@ -1874,7 +1864,7 @@ exports[`SketchPresetColors with custom titles renders correctly 1`] = `
 <div
   className="flexbox-fix"
   style={
-    Object {
+    {
       "borderTop": "1px solid #eee",
       "display": "flex",
       "flexWrap": "wrap",
@@ -1886,7 +1876,7 @@ exports[`SketchPresetColors with custom titles renders correctly 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "height": "16px",
         "margin": "0 10px 10px 0",
         "width": "16px",
@@ -1901,7 +1891,7 @@ exports[`SketchPresetColors with custom titles renders correctly 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "3px",
             "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "OBorderRadius": "3px",
@@ -1927,7 +1917,7 @@ exports[`SketchPresetColors with custom titles renders correctly 1`] = `
   </div>
   <div
     style={
-      Object {
+      {
         "height": "16px",
         "margin": "0 10px 10px 0",
         "width": "16px",
@@ -1942,7 +1932,7 @@ exports[`SketchPresetColors with custom titles renders correctly 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "3px",
             "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "OBorderRadius": "3px",
@@ -1968,7 +1958,7 @@ exports[`SketchPresetColors with custom titles renders correctly 1`] = `
   </div>
   <div
     style={
-      Object {
+      {
         "height": "16px",
         "margin": "0 10px 10px 0",
         "width": "16px",
@@ -1983,7 +1973,7 @@ exports[`SketchPresetColors with custom titles renders correctly 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "3px",
             "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "OBorderRadius": "3px",
@@ -2009,7 +1999,7 @@ exports[`SketchPresetColors with custom titles renders correctly 1`] = `
   </div>
   <div
     style={
-      Object {
+      {
         "height": "16px",
         "margin": "0 10px 10px 0",
         "width": "16px",
@@ -2024,7 +2014,7 @@ exports[`SketchPresetColors with custom titles renders correctly 1`] = `
         onClick={[Function]}
         onKeyDown={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "3px",
             "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "OBorderRadius": "3px",
