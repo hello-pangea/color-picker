@@ -1,26 +1,24 @@
-import React from "react";
-import PropTypes from "prop-types";
-import reactCSS from "reactcss";
 import merge from "lodash/merge";
-
-import { ColorWrap, Saturation, Hue, Alpha, Checkboard } from "../common";
+import PropTypes from "prop-types";
+import React from "react";
+import reactCSS from "reactcss";
+import { useColor, withColorProvider } from "../../context/useColor";
+import { Alpha, Checkboard, Hue, Saturation } from "../common";
 import ChromeFields from "./ChromeFields";
 import ChromePointer from "./ChromePointer";
 import ChromePointerCircle from "./ChromePointerCircle";
 
 export const Chrome = ({
   width,
-  onChange,
   disableAlpha,
-  rgb,
-  hsl,
-  hsv,
-  hex,
   renderers,
   styles: passedStyles = {},
   className = "",
   defaultView,
 }) => {
+  const { colors, changeColor } = useColor();
+  const { rgb, hex, hsl, hsv } = colors;
+
   const styles = reactCSS(
     merge(
       {
@@ -116,7 +114,7 @@ export const Chrome = ({
           hsl={hsl}
           hsv={hsv}
           pointer={ChromePointerCircle}
-          onChange={onChange}
+          onChange={changeColor}
         />
       </div>
       <div style={styles.body}>
@@ -133,7 +131,7 @@ export const Chrome = ({
                 style={styles.Hue}
                 hsl={hsl}
                 pointer={ChromePointer}
-                onChange={onChange}
+                onChange={changeColor}
               />
             </div>
             <div style={styles.alpha}>
@@ -143,7 +141,7 @@ export const Chrome = ({
                 hsl={hsl}
                 pointer={ChromePointer}
                 renderers={renderers}
-                onChange={onChange}
+                onChange={changeColor}
               />
             </div>
           </div>
@@ -153,7 +151,7 @@ export const Chrome = ({
           hsl={hsl}
           hex={hex}
           view={defaultView}
-          onChange={onChange}
+          onChange={changeColor}
           disableAlpha={disableAlpha}
         />
       </div>
@@ -174,4 +172,4 @@ Chrome.defaultProps = {
   styles: {},
 };
 
-export default ColorWrap(Chrome);
+export default withColorProvider(Chrome);

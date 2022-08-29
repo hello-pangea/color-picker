@@ -1,26 +1,27 @@
-import React from "react";
-import PropTypes from "prop-types";
-import reactCSS from "reactcss";
 import merge from "lodash/merge";
+import PropTypes from "prop-types";
+import React from "react";
+import reactCSS from "reactcss";
+import { useColor, withColorProvider } from "../../context/useColor";
 import * as color from "../../helpers/color";
-
-import { ColorWrap, EditableInput, Checkboard } from "../common";
+import { Checkboard, EditableInput } from "../common";
 import BlockSwatches from "./BlockSwatches";
 
 export const Block = ({
-  onChange,
   onSwatchHover,
-  hex,
   colors,
   width,
   triangle,
   styles: passedStyles = {},
   className = "",
 }) => {
+  const { colors: currentColors, changeColor } = useColor();
+  const { hex } = currentColors;
+
   const transparent = hex === "transparent";
   const handleChange = (hexCode, e) => {
     color.isValidHex(hexCode) &&
-      onChange(
+      changeColor(
         {
           hex: hexCode,
           source: "hex",
@@ -141,4 +142,4 @@ Block.defaultProps = {
   styles: {},
 };
 
-export default ColorWrap(Block);
+export default withColorProvider(Block);

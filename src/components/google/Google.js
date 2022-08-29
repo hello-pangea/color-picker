@@ -1,24 +1,22 @@
-import React from "react";
-import PropTypes from "prop-types";
-import reactCSS from "reactcss";
 import merge from "lodash/merge";
-
-import { ColorWrap, Saturation, Hue } from "../common";
-import GooglePointerCircle from "./GooglePointerCircle";
-import GooglePointer from "./GooglePointer";
+import PropTypes from "prop-types";
+import React from "react";
+import reactCSS from "reactcss";
+import { useColor, withColorProvider } from "../../context/useColor";
+import { Hue, Saturation } from "../common";
 import GoogleFields from "./GoogleFields";
+import GooglePointer from "./GooglePointer";
+import GooglePointerCircle from "./GooglePointerCircle";
 
 export const Google = ({
   width,
-  onChange,
-  rgb,
-  hsl,
-  hsv,
-  hex,
   header,
   styles: passedStyles = {},
   className = "",
 }) => {
+  const { colors, changeColor } = useColor();
+  const { rgb, hex, hsl, hsv } = colors;
+
   const styles = reactCSS(
     merge(
       {
@@ -92,7 +90,7 @@ export const Google = ({
           hsl={hsl}
           hsv={hsv}
           pointer={GooglePointerCircle}
-          onChange={onChange}
+          onChange={changeColor}
         />
       </div>
       <div style={styles.body}>
@@ -103,7 +101,7 @@ export const Google = ({
               hsl={hsl}
               radius="4px"
               pointer={GooglePointer}
-              onChange={onChange}
+              onChange={changeColor}
             />
           </div>
         </div>
@@ -112,7 +110,7 @@ export const Google = ({
           hsl={hsl}
           hex={hex}
           hsv={hsv}
-          onChange={onChange}
+          onChange={changeColor}
         />
       </div>
     </div>
@@ -131,4 +129,4 @@ Google.defaultProps = {
   header: "Color picker",
 };
 
-export default ColorWrap(Google);
+export default withColorProvider(Google);

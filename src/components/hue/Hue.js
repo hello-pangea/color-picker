@@ -1,21 +1,22 @@
-import React from "react";
-import PropTypes from "prop-types";
-import reactCSS from "reactcss";
 import merge from "lodash/merge";
-
-import { ColorWrap, Hue } from "../common";
+import PropTypes from "prop-types";
+import React from "react";
+import reactCSS from "reactcss";
+import { useColor, withColorProvider } from "../../context/useColor";
+import { Hue } from "../common";
 import HuePointer from "./HuePointer";
 
 export const HuePicker = ({
   width,
   height,
-  onChange,
-  hsl,
   direction,
   pointer,
   styles: passedStyles = {},
   className = "",
 }) => {
+  const { colors, changeColor } = useColor();
+  const { hsl } = colors;
+
   const styles = reactCSS(
     merge(
       {
@@ -35,7 +36,7 @@ export const HuePicker = ({
   );
 
   // Overwrite to provide pure hue color
-  const handleChange = (data) => onChange({ a: 1, h: data.h, l: 0.5, s: 1 });
+  const handleChange = (data) => changeColor({ a: 1, h: data.h, l: 0.5, s: 1 });
 
   return (
     <div style={styles.picker} className={`hue-picker ${className}`}>
@@ -61,4 +62,4 @@ HuePicker.defaultProps = {
   styles: {},
 };
 
-export default ColorWrap(HuePicker);
+export default withColorProvider(HuePicker);

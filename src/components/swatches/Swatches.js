@@ -1,23 +1,24 @@
-import React from "react";
-import PropTypes from "prop-types";
-import reactCSS from "reactcss";
 import map from "lodash/map";
 import merge from "lodash/merge";
 import * as material from "material-colors";
-
-import { ColorWrap, Raised } from "../common";
+import PropTypes from "prop-types";
+import React from "react";
+import reactCSS from "reactcss";
+import { useColor, withColorProvider } from "../../context/useColor";
+import { Raised } from "../common";
 import SwatchesGroup from "./SwatchesGroup";
 
 export const Swatches = ({
   width,
   height,
-  onChange,
   onSwatchHover,
   colors,
-  hex,
   styles: passedStyles = {},
   className = "",
 }) => {
+  const { colors: currentColors, changeColor } = useColor();
+  const { hex } = currentColors;
+
   const styles = reactCSS(
     merge(
       {
@@ -42,7 +43,8 @@ export const Swatches = ({
     )
   );
 
-  const handleChange = (data, e) => onChange({ hex: data, source: "hex" }, e);
+  const handleChange = (data, e) =>
+    changeColor({ hex: data, source: "hex" }, e);
 
   return (
     <div style={styles.picker} className={`swatches-picker ${className}`}>
@@ -209,4 +211,4 @@ Swatches.defaultProps = {
   styles: {},
 };
 
-export default ColorWrap(Swatches);
+export default withColorProvider(Swatches);

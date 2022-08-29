@@ -1,17 +1,14 @@
+import merge from "lodash/merge";
 import React from "react";
 import reactCSS from "reactcss";
-import merge from "lodash/merge";
+import { useColor, withColorProvider } from "../../context/useColor";
 import * as color from "../../helpers/color";
+import { EditableInput, Raised } from "../common";
 
-import { ColorWrap, EditableInput, Raised } from "../common";
+export const Material = ({ styles: passedStyles = {}, className = "" }) => {
+  const { colors, changeColor } = useColor();
+  const { rgb, hex } = colors;
 
-export const Material = ({
-  onChange,
-  hex,
-  rgb,
-  styles: passedStyles = {},
-  className = "",
-}) => {
   const styles = reactCSS(
     merge(
       {
@@ -87,7 +84,7 @@ export const Material = ({
   const handleChange = (data, e) => {
     if (data.hex) {
       color.isValidHex(data.hex) &&
-        onChange(
+        changeColor(
           {
             hex: data.hex,
             source: "hex",
@@ -95,7 +92,7 @@ export const Material = ({
           e
         );
     } else if (data.r || data.g || data.b) {
-      onChange(
+      changeColor(
         {
           r: data.r || rgb.r,
           g: data.g || rgb.g,
@@ -163,4 +160,4 @@ export const Material = ({
   );
 };
 
-export default ColorWrap(Material);
+export default withColorProvider(Material);

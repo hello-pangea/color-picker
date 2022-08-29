@@ -1,23 +1,23 @@
-import React from "react";
-import PropTypes from "prop-types";
-import reactCSS from "reactcss";
 import map from "lodash/map";
 import merge from "lodash/merge";
+import PropTypes from "prop-types";
+import React from "react";
+import reactCSS from "reactcss";
+import { useColor, withColorProvider } from "../../context/useColor";
 import * as color from "../../helpers/color";
-
-import { ColorWrap, Raised } from "../common";
+import { Raised } from "../common";
 import CompactColor from "./CompactColor";
 import CompactFields from "./CompactFields";
 
 export const Compact = ({
-  onChange,
   onSwatchHover,
   colors,
-  hex,
-  rgb,
   styles: passedStyles = {},
   className = "",
 }) => {
+  const { colors: currentColors, changeColor } = useColor();
+  const { rgb, hex } = currentColors;
+
   const styles = reactCSS(
     merge(
       {
@@ -44,7 +44,7 @@ export const Compact = ({
   const handleChange = (data, e) => {
     if (data.hex) {
       color.isValidHex(data.hex) &&
-        onChange(
+        changeColor(
           {
             hex: data.hex,
             source: "hex",
@@ -52,7 +52,7 @@ export const Compact = ({
           e
         );
     } else {
-      onChange(data, e);
+      changeColor(data, e);
     }
   };
 
@@ -124,4 +124,4 @@ Compact.defaultProps = {
   styles: {},
 };
 
-export default ColorWrap(Compact);
+export default withColorProvider(Compact);

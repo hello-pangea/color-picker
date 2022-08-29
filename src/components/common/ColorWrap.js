@@ -42,6 +42,7 @@ export const ColorWrap = (Picker) => {
     };
 
     render() {
+      console.log("state", this.state);
       const optionalEvents = {};
       if (this.props.onSwatchHover) {
         optionalEvents.onSwatchHover = this.handleSwatchHover;

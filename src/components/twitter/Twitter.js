@@ -1,22 +1,23 @@
-import React from "react";
-import PropTypes from "prop-types";
-import reactCSS from "reactcss";
 import map from "lodash/map";
 import merge from "lodash/merge";
+import PropTypes from "prop-types";
+import React from "react";
+import reactCSS from "reactcss";
+import { useColor, withColorProvider } from "../../context/useColor";
 import * as color from "../../helpers/color";
-
-import { ColorWrap, EditableInput, Swatch } from "../common";
+import { EditableInput, Swatch } from "../common";
 
 export const Twitter = ({
-  onChange,
   onSwatchHover,
-  hex,
   colors,
   width,
   triangle,
   styles: passedStyles = {},
   className = "",
 }) => {
+  const { colors: currentColors, changeColor } = useColor();
+  const { hex } = currentColors;
+
   const styles = reactCSS(
     merge(
       {
@@ -127,7 +128,7 @@ export const Twitter = ({
 
   const handleChange = (hexcode, e) => {
     color.isValidHex(hexcode) &&
-      onChange(
+      changeColor(
         {
           hex: hexcode,
           source: "hex",
@@ -195,4 +196,4 @@ Twitter.defaultProps = {
   styles: {},
 };
 
-export default ColorWrap(Twitter);
+export default withColorProvider(Twitter);

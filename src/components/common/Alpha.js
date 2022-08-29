@@ -39,6 +39,8 @@ export class Alpha extends (PureComponent || Component) {
 
   render() {
     const rgb = this.props.rgb;
+
+    console.log("rgb", rgb);
     const styles = reactCSS(
       {
         default: {

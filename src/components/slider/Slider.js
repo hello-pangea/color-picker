@@ -1,19 +1,16 @@
-import React from "react";
-import PropTypes from "prop-types";
-import reactCSS from "reactcss";
 import merge from "lodash/merge";
-
-import { ColorWrap, Hue } from "../common";
-import SliderSwatches from "./SliderSwatches";
+import PropTypes from "prop-types";
+import React from "react";
+import reactCSS from "reactcss";
+import { useColor, withColorProvider } from "../../context/useColor";
+import { Hue } from "../common";
 import SliderPointer from "./SliderPointer";
+import SliderSwatches from "./SliderSwatches";
 
-export const Slider = ({
-  hsl,
-  onChange,
-  pointer,
-  styles: passedStyles = {},
-  className = "",
-}) => {
+const Slider = ({ pointer, styles: passedStyles = {}, className = "" }) => {
+  const { colors, changeColor } = useColor();
+  const { hsl } = colors;
+
   const styles = reactCSS(
     merge(
       {
@@ -38,11 +35,11 @@ export const Slider = ({
           style={styles.Hue}
           hsl={hsl}
           pointer={pointer}
-          onChange={onChange}
+          onChange={changeColor}
         />
       </div>
       <div style={styles.swatches}>
-        <SliderSwatches hsl={hsl} onClick={onChange} />
+        <SliderSwatches hsl={hsl} onClick={changeColor} />
       </div>
     </div>
   );
@@ -56,4 +53,4 @@ Slider.defaultProps = {
   styles: {},
 };
 
-export default ColorWrap(Slider);
+export default withColorProvider(Slider);

@@ -1,21 +1,21 @@
-import React from "react";
-import PropTypes from "prop-types";
-import reactCSS from "reactcss";
 import map from "lodash/map";
 import merge from "lodash/merge";
-
-import { ColorWrap } from "../common";
+import PropTypes from "prop-types";
+import React from "react";
+import reactCSS from "reactcss";
+import { useColor, withColorProvider } from "../../context/useColor";
 import GithubSwatch from "./GithubSwatch";
 
 export const Github = ({
   width,
   colors,
-  onChange,
   onSwatchHover,
   triangle,
   styles: passedStyles = {},
   className = "",
 }) => {
+  const { changeColor } = useColor();
+
   const styles = reactCSS(
     merge(
       {
@@ -106,7 +106,7 @@ export const Github = ({
     }
   );
 
-  const handleChange = (hex, e) => onChange({ hex, source: "hex" }, e);
+  const handleChange = (hex, e) => changeColor({ hex, source: "hex" }, e);
 
   return (
     <div style={styles.card} className={`github-picker ${className}`}>
@@ -161,4 +161,4 @@ Github.defaultProps = {
   styles: {},
 };
 
-export default ColorWrap(Github);
+export default withColorProvider(Github);

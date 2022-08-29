@@ -1,19 +1,14 @@
-import React from "react";
-import PropTypes from "prop-types";
-import reactCSS from "reactcss";
 import merge from "lodash/merge";
-
-import { ColorWrap, Saturation, Hue, Alpha, Checkboard } from "../common";
+import PropTypes from "prop-types";
+import React from "react";
+import reactCSS from "reactcss";
+import { useColor, withColorProvider } from "../../context/useColor";
+import { Alpha, Checkboard, Hue, Saturation } from "../common";
 import SketchFields from "./SketchFields";
 import SketchPresetColors from "./SketchPresetColors";
 
-export const Sketch = ({
+const Sketch = ({
   width,
-  rgb,
-  hex,
-  hsv,
-  hsl,
-  onChange,
   onSwatchHover,
   disableAlpha,
   presetColors,
@@ -21,6 +16,9 @@ export const Sketch = ({
   styles: passedStyles = {},
   className = "",
 }) => {
+  const { colors, changeColor } = useColor();
+  const { rgb, hex, hsv, hsl } = colors;
+
   const styles = reactCSS(
     merge(
       {
@@ -114,13 +112,13 @@ export const Sketch = ({
           style={styles.Saturation}
           hsl={hsl}
           hsv={hsv}
-          onChange={onChange}
+          onChange={changeColor}
         />
       </div>
       <div style={styles.controls} className="flexbox-fix">
         <div style={styles.sliders}>
           <div style={styles.hue}>
-            <Hue style={styles.Hue} hsl={hsl} onChange={onChange} />
+            <Hue style={styles.Hue} hsl={hsl} onChange={changeColor} />
           </div>
           <div style={styles.alpha}>
             <Alpha
@@ -128,7 +126,7 @@ export const Sketch = ({
               rgb={rgb}
               hsl={hsl}
               renderers={renderers}
-              onChange={onChange}
+              onChange={changeColor}
             />
           </div>
         </div>
@@ -142,12 +140,12 @@ export const Sketch = ({
         rgb={rgb}
         hsl={hsl}
         hex={hex}
-        onChange={onChange}
+        onChange={changeColor}
         disableAlpha={disableAlpha}
       />
       <SketchPresetColors
         colors={presetColors}
-        onClick={onChange}
+        onClick={changeColor}
         onSwatchHover={onSwatchHover}
       />
     </div>
@@ -183,4 +181,4 @@ Sketch.defaultProps = {
   ],
 };
 
-export default ColorWrap(Sketch);
+export default withColorProvider(Sketch);
