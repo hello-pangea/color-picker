@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import React from "react";
 import reactCSS from "reactcss";
 import { ChangeColor } from "../../context/useColor";
-
 import { Color } from "../../types/colors";
 import { Swatch } from "../common";
 

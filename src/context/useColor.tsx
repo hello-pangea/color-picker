@@ -9,7 +9,7 @@ import React, {
 import * as color from "../helpers/color";
 import { Hex, Hsl, Hsv, Rgb } from "../types/colors";
 
-type Colors = {
+export type Colors = {
   hex: Hex;
   hsl: Hsl;
   hsv: Hsv;
@@ -17,11 +17,15 @@ type Colors = {
   oldHue: number;
 };
 
-export type ChangeColor = Hsl | Hsv | Rgb | { hex: Hex; source: string };
+export type ChangeColor =
+  | Hsl
+  | Hsv
+  | (Rgb & { source?: string })
+  | { hex: Hex; source: string };
 
 export interface ColorContextType {
   colors: Colors;
-  changeColor: (newColor: ChangeColor, event: React.MouseEvent) => void;
+  changeColor: (newColor: ChangeColor, event?: React.MouseEvent) => void;
 }
 
 export const ColorContext = createContext<ColorContextType | undefined>(
@@ -55,7 +59,7 @@ export default function ColorProvider({
     []
   );
 
-  function changeColor(newColor: ChangeColor, event: React.MouseEvent) {
+  function changeColor(newColor: ChangeColor, event?: React.MouseEvent) {
     const isValidColor = color.simpleCheckForValidColor(newColor);
     if (isValidColor) {
       const newColors = color.toState(

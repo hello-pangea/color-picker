@@ -1,15 +1,27 @@
 import merge from "lodash/merge";
 import React from "react";
 import reactCSS from "reactcss";
-import { useColor, withColorProvider } from "../../context/useColor";
+import {
+  ChangeColor,
+  useColor,
+  withColorProvider,
+} from "../../context/useColor";
 import * as color from "../../helpers/color";
 import { EditableInput, Raised } from "../common";
 
-export const Material = ({ styles: passedStyles = {}, className = "" }) => {
+type Props = {
+  styles?: React.CSSProperties;
+  className?: string;
+};
+
+export const Material = ({
+  styles: passedStyles = {},
+  className = "",
+}: Props) => {
   const { colors, changeColor } = useColor();
   const { rgb, hex } = colors;
 
-  const styles = reactCSS(
+  const styles = reactCSS<any>(
     merge(
       {
         default: {
@@ -77,12 +89,12 @@ export const Material = ({ styles: passedStyles = {}, className = "" }) => {
           },
         },
       },
-      passedStyles
+      passedStyles as any
     )
   );
 
-  const handleChange = (data, e) => {
-    if (data.hex) {
+  const handleChange = (data: ChangeColor, e: React.MouseEvent) => {
+    if ("hex" in data) {
       color.isValidHex(data.hex) &&
         changeColor(
           {
@@ -91,8 +103,9 @@ export const Material = ({ styles: passedStyles = {}, className = "" }) => {
           },
           e
         );
-    } else if (data.r || data.g || data.b) {
+    } else if ("r" in data || "g" in data || "b" in data) {
       changeColor(
+        // @ts-ignore
         {
           r: data.r || rgb.r,
           g: data.g || rgb.g,

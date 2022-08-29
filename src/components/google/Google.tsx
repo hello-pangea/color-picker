@@ -1,5 +1,4 @@
 import merge from "lodash/merge";
-import PropTypes from "prop-types";
 import React from "react";
 import reactCSS from "reactcss";
 import { useColor, withColorProvider } from "../../context/useColor";
@@ -8,16 +7,23 @@ import GoogleFields from "./GoogleFields";
 import GooglePointer from "./GooglePointer";
 import GooglePointerCircle from "./GooglePointerCircle";
 
-export const Google = ({
-  width,
-  header,
+type Props = {
+  width?: string | number;
+  styles?: React.CSSProperties;
+  header?: string;
+  className?: string;
+};
+
+export function Google({
+  width = 652,
+  header = "Color picker",
   styles: passedStyles = {},
   className = "",
-}) => {
+}: Props) {
   const { colors, changeColor } = useColor();
   const { rgb, hex, hsl, hsv } = colors;
 
-  const styles = reactCSS(
+  const styles = reactCSS<any>(
     merge(
       {
         default: {
@@ -78,7 +84,7 @@ export const Google = ({
           },
         },
       },
-      passedStyles
+      passedStyles as any
     )
   );
   return (
@@ -115,18 +121,6 @@ export const Google = ({
       </div>
     </div>
   );
-};
-
-Google.propTypes = {
-  width: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  styles: PropTypes.object,
-  header: PropTypes.string,
-};
-
-Google.defaultProps = {
-  width: 652,
-  styles: {},
-  header: "Color picker",
-};
+}
 
 export default withColorProvider(Google);

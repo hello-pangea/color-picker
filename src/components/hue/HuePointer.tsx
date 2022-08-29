@@ -1,8 +1,12 @@
 import React from "react";
 import reactCSS from "reactcss";
 
-export const SliderPointer = ({ direction }) => {
-  const styles = reactCSS(
+type Props = {
+  direction?: "horizontal" | "vertical";
+};
+
+export default function SliderPointer({ direction }: Props) {
+  const styles = reactCSS<any>(
     {
       default: {
         picker: {
@@ -24,6 +28,4 @@ export const SliderPointer = ({ direction }) => {
   );
 
   return <div style={styles.picker} />;
-};
-
-export default SliderPointer;
+}

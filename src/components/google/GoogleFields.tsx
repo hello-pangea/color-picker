@@ -1,10 +1,20 @@
 import React from "react";
 import reactCSS from "reactcss";
+import { ChangeColor } from "../../context/useColor";
 import * as color from "../../helpers/color";
+import { Hex, Hsl, Hsv, Rgb } from "../../types/colors";
 import { EditableInput } from "../common";
 
-export const GoogleFields = ({ onChange, rgb, hsl, hex, hsv }) => {
-  const handleChange = (data, e) => {
+type Props = {
+  rgb: Rgb;
+  hsl: Hsl;
+  hex: Hex;
+  hsv: Hsv;
+  onChange: (color: ChangeColor, event: React.MouseEvent) => void;
+};
+
+export default function GoogleFields({ onChange, rgb, hsl, hex, hsv }: Props) {
+  const handleChange = (data: any, e: React.MouseEvent) => {
     if (data.hex) {
       color.isValidHex(data.hex) &&
         onChange(
@@ -39,6 +49,7 @@ export const GoogleFields = ({ onChange, rgb, hsl, hex, hsv }) => {
           values[2] = 0.01;
         }
         onChange(
+          // @ts-ignore
           {
             h: Number(values[0]),
             s: Number(values[1]),
@@ -54,12 +65,17 @@ export const GoogleFields = ({ onChange, rgb, hsl, hex, hsv }) => {
         values[2] = values[2].replace("%", "");
         values[1] = values[1].replace("%", "");
         values[0] = values[0].replace("°", "");
+        // @ts-ignore
         if (hsvValue[1] == 1) {
+          // @ts-ignore
           hsvValue[1] = 0.01;
+          // @ts-ignore
         } else if (hsvValue[2] == 1) {
+          // @ts-ignore
           hsvValue[2] = 0.01;
         }
         onChange(
+          // @ts-ignore
           {
             h: Number(values[0]),
             s: Number(values[1]),
@@ -72,7 +88,7 @@ export const GoogleFields = ({ onChange, rgb, hsl, hex, hsv }) => {
     }
   };
 
-  const styles = reactCSS({
+  const styles = reactCSS<any>({
     default: {
       wrap: {
         display: "flex",
@@ -198,6 +214,4 @@ export const GoogleFields = ({ onChange, rgb, hsl, hex, hsv }) => {
       </div>
     </div>
   );
-};
-
-export default GoogleFields;
+}

@@ -2,16 +2,26 @@ import React, { isValidElement } from "react";
 import reactCSS from "reactcss";
 import * as checkboard from "../../helpers/checkboard";
 
-export const Checkboard = ({
-  white,
-  grey,
-  size,
+type Props = {
+  size?: number;
+  white?: string;
+  grey?: string;
+  renderers?: any;
+  borderRadius?: number;
+  boxShadow?: string;
+  children?: React.ReactNode;
+};
+
+export default function Checkboard({
+  white = "transparent",
+  grey = "rgba(0,0,0,.08)",
+  size = 8,
   renderers,
   borderRadius,
   boxShadow,
   children,
-}) => {
-  const styles = reactCSS({
+}: Props) {
+  const styles = reactCSS<any>({
     default: {
       grid: {
         borderRadius,
@@ -34,13 +44,4 @@ export const Checkboard = ({
   ) : (
     <div style={styles.grid} />
   );
-};
-
-Checkboard.defaultProps = {
-  size: 8,
-  white: "transparent",
-  grey: "rgba(0,0,0,.08)",
-  renderers: {},
-};
-
-export default Checkboard;
+}
