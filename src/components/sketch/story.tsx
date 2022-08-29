@@ -3,4 +3,4 @@ import React from "react";
 
 import Sketch from "./Sketch";
 
-storiesOf("Pickers", module).add("SketchPicker", () => <Sketch />);
+storiesOf("Pickers", module).add("SketchPicker", () => <Sketch disableAlpha />);

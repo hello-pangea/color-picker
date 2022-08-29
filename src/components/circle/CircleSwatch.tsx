@@ -1,8 +1,9 @@
 import React from "react";
 // @ts-ignore
-import reactCSS, { handleHover } from "reactcss";
+import reactCSS from "reactcss";
 import { Color, Hex } from "../../types/colors";
 import { Swatch } from "../common";
+import { withHover } from "../common/withHover";
 
 type Props = {
   circleSize?: number;
@@ -11,7 +12,7 @@ type Props = {
   className?: string;
   color: string;
   active?: boolean;
-  hover?: any;
+  hover?: boolean;
   onClick: (hexCode: Hex, e: React.MouseEvent) => void;
 };
 
@@ -71,4 +72,4 @@ export const CircleSwatch = ({
   );
 };
 
-export default handleHover(CircleSwatch);
+export default withHover(CircleSwatch);

@@ -1,5 +1,4 @@
 import React from "react";
-import reactCSS from "reactcss";
 import { Color, Hex } from "../../types/colors";
 import SwatchesColor from "./SwatchesColor";
 
@@ -16,16 +15,14 @@ export default function SwatchesGroup({
   group,
   active,
 }: Props) {
-  const styles = reactCSS<any>({
-    default: {
-      group: {
-        paddingBottom: "10px",
-        width: "40px",
-        float: "left",
-        marginRight: "10px",
-      },
+  const styles: Record<string, React.CSSProperties> = {
+    group: {
+      paddingBottom: "10px",
+      width: "40px",
+      float: "left",
+      marginRight: "10px",
     },
-  });
+  };
 
   return (
     <div style={styles.group}>

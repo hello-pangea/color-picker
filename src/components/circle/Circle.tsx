@@ -1,7 +1,6 @@
 import merge from "lodash/merge";
 import * as material from "material-colors";
 import React from "react";
-import reactCSS from "reactcss";
 import { useColor, withColorProvider } from "../../context/useColor";
 import { Color, Hex } from "../../types/colors";
 import CircleSwatch from "./CircleSwatch";
@@ -13,7 +12,7 @@ type Props = {
   onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
   className?: string;
   colors?: string[];
-  styles?: React.CSSProperties;
+  styles?: Record<string, React.CSSProperties>;
 };
 
 export function Circle({
@@ -47,21 +46,20 @@ export function Circle({
   const { colors: currentColors, changeColor } = useColor();
   const { hex } = currentColors;
 
-  const styles = reactCSS<any>(
-    merge(
-      {
-        default: {
-          card: {
-            width,
-            display: "flex",
-            flexWrap: "wrap",
-            marginRight: -circleSpacing,
-            marginBottom: -circleSpacing,
-          },
-        },
+  const styles = merge<
+    Record<string, React.CSSProperties>,
+    Record<string, React.CSSProperties>
+  >(
+    {
+      card: {
+        width,
+        display: "flex",
+        flexWrap: "wrap",
+        marginRight: -circleSpacing,
+        marginBottom: -circleSpacing,
       },
-      passedStyles as any
-    )
+    },
+    passedStyles
   );
 
   const handleChange = (hexCode: Hex, e: React.MouseEvent) =>

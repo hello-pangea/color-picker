@@ -1,5 +1,4 @@
 import React from "react";
-import reactCSS from "reactcss";
 import { Hex, Rgb } from "../../types/colors";
 import { EditableInput } from "../common";
 
@@ -10,66 +9,64 @@ type Props = {
 };
 
 export default function CompactFields({ hex, rgb, onChange }: Props) {
-  const styles = reactCSS<any>({
-    default: {
-      fields: {
-        display: "flex",
-        paddingBottom: "6px",
-        paddingRight: "5px",
-        position: "relative",
-      },
-      active: {
-        position: "absolute",
-        top: "6px",
-        left: "5px",
-        height: "9px",
-        width: "9px",
-        background: hex,
-      },
-      HEXwrap: {
-        flex: "6",
-        position: "relative",
-      },
-      HEXinput: {
-        width: "80%",
-        padding: "0px",
-        paddingLeft: "20%",
-        border: "none",
-        outline: "none",
-        background: "none",
-        fontSize: "12px",
-        color: "#333",
-        height: "16px",
-      },
-      HEXlabel: {
-        display: "none",
-      },
-      RGBwrap: {
-        flex: "3",
-        position: "relative",
-      },
-      RGBinput: {
-        width: "70%",
-        padding: "0px",
-        paddingLeft: "30%",
-        border: "none",
-        outline: "none",
-        background: "none",
-        fontSize: "12px",
-        color: "#333",
-        height: "16px",
-      },
-      RGBlabel: {
-        position: "absolute",
-        top: "3px",
-        left: "0px",
-        lineHeight: "16px",
-        textTransform: "uppercase",
-        fontSize: "12px",
-        color: "#999",
-      },
+  const styles: Record<string, React.CSSProperties> = {
+    fields: {
+      display: "flex",
+      paddingBottom: "6px",
+      paddingRight: "5px",
+      position: "relative",
     },
-  });
+    active: {
+      position: "absolute",
+      top: "6px",
+      left: "5px",
+      height: "9px",
+      width: "9px",
+      background: hex,
+    },
+    HEXwrap: {
+      flex: "6",
+      position: "relative",
+    },
+    HEXinput: {
+      width: "80%",
+      padding: "0px",
+      paddingLeft: "20%",
+      border: "none",
+      outline: "none",
+      background: "none",
+      fontSize: "12px",
+      color: "#333",
+      height: "16px",
+    },
+    HEXlabel: {
+      display: "none",
+    },
+    RGBwrap: {
+      flex: "3",
+      position: "relative",
+    },
+    RGBinput: {
+      width: "70%",
+      padding: "0px",
+      paddingLeft: "30%",
+      border: "none",
+      outline: "none",
+      background: "none",
+      fontSize: "12px",
+      color: "#333",
+      height: "16px",
+    },
+    RGBlabel: {
+      position: "absolute",
+      top: "3px",
+      left: "0px",
+      lineHeight: "16px",
+      textTransform: "uppercase",
+      fontSize: "12px",
+      color: "#999",
+    },
+  };
 
   const handleChange = (data: any, e: React.MouseEvent) => {
     if (data.r || data.g || data.b) {

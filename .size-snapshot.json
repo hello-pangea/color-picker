@@ -14,16 +14,16 @@
     }
   },
   "color-picker.esm.js": {
-    "bundled": 107786,
-    "minified": 65436,
-    "gzipped": 14122,
+    "bundled": 105124,
+    "minified": 64505,
+    "gzipped": 14128,
     "treeshaked": {
       "rollup": {
-        "code": 3195,
-        "import_statements": 338
+        "code": 1789,
+        "import_statements": 320
       },
       "webpack": {
-        "code": 60074
+        "code": 59307
       }
     }
   }

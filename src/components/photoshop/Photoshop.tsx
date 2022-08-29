@@ -1,6 +1,5 @@
 import merge from "lodash/merge";
 import React, { useState } from "react";
-import reactCSS from "reactcss";
 import { useColor, withColorProvider } from "../../context/useColor";
 import { Hue, Saturation } from "../common";
 import PhotoshopButton from "./PhotoshopButton";
@@ -11,7 +10,7 @@ import PhotoshopPreviews from "./PhotoshopPreviews";
 
 type Props = {
   header?: string;
-  styles?: React.CSSProperties;
+  styles?: Record<string, React.CSSProperties>;
   className?: string;
   onAccept?: () => void;
   onCancel?: () => void;
@@ -29,68 +28,66 @@ function Photoshop({
 
   const [currentColor, setCurrentColor] = useState(hex);
 
-  const styles = reactCSS<any>(
-    merge(
-      {
-        default: {
-          picker: {
-            background: "#DCDCDC",
-            borderRadius: "4px",
-            boxShadow: "0 0 0 1px rgba(0,0,0,.25), 0 8px 16px rgba(0,0,0,.15)",
-            boxSizing: "initial",
-            width: "513px",
-          },
-          head: {
-            backgroundImage:
-              "linear-gradient(-180deg, #F0F0F0 0%, #D4D4D4 100%)",
-            borderBottom: "1px solid #B1B1B1",
-            boxShadow:
-              "inset 0 1px 0 0 rgba(255,255,255,.2), inset 0 -1px 0 0 rgba(0,0,0,.02)",
-            height: "23px",
-            lineHeight: "24px",
-            borderRadius: "4px 4px 0 0",
-            fontSize: "13px",
-            color: "#4D4D4D",
-            textAlign: "center",
-          },
-          body: {
-            padding: "15px 15px 0",
-            display: "flex",
-          },
-          saturation: {
-            width: "256px",
-            height: "256px",
-            position: "relative",
-            border: "2px solid #B3B3B3",
-            borderBottom: "2px solid #F0F0F0",
-            overflow: "hidden",
-          },
-          hue: {
-            position: "relative",
-            height: "256px",
-            width: "19px",
-            marginLeft: "10px",
-            border: "2px solid #B3B3B3",
-            borderBottom: "2px solid #F0F0F0",
-          },
-          controls: {
-            width: "180px",
-            marginLeft: "10px",
-          },
-          top: {
-            display: "flex",
-          },
-          previews: {
-            width: "60px",
-          },
-          actions: {
-            flex: "1",
-            marginLeft: "20px",
-          },
-        },
+  const styles = merge<
+    Record<string, React.CSSProperties>,
+    Record<string, React.CSSProperties>
+  >(
+    {
+      picker: {
+        background: "#DCDCDC",
+        borderRadius: "4px",
+        boxShadow: "0 0 0 1px rgba(0,0,0,.25), 0 8px 16px rgba(0,0,0,.15)",
+        boxSizing: "initial",
+        width: "513px",
       },
-      passedStyles as any
-    )
+      head: {
+        backgroundImage: "linear-gradient(-180deg, #F0F0F0 0%, #D4D4D4 100%)",
+        borderBottom: "1px solid #B1B1B1",
+        boxShadow:
+          "inset 0 1px 0 0 rgba(255,255,255,.2), inset 0 -1px 0 0 rgba(0,0,0,.02)",
+        height: "23px",
+        lineHeight: "24px",
+        borderRadius: "4px 4px 0 0",
+        fontSize: "13px",
+        color: "#4D4D4D",
+        textAlign: "center",
+      },
+      body: {
+        padding: "15px 15px 0",
+        display: "flex",
+      },
+      saturation: {
+        width: "256px",
+        height: "256px",
+        position: "relative",
+        border: "2px solid #B3B3B3",
+        borderBottom: "2px solid #F0F0F0",
+        overflow: "hidden",
+      },
+      hue: {
+        position: "relative",
+        height: "256px",
+        width: "19px",
+        marginLeft: "10px",
+        border: "2px solid #B3B3B3",
+        borderBottom: "2px solid #F0F0F0",
+      },
+      controls: {
+        width: "180px",
+        marginLeft: "10px",
+      },
+      top: {
+        display: "flex",
+      },
+      previews: {
+        width: "60px",
+      },
+      actions: {
+        flex: "1",
+        marginLeft: "20px",
+      },
+    },
+    passedStyles
   );
 
   return (

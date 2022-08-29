@@ -1,5 +1,4 @@
 import React from "react";
-import reactCSS from "reactcss";
 import { Hsl } from "../../types/colors";
 import SliderSwatch from "./SliderSwatch";
 
@@ -9,22 +8,20 @@ type Props = {
 };
 
 export default function SliderSwatches({ onClick, hsl }: Props) {
-  const styles = reactCSS<any>({
-    default: {
-      swatches: {
-        marginTop: "20px",
-      },
-      swatch: {
-        boxSizing: "border-box",
-        width: "20%",
-        paddingRight: "1px",
-        float: "left",
-      },
-      clear: {
-        clear: "both",
-      },
+  const styles: Record<string, React.CSSProperties> = {
+    swatches: {
+      marginTop: "20px",
     },
-  });
+    swatch: {
+      boxSizing: "border-box",
+      width: "20%",
+      paddingRight: "1px",
+      float: "left",
+    },
+    clear: {
+      clear: "both",
+    },
+  };
 
   // Acceptible difference in floating point equality
   const epsilon = 0.1;

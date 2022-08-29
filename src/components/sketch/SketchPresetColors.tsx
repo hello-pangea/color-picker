@@ -1,5 +1,4 @@
 import React from "react";
-import reactCSS from "reactcss";
 import { ChangeColor } from "../../context/useColor";
 import { Color } from "../../types/colors";
 import { Swatch } from "../common";
@@ -15,37 +14,27 @@ export default function SketchPresetColors({
   onClick = () => {},
   onSwatchHover,
 }: Props) {
-  const styles = reactCSS<any>(
-    {
-      default: {
-        colors: {
-          margin: "0 -10px",
-          padding: "10px 0 0 10px",
-          borderTop: "1px solid #eee",
-          display: "flex",
-          flexWrap: "wrap",
-          position: "relative",
-        },
-        swatchWrap: {
-          width: "16px",
-          height: "16px",
-          margin: "0 10px 10px 0",
-        },
-        swatch: {
-          borderRadius: "3px",
-          boxShadow: "inset 0 0 0 1px rgba(0,0,0,.15)",
-        },
-      },
-      "no-presets": {
-        colors: {
-          display: "none",
-        },
-      },
+  const noPresets = !colors || !colors.length;
+
+  const styles: Record<string, React.CSSProperties> = {
+    colors: {
+      margin: "0 -10px",
+      padding: "10px 0 0 10px",
+      borderTop: "1px solid #eee",
+      display: noPresets ? "none" : "flex",
+      flexWrap: "wrap",
+      position: "relative",
     },
-    {
-      "no-presets": !colors || !colors.length,
-    }
-  );
+    swatchWrap: {
+      width: "16px",
+      height: "16px",
+      margin: "0 10px 10px 0",
+    },
+    swatch: {
+      borderRadius: "3px",
+      boxShadow: "inset 0 0 0 1px rgba(0,0,0,.15)",
+    },
+  };
 
   const handleClick = (hex: string, e: React.MouseEvent) => {
     onClick(

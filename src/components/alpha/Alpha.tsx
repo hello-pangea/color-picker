@@ -1,5 +1,4 @@
 import React from "react";
-import reactCSS from "reactcss";
 import { useColor, withColorProvider } from "../../context/useColor";
 import { Alpha } from "../common";
 import AlphaPointer from "./AlphaPointer";
@@ -11,7 +10,7 @@ type Props = {
   pointer?: typeof AlphaPointer;
   renderers?: any;
   className?: string;
-  style?: React.CSSProperties;
+  style?: Record<string, React.CSSProperties>;
 };
 
 export function AlphaPicker({
@@ -26,19 +25,17 @@ export function AlphaPicker({
   const { colors: currentColors, changeColor } = useColor();
   const { hsl, rgb } = currentColors;
 
-  const styles = reactCSS<any>({
-    default: {
-      picker: {
-        position: "relative",
-        width,
-        height,
-      },
-      alpha: {
-        radius: "2px",
-        style,
-      },
+  const styles: Record<string, React.CSSProperties> = {
+    picker: {
+      position: "relative",
+      width,
+      height,
     },
-  });
+    alpha: {
+      borderRadius: "2px",
+      ...style,
+    },
+  };
 
   return (
     <div style={styles.picker} className={`alpha-picker ${className}`}>

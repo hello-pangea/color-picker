@@ -1,5 +1,4 @@
 import React from "react";
-import reactCSS from "reactcss";
 import { Color, Hex } from "../../types/colors";
 import { Swatch } from "../common";
 
@@ -10,24 +9,22 @@ type Props = {
 };
 
 export const BlockSwatches = ({ colors, onClick, onSwatchHover }: Props) => {
-  const styles = reactCSS<any>({
-    default: {
-      swatches: {
-        marginRight: "-10px",
-      },
-      swatch: {
-        width: "22px",
-        height: "22px",
-        float: "left",
-        marginRight: "10px",
-        marginBottom: "10px",
-        borderRadius: "4px",
-      },
-      clear: {
-        clear: "both",
-      },
+  const styles: Record<string, React.CSSProperties> = {
+    swatches: {
+      marginRight: "-10px",
     },
-  });
+    swatch: {
+      width: "22px",
+      height: "22px",
+      float: "left",
+      marginRight: "10px",
+      marginBottom: "10px",
+      borderRadius: "4px",
+    },
+    clear: {
+      clear: "both",
+    },
+  };
 
   return (
     <div style={styles.swatches}>

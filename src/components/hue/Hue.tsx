@@ -1,6 +1,5 @@
 import merge from "lodash/merge";
 import React from "react";
-import reactCSS from "reactcss";
 import {
   ChangeColor,
   useColor,
@@ -15,7 +14,7 @@ type Props = {
   direction?: "horizontal" | "vertical";
   pointer: typeof HuePointer;
   className?: string;
-  styles?: React.CSSProperties;
+  styles?: Record<string, React.CSSProperties>;
 };
 
 export function HuePicker({
@@ -29,22 +28,21 @@ export function HuePicker({
   const { colors, changeColor } = useColor();
   const { hsl } = colors;
 
-  const styles = reactCSS<any>(
-    merge(
-      {
-        default: {
-          picker: {
-            position: "relative",
-            width,
-            height,
-          },
-          hue: {
-            radius: "2px",
-          },
-        },
+  const styles = merge<
+    Record<string, React.CSSProperties>,
+    Record<string, React.CSSProperties>
+  >(
+    {
+      picker: {
+        position: "relative",
+        width,
+        height,
       },
-      passedStyles as any
-    )
+      hue: {
+        borderRadius: "2px",
+      },
+    },
+    passedStyles
   );
 
   // Overwrite to provide pure hue color

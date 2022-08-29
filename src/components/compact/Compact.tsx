@@ -1,6 +1,5 @@
 import merge from "lodash/merge";
 import React from "react";
-import reactCSS from "reactcss";
 import { useColor, withColorProvider } from "../../context/useColor";
 import * as color from "../../helpers/color";
 import { Color } from "../../types/colors";
@@ -11,7 +10,7 @@ import CompactFields from "./CompactFields";
 type Props = {
   colors?: string[];
   onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
-  styles?: React.CSSProperties;
+  styles?: Record<string, React.CSSProperties>;
   className?: string;
 };
 
@@ -61,27 +60,26 @@ export function Compact({
   const { colors: currentColors, changeColor } = useColor();
   const { rgb, hex } = currentColors;
 
-  const styles = reactCSS<any>(
-    merge(
-      {
-        default: {
-          Compact: {
-            background: "#f6f6f6",
-            radius: "4px",
-          },
-          compact: {
-            paddingTop: "5px",
-            paddingLeft: "5px",
-            boxSizing: "initial",
-            width: "240px",
-          },
-          clear: {
-            clear: "both",
-          },
-        },
+  const styles = merge<
+    Record<string, React.CSSProperties>,
+    Record<string, React.CSSProperties>
+  >(
+    {
+      Compact: {
+        background: "#f6f6f6",
+        borderRadius: "4px",
       },
-      passedStyles as any
-    )
+      compact: {
+        paddingTop: "5px",
+        paddingLeft: "5px",
+        boxSizing: "initial",
+        width: "240px",
+      },
+      clear: {
+        clear: "both",
+      },
+    },
+    passedStyles
   );
 
   const handleChange = (data: any, e: React.MouseEvent) => {

@@ -1,5 +1,4 @@
 import React, { isValidElement } from "react";
-import reactCSS from "reactcss";
 import * as checkboard from "../../helpers/checkboard";
 
 type Props = {
@@ -21,21 +20,21 @@ export default function Checkboard({
   boxShadow,
   children,
 }: Props) {
-  const styles = reactCSS<any>({
-    default: {
-      grid: {
-        borderRadius,
-        boxShadow,
-        absolute: "0px 0px 0px 0px",
-        background: `url(${checkboard.get(
-          white,
-          grey,
-          size,
-          renderers.canvas
-        )}) center left`,
-      },
+  const styles: Record<string, React.CSSProperties> = {
+    grid: {
+      borderRadius,
+      boxShadow,
+      position: "absolute",
+      inset: "0px",
+      background: `url(${checkboard.get(
+        white,
+        grey,
+        size,
+        renderers.canvas
+      )}) center left`,
     },
-  });
+  };
+
   return isValidElement(children) ? (
     React.cloneElement(children, {
       ...children.props,

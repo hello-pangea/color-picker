@@ -1,6 +1,5 @@
 import merge from "lodash/merge";
 import React from "react";
-import reactCSS from "reactcss";
 import { useColor, withColorProvider } from "../../context/useColor";
 import { Color } from "../../types/colors";
 import { Alpha, Checkboard, Hue, Saturation } from "../common";
@@ -13,7 +12,7 @@ type Props = {
   width?: string | number;
   className?: string;
   presetColors?: string[];
-  styles?: React.CSSProperties;
+  styles?: Record<string, React.CSSProperties>;
   renderers?: any;
 };
 
@@ -45,90 +44,79 @@ export function Sketch({
   const { colors, changeColor } = useColor();
   const { rgb, hex, hsv, hsl } = colors;
 
-  const styles: any = reactCSS(
-    merge(
-      {
-        default: {
-          picker: {
-            width,
-            padding: "10px 10px 0",
-            boxSizing: "initial",
-            background: "#fff",
-            borderRadius: "4px",
-            boxShadow: "0 0 0 1px rgba(0,0,0,.15), 0 8px 16px rgba(0,0,0,.15)",
-          },
-          saturation: {
-            width: "100%",
-            paddingBottom: "75%",
-            position: "relative",
-            overflow: "hidden",
-          },
-          Saturation: {
-            radius: "3px",
-            shadow:
-              "inset 0 0 0 1px rgba(0,0,0,.15), inset 0 0 4px rgba(0,0,0,.25)",
-          },
-          controls: {
-            display: "flex",
-          },
-          sliders: {
-            padding: "4px 0",
-            flex: "1",
-          },
-          color: {
-            width: "24px",
-            height: "24px",
-            position: "relative",
-            marginTop: "4px",
-            marginLeft: "4px",
-            borderRadius: "3px",
-          },
-          activeColor: {
-            absolute: "0px 0px 0px 0px",
-            borderRadius: "2px",
-            background: `rgba(${rgb.r},${rgb.g},${rgb.b},${rgb.a})`,
-            boxShadow:
-              "inset 0 0 0 1px rgba(0,0,0,.15), inset 0 0 4px rgba(0,0,0,.25)",
-          },
-          hue: {
-            position: "relative",
-            height: "10px",
-            overflow: "hidden",
-          },
-          Hue: {
-            radius: "2px",
-            shadow:
-              "inset 0 0 0 1px rgba(0,0,0,.15), inset 0 0 4px rgba(0,0,0,.25)",
-          },
-
-          alpha: {
-            position: "relative",
-            height: "10px",
-            marginTop: "4px",
-            overflow: "hidden",
-          },
-          Alpha: {
-            radius: "2px",
-            shadow:
-              "inset 0 0 0 1px rgba(0,0,0,.15), inset 0 0 4px rgba(0,0,0,.25)",
-          },
-          ...passedStyles,
-        },
-        disableAlpha: {
-          color: {
-            height: "10px",
-          },
-          hue: {
-            height: "10px",
-          },
-          alpha: {
-            display: "none",
-          },
-        },
+  const styles = merge<
+    Record<string, React.CSSProperties>,
+    Record<string, React.CSSProperties>
+  >(
+    {
+      picker: {
+        width,
+        padding: "10px 10px 0",
+        boxSizing: "initial",
+        background: "#fff",
+        borderRadius: "4px",
+        boxShadow: "0 0 0 1px rgba(0,0,0,.15), 0 8px 16px rgba(0,0,0,.15)",
       },
-      passedStyles as any
-    ),
-    { disableAlpha }
+      saturation: {
+        width: "100%",
+        paddingBottom: "75%",
+        position: "relative",
+        overflow: "hidden",
+      },
+      Saturation: {
+        borderRadius: "3px",
+        boxShadow:
+          "inset 0 0 0 1px rgba(0,0,0,.15), inset 0 0 4px rgba(0,0,0,.25)",
+      },
+      controls: {
+        display: "flex",
+      },
+      sliders: {
+        padding: "4px 0",
+        flex: "1",
+      },
+      color: {
+        width: "24px",
+        height: disableAlpha ? "10px" : "24px",
+        position: "relative",
+        marginTop: "4px",
+        marginLeft: "4px",
+        borderRadius: "3px",
+      },
+      activeColor: {
+        position: "absolute",
+        inset: "0px",
+        borderRadius: "2px",
+        background: `rgba(${rgb.r},${rgb.g},${rgb.b},${rgb.a})`,
+        boxShadow:
+          "inset 0 0 0 1px rgba(0,0,0,.15), inset 0 0 4px rgba(0,0,0,.25)",
+      },
+      hue: {
+        position: "relative",
+        height: "10px",
+        overflow: "hidden",
+      },
+      Hue: {
+        borderRadius: "2px",
+        boxShadow:
+          "inset 0 0 0 1px rgba(0,0,0,.15), inset 0 0 4px rgba(0,0,0,.25)",
+      },
+
+      alpha: {
+        position: "relative",
+        height: "10px",
+        marginTop: "4px",
+        overflow: "hidden",
+        display: disableAlpha ? "none" : undefined,
+      },
+      Alpha: {
+        borderRadius: "2px",
+        boxShadow:
+          "inset 0 0 0 1px rgba(0,0,0,.15), inset 0 0 4px rgba(0,0,0,.25)",
+      },
+      ...passedStyles,
+    },
+    passedStyles
   );
 
   return (

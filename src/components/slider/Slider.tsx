@@ -1,6 +1,5 @@
 import merge from "lodash/merge";
 import React from "react";
-import reactCSS from "reactcss";
 import { useColor, withColorProvider } from "../../context/useColor";
 import { Hue } from "../common";
 import SliderPointer from "./SliderPointer";
@@ -8,7 +7,7 @@ import SliderSwatches from "./SliderSwatches";
 
 type Props = {
   pointer?: typeof SliderPointer;
-  styles?: React.CSSProperties;
+  styles?: Record<string, React.CSSProperties>;
   className?: string;
 };
 
@@ -20,21 +19,20 @@ const Slider = ({
   const { colors, changeColor } = useColor();
   const { hsl } = colors;
 
-  const styles = reactCSS<any>(
-    merge(
-      {
-        default: {
-          hue: {
-            height: "12px",
-            position: "relative",
-          },
-          Hue: {
-            radius: "2px",
-          },
-        },
+  const styles = merge<
+    Record<string, React.CSSProperties>,
+    Record<string, React.CSSProperties>
+  >(
+    {
+      hue: {
+        height: "12px",
+        position: "relative",
       },
-      passedStyles as any
-    )
+      Hue: {
+        borderRadius: "2px",
+      },
+    },
+    passedStyles
   );
 
   return (

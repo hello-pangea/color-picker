@@ -1,6 +1,5 @@
 import merge from "lodash/merge";
 import React from "react";
-import reactCSS from "reactcss";
 import {
   ChangeColor,
   useColor,
@@ -10,7 +9,7 @@ import * as color from "../../helpers/color";
 import { EditableInput, Raised } from "../common";
 
 type Props = {
-  styles?: React.CSSProperties;
+  styles?: Record<string, React.CSSProperties>;
   className?: string;
 };
 
@@ -21,76 +20,73 @@ export const Material = ({
   const { colors, changeColor } = useColor();
   const { rgb, hex } = colors;
 
-  const styles = reactCSS<any>(
-    merge(
-      {
-        default: {
-          material: {
-            width: "98px",
-            height: "98px",
-            padding: "16px",
-            fontFamily: "Roboto",
-          },
-          HEXwrap: {
-            position: "relative",
-          },
-          HEXinput: {
-            width: "100%",
-            marginTop: "12px",
-            fontSize: "15px",
-            color: "#333",
-            padding: "0px",
-            border: "0px",
-            borderBottom: `2px solid ${hex}`,
-            outline: "none",
-            height: "30px",
-          },
-          HEXlabel: {
-            position: "absolute",
-            top: "0px",
-            left: "0px",
-            fontSize: "11px",
-            color: "#999999",
-            textTransform: "capitalize",
-          },
-          Hex: {
-            style: {},
-          },
-          RGBwrap: {
-            position: "relative",
-          },
-          RGBinput: {
-            width: "100%",
-            marginTop: "12px",
-            fontSize: "15px",
-            color: "#333",
-            padding: "0px",
-            border: "0px",
-            borderBottom: "1px solid #eee",
-            outline: "none",
-            height: "30px",
-          },
-          RGBlabel: {
-            position: "absolute",
-            top: "0px",
-            left: "0px",
-            fontSize: "11px",
-            color: "#999999",
-            textTransform: "capitalize",
-          },
-          split: {
-            display: "flex",
-            marginRight: "-10px",
-            paddingTop: "11px",
-          },
-          third: {
-            flex: "1",
-            paddingRight: "10px",
-          },
-        },
+  const styles = merge<
+    Record<string, React.CSSProperties>,
+    Record<string, React.CSSProperties>
+  >(
+    {
+      material: {
+        width: "98px",
+        height: "98px",
+        padding: "16px",
+        fontFamily: "Roboto",
       },
-      passedStyles as any
-    )
+      HEXwrap: {
+        position: "relative",
+      },
+      HEXinput: {
+        width: "100%",
+        marginTop: "12px",
+        fontSize: "15px",
+        color: "#333",
+        padding: "0px",
+        border: "0px",
+        borderBottom: `2px solid ${hex}`,
+        outline: "none",
+        height: "30px",
+      },
+      HEXlabel: {
+        position: "absolute",
+        top: "0px",
+        left: "0px",
+        fontSize: "11px",
+        color: "#999999",
+        textTransform: "capitalize",
+      },
+      Hex: {},
+      RGBwrap: {
+        position: "relative",
+      },
+      RGBinput: {
+        width: "100%",
+        marginTop: "12px",
+        fontSize: "15px",
+        color: "#333",
+        padding: "0px",
+        border: "0px",
+        borderBottom: "1px solid #eee",
+        outline: "none",
+        height: "30px",
+      },
+      RGBlabel: {
+        position: "absolute",
+        top: "0px",
+        left: "0px",
+        fontSize: "11px",
+        color: "#999999",
+        textTransform: "capitalize",
+      },
+      split: {
+        display: "flex",
+        marginRight: "-10px",
+        paddingTop: "11px",
+      },
+      third: {
+        flex: "1",
+        paddingRight: "10px",
+      },
+    },
+    passedStyles
   );
 
   const handleChange = (data: ChangeColor, e: React.MouseEvent) => {

@@ -12,7 +12,7 @@ type Props = {
   colors?: string[];
   triangle?: "top" | "hide";
   className?: string;
-  styles?: React.CSSProperties;
+  styles?: Record<string, React.CSSProperties>;
   onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
 };
 

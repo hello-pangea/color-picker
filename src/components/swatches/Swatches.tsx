@@ -1,7 +1,6 @@
 import merge from "lodash/merge";
 import * as material from "material-colors";
 import React from "react";
-import reactCSS from "reactcss";
 import { useColor, withColorProvider } from "../../context/useColor";
 import { Color } from "../../types/colors";
 import { Raised } from "../common";
@@ -12,7 +11,7 @@ type Props = {
   height?: string | number;
   onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
   className?: string;
-  styles?: React.CSSProperties;
+  styles?: Record<string, React.CSSProperties>;
   colors?: string[][];
 };
 
@@ -155,28 +154,27 @@ export function Swatches({
   const { colors: currentColors, changeColor } = useColor();
   const { hex } = currentColors;
 
-  const styles = reactCSS<any>(
-    merge(
-      {
-        default: {
-          picker: {
-            width,
-            height,
-          },
-          overflow: {
-            height,
-            overflowY: "scroll",
-          },
-          body: {
-            padding: "16px 0 6px 16px",
-          },
-          clear: {
-            clear: "both",
-          },
-        },
+  const styles = merge<
+    Record<string, React.CSSProperties>,
+    Record<string, React.CSSProperties>
+  >(
+    {
+      picker: {
+        width,
+        height,
       },
-      passedStyles as any
-    )
+      overflow: {
+        height,
+        overflowY: "scroll",
+      },
+      body: {
+        padding: "16px 0 6px 16px",
+      },
+      clear: {
+        clear: "both",
+      },
+    },
+    passedStyles
   );
 
   const handleChange = (data: Color, e: React.MouseEvent) =>

@@ -1,7 +1,6 @@
 /* eslint-disable no-param-reassign */
 
 import React from "react";
-import reactCSS from "reactcss";
 import { ChangeColor } from "../../context/useColor";
 import * as color from "../../helpers/color";
 import { Hex, Hsl, Rgb } from "../../types/colors";
@@ -23,49 +22,40 @@ export const SketchFields = ({
   hex,
   disableAlpha,
 }: Props) => {
-  const styles = reactCSS<any>(
-    {
-      default: {
-        fields: {
-          display: "flex",
-          paddingTop: "4px",
-        },
-        single: {
-          flex: "1",
-          paddingLeft: "6px",
-        },
-        alpha: {
-          flex: "1",
-          paddingLeft: "6px",
-        },
-        double: {
-          flex: "2",
-        },
-        input: {
-          width: "80%",
-          padding: "4px 10% 3px",
-          border: "none",
-          boxShadow: "inset 0 0 0 1px #ccc",
-          fontSize: "11px",
-        },
-        label: {
-          display: "block",
-          textAlign: "center",
-          fontSize: "11px",
-          color: "#222",
-          paddingTop: "3px",
-          paddingBottom: "4px",
-          textTransform: "capitalize",
-        },
-      },
-      disableAlpha: {
-        alpha: {
-          display: "none",
-        },
-      },
+  const styles: Record<string, React.CSSProperties> = {
+    fields: {
+      display: "flex",
+      paddingTop: "4px",
     },
-    { disableAlpha }
-  );
+    single: {
+      flex: "1",
+      paddingLeft: "6px",
+    },
+    alpha: {
+      flex: "1",
+      paddingLeft: "6px",
+      display: disableAlpha ? "none" : undefined,
+    },
+    double: {
+      flex: "2",
+    },
+    input: {
+      width: "80%",
+      padding: "4px 10% 3px",
+      border: "none",
+      boxShadow: "inset 0 0 0 1px #ccc",
+      fontSize: "11px",
+    },
+    label: {
+      display: "block",
+      textAlign: "center",
+      fontSize: "11px",
+      color: "#222",
+      paddingTop: "3px",
+      paddingBottom: "4px",
+      textTransform: "capitalize",
+    },
+  };
 
   const handleChange = (data: ChangeColor, e: React.MouseEvent) => {
     if ("hex" in data) {
