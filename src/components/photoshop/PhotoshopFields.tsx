@@ -1,11 +1,19 @@
 import React from "react";
 import reactCSS from "reactcss";
 import * as color from "../../helpers/color";
+import { Hex, Hsv, Rgb } from "../../types/colors";
 
 import { EditableInput } from "../common";
 
-export const PhotoshopPicker = ({ onChange, rgb, hsv, hex }) => {
-  const styles = reactCSS({
+type Props = {
+  rgb: Rgb;
+  hsv: Hsv;
+  hex: Hex;
+  onChange: any;
+};
+
+export default function PhotoshopPicker({ onChange, rgb, hsv, hex }: Props) {
+  const styles = reactCSS<any>({
     default: {
       fields: {
         paddingTop: "5px",
@@ -77,7 +85,7 @@ export const PhotoshopPicker = ({ onChange, rgb, hsv, hex }) => {
     },
   });
 
-  const handleChange = (data, e) => {
+  const handleChange = (data: any, e: React.MouseEvent) => {
     if (data["#"]) {
       color.isValidHex(data["#"]) &&
         onChange(
@@ -191,6 +199,4 @@ export const PhotoshopPicker = ({ onChange, rgb, hsv, hex }) => {
       </div>
     </div>
   );
-};
-
-export default PhotoshopPicker;
+}

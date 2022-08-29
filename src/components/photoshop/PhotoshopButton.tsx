@@ -1,8 +1,20 @@
 import React from "react";
 import reactCSS from "reactcss";
 
-export const PhotoshopButton = ({ onClick, label, children, active }) => {
-  const styles = reactCSS(
+type Props = {
+  onClick?: () => void;
+  label?: string;
+  children?: React.ReactNode;
+  active?: boolean;
+};
+
+export default function PhotoshopButton({
+  onClick,
+  label,
+  children,
+  active,
+}: Props) {
+  const styles = reactCSS<any>(
     {
       default: {
         button: {
@@ -33,6 +45,4 @@ export const PhotoshopButton = ({ onClick, label, children, active }) => {
       {label || children}
     </div>
   );
-};
-
-export default PhotoshopButton;
+}

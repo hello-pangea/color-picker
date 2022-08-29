@@ -1,5 +1,4 @@
 import merge from "lodash/merge";
-import PropTypes from "prop-types";
 import React, { useState } from "react";
 import reactCSS from "reactcss";
 import { useColor, withColorProvider } from "../../context/useColor";
@@ -10,14 +9,27 @@ import PhotoshopPointer from "./PhotoshopPointer";
 import PhotoshopPointerCircle from "./PhotoshopPointerCircle";
 import PhotoshopPreviews from "./PhotoshopPreviews";
 
-function Photoshop(props) {
+type Props = {
+  header?: string;
+  styles?: React.CSSProperties;
+  className?: string;
+  onAccept?: () => void;
+  onCancel?: () => void;
+};
+
+function Photoshop({
+  header = "Color Picker",
+  styles: passedStyles = {},
+  className = "",
+  onAccept,
+  onCancel,
+}: Props) {
   const { colors, changeColor } = useColor();
   const { rgb, hex, hsv, hsl } = colors;
 
   const [currentColor, setCurrentColor] = useState(hex);
 
-  const { styles: passedStyles = {}, className = "" } = props;
-  const styles = reactCSS(
+  const styles = reactCSS<any>(
     merge(
       {
         default: {
@@ -77,13 +89,13 @@ function Photoshop(props) {
           },
         },
       },
-      passedStyles
+      passedStyles as any
     )
   );
 
   return (
     <div style={styles.picker} className={`photoshop-picker ${className}`}>
-      <div style={styles.head}>{props.header}</div>
+      <div style={styles.head}>{header}</div>
 
       <div style={styles.body} className="flexbox-fix">
         <div style={styles.saturation}>
@@ -108,8 +120,8 @@ function Photoshop(props) {
               <PhotoshopPreviews rgb={rgb} currentColor={currentColor} />
             </div>
             <div style={styles.actions}>
-              <PhotoshopButton label="OK" onClick={props.onAccept} active />
-              <PhotoshopButton label="Cancel" onClick={props.onCancel} />
+              <PhotoshopButton label="OK" onClick={onAccept} active />
+              <PhotoshopButton label="Cancel" onClick={onCancel} />
               <PhotoshopFields
                 onChange={changeColor}
                 rgb={rgb}
@@ -123,15 +135,5 @@ function Photoshop(props) {
     </div>
   );
 }
-
-Photoshop.propTypes = {
-  header: PropTypes.string,
-  styles: PropTypes.object,
-};
-
-Photoshop.defaultProps = {
-  header: "Color Picker",
-  styles: {},
-};
 
 export default withColorProvider(Photoshop);

@@ -1,8 +1,8 @@
 import React from "react";
 import reactCSS from "reactcss";
 
-export const PhotoshopPointerCircle = () => {
-  const styles = reactCSS({
+export default function PhotoshopPointerCircle() {
+  const styles = reactCSS<any>({
     default: {
       triangle: {
         width: 0,
@@ -53,6 +53,4 @@ export const PhotoshopPointerCircle = () => {
       </div>
     </div>
   );
-};
-
-export default PhotoshopPointerCircle;
+}

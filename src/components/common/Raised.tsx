@@ -1,16 +1,23 @@
 import merge from "lodash/merge";
-import PropTypes from "prop-types";
 import React from "react";
 import reactCSS from "reactcss";
 
-export const Raised = ({
-  zDepth,
-  radius,
-  background,
+type Props = {
+  background?: string;
+  zDepth?: 0 | 1 | 2 | 3 | 4 | 5;
+  radius?: number;
+  styles?: React.CSSProperties;
+  children?: React.ReactNode;
+};
+
+export default function Raised({
+  zDepth = 1,
+  radius = 2,
+  background = "#fff",
   children,
-  style: passedStyles = {},
-}) => {
-  const styles = reactCSS(
+  styles: passedStyles = {},
+}: Props) {
+  const styles = reactCSS<any>(
     merge(
       {
         default: {
@@ -73,7 +80,7 @@ export const Raised = ({
           },
         },
       },
-      passedStyles
+      passedStyles as any
     ),
     { "zDepth-1": zDepth === 1 }
   );
@@ -84,20 +91,4 @@ export const Raised = ({
       <div style={styles.content}>{children}</div>
     </div>
   );
-};
-
-Raised.propTypes = {
-  background: PropTypes.string,
-  zDepth: PropTypes.oneOf([0, 1, 2, 3, 4, 5]),
-  radius: PropTypes.number,
-  styles: PropTypes.object,
-};
-
-Raised.defaultProps = {
-  background: "#fff",
-  zDepth: 1,
-  radius: 2,
-  style: {},
-};
-
-export default Raised;
+}

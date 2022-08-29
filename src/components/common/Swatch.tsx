@@ -1,10 +1,20 @@
 import React from "react";
 import reactCSS from "reactcss";
 import { handleFocus } from "../../helpers/interaction";
-
 import Checkboard from "./Checkboard";
 
 const ENTER = 13;
+
+type Props = {
+  color: string;
+  style?: React.CSSProperties;
+  onClick: any;
+  onHover: any;
+  title?: string;
+  children?: React.ReactNode;
+  focus?: any;
+  focusStyle?: React.CSSProperties;
+};
 
 export const Swatch = ({
   color,
@@ -15,9 +25,9 @@ export const Swatch = ({
   children,
   focus,
   focusStyle = {},
-}) => {
+}: Props) => {
   const transparent = color === "transparent";
-  const styles = reactCSS({
+  const styles = reactCSS<any>({
     default: {
       swatch: {
         background: color,
@@ -32,11 +42,12 @@ export const Swatch = ({
     },
   });
 
-  const handleClick = (e) => onClick(color, e);
-  const handleKeyDown = (e) => e.keyCode === ENTER && onClick(color, e);
-  const handleHover = (e) => onHover(color, e);
+  const handleClick = (e: React.MouseEvent) => onClick(color, e);
+  const handleKeyDown = (e: React.KeyboardEvent) =>
+    e.keyCode === ENTER && onClick(color, e);
+  const handleHover = (e: React.MouseEvent) => onHover(color, e);
 
-  const optionalEvents = {};
+  const optionalEvents: any = {};
   if (onHover) {
     optionalEvents.onMouseOver = handleHover;
   }

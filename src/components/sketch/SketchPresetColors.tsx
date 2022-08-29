@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import React from "react";
 import reactCSS from "reactcss";
 import { ChangeColor } from "../../context/useColor";
@@ -11,11 +10,11 @@ type Props = {
   onClick?: (newColor: ChangeColor, event: React.MouseEvent) => void;
 };
 
-export const SketchPresetColors = ({
+export default function SketchPresetColors({
   colors,
   onClick = () => {},
   onSwatchHover,
-}: Props) => {
+}: Props) {
   const styles = reactCSS<any>(
     {
       default: {
@@ -82,18 +81,4 @@ export const SketchPresetColors = ({
       })}
     </div>
   );
-};
-
-SketchPresetColors.propTypes = {
-  colors: PropTypes.arrayOf(
-    PropTypes.oneOfType([
-      PropTypes.string,
-      PropTypes.shape({
-        color: PropTypes.string,
-        title: PropTypes.string,
-      }),
-    ])
-  ).isRequired,
-};
-
-export default SketchPresetColors;
+}

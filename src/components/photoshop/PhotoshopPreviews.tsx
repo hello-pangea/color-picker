@@ -1,8 +1,14 @@
 import React from "react";
 import reactCSS from "reactcss";
+import { Rgb } from "../../types/colors";
 
-export const PhotoshopPreviews = ({ rgb, currentColor }) => {
-  const styles = reactCSS({
+type Props = {
+  rgb: Rgb;
+  currentColor: string;
+};
+
+export default function PhotoshopPreviews({ rgb, currentColor }: Props) {
+  const styles = reactCSS<any>({
     default: {
       swatches: {
         border: "1px solid #B3B3B3",
@@ -40,6 +46,4 @@ export const PhotoshopPreviews = ({ rgb, currentColor }) => {
       <div style={styles.label}>current</div>
     </div>
   );
-};
-
-export default PhotoshopPreviews;
+}

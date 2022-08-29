@@ -1,8 +1,13 @@
 import React from "react";
 import reactCSS from "reactcss";
+import { Hsl } from "../../types/colors";
 
-export const PhotoshopPointerCircle = ({ hsl }) => {
-  const styles = reactCSS(
+type Props = {
+  hsl: Hsl;
+};
+
+export default function PhotoshopPointerCircle({ hsl }: Props) {
+  const styles = reactCSS<any>(
     {
       default: {
         picker: {
@@ -23,6 +28,4 @@ export const PhotoshopPointerCircle = ({ hsl }) => {
   );
 
   return <div style={styles.picker} />;
-};
-
-export default PhotoshopPointerCircle;
+}

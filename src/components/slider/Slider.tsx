@@ -7,7 +7,7 @@ import SliderPointer from "./SliderPointer";
 import SliderSwatches from "./SliderSwatches";
 
 type Props = {
-  pointer: typeof SliderPointer;
+  pointer?: typeof SliderPointer;
   styles?: React.CSSProperties;
   className?: string;
 };

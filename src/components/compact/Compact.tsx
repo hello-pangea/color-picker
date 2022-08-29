@@ -101,7 +101,7 @@ export function Compact({
   };
 
   return (
-    <Raised style={styles.Compact} styles={passedStyles}>
+    <Raised styles={passedStyles}>
       <div style={styles.compact} className={`compact-picker ${className}`}>
         <div>
           {map(colors, (c) => (
