@@ -1,11 +1,12 @@
 import babel from "@rollup/plugin-babel";
 import resolve from "@rollup/plugin-node-resolve";
+import dts from "rollup-plugin-dts";
 import { sizeSnapshot } from "rollup-plugin-size-snapshot";
 import svg from "rollup-plugin-svg";
 
 import pkg from "./package.json";
 
-const input = "./src/index.js";
+const input = "./src/index.ts";
 const extensions = [".ts", ".tsx", ".js", ".jsx", ".svg"];
 
 // Treat as externals all not relative and not absolute paths
@@ -58,9 +59,9 @@ export default [
   },
 
   // TypeScript declaration
-  // {
-  //   input,
-  //   output: [{ file: "dist/dnd.d.ts", format: "es" }],
-  //   plugins: [dts()],
-  // },
+  {
+    input,
+    output: [{ file: pkg.types, format: "es" }],
+    plugins: [dts()],
+  },
 ];

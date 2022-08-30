@@ -5,6 +5,7 @@
   "description": "A Collection of Color Pickers from Sketch, Photoshop, Chrome & more",
   "main": "dist/color-picker.cjs.js",
   "module": "dist/color-picker.esm.js",
+  "types": "dist/color-picker.d.ts",
   "files": [
     "/dist",
     "/src"
