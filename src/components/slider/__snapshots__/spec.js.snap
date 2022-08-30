@@ -16,21 +16,10 @@ exports[`Slider renders correctly 1`] = `
     <div
       style={
         {
-          "MozBorderRadius": undefined,
-          "MozBoxShadow": undefined,
-          "OBorderRadius": undefined,
-          "OBoxShadow": undefined,
-          "WebkitBorderRadius": undefined,
-          "WebkitBoxShadow": undefined,
           "borderRadius": undefined,
-          "bottom": "0px",
           "boxShadow": undefined,
-          "left": "0px",
-          "msBorderRadius": undefined,
-          "msBoxShadow": undefined,
+          "inset": "0px",
           "position": "absolute",
-          "right": "0px",
-          "top": "0px",
         }
       }
     >
@@ -41,12 +30,8 @@ exports[`Slider renders correctly 1`] = `
         onTouchStart={[Function]}
         style={
           {
-            "MozBorderRadius": undefined,
-            "OBorderRadius": undefined,
-            "WebkitBorderRadius": undefined,
             "borderRadius": undefined,
             "height": "100%",
-            "msBorderRadius": undefined,
             "padding": "0 2px",
             "position": "relative",
           }
@@ -74,28 +59,17 @@ exports[`Slider renders correctly 1`] = `
             {
               "left": "69.44444444444443%",
               "position": "absolute",
+              "top": undefined,
             }
           }
         >
           <div
             style={
               {
-                "MozBorderRadius": "6px",
-                "MozBoxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
-                "MozTransform": "translate(-7px, -1px)",
-                "OBorderRadius": "6px",
-                "OBoxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
-                "OTransform": "translate(-7px, -1px)",
-                "WebkitBorderRadius": "6px",
-                "WebkitBoxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
-                "WebkitTransform": "translate(-7px, -1px)",
                 "backgroundColor": "rgb(248, 248, 248)",
                 "borderRadius": "6px",
                 "boxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
                 "height": "14px",
-                "msBorderRadius": "6px",
-                "msBoxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
-                "msTransform": "translate(-7px, -1px)",
                 "transform": "translate(-7px, -1px)",
                 "width": "14px",
               }
@@ -127,14 +101,11 @@ exports[`Slider renders correctly 1`] = `
           onClick={[Function]}
           style={
             {
-              "MozBorderRadius": "2px 0 0 2px",
-              "OBorderRadius": "2px 0 0 2px",
-              "WebkitBorderRadius": "2px 0 0 2px",
               "background": "hsl(249.99999999999994, 50%, 80%)",
               "borderRadius": "2px 0 0 2px",
               "cursor": "pointer",
               "height": "12px",
-              "msBorderRadius": "2px 0 0 2px",
+              "transform": undefined,
             }
           }
         />
@@ -154,8 +125,10 @@ exports[`Slider renders correctly 1`] = `
           style={
             {
               "background": "hsl(249.99999999999994, 50%, 65%)",
+              "borderRadius": undefined,
               "cursor": "pointer",
               "height": "12px",
+              "transform": undefined,
             }
           }
         />
@@ -175,8 +148,10 @@ exports[`Slider renders correctly 1`] = `
           style={
             {
               "background": "hsl(249.99999999999994, 50%, 50%)",
+              "borderRadius": undefined,
               "cursor": "pointer",
               "height": "12px",
+              "transform": undefined,
             }
           }
         />
@@ -196,8 +171,10 @@ exports[`Slider renders correctly 1`] = `
           style={
             {
               "background": "hsl(249.99999999999994, 50%, 35%)",
+              "borderRadius": undefined,
               "cursor": "pointer",
               "height": "12px",
+              "transform": undefined,
             }
           }
         />
@@ -216,18 +193,10 @@ exports[`Slider renders correctly 1`] = `
           onClick={[Function]}
           style={
             {
-              "MozBorderRadius": "0 2px 2px 0",
-              "MozTransform": "scaleY(1.8)",
-              "OBorderRadius": "0 2px 2px 0",
-              "OTransform": "scaleY(1.8)",
-              "WebkitBorderRadius": "0 2px 2px 0",
-              "WebkitTransform": "scaleY(1.8)",
               "background": "hsl(249.99999999999994, 50%, 20%)",
-              "borderRadius": "0 2px 2px 0",
+              "borderRadius": "3.6px/2px",
               "cursor": "pointer",
               "height": "12px",
-              "msBorderRadius": "0 2px 2px 0",
-              "msTransform": "scaleY(1.8)",
               "transform": "scaleY(1.8)",
             }
           }
@@ -249,22 +218,10 @@ exports[`SliderPointer renders correctly 1`] = `
 <div
   style={
     {
-      "MozBorderRadius": "6px",
-      "MozBoxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
-      "MozTransform": "translate(-7px, -1px)",
-      "OBorderRadius": "6px",
-      "OBoxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
-      "OTransform": "translate(-7px, -1px)",
-      "WebkitBorderRadius": "6px",
-      "WebkitBoxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
-      "WebkitTransform": "translate(-7px, -1px)",
       "backgroundColor": "rgb(248, 248, 248)",
       "borderRadius": "6px",
       "boxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
       "height": "14px",
-      "msBorderRadius": "6px",
-      "msBoxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
-      "msTransform": "translate(-7px, -1px)",
       "transform": "translate(-7px, -1px)",
       "width": "14px",
     }
@@ -278,8 +235,10 @@ exports[`SliderSwatch renders correctly 1`] = `
   style={
     {
       "background": "hsl(0, 50%, NaN%)",
+      "borderRadius": undefined,
       "cursor": "pointer",
       "height": "12px",
+      "transform": undefined,
     }
   }
 />
@@ -307,14 +266,11 @@ exports[`SliderSwatches renders correctly 1`] = `
       onClick={[Function]}
       style={
         {
-          "MozBorderRadius": "2px 0 0 2px",
-          "OBorderRadius": "2px 0 0 2px",
-          "WebkitBorderRadius": "2px 0 0 2px",
           "background": "hsl(0, 50%, 80%)",
           "borderRadius": "2px 0 0 2px",
           "cursor": "pointer",
           "height": "12px",
-          "msBorderRadius": "2px 0 0 2px",
+          "transform": undefined,
         }
       }
     />
@@ -334,8 +290,10 @@ exports[`SliderSwatches renders correctly 1`] = `
       style={
         {
           "background": "hsl(0, 50%, 65%)",
+          "borderRadius": undefined,
           "cursor": "pointer",
           "height": "12px",
+          "transform": undefined,
         }
       }
     />
@@ -355,8 +313,10 @@ exports[`SliderSwatches renders correctly 1`] = `
       style={
         {
           "background": "hsl(0, 50%, 50%)",
+          "borderRadius": undefined,
           "cursor": "pointer",
           "height": "12px",
+          "transform": undefined,
         }
       }
     />
@@ -376,8 +336,10 @@ exports[`SliderSwatches renders correctly 1`] = `
       style={
         {
           "background": "hsl(0, 50%, 35%)",
+          "borderRadius": undefined,
           "cursor": "pointer",
           "height": "12px",
+          "transform": undefined,
         }
       }
     />
@@ -396,14 +358,11 @@ exports[`SliderSwatches renders correctly 1`] = `
       onClick={[Function]}
       style={
         {
-          "MozBorderRadius": "0 2px 2px 0",
-          "OBorderRadius": "0 2px 2px 0",
-          "WebkitBorderRadius": "0 2px 2px 0",
           "background": "hsl(0, 50%, 20%)",
           "borderRadius": "0 2px 2px 0",
           "cursor": "pointer",
           "height": "12px",
-          "msBorderRadius": "0 2px 2px 0",
+          "transform": undefined,
         }
       }
     />

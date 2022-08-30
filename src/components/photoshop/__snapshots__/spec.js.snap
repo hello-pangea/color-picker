@@ -5,18 +5,10 @@ exports[`Photoshop renders correctly 1`] = `
   className="photoshop-picker "
   style={
     {
-      "MozBorderRadius": "4px",
-      "MozBoxShadow": "0 0 0 1px rgba(0,0,0,.25), 0 8px 16px rgba(0,0,0,.15)",
-      "OBorderRadius": "4px",
-      "OBoxShadow": "0 0 0 1px rgba(0,0,0,.25), 0 8px 16px rgba(0,0,0,.15)",
-      "WebkitBorderRadius": "4px",
-      "WebkitBoxShadow": "0 0 0 1px rgba(0,0,0,.25), 0 8px 16px rgba(0,0,0,.15)",
       "background": "#DCDCDC",
       "borderRadius": "4px",
       "boxShadow": "0 0 0 1px rgba(0,0,0,.25), 0 8px 16px rgba(0,0,0,.15)",
       "boxSizing": "initial",
-      "msBorderRadius": "4px",
-      "msBoxShadow": "0 0 0 1px rgba(0,0,0,.25), 0 8px 16px rgba(0,0,0,.15)",
       "width": "513px",
     }
   }
@@ -24,12 +16,6 @@ exports[`Photoshop renders correctly 1`] = `
   <div
     style={
       {
-        "MozBorderRadius": "4px 4px 0 0",
-        "MozBoxShadow": "inset 0 1px 0 0 rgba(255,255,255,.2), inset 0 -1px 0 0 rgba(0,0,0,.02)",
-        "OBorderRadius": "4px 4px 0 0",
-        "OBoxShadow": "inset 0 1px 0 0 rgba(255,255,255,.2), inset 0 -1px 0 0 rgba(0,0,0,.02)",
-        "WebkitBorderRadius": "4px 4px 0 0",
-        "WebkitBoxShadow": "inset 0 1px 0 0 rgba(255,255,255,.2), inset 0 -1px 0 0 rgba(0,0,0,.02)",
         "backgroundImage": "linear-gradient(-180deg, #F0F0F0 0%, #D4D4D4 100%)",
         "borderBottom": "1px solid #B1B1B1",
         "borderRadius": "4px 4px 0 0",
@@ -38,8 +24,6 @@ exports[`Photoshop renders correctly 1`] = `
         "fontSize": "13px",
         "height": "23px",
         "lineHeight": "24px",
-        "msBorderRadius": "4px 4px 0 0",
-        "msBoxShadow": "inset 0 1px 0 0 rgba(255,255,255,.2), inset 0 -1px 0 0 rgba(0,0,0,.02)",
         "textAlign": "center",
       }
     }
@@ -73,17 +57,10 @@ exports[`Photoshop renders correctly 1`] = `
         onTouchStart={[Function]}
         style={
           {
-            "MozBorderRadius": undefined,
-            "OBorderRadius": undefined,
-            "WebkitBorderRadius": undefined,
             "background": "hsl(249.99999999999994,100%, 50%)",
             "borderRadius": undefined,
-            "bottom": "0px",
-            "left": "0px",
-            "msBorderRadius": undefined,
+            "inset": "0px",
             "position": "absolute",
-            "right": "0px",
-            "top": "0px",
           }
         }
       >
@@ -103,16 +80,9 @@ exports[`Photoshop renders correctly 1`] = `
           className="saturation-white"
           style={
             {
-              "MozBorderRadius": undefined,
-              "OBorderRadius": undefined,
-              "WebkitBorderRadius": undefined,
               "borderRadius": undefined,
-              "bottom": "0px",
-              "left": "0px",
-              "msBorderRadius": undefined,
+              "inset": "0px",
               "position": "absolute",
-              "right": "0px",
-              "top": "0px",
             }
           }
         >
@@ -120,21 +90,10 @@ exports[`Photoshop renders correctly 1`] = `
             className="saturation-black"
             style={
               {
-                "MozBorderRadius": undefined,
-                "MozBoxShadow": undefined,
-                "OBorderRadius": undefined,
-                "OBoxShadow": undefined,
-                "WebkitBorderRadius": undefined,
-                "WebkitBoxShadow": undefined,
                 "borderRadius": undefined,
-                "bottom": "0px",
                 "boxShadow": undefined,
-                "left": "0px",
-                "msBorderRadius": undefined,
-                "msBoxShadow": undefined,
+                "inset": "0px",
                 "position": "absolute",
-                "right": "0px",
-                "top": "0px",
               }
             }
           />
@@ -151,21 +110,9 @@ exports[`Photoshop renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "6px",
-                  "MozBoxShadow": "inset 0 0 0 1px #fff",
-                  "MozTransform": "translate(-6px, -6px)",
-                  "OBorderRadius": "6px",
-                  "OBoxShadow": "inset 0 0 0 1px #fff",
-                  "OTransform": "translate(-6px, -6px)",
-                  "WebkitBorderRadius": "6px",
-                  "WebkitBoxShadow": "inset 0 0 0 1px #fff",
-                  "WebkitTransform": "translate(-6px, -6px)",
                   "borderRadius": "6px",
                   "boxShadow": "inset 0 0 0 1px #fff",
                   "height": "12px",
-                  "msBorderRadius": "6px",
-                  "msBoxShadow": "inset 0 0 0 1px #fff",
-                  "msTransform": "translate(-6px, -6px)",
                   "transform": "translate(-6px, -6px)",
                   "width": "12px",
                 }
@@ -190,21 +137,10 @@ exports[`Photoshop renders correctly 1`] = `
       <div
         style={
           {
-            "MozBorderRadius": undefined,
-            "MozBoxShadow": undefined,
-            "OBorderRadius": undefined,
-            "OBoxShadow": undefined,
-            "WebkitBorderRadius": undefined,
-            "WebkitBoxShadow": undefined,
             "borderRadius": undefined,
-            "bottom": "0px",
             "boxShadow": undefined,
-            "left": "0px",
-            "msBorderRadius": undefined,
-            "msBoxShadow": undefined,
+            "inset": "0px",
             "position": "absolute",
-            "right": "0px",
-            "top": "0px",
           }
         }
       >
@@ -215,12 +151,8 @@ exports[`Photoshop renders correctly 1`] = `
           onTouchStart={[Function]}
           style={
             {
-              "MozBorderRadius": undefined,
-              "OBorderRadius": undefined,
-              "WebkitBorderRadius": undefined,
               "borderRadius": undefined,
               "height": "100%",
-              "msBorderRadius": undefined,
               "padding": "0 2px",
               "position": "relative",
             }
@@ -256,24 +188,27 @@ exports[`Photoshop renders correctly 1`] = `
               <div
                 style={
                   {
-                    "Extend": "triangleBorder",
-                    "MozTransform": "translate(-13px, -4px)",
-                    "OTransform": "translate(-13px, -4px)",
-                    "WebkitTransform": "translate(-13px, -4px)",
-                    "msTransform": "translate(-13px, -4px)",
+                    "borderColor": "transparent transparent transparent #555",
+                    "borderStyle": "solid",
+                    "borderWidth": "5px 0 5px 8px",
+                    "height": 0,
                     "transform": "translate(-13px, -4px)",
+                    "width": 0,
                   }
                 }
               >
                 <div
                   style={
                     {
-                      "Extend": "triangle",
-                      "MozTransform": "translate(-8px, -5px)",
-                      "OTransform": "translate(-8px, -5px)",
-                      "WebkitTransform": "translate(-8px, -5px)",
-                      "msTransform": "translate(-8px, -5px)",
+                      "borderColor": "transparent transparent transparent #fff",
+                      "borderStyle": "solid",
+                      "borderWidth": "4px 0 4px 6px",
+                      "height": 0,
+                      "left": "1px",
+                      "position": "absolute",
+                      "top": "1px",
                       "transform": "translate(-8px, -5px)",
+                      "width": 0,
                     }
                   }
                 />
@@ -281,24 +216,27 @@ exports[`Photoshop renders correctly 1`] = `
               <div
                 style={
                   {
-                    "Extend": "triangleBorder",
-                    "MozTransform": "translate(20px, -14px) rotate(180deg)",
-                    "OTransform": "translate(20px, -14px) rotate(180deg)",
-                    "WebkitTransform": "translate(20px, -14px) rotate(180deg)",
-                    "msTransform": "translate(20px, -14px) rotate(180deg)",
+                    "borderColor": "transparent transparent transparent #555",
+                    "borderStyle": "solid",
+                    "borderWidth": "5px 0 5px 8px",
+                    "height": 0,
                     "transform": "translate(20px, -14px) rotate(180deg)",
+                    "width": 0,
                   }
                 }
               >
                 <div
                   style={
                     {
-                      "Extend": "triangle",
-                      "MozTransform": "translate(-8px, -5px)",
-                      "OTransform": "translate(-8px, -5px)",
-                      "WebkitTransform": "translate(-8px, -5px)",
-                      "msTransform": "translate(-8px, -5px)",
+                      "borderColor": "transparent transparent transparent #fff",
+                      "borderStyle": "solid",
+                      "borderWidth": "4px 0 4px 6px",
+                      "height": 0,
+                      "left": "1px",
+                      "position": "absolute",
+                      "top": "1px",
                       "transform": "translate(-8px, -5px)",
+                      "width": 0,
                     }
                   }
                 />
@@ -356,26 +294,18 @@ exports[`Photoshop renders correctly 1`] = `
               <div
                 style={
                   {
-                    "MozBoxShadow": "inset 1px 0 0 #000, inset -1px 0 0 #000, inset 0 1px 0 #000",
-                    "OBoxShadow": "inset 1px 0 0 #000, inset -1px 0 0 #000, inset 0 1px 0 #000",
-                    "WebkitBoxShadow": "inset 1px 0 0 #000, inset -1px 0 0 #000, inset 0 1px 0 #000",
                     "background": "rgb(34,25, 77)",
                     "boxShadow": "inset 1px 0 0 #000, inset -1px 0 0 #000, inset 0 1px 0 #000",
                     "height": "34px",
-                    "msBoxShadow": "inset 1px 0 0 #000, inset -1px 0 0 #000, inset 0 1px 0 #000",
                   }
                 }
               />
               <div
                 style={
                   {
-                    "MozBoxShadow": "inset 1px 0 0 #000, inset -1px 0 0 #000, inset 0 -1px 0 #000",
-                    "OBoxShadow": "inset 1px 0 0 #000, inset -1px 0 0 #000, inset 0 -1px 0 #000",
-                    "WebkitBoxShadow": "inset 1px 0 0 #000, inset -1px 0 0 #000, inset 0 -1px 0 #000",
                     "background": "#22194d",
                     "boxShadow": "inset 1px 0 0 #000, inset -1px 0 0 #000, inset 0 -1px 0 #000",
                     "height": "34px",
-                    "msBoxShadow": "inset 1px 0 0 #000, inset -1px 0 0 #000, inset 0 -1px 0 #000",
                   }
                 }
               />
@@ -396,12 +326,8 @@ exports[`Photoshop renders correctly 1`] = `
         <div
           style={
             {
-              "MozBoxFlex": "1",
-              "WebkitBoxFlex": "1",
-              "WebkitFlex": "1",
               "flex": "1",
               "marginLeft": "20px",
-              "msFlex": "1",
             }
           }
         >
@@ -409,12 +335,6 @@ exports[`Photoshop renders correctly 1`] = `
             onClick={[Function]}
             style={
               {
-                "MozBorderRadius": "2px",
-                "MozBoxShadow": "0 0 0 1px #878787",
-                "OBorderRadius": "2px",
-                "OBoxShadow": "0 0 0 1px #878787",
-                "WebkitBorderRadius": "2px",
-                "WebkitBoxShadow": "0 0 0 1px #878787",
                 "backgroundImage": "linear-gradient(-180deg, #FFFFFF 0%, #E6E6E6 100%)",
                 "border": "1px solid #878787",
                 "borderRadius": "2px",
@@ -425,8 +345,6 @@ exports[`Photoshop renders correctly 1`] = `
                 "height": "20px",
                 "lineHeight": "20px",
                 "marginBottom": "10px",
-                "msBorderRadius": "2px",
-                "msBoxShadow": "0 0 0 1px #878787",
                 "textAlign": "center",
               }
             }
@@ -437,12 +355,6 @@ exports[`Photoshop renders correctly 1`] = `
             onClick={[Function]}
             style={
               {
-                "MozBorderRadius": "2px",
-                "MozBoxShadow": "0 1px 0 0 #EAEAEA",
-                "OBorderRadius": "2px",
-                "OBoxShadow": "0 1px 0 0 #EAEAEA",
-                "WebkitBorderRadius": "2px",
-                "WebkitBoxShadow": "0 1px 0 0 #EAEAEA",
                 "backgroundImage": "linear-gradient(-180deg, #FFFFFF 0%, #E6E6E6 100%)",
                 "border": "1px solid #878787",
                 "borderRadius": "2px",
@@ -453,8 +365,6 @@ exports[`Photoshop renders correctly 1`] = `
                 "height": "20px",
                 "lineHeight": "20px",
                 "marginBottom": "10px",
-                "msBorderRadius": "2px",
-                "msBoxShadow": "0 1px 0 0 #EAEAEA",
                 "textAlign": "center",
               }
             }
@@ -486,9 +396,6 @@ exports[`Photoshop renders correctly 1`] = `
                 spellCheck="false"
                 style={
                   {
-                    "MozBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-                    "OBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-                    "WebkitBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
                     "border": "1px solid #888888",
                     "boxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
                     "fontSize": "13px",
@@ -496,7 +403,6 @@ exports[`Photoshop renders correctly 1`] = `
                     "marginBottom": "5px",
                     "marginLeft": "40%",
                     "marginRight": "10px",
-                    "msBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
                     "paddingLeft": "3px",
                     "width": "40%",
                   }
@@ -508,6 +414,7 @@ exports[`Photoshop renders correctly 1`] = `
                 onMouseDown={[Function]}
                 style={
                   {
+                    "cursor": undefined,
                     "fontSize": "13px",
                     "height": "18px",
                     "left": "0px",
@@ -537,9 +444,6 @@ exports[`Photoshop renders correctly 1`] = `
                 spellCheck="false"
                 style={
                   {
-                    "MozBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-                    "OBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-                    "WebkitBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
                     "border": "1px solid #888888",
                     "boxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
                     "fontSize": "13px",
@@ -547,7 +451,6 @@ exports[`Photoshop renders correctly 1`] = `
                     "marginBottom": "5px",
                     "marginLeft": "40%",
                     "marginRight": "10px",
-                    "msBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
                     "paddingLeft": "3px",
                     "width": "40%",
                   }
@@ -559,6 +462,7 @@ exports[`Photoshop renders correctly 1`] = `
                 onMouseDown={[Function]}
                 style={
                   {
+                    "cursor": undefined,
                     "fontSize": "13px",
                     "height": "18px",
                     "left": "0px",
@@ -588,9 +492,6 @@ exports[`Photoshop renders correctly 1`] = `
                 spellCheck="false"
                 style={
                   {
-                    "MozBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-                    "OBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-                    "WebkitBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
                     "border": "1px solid #888888",
                     "boxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
                     "fontSize": "13px",
@@ -598,7 +499,6 @@ exports[`Photoshop renders correctly 1`] = `
                     "marginBottom": "5px",
                     "marginLeft": "40%",
                     "marginRight": "10px",
-                    "msBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
                     "paddingLeft": "3px",
                     "width": "40%",
                   }
@@ -610,6 +510,7 @@ exports[`Photoshop renders correctly 1`] = `
                 onMouseDown={[Function]}
                 style={
                   {
+                    "cursor": undefined,
                     "fontSize": "13px",
                     "height": "18px",
                     "left": "0px",
@@ -646,9 +547,6 @@ exports[`Photoshop renders correctly 1`] = `
                 spellCheck="false"
                 style={
                   {
-                    "MozBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-                    "OBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-                    "WebkitBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
                     "border": "1px solid #888888",
                     "boxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
                     "fontSize": "13px",
@@ -656,7 +554,6 @@ exports[`Photoshop renders correctly 1`] = `
                     "marginBottom": "5px",
                     "marginLeft": "40%",
                     "marginRight": "10px",
-                    "msBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
                     "paddingLeft": "3px",
                     "width": "40%",
                   }
@@ -668,6 +565,7 @@ exports[`Photoshop renders correctly 1`] = `
                 onMouseDown={[Function]}
                 style={
                   {
+                    "cursor": undefined,
                     "fontSize": "13px",
                     "height": "18px",
                     "left": "0px",
@@ -697,9 +595,6 @@ exports[`Photoshop renders correctly 1`] = `
                 spellCheck="false"
                 style={
                   {
-                    "MozBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-                    "OBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-                    "WebkitBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
                     "border": "1px solid #888888",
                     "boxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
                     "fontSize": "13px",
@@ -707,7 +602,6 @@ exports[`Photoshop renders correctly 1`] = `
                     "marginBottom": "5px",
                     "marginLeft": "40%",
                     "marginRight": "10px",
-                    "msBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
                     "paddingLeft": "3px",
                     "width": "40%",
                   }
@@ -719,6 +613,7 @@ exports[`Photoshop renders correctly 1`] = `
                 onMouseDown={[Function]}
                 style={
                   {
+                    "cursor": undefined,
                     "fontSize": "13px",
                     "height": "18px",
                     "left": "0px",
@@ -748,9 +643,6 @@ exports[`Photoshop renders correctly 1`] = `
                 spellCheck="false"
                 style={
                   {
-                    "MozBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-                    "OBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-                    "WebkitBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
                     "border": "1px solid #888888",
                     "boxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
                     "fontSize": "13px",
@@ -758,7 +650,6 @@ exports[`Photoshop renders correctly 1`] = `
                     "marginBottom": "5px",
                     "marginLeft": "40%",
                     "marginRight": "10px",
-                    "msBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
                     "paddingLeft": "3px",
                     "width": "40%",
                   }
@@ -770,6 +661,7 @@ exports[`Photoshop renders correctly 1`] = `
                 onMouseDown={[Function]}
                 style={
                   {
+                    "cursor": undefined,
                     "fontSize": "13px",
                     "height": "18px",
                     "left": "0px",
@@ -806,16 +698,12 @@ exports[`Photoshop renders correctly 1`] = `
                 spellCheck="false"
                 style={
                   {
-                    "MozBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-                    "OBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-                    "WebkitBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
                     "border": "1px solid #888888",
                     "boxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
                     "fontSize": "13px",
                     "height": "18px",
                     "marginBottom": "6px",
                     "marginLeft": "20%",
-                    "msBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
                     "paddingLeft": "3px",
                     "width": "80%",
                   }
@@ -827,6 +715,7 @@ exports[`Photoshop renders correctly 1`] = `
                 onMouseDown={[Function]}
                 style={
                   {
+                    "cursor": undefined,
                     "fontSize": "13px",
                     "height": "18px",
                     "left": "0px",
@@ -898,12 +787,6 @@ exports[`PhotoshopButton renders correctly 1`] = `
   onClick={[Function]}
   style={
     {
-      "MozBorderRadius": "2px",
-      "MozBoxShadow": "0 1px 0 0 #EAEAEA",
-      "OBorderRadius": "2px",
-      "OBoxShadow": "0 1px 0 0 #EAEAEA",
-      "WebkitBorderRadius": "2px",
-      "WebkitBoxShadow": "0 1px 0 0 #EAEAEA",
       "backgroundImage": "linear-gradient(-180deg, #FFFFFF 0%, #E6E6E6 100%)",
       "border": "1px solid #878787",
       "borderRadius": "2px",
@@ -914,8 +797,6 @@ exports[`PhotoshopButton renders correctly 1`] = `
       "height": "20px",
       "lineHeight": "20px",
       "marginBottom": "10px",
-      "msBorderRadius": "2px",
-      "msBoxShadow": "0 1px 0 0 #EAEAEA",
       "textAlign": "center",
     }
   }
@@ -950,9 +831,6 @@ exports[`PhotoshopFields renders correctly 1`] = `
       spellCheck="false"
       style={
         {
-          "MozBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-          "OBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-          "WebkitBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
           "border": "1px solid #888888",
           "boxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
           "fontSize": "13px",
@@ -960,7 +838,6 @@ exports[`PhotoshopFields renders correctly 1`] = `
           "marginBottom": "5px",
           "marginLeft": "40%",
           "marginRight": "10px",
-          "msBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
           "paddingLeft": "3px",
           "width": "40%",
         }
@@ -972,6 +849,7 @@ exports[`PhotoshopFields renders correctly 1`] = `
       onMouseDown={[Function]}
       style={
         {
+          "cursor": undefined,
           "fontSize": "13px",
           "height": "18px",
           "left": "0px",
@@ -1001,9 +879,6 @@ exports[`PhotoshopFields renders correctly 1`] = `
       spellCheck="false"
       style={
         {
-          "MozBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-          "OBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-          "WebkitBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
           "border": "1px solid #888888",
           "boxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
           "fontSize": "13px",
@@ -1011,7 +886,6 @@ exports[`PhotoshopFields renders correctly 1`] = `
           "marginBottom": "5px",
           "marginLeft": "40%",
           "marginRight": "10px",
-          "msBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
           "paddingLeft": "3px",
           "width": "40%",
         }
@@ -1023,6 +897,7 @@ exports[`PhotoshopFields renders correctly 1`] = `
       onMouseDown={[Function]}
       style={
         {
+          "cursor": undefined,
           "fontSize": "13px",
           "height": "18px",
           "left": "0px",
@@ -1052,9 +927,6 @@ exports[`PhotoshopFields renders correctly 1`] = `
       spellCheck="false"
       style={
         {
-          "MozBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-          "OBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-          "WebkitBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
           "border": "1px solid #888888",
           "boxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
           "fontSize": "13px",
@@ -1062,7 +934,6 @@ exports[`PhotoshopFields renders correctly 1`] = `
           "marginBottom": "5px",
           "marginLeft": "40%",
           "marginRight": "10px",
-          "msBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
           "paddingLeft": "3px",
           "width": "40%",
         }
@@ -1074,6 +945,7 @@ exports[`PhotoshopFields renders correctly 1`] = `
       onMouseDown={[Function]}
       style={
         {
+          "cursor": undefined,
           "fontSize": "13px",
           "height": "18px",
           "left": "0px",
@@ -1110,9 +982,6 @@ exports[`PhotoshopFields renders correctly 1`] = `
       spellCheck="false"
       style={
         {
-          "MozBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-          "OBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-          "WebkitBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
           "border": "1px solid #888888",
           "boxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
           "fontSize": "13px",
@@ -1120,7 +989,6 @@ exports[`PhotoshopFields renders correctly 1`] = `
           "marginBottom": "5px",
           "marginLeft": "40%",
           "marginRight": "10px",
-          "msBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
           "paddingLeft": "3px",
           "width": "40%",
         }
@@ -1132,6 +1000,7 @@ exports[`PhotoshopFields renders correctly 1`] = `
       onMouseDown={[Function]}
       style={
         {
+          "cursor": undefined,
           "fontSize": "13px",
           "height": "18px",
           "left": "0px",
@@ -1161,9 +1030,6 @@ exports[`PhotoshopFields renders correctly 1`] = `
       spellCheck="false"
       style={
         {
-          "MozBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-          "OBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-          "WebkitBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
           "border": "1px solid #888888",
           "boxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
           "fontSize": "13px",
@@ -1171,7 +1037,6 @@ exports[`PhotoshopFields renders correctly 1`] = `
           "marginBottom": "5px",
           "marginLeft": "40%",
           "marginRight": "10px",
-          "msBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
           "paddingLeft": "3px",
           "width": "40%",
         }
@@ -1183,6 +1048,7 @@ exports[`PhotoshopFields renders correctly 1`] = `
       onMouseDown={[Function]}
       style={
         {
+          "cursor": undefined,
           "fontSize": "13px",
           "height": "18px",
           "left": "0px",
@@ -1212,9 +1078,6 @@ exports[`PhotoshopFields renders correctly 1`] = `
       spellCheck="false"
       style={
         {
-          "MozBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-          "OBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-          "WebkitBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
           "border": "1px solid #888888",
           "boxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
           "fontSize": "13px",
@@ -1222,7 +1085,6 @@ exports[`PhotoshopFields renders correctly 1`] = `
           "marginBottom": "5px",
           "marginLeft": "40%",
           "marginRight": "10px",
-          "msBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
           "paddingLeft": "3px",
           "width": "40%",
         }
@@ -1234,6 +1096,7 @@ exports[`PhotoshopFields renders correctly 1`] = `
       onMouseDown={[Function]}
       style={
         {
+          "cursor": undefined,
           "fontSize": "13px",
           "height": "18px",
           "left": "0px",
@@ -1270,16 +1133,12 @@ exports[`PhotoshopFields renders correctly 1`] = `
       spellCheck="false"
       style={
         {
-          "MozBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-          "OBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
-          "WebkitBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
           "border": "1px solid #888888",
           "boxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
           "fontSize": "13px",
           "height": "18px",
           "marginBottom": "6px",
           "marginLeft": "20%",
-          "msBoxShadow": "inset 0 1px 1px rgba(0,0,0,.1), 0 1px 0 0 #ECECEC",
           "paddingLeft": "3px",
           "width": "80%",
         }
@@ -1291,6 +1150,7 @@ exports[`PhotoshopFields renders correctly 1`] = `
       onMouseDown={[Function]}
       style={
         {
+          "cursor": undefined,
           "fontSize": "13px",
           "height": "18px",
           "left": "0px",
@@ -1357,24 +1217,27 @@ exports[`PhotoshopPointer renders correctly 1`] = `
   <div
     style={
       {
-        "Extend": "triangleBorder",
-        "MozTransform": "translate(-13px, -4px)",
-        "OTransform": "translate(-13px, -4px)",
-        "WebkitTransform": "translate(-13px, -4px)",
-        "msTransform": "translate(-13px, -4px)",
+        "borderColor": "transparent transparent transparent #555",
+        "borderStyle": "solid",
+        "borderWidth": "5px 0 5px 8px",
+        "height": 0,
         "transform": "translate(-13px, -4px)",
+        "width": 0,
       }
     }
   >
     <div
       style={
         {
-          "Extend": "triangle",
-          "MozTransform": "translate(-8px, -5px)",
-          "OTransform": "translate(-8px, -5px)",
-          "WebkitTransform": "translate(-8px, -5px)",
-          "msTransform": "translate(-8px, -5px)",
+          "borderColor": "transparent transparent transparent #fff",
+          "borderStyle": "solid",
+          "borderWidth": "4px 0 4px 6px",
+          "height": 0,
+          "left": "1px",
+          "position": "absolute",
+          "top": "1px",
           "transform": "translate(-8px, -5px)",
+          "width": 0,
         }
       }
     />
@@ -1382,24 +1245,27 @@ exports[`PhotoshopPointer renders correctly 1`] = `
   <div
     style={
       {
-        "Extend": "triangleBorder",
-        "MozTransform": "translate(20px, -14px) rotate(180deg)",
-        "OTransform": "translate(20px, -14px) rotate(180deg)",
-        "WebkitTransform": "translate(20px, -14px) rotate(180deg)",
-        "msTransform": "translate(20px, -14px) rotate(180deg)",
+        "borderColor": "transparent transparent transparent #555",
+        "borderStyle": "solid",
+        "borderWidth": "5px 0 5px 8px",
+        "height": 0,
         "transform": "translate(20px, -14px) rotate(180deg)",
+        "width": 0,
       }
     }
   >
     <div
       style={
         {
-          "Extend": "triangle",
-          "MozTransform": "translate(-8px, -5px)",
-          "OTransform": "translate(-8px, -5px)",
-          "WebkitTransform": "translate(-8px, -5px)",
-          "msTransform": "translate(-8px, -5px)",
+          "borderColor": "transparent transparent transparent #fff",
+          "borderStyle": "solid",
+          "borderWidth": "4px 0 4px 6px",
+          "height": 0,
+          "left": "1px",
+          "position": "absolute",
+          "top": "1px",
           "transform": "translate(-8px, -5px)",
+          "width": 0,
         }
       }
     />
@@ -1411,21 +1277,9 @@ exports[`PhotoshopPointerCircle renders correctly 1`] = `
 <div
   style={
     {
-      "MozBorderRadius": "6px",
-      "MozBoxShadow": "inset 0 0 0 1px #fff",
-      "MozTransform": "translate(-6px, -6px)",
-      "OBorderRadius": "6px",
-      "OBoxShadow": "inset 0 0 0 1px #fff",
-      "OTransform": "translate(-6px, -6px)",
-      "WebkitBorderRadius": "6px",
-      "WebkitBoxShadow": "inset 0 0 0 1px #fff",
-      "WebkitTransform": "translate(-6px, -6px)",
       "borderRadius": "6px",
       "boxShadow": "inset 0 0 0 1px #fff",
       "height": "12px",
-      "msBorderRadius": "6px",
-      "msBoxShadow": "inset 0 0 0 1px #fff",
-      "msTransform": "translate(-6px, -6px)",
       "transform": "translate(-6px, -6px)",
       "width": "12px",
     }
@@ -1459,26 +1313,18 @@ exports[`PhotoshopPreviews renders correctly 1`] = `
     <div
       style={
         {
-          "MozBoxShadow": "inset 1px 0 0 #000, inset -1px 0 0 #000, inset 0 1px 0 #000",
-          "OBoxShadow": "inset 1px 0 0 #000, inset -1px 0 0 #000, inset 0 1px 0 #000",
-          "WebkitBoxShadow": "inset 1px 0 0 #000, inset -1px 0 0 #000, inset 0 1px 0 #000",
           "background": "rgb(255,0, 0)",
           "boxShadow": "inset 1px 0 0 #000, inset -1px 0 0 #000, inset 0 1px 0 #000",
           "height": "34px",
-          "msBoxShadow": "inset 1px 0 0 #000, inset -1px 0 0 #000, inset 0 1px 0 #000",
         }
       }
     />
     <div
       style={
         {
-          "MozBoxShadow": "inset 1px 0 0 #000, inset -1px 0 0 #000, inset 0 -1px 0 #000",
-          "OBoxShadow": "inset 1px 0 0 #000, inset -1px 0 0 #000, inset 0 -1px 0 #000",
-          "WebkitBoxShadow": "inset 1px 0 0 #000, inset -1px 0 0 #000, inset 0 -1px 0 #000",
           "background": undefined,
           "boxShadow": "inset 1px 0 0 #000, inset -1px 0 0 #000, inset 0 -1px 0 #000",
           "height": "34px",
-          "msBoxShadow": "inset 1px 0 0 #000, inset -1px 0 0 #000, inset 0 -1px 0 #000",
         }
       }
     />

@@ -12,22 +12,11 @@ exports[`Compact renders correctly 1`] = `
   <div
     style={
       {
-        "MozBorderRadius": 2,
-        "MozBoxShadow": "0 2px 10px rgba(0,0,0,.12), 0 2px 5px rgba(0,0,0,.16)",
-        "OBorderRadius": 2,
-        "OBoxShadow": "0 2px 10px rgba(0,0,0,.12), 0 2px 5px rgba(0,0,0,.16)",
-        "WebkitBorderRadius": 2,
-        "WebkitBoxShadow": "0 2px 10px rgba(0,0,0,.12), 0 2px 5px rgba(0,0,0,.16)",
         "background": "#fff",
         "borderRadius": 2,
-        "bottom": "0px",
         "boxShadow": "0 2px 10px rgba(0,0,0,.12), 0 2px 5px rgba(0,0,0,.16)",
-        "left": "0px",
-        "msBorderRadius": 2,
-        "msBoxShadow": "0 2px 10px rgba(0,0,0,.12), 0 2px 5px rgba(0,0,0,.16)",
+        "inset": "0px",
         "position": "absolute",
-        "right": "0px",
-        "top": "0px",
       }
     }
   />
@@ -60,6 +49,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#4D4D4D",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -76,18 +66,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -103,6 +86,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#999999",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -119,18 +103,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -145,9 +122,6 @@ exports[`Compact renders correctly 1`] = `
             onKeyDown={[Function]}
             style={
               {
-                "MozBoxShadow": "inset 0 0 0 1px #ddd",
-                "OBoxShadow": "inset 0 0 0 1px #ddd",
-                "WebkitBoxShadow": "inset 0 0 0 1px #ddd",
                 "background": "#FFFFFF",
                 "boxShadow": "inset 0 0 0 1px #ddd",
                 "cursor": "pointer",
@@ -155,7 +129,6 @@ exports[`Compact renders correctly 1`] = `
                 "height": "15px",
                 "marginBottom": "5px",
                 "marginRight": "5px",
-                "msBoxShadow": "inset 0 0 0 1px #ddd",
                 "outline": "none",
                 "position": "relative",
                 "width": "15px",
@@ -167,18 +140,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -194,6 +160,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#F44E3B",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -210,18 +177,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -237,6 +197,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#FE9200",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -253,18 +214,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -280,6 +234,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#FCDC00",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -296,18 +251,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -323,6 +271,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#DBDF00",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -339,18 +288,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -366,6 +308,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#A4DD00",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -382,18 +325,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -409,6 +345,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#68CCCA",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -425,18 +362,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -452,6 +382,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#73D8FF",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -468,18 +399,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -495,6 +419,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#AEA1FF",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -511,18 +436,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -538,6 +456,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#FDA1FF",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -554,18 +473,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -581,6 +493,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#333333",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -597,18 +510,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -624,6 +530,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#808080",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -640,18 +547,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -667,6 +567,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#cccccc",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -683,18 +584,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -710,6 +604,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#D33115",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -726,18 +621,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -753,6 +641,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#E27300",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -769,18 +658,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -796,6 +678,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#FCC400",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -812,18 +695,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -839,6 +715,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#B0BC00",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -855,18 +732,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -882,6 +752,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#68BC00",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -898,18 +769,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -925,6 +789,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#16A5A5",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -941,18 +806,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -968,6 +826,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#009CE0",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -984,18 +843,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -1011,6 +863,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#7B64FF",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -1027,18 +880,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -1054,6 +900,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#FA28FF",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -1070,18 +917,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -1097,6 +937,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#000000",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -1113,18 +954,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -1140,6 +974,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#666666",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -1156,18 +991,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -1183,6 +1011,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#B3B3B3",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -1199,18 +1028,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -1226,6 +1048,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#9F0500",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -1242,18 +1065,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -1269,6 +1085,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#C45100",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -1285,18 +1102,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -1312,6 +1122,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#FB9E00",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -1328,18 +1139,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -1355,6 +1159,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#808900",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -1371,18 +1176,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -1398,6 +1196,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#194D33",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -1414,18 +1213,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -1441,6 +1233,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#0C797D",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -1457,18 +1250,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -1484,6 +1270,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#0062B1",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -1500,18 +1287,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -1527,6 +1307,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#653294",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -1543,18 +1324,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -1570,6 +1344,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "background": "#AB149E",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -1586,18 +1361,11 @@ exports[`Compact renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -1637,11 +1405,7 @@ exports[`Compact renders correctly 1`] = `
         <div
           style={
             {
-              "MozBoxFlex": "6",
-              "WebkitBoxFlex": "6",
-              "WebkitFlex": "6",
               "flex": "6",
-              "msFlex": "6",
               "position": "relative",
             }
           }
@@ -1672,6 +1436,7 @@ exports[`Compact renders correctly 1`] = `
             onMouseDown={[Function]}
             style={
               {
+                "cursor": undefined,
                 "display": "none",
               }
             }
@@ -1682,11 +1447,7 @@ exports[`Compact renders correctly 1`] = `
         <div
           style={
             {
-              "MozBoxFlex": "3",
-              "WebkitBoxFlex": "3",
-              "WebkitFlex": "3",
               "flex": "3",
-              "msFlex": "3",
               "position": "relative",
             }
           }
@@ -1718,6 +1479,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "color": "#999",
+                "cursor": undefined,
                 "fontSize": "12px",
                 "left": "0px",
                 "lineHeight": "16px",
@@ -1733,11 +1495,7 @@ exports[`Compact renders correctly 1`] = `
         <div
           style={
             {
-              "MozBoxFlex": "3",
-              "WebkitBoxFlex": "3",
-              "WebkitFlex": "3",
               "flex": "3",
-              "msFlex": "3",
               "position": "relative",
             }
           }
@@ -1769,6 +1527,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "color": "#999",
+                "cursor": undefined,
                 "fontSize": "12px",
                 "left": "0px",
                 "lineHeight": "16px",
@@ -1784,11 +1543,7 @@ exports[`Compact renders correctly 1`] = `
         <div
           style={
             {
-              "MozBoxFlex": "3",
-              "WebkitBoxFlex": "3",
-              "WebkitFlex": "3",
               "flex": "3",
-              "msFlex": "3",
               "position": "relative",
             }
           }
@@ -1820,6 +1575,7 @@ exports[`Compact renders correctly 1`] = `
             style={
               {
                 "color": "#999",
+                "cursor": undefined,
                 "fontSize": "12px",
                 "left": "0px",
                 "lineHeight": "16px",
@@ -1850,22 +1606,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
   <div
     style={
       {
-        "MozBorderRadius": 2,
-        "MozBoxShadow": "0 2px 10px rgba(0,0,0,.12), 0 2px 5px rgba(0,0,0,.16)",
-        "OBorderRadius": 2,
-        "OBoxShadow": "0 2px 10px rgba(0,0,0,.12), 0 2px 5px rgba(0,0,0,.16)",
-        "WebkitBorderRadius": 2,
-        "WebkitBoxShadow": "0 2px 10px rgba(0,0,0,.12), 0 2px 5px rgba(0,0,0,.16)",
         "background": "#fff",
         "borderRadius": 2,
-        "bottom": "0px",
         "boxShadow": "0 2px 10px rgba(0,0,0,.12), 0 2px 5px rgba(0,0,0,.16)",
-        "left": "0px",
-        "msBorderRadius": 2,
-        "msBoxShadow": "0 2px 10px rgba(0,0,0,.12), 0 2px 5px rgba(0,0,0,.16)",
+        "inset": "0px",
         "position": "absolute",
-        "right": "0px",
-        "top": "0px",
       }
     }
   />
@@ -1899,6 +1644,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#4D4D4D",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -1915,18 +1661,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -1943,6 +1682,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#999999",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -1959,18 +1699,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -1986,9 +1719,6 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onMouseOver={[Function]}
             style={
               {
-                "MozBoxShadow": "inset 0 0 0 1px #ddd",
-                "OBoxShadow": "inset 0 0 0 1px #ddd",
-                "WebkitBoxShadow": "inset 0 0 0 1px #ddd",
                 "background": "#FFFFFF",
                 "boxShadow": "inset 0 0 0 1px #ddd",
                 "cursor": "pointer",
@@ -1996,7 +1726,6 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
                 "height": "15px",
                 "marginBottom": "5px",
                 "marginRight": "5px",
-                "msBoxShadow": "inset 0 0 0 1px #ddd",
                 "outline": "none",
                 "position": "relative",
                 "width": "15px",
@@ -2008,18 +1737,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -2036,6 +1758,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#F44E3B",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -2052,18 +1775,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -2080,6 +1796,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#FE9200",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -2096,18 +1813,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -2124,6 +1834,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#FCDC00",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -2140,18 +1851,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -2168,6 +1872,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#DBDF00",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -2184,18 +1889,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -2212,6 +1910,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#A4DD00",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -2228,18 +1927,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -2256,6 +1948,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#68CCCA",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -2272,18 +1965,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -2300,6 +1986,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#73D8FF",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -2316,18 +2003,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -2344,6 +2024,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#AEA1FF",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -2360,18 +2041,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -2388,6 +2062,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#FDA1FF",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -2404,18 +2079,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -2432,6 +2100,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#333333",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -2448,18 +2117,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -2476,6 +2138,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#808080",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -2492,18 +2155,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -2520,6 +2176,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#cccccc",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -2536,18 +2193,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -2564,6 +2214,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#D33115",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -2580,18 +2231,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -2608,6 +2252,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#E27300",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -2624,18 +2269,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -2652,6 +2290,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#FCC400",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -2668,18 +2307,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -2696,6 +2328,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#B0BC00",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -2712,18 +2345,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -2740,6 +2366,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#68BC00",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -2756,18 +2383,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -2784,6 +2404,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#16A5A5",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -2800,18 +2421,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -2828,6 +2442,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#009CE0",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -2844,18 +2459,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -2872,6 +2480,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#7B64FF",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -2888,18 +2497,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -2916,6 +2518,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#FA28FF",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -2932,18 +2535,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -2960,6 +2556,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#000000",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -2976,18 +2573,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -3004,6 +2594,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#666666",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -3020,18 +2611,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -3048,6 +2632,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#B3B3B3",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -3064,18 +2649,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -3092,6 +2670,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#9F0500",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -3108,18 +2687,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -3136,6 +2708,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#C45100",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -3152,18 +2725,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -3180,6 +2746,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#FB9E00",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -3196,18 +2763,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#000",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -3224,6 +2784,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#808900",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -3240,18 +2801,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -3268,6 +2822,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#194D33",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -3284,18 +2839,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -3312,6 +2860,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#0C797D",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -3328,18 +2877,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -3356,6 +2898,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#0062B1",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -3372,18 +2915,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -3400,6 +2936,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#653294",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -3416,18 +2953,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -3444,6 +2974,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "background": "#AB149E",
+                "boxShadow": undefined,
                 "cursor": "pointer",
                 "float": "left",
                 "height": "15px",
@@ -3460,18 +2991,11 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             <div
               style={
                 {
-                  "MozBorderRadius": "50%",
-                  "OBorderRadius": "50%",
-                  "WebkitBorderRadius": "50%",
                   "background": "#fff",
                   "borderRadius": "50%",
-                  "bottom": "5px",
-                  "left": "5px",
-                  "msBorderRadius": "50%",
-                  "opacity": "0",
+                  "inset": "5px",
+                  "opacity": 0,
                   "position": "absolute",
-                  "right": "5px",
-                  "top": "5px",
                 }
               }
             />
@@ -3511,11 +3035,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
         <div
           style={
             {
-              "MozBoxFlex": "6",
-              "WebkitBoxFlex": "6",
-              "WebkitFlex": "6",
               "flex": "6",
-              "msFlex": "6",
               "position": "relative",
             }
           }
@@ -3546,6 +3066,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             onMouseDown={[Function]}
             style={
               {
+                "cursor": undefined,
                 "display": "none",
               }
             }
@@ -3556,11 +3077,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
         <div
           style={
             {
-              "MozBoxFlex": "3",
-              "WebkitBoxFlex": "3",
-              "WebkitFlex": "3",
               "flex": "3",
-              "msFlex": "3",
               "position": "relative",
             }
           }
@@ -3592,6 +3109,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "color": "#999",
+                "cursor": undefined,
                 "fontSize": "12px",
                 "left": "0px",
                 "lineHeight": "16px",
@@ -3607,11 +3125,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
         <div
           style={
             {
-              "MozBoxFlex": "3",
-              "WebkitBoxFlex": "3",
-              "WebkitFlex": "3",
               "flex": "3",
-              "msFlex": "3",
               "position": "relative",
             }
           }
@@ -3643,6 +3157,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "color": "#999",
+                "cursor": undefined,
                 "fontSize": "12px",
                 "left": "0px",
                 "lineHeight": "16px",
@@ -3658,11 +3173,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
         <div
           style={
             {
-              "MozBoxFlex": "3",
-              "WebkitBoxFlex": "3",
-              "WebkitFlex": "3",
               "flex": "3",
-              "msFlex": "3",
               "position": "relative",
             }
           }
@@ -3694,6 +3205,7 @@ exports[`Compact with onSwatchHover renders correctly 1`] = `
             style={
               {
                 "color": "#999",
+                "cursor": undefined,
                 "fontSize": "12px",
                 "left": "0px",
                 "lineHeight": "16px",
@@ -3723,6 +3235,7 @@ exports[`CompactColor renders correctly 1`] = `
     style={
       {
         "background": undefined,
+        "boxShadow": undefined,
         "cursor": "pointer",
         "float": "left",
         "height": "15px",
@@ -3738,18 +3251,11 @@ exports[`CompactColor renders correctly 1`] = `
     <div
       style={
         {
-          "MozBorderRadius": "50%",
-          "OBorderRadius": "50%",
-          "WebkitBorderRadius": "50%",
           "background": "#fff",
           "borderRadius": "50%",
-          "bottom": "5px",
-          "left": "5px",
-          "msBorderRadius": "50%",
-          "opacity": "0",
+          "inset": "5px",
+          "opacity": 0,
           "position": "absolute",
-          "right": "5px",
-          "top": "5px",
         }
       }
     />
@@ -3784,11 +3290,7 @@ exports[`CompactFields renders correctly 1`] = `
   <div
     style={
       {
-        "MozBoxFlex": "6",
-        "WebkitBoxFlex": "6",
-        "WebkitFlex": "6",
         "flex": "6",
-        "msFlex": "6",
         "position": "relative",
       }
     }
@@ -3819,6 +3321,7 @@ exports[`CompactFields renders correctly 1`] = `
       onMouseDown={[Function]}
       style={
         {
+          "cursor": undefined,
           "display": "none",
         }
       }
@@ -3829,11 +3332,7 @@ exports[`CompactFields renders correctly 1`] = `
   <div
     style={
       {
-        "MozBoxFlex": "3",
-        "WebkitBoxFlex": "3",
-        "WebkitFlex": "3",
         "flex": "3",
-        "msFlex": "3",
         "position": "relative",
       }
     }
@@ -3865,6 +3364,7 @@ exports[`CompactFields renders correctly 1`] = `
       style={
         {
           "color": "#999",
+          "cursor": undefined,
           "fontSize": "12px",
           "left": "0px",
           "lineHeight": "16px",
@@ -3880,11 +3380,7 @@ exports[`CompactFields renders correctly 1`] = `
   <div
     style={
       {
-        "MozBoxFlex": "3",
-        "WebkitBoxFlex": "3",
-        "WebkitFlex": "3",
         "flex": "3",
-        "msFlex": "3",
         "position": "relative",
       }
     }
@@ -3916,6 +3412,7 @@ exports[`CompactFields renders correctly 1`] = `
       style={
         {
           "color": "#999",
+          "cursor": undefined,
           "fontSize": "12px",
           "left": "0px",
           "lineHeight": "16px",
@@ -3931,11 +3428,7 @@ exports[`CompactFields renders correctly 1`] = `
   <div
     style={
       {
-        "MozBoxFlex": "3",
-        "WebkitBoxFlex": "3",
-        "WebkitFlex": "3",
         "flex": "3",
-        "msFlex": "3",
         "position": "relative",
       }
     }
@@ -3967,6 +3460,7 @@ exports[`CompactFields renders correctly 1`] = `
       style={
         {
           "color": "#999",
+          "cursor": undefined,
           "fontSize": "12px",
           "left": "0px",
           "lineHeight": "16px",

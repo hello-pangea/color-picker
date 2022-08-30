@@ -14,21 +14,10 @@ exports[`Hue renders correctly 1`] = `
   <div
     style={
       {
-        "MozBorderRadius": "2px",
-        "MozBoxShadow": undefined,
-        "OBorderRadius": "2px",
-        "OBoxShadow": undefined,
-        "WebkitBorderRadius": "2px",
-        "WebkitBoxShadow": undefined,
-        "borderRadius": "2px",
-        "bottom": "0px",
+        "borderRadius": undefined,
         "boxShadow": undefined,
-        "left": "0px",
-        "msBorderRadius": "2px",
-        "msBoxShadow": undefined,
+        "inset": "0px",
         "position": "absolute",
-        "right": "0px",
-        "top": "0px",
       }
     }
   >
@@ -39,12 +28,8 @@ exports[`Hue renders correctly 1`] = `
       onTouchStart={[Function]}
       style={
         {
-          "MozBorderRadius": "2px",
-          "OBorderRadius": "2px",
-          "WebkitBorderRadius": "2px",
-          "borderRadius": "2px",
+          "borderRadius": undefined,
           "height": "100%",
-          "msBorderRadius": "2px",
           "padding": "0 2px",
           "position": "relative",
         }
@@ -72,28 +57,17 @@ exports[`Hue renders correctly 1`] = `
           {
             "left": "69.44444444444443%",
             "position": "absolute",
+            "top": undefined,
           }
         }
       >
         <div
           style={
             {
-              "MozBorderRadius": "50%",
-              "MozBoxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
-              "MozTransform": "translate(-9px, -1px)",
-              "OBorderRadius": "50%",
-              "OBoxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
-              "OTransform": "translate(-9px, -1px)",
-              "WebkitBorderRadius": "50%",
-              "WebkitBoxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
-              "WebkitTransform": "translate(-9px, -1px)",
               "backgroundColor": "rgb(248, 248, 248)",
               "borderRadius": "50%",
               "boxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
               "height": "18px",
-              "msBorderRadius": "50%",
-              "msBoxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
-              "msTransform": "translate(-9px, -1px)",
               "transform": "translate(-9px, -1px)",
               "width": "18px",
             }
@@ -119,21 +93,10 @@ exports[`Hue renders vertically 1`] = `
   <div
     style={
       {
-        "MozBorderRadius": "2px",
-        "MozBoxShadow": undefined,
-        "OBorderRadius": "2px",
-        "OBoxShadow": undefined,
-        "WebkitBorderRadius": "2px",
-        "WebkitBoxShadow": undefined,
-        "borderRadius": "2px",
-        "bottom": "0px",
+        "borderRadius": undefined,
         "boxShadow": undefined,
-        "left": "0px",
-        "msBorderRadius": "2px",
-        "msBoxShadow": undefined,
+        "inset": "0px",
         "position": "absolute",
-        "right": "0px",
-        "top": "0px",
       }
     }
   >
@@ -144,12 +107,8 @@ exports[`Hue renders vertically 1`] = `
       onTouchStart={[Function]}
       style={
         {
-          "MozBorderRadius": "2px",
-          "OBorderRadius": "2px",
-          "WebkitBorderRadius": "2px",
-          "borderRadius": "2px",
+          "borderRadius": undefined,
           "height": "100%",
-          "msBorderRadius": "2px",
           "padding": "0 2px",
           "position": "relative",
         }
@@ -184,22 +143,10 @@ exports[`Hue renders vertically 1`] = `
         <div
           style={
             {
-              "MozBorderRadius": "50%",
-              "MozBoxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
-              "MozTransform": "translate(-3px, -9px)",
-              "OBorderRadius": "50%",
-              "OBoxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
-              "OTransform": "translate(-3px, -9px)",
-              "WebkitBorderRadius": "50%",
-              "WebkitBoxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
-              "WebkitTransform": "translate(-3px, -9px)",
               "backgroundColor": "rgb(248, 248, 248)",
               "borderRadius": "50%",
               "boxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
               "height": "18px",
-              "msBorderRadius": "50%",
-              "msBoxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
-              "msTransform": "translate(-3px, -9px)",
               "transform": "translate(-3px, -9px)",
               "width": "18px",
             }
@@ -215,22 +162,10 @@ exports[`HuePointer renders correctly 1`] = `
 <div
   style={
     {
-      "MozBorderRadius": "50%",
-      "MozBoxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
-      "MozTransform": "translate(-9px, -1px)",
-      "OBorderRadius": "50%",
-      "OBoxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
-      "OTransform": "translate(-9px, -1px)",
-      "WebkitBorderRadius": "50%",
-      "WebkitBoxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
-      "WebkitTransform": "translate(-9px, -1px)",
       "backgroundColor": "rgb(248, 248, 248)",
       "borderRadius": "50%",
       "boxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
       "height": "18px",
-      "msBorderRadius": "50%",
-      "msBoxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
-      "msTransform": "translate(-9px, -1px)",
       "transform": "translate(-9px, -1px)",
       "width": "18px",
     }

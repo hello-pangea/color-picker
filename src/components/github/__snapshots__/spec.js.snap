@@ -5,20 +5,12 @@ exports[`Github \`triangle="hide"\` 1`] = `
   className="github-picker "
   style={
     {
-      "MozBorderRadius": "4px",
-      "MozBoxShadow": "0 3px 12px rgba(0,0,0,0.15)",
-      "OBorderRadius": "4px",
-      "OBoxShadow": "0 3px 12px rgba(0,0,0,0.15)",
-      "WebkitBorderRadius": "4px",
-      "WebkitBoxShadow": "0 3px 12px rgba(0,0,0,0.15)",
       "background": "#fff",
       "border": "1px solid rgba(0,0,0,0.2)",
       "borderRadius": "4px",
       "boxShadow": "0 3px 12px rgba(0,0,0,0.15)",
       "display": "flex",
       "flexWrap": "wrap",
-      "msBorderRadius": "4px",
-      "msBoxShadow": "0 3px 12px rgba(0,0,0,0.15)",
       "padding": "5px",
       "position": "relative",
       "width": 200,
@@ -31,7 +23,11 @@ exports[`Github \`triangle="hide"\` 1`] = `
         "border": "8px solid transparent",
         "borderBottomColor": "rgba(0,0,0,0.15)",
         "display": "none",
+        "left": undefined,
         "position": "absolute",
+        "right": undefined,
+        "top": "35px",
+        "transform": undefined,
       }
     }
   />
@@ -41,11 +37,15 @@ exports[`Github \`triangle="hide"\` 1`] = `
         "border": "7px solid transparent",
         "borderBottomColor": "#fff",
         "display": "none",
+        "left": undefined,
         "position": "absolute",
+        "right": undefined,
+        "top": "37px",
+        "transform": undefined,
       }
     }
   />
-  <span
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -80,8 +80,8 @@ exports[`Github \`triangle="hide"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -116,8 +116,8 @@ exports[`Github \`triangle="hide"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -152,8 +152,8 @@ exports[`Github \`triangle="hide"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -188,8 +188,8 @@ exports[`Github \`triangle="hide"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -224,8 +224,8 @@ exports[`Github \`triangle="hide"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -260,8 +260,8 @@ exports[`Github \`triangle="hide"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -296,8 +296,8 @@ exports[`Github \`triangle="hide"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -332,8 +332,8 @@ exports[`Github \`triangle="hide"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -368,8 +368,8 @@ exports[`Github \`triangle="hide"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -404,8 +404,8 @@ exports[`Github \`triangle="hide"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -440,8 +440,8 @@ exports[`Github \`triangle="hide"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -476,8 +476,8 @@ exports[`Github \`triangle="hide"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -512,8 +512,8 @@ exports[`Github \`triangle="hide"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -548,8 +548,8 @@ exports[`Github \`triangle="hide"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -584,8 +584,8 @@ exports[`Github \`triangle="hide"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -620,7 +620,7 @@ exports[`Github \`triangle="hide"\` 1`] = `
         />
       </span>
     </div>
-  </span>
+  </div>
 </div>
 `;
 
@@ -629,20 +629,12 @@ exports[`Github \`triangle="top-right"\` 1`] = `
   className="github-picker "
   style={
     {
-      "MozBorderRadius": "4px",
-      "MozBoxShadow": "0 3px 12px rgba(0,0,0,0.15)",
-      "OBorderRadius": "4px",
-      "OBoxShadow": "0 3px 12px rgba(0,0,0,0.15)",
-      "WebkitBorderRadius": "4px",
-      "WebkitBoxShadow": "0 3px 12px rgba(0,0,0,0.15)",
       "background": "#fff",
       "border": "1px solid rgba(0,0,0,0.2)",
       "borderRadius": "4px",
       "boxShadow": "0 3px 12px rgba(0,0,0,0.15)",
       "display": "flex",
       "flexWrap": "wrap",
-      "msBorderRadius": "4px",
-      "msBoxShadow": "0 3px 12px rgba(0,0,0,0.15)",
       "padding": "5px",
       "position": "relative",
       "width": 200,
@@ -654,9 +646,12 @@ exports[`Github \`triangle="top-right"\` 1`] = `
       {
         "border": "8px solid transparent",
         "borderBottomColor": "rgba(0,0,0,0.15)",
+        "display": undefined,
+        "left": undefined,
         "position": "absolute",
         "right": "9px",
         "top": "-16px",
+        "transform": undefined,
       }
     }
   />
@@ -665,13 +660,16 @@ exports[`Github \`triangle="top-right"\` 1`] = `
       {
         "border": "7px solid transparent",
         "borderBottomColor": "#fff",
+        "display": undefined,
+        "left": undefined,
         "position": "absolute",
         "right": "10px",
         "top": "-14px",
+        "transform": undefined,
       }
     }
   />
-  <span
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -706,8 +704,8 @@ exports[`Github \`triangle="top-right"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -742,8 +740,8 @@ exports[`Github \`triangle="top-right"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -778,8 +776,8 @@ exports[`Github \`triangle="top-right"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -814,8 +812,8 @@ exports[`Github \`triangle="top-right"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -850,8 +848,8 @@ exports[`Github \`triangle="top-right"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -886,8 +884,8 @@ exports[`Github \`triangle="top-right"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -922,8 +920,8 @@ exports[`Github \`triangle="top-right"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -958,8 +956,8 @@ exports[`Github \`triangle="top-right"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -994,8 +992,8 @@ exports[`Github \`triangle="top-right"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -1030,8 +1028,8 @@ exports[`Github \`triangle="top-right"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -1066,8 +1064,8 @@ exports[`Github \`triangle="top-right"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -1102,8 +1100,8 @@ exports[`Github \`triangle="top-right"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -1138,8 +1136,8 @@ exports[`Github \`triangle="top-right"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -1174,8 +1172,8 @@ exports[`Github \`triangle="top-right"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -1210,8 +1208,8 @@ exports[`Github \`triangle="top-right"\` 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -1246,7 +1244,7 @@ exports[`Github \`triangle="top-right"\` 1`] = `
         />
       </span>
     </div>
-  </span>
+  </div>
 </div>
 `;
 
@@ -1255,20 +1253,12 @@ exports[`Github renders correctly 1`] = `
   className="github-picker "
   style={
     {
-      "MozBorderRadius": "4px",
-      "MozBoxShadow": "0 3px 12px rgba(0,0,0,0.15)",
-      "OBorderRadius": "4px",
-      "OBoxShadow": "0 3px 12px rgba(0,0,0,0.15)",
-      "WebkitBorderRadius": "4px",
-      "WebkitBoxShadow": "0 3px 12px rgba(0,0,0,0.15)",
       "background": "#fff",
       "border": "1px solid rgba(0,0,0,0.2)",
       "borderRadius": "4px",
       "boxShadow": "0 3px 12px rgba(0,0,0,0.15)",
       "display": "flex",
       "flexWrap": "wrap",
-      "msBorderRadius": "4px",
-      "msBoxShadow": "0 3px 12px rgba(0,0,0,0.15)",
       "padding": "5px",
       "position": "relative",
       "width": 200,
@@ -1280,9 +1270,12 @@ exports[`Github renders correctly 1`] = `
       {
         "border": "8px solid transparent",
         "borderBottomColor": "rgba(0,0,0,0.15)",
+        "display": undefined,
         "left": "9px",
         "position": "absolute",
+        "right": undefined,
         "top": "-16px",
+        "transform": undefined,
       }
     }
   />
@@ -1291,13 +1284,16 @@ exports[`Github renders correctly 1`] = `
       {
         "border": "7px solid transparent",
         "borderBottomColor": "#fff",
+        "display": undefined,
         "left": "10px",
         "position": "absolute",
+        "right": undefined,
         "top": "-14px",
+        "transform": undefined,
       }
     }
   />
-  <span
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -1332,8 +1328,8 @@ exports[`Github renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -1368,8 +1364,8 @@ exports[`Github renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -1404,8 +1400,8 @@ exports[`Github renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -1440,8 +1436,8 @@ exports[`Github renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -1476,8 +1472,8 @@ exports[`Github renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -1512,8 +1508,8 @@ exports[`Github renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -1548,8 +1544,8 @@ exports[`Github renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -1584,8 +1580,8 @@ exports[`Github renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -1620,8 +1616,8 @@ exports[`Github renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -1656,8 +1652,8 @@ exports[`Github renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -1692,8 +1688,8 @@ exports[`Github renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -1728,8 +1724,8 @@ exports[`Github renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -1764,8 +1760,8 @@ exports[`Github renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -1800,8 +1796,8 @@ exports[`Github renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -1836,8 +1832,8 @@ exports[`Github renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
@@ -1872,12 +1868,12 @@ exports[`Github renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
+  </div>
 </div>
 `;
 
 exports[`GithubSwatch renders correctly 1`] = `
-<span
+<div
   onMouseOut={[Function]}
   onMouseOver={[Function]}
 >
@@ -1912,5 +1908,5 @@ exports[`GithubSwatch renders correctly 1`] = `
       />
     </span>
   </div>
-</span>
+</div>
 `;

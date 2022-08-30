@@ -13,24 +13,16 @@ exports[`Circle renders correctly 1`] = `
     }
   }
 >
-  <span
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
       style={
         {
-          "MozTransform": "scale(1)",
-          "MozTransition": "100ms transform ease",
-          "OTransform": "scale(1)",
-          "OTransition": "100ms transform ease",
-          "WebkitTransform": "scale(1)",
-          "WebkitTransition": "100ms transform ease",
           "height": 28,
           "marginBottom": 14,
           "marginRight": 14,
-          "msTransform": "scale(1)",
-          "msTransition": "100ms transform ease",
           "transform": "scale(1)",
           "transition": "100ms transform ease",
           "width": 28,
@@ -46,25 +38,14 @@ exports[`Circle renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "50%",
-              "MozBoxShadow": "inset 0 0 0 15px #f44336",
-              "MozTransition": "100ms box-shadow ease",
-              "OBorderRadius": "50%",
-              "OBoxShadow": "inset 0 0 0 15px #f44336",
-              "OTransition": "100ms box-shadow ease",
-              "WebkitBorderRadius": "50%",
-              "WebkitBoxShadow": "inset 0 0 0 15px #f44336",
-              "WebkitTransition": "100ms box-shadow ease",
               "background": "transparent",
               "borderRadius": "50%",
               "boxShadow": "inset 0 0 0 15px #f44336",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "50%",
-              "msBoxShadow": "inset 0 0 0 15px #f44336",
-              "msTransition": "100ms box-shadow ease",
               "outline": "none",
               "position": "relative",
+              "transform": undefined,
               "transition": "100ms box-shadow ease",
               "width": "100%",
             }
@@ -74,25 +55,17 @@ exports[`Circle renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
       style={
         {
-          "MozTransform": "scale(1)",
-          "MozTransition": "100ms transform ease",
-          "OTransform": "scale(1)",
-          "OTransition": "100ms transform ease",
-          "WebkitTransform": "scale(1)",
-          "WebkitTransition": "100ms transform ease",
           "height": 28,
           "marginBottom": 14,
           "marginRight": 14,
-          "msTransform": "scale(1)",
-          "msTransition": "100ms transform ease",
           "transform": "scale(1)",
           "transition": "100ms transform ease",
           "width": 28,
@@ -108,25 +81,14 @@ exports[`Circle renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "50%",
-              "MozBoxShadow": "inset 0 0 0 15px #e91e63",
-              "MozTransition": "100ms box-shadow ease",
-              "OBorderRadius": "50%",
-              "OBoxShadow": "inset 0 0 0 15px #e91e63",
-              "OTransition": "100ms box-shadow ease",
-              "WebkitBorderRadius": "50%",
-              "WebkitBoxShadow": "inset 0 0 0 15px #e91e63",
-              "WebkitTransition": "100ms box-shadow ease",
               "background": "transparent",
               "borderRadius": "50%",
               "boxShadow": "inset 0 0 0 15px #e91e63",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "50%",
-              "msBoxShadow": "inset 0 0 0 15px #e91e63",
-              "msTransition": "100ms box-shadow ease",
               "outline": "none",
               "position": "relative",
+              "transform": undefined,
               "transition": "100ms box-shadow ease",
               "width": "100%",
             }
@@ -136,25 +98,17 @@ exports[`Circle renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
       style={
         {
-          "MozTransform": "scale(1)",
-          "MozTransition": "100ms transform ease",
-          "OTransform": "scale(1)",
-          "OTransition": "100ms transform ease",
-          "WebkitTransform": "scale(1)",
-          "WebkitTransition": "100ms transform ease",
           "height": 28,
           "marginBottom": 14,
           "marginRight": 14,
-          "msTransform": "scale(1)",
-          "msTransition": "100ms transform ease",
           "transform": "scale(1)",
           "transition": "100ms transform ease",
           "width": 28,
@@ -170,25 +124,14 @@ exports[`Circle renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "50%",
-              "MozBoxShadow": "inset 0 0 0 15px #9c27b0",
-              "MozTransition": "100ms box-shadow ease",
-              "OBorderRadius": "50%",
-              "OBoxShadow": "inset 0 0 0 15px #9c27b0",
-              "OTransition": "100ms box-shadow ease",
-              "WebkitBorderRadius": "50%",
-              "WebkitBoxShadow": "inset 0 0 0 15px #9c27b0",
-              "WebkitTransition": "100ms box-shadow ease",
               "background": "transparent",
               "borderRadius": "50%",
               "boxShadow": "inset 0 0 0 15px #9c27b0",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "50%",
-              "msBoxShadow": "inset 0 0 0 15px #9c27b0",
-              "msTransition": "100ms box-shadow ease",
               "outline": "none",
               "position": "relative",
+              "transform": undefined,
               "transition": "100ms box-shadow ease",
               "width": "100%",
             }
@@ -198,25 +141,17 @@ exports[`Circle renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
       style={
         {
-          "MozTransform": "scale(1)",
-          "MozTransition": "100ms transform ease",
-          "OTransform": "scale(1)",
-          "OTransition": "100ms transform ease",
-          "WebkitTransform": "scale(1)",
-          "WebkitTransition": "100ms transform ease",
           "height": 28,
           "marginBottom": 14,
           "marginRight": 14,
-          "msTransform": "scale(1)",
-          "msTransition": "100ms transform ease",
           "transform": "scale(1)",
           "transition": "100ms transform ease",
           "width": 28,
@@ -232,25 +167,14 @@ exports[`Circle renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "50%",
-              "MozBoxShadow": "inset 0 0 0 15px #673ab7",
-              "MozTransition": "100ms box-shadow ease",
-              "OBorderRadius": "50%",
-              "OBoxShadow": "inset 0 0 0 15px #673ab7",
-              "OTransition": "100ms box-shadow ease",
-              "WebkitBorderRadius": "50%",
-              "WebkitBoxShadow": "inset 0 0 0 15px #673ab7",
-              "WebkitTransition": "100ms box-shadow ease",
               "background": "transparent",
               "borderRadius": "50%",
               "boxShadow": "inset 0 0 0 15px #673ab7",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "50%",
-              "msBoxShadow": "inset 0 0 0 15px #673ab7",
-              "msTransition": "100ms box-shadow ease",
               "outline": "none",
               "position": "relative",
+              "transform": undefined,
               "transition": "100ms box-shadow ease",
               "width": "100%",
             }
@@ -260,25 +184,17 @@ exports[`Circle renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
       style={
         {
-          "MozTransform": "scale(1)",
-          "MozTransition": "100ms transform ease",
-          "OTransform": "scale(1)",
-          "OTransition": "100ms transform ease",
-          "WebkitTransform": "scale(1)",
-          "WebkitTransition": "100ms transform ease",
           "height": 28,
           "marginBottom": 14,
           "marginRight": 14,
-          "msTransform": "scale(1)",
-          "msTransition": "100ms transform ease",
           "transform": "scale(1)",
           "transition": "100ms transform ease",
           "width": 28,
@@ -294,25 +210,14 @@ exports[`Circle renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "50%",
-              "MozBoxShadow": "inset 0 0 0 15px #3f51b5",
-              "MozTransition": "100ms box-shadow ease",
-              "OBorderRadius": "50%",
-              "OBoxShadow": "inset 0 0 0 15px #3f51b5",
-              "OTransition": "100ms box-shadow ease",
-              "WebkitBorderRadius": "50%",
-              "WebkitBoxShadow": "inset 0 0 0 15px #3f51b5",
-              "WebkitTransition": "100ms box-shadow ease",
               "background": "transparent",
               "borderRadius": "50%",
               "boxShadow": "inset 0 0 0 15px #3f51b5",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "50%",
-              "msBoxShadow": "inset 0 0 0 15px #3f51b5",
-              "msTransition": "100ms box-shadow ease",
               "outline": "none",
               "position": "relative",
+              "transform": undefined,
               "transition": "100ms box-shadow ease",
               "width": "100%",
             }
@@ -322,25 +227,17 @@ exports[`Circle renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
       style={
         {
-          "MozTransform": "scale(1)",
-          "MozTransition": "100ms transform ease",
-          "OTransform": "scale(1)",
-          "OTransition": "100ms transform ease",
-          "WebkitTransform": "scale(1)",
-          "WebkitTransition": "100ms transform ease",
           "height": 28,
           "marginBottom": 14,
           "marginRight": 14,
-          "msTransform": "scale(1)",
-          "msTransition": "100ms transform ease",
           "transform": "scale(1)",
           "transition": "100ms transform ease",
           "width": 28,
@@ -356,25 +253,14 @@ exports[`Circle renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "50%",
-              "MozBoxShadow": "inset 0 0 0 15px #2196f3",
-              "MozTransition": "100ms box-shadow ease",
-              "OBorderRadius": "50%",
-              "OBoxShadow": "inset 0 0 0 15px #2196f3",
-              "OTransition": "100ms box-shadow ease",
-              "WebkitBorderRadius": "50%",
-              "WebkitBoxShadow": "inset 0 0 0 15px #2196f3",
-              "WebkitTransition": "100ms box-shadow ease",
               "background": "transparent",
               "borderRadius": "50%",
               "boxShadow": "inset 0 0 0 15px #2196f3",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "50%",
-              "msBoxShadow": "inset 0 0 0 15px #2196f3",
-              "msTransition": "100ms box-shadow ease",
               "outline": "none",
               "position": "relative",
+              "transform": undefined,
               "transition": "100ms box-shadow ease",
               "width": "100%",
             }
@@ -384,25 +270,17 @@ exports[`Circle renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
       style={
         {
-          "MozTransform": "scale(1)",
-          "MozTransition": "100ms transform ease",
-          "OTransform": "scale(1)",
-          "OTransition": "100ms transform ease",
-          "WebkitTransform": "scale(1)",
-          "WebkitTransition": "100ms transform ease",
           "height": 28,
           "marginBottom": 14,
           "marginRight": 14,
-          "msTransform": "scale(1)",
-          "msTransition": "100ms transform ease",
           "transform": "scale(1)",
           "transition": "100ms transform ease",
           "width": 28,
@@ -418,25 +296,14 @@ exports[`Circle renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "50%",
-              "MozBoxShadow": "inset 0 0 0 15px #03a9f4",
-              "MozTransition": "100ms box-shadow ease",
-              "OBorderRadius": "50%",
-              "OBoxShadow": "inset 0 0 0 15px #03a9f4",
-              "OTransition": "100ms box-shadow ease",
-              "WebkitBorderRadius": "50%",
-              "WebkitBoxShadow": "inset 0 0 0 15px #03a9f4",
-              "WebkitTransition": "100ms box-shadow ease",
               "background": "transparent",
               "borderRadius": "50%",
               "boxShadow": "inset 0 0 0 15px #03a9f4",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "50%",
-              "msBoxShadow": "inset 0 0 0 15px #03a9f4",
-              "msTransition": "100ms box-shadow ease",
               "outline": "none",
               "position": "relative",
+              "transform": undefined,
               "transition": "100ms box-shadow ease",
               "width": "100%",
             }
@@ -446,25 +313,17 @@ exports[`Circle renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
       style={
         {
-          "MozTransform": "scale(1)",
-          "MozTransition": "100ms transform ease",
-          "OTransform": "scale(1)",
-          "OTransition": "100ms transform ease",
-          "WebkitTransform": "scale(1)",
-          "WebkitTransition": "100ms transform ease",
           "height": 28,
           "marginBottom": 14,
           "marginRight": 14,
-          "msTransform": "scale(1)",
-          "msTransition": "100ms transform ease",
           "transform": "scale(1)",
           "transition": "100ms transform ease",
           "width": 28,
@@ -480,25 +339,14 @@ exports[`Circle renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "50%",
-              "MozBoxShadow": "inset 0 0 0 15px #00bcd4",
-              "MozTransition": "100ms box-shadow ease",
-              "OBorderRadius": "50%",
-              "OBoxShadow": "inset 0 0 0 15px #00bcd4",
-              "OTransition": "100ms box-shadow ease",
-              "WebkitBorderRadius": "50%",
-              "WebkitBoxShadow": "inset 0 0 0 15px #00bcd4",
-              "WebkitTransition": "100ms box-shadow ease",
               "background": "transparent",
               "borderRadius": "50%",
               "boxShadow": "inset 0 0 0 15px #00bcd4",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "50%",
-              "msBoxShadow": "inset 0 0 0 15px #00bcd4",
-              "msTransition": "100ms box-shadow ease",
               "outline": "none",
               "position": "relative",
+              "transform": undefined,
               "transition": "100ms box-shadow ease",
               "width": "100%",
             }
@@ -508,25 +356,17 @@ exports[`Circle renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
       style={
         {
-          "MozTransform": "scale(1)",
-          "MozTransition": "100ms transform ease",
-          "OTransform": "scale(1)",
-          "OTransition": "100ms transform ease",
-          "WebkitTransform": "scale(1)",
-          "WebkitTransition": "100ms transform ease",
           "height": 28,
           "marginBottom": 14,
           "marginRight": 14,
-          "msTransform": "scale(1)",
-          "msTransition": "100ms transform ease",
           "transform": "scale(1)",
           "transition": "100ms transform ease",
           "width": 28,
@@ -542,25 +382,14 @@ exports[`Circle renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "50%",
-              "MozBoxShadow": "inset 0 0 0 15px #009688",
-              "MozTransition": "100ms box-shadow ease",
-              "OBorderRadius": "50%",
-              "OBoxShadow": "inset 0 0 0 15px #009688",
-              "OTransition": "100ms box-shadow ease",
-              "WebkitBorderRadius": "50%",
-              "WebkitBoxShadow": "inset 0 0 0 15px #009688",
-              "WebkitTransition": "100ms box-shadow ease",
               "background": "transparent",
               "borderRadius": "50%",
               "boxShadow": "inset 0 0 0 15px #009688",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "50%",
-              "msBoxShadow": "inset 0 0 0 15px #009688",
-              "msTransition": "100ms box-shadow ease",
               "outline": "none",
               "position": "relative",
+              "transform": undefined,
               "transition": "100ms box-shadow ease",
               "width": "100%",
             }
@@ -570,25 +399,17 @@ exports[`Circle renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
       style={
         {
-          "MozTransform": "scale(1)",
-          "MozTransition": "100ms transform ease",
-          "OTransform": "scale(1)",
-          "OTransition": "100ms transform ease",
-          "WebkitTransform": "scale(1)",
-          "WebkitTransition": "100ms transform ease",
           "height": 28,
           "marginBottom": 14,
           "marginRight": 14,
-          "msTransform": "scale(1)",
-          "msTransition": "100ms transform ease",
           "transform": "scale(1)",
           "transition": "100ms transform ease",
           "width": 28,
@@ -604,25 +425,14 @@ exports[`Circle renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "50%",
-              "MozBoxShadow": "inset 0 0 0 15px #4caf50",
-              "MozTransition": "100ms box-shadow ease",
-              "OBorderRadius": "50%",
-              "OBoxShadow": "inset 0 0 0 15px #4caf50",
-              "OTransition": "100ms box-shadow ease",
-              "WebkitBorderRadius": "50%",
-              "WebkitBoxShadow": "inset 0 0 0 15px #4caf50",
-              "WebkitTransition": "100ms box-shadow ease",
               "background": "transparent",
               "borderRadius": "50%",
               "boxShadow": "inset 0 0 0 15px #4caf50",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "50%",
-              "msBoxShadow": "inset 0 0 0 15px #4caf50",
-              "msTransition": "100ms box-shadow ease",
               "outline": "none",
               "position": "relative",
+              "transform": undefined,
               "transition": "100ms box-shadow ease",
               "width": "100%",
             }
@@ -632,25 +442,17 @@ exports[`Circle renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
       style={
         {
-          "MozTransform": "scale(1)",
-          "MozTransition": "100ms transform ease",
-          "OTransform": "scale(1)",
-          "OTransition": "100ms transform ease",
-          "WebkitTransform": "scale(1)",
-          "WebkitTransition": "100ms transform ease",
           "height": 28,
           "marginBottom": 14,
           "marginRight": 14,
-          "msTransform": "scale(1)",
-          "msTransition": "100ms transform ease",
           "transform": "scale(1)",
           "transition": "100ms transform ease",
           "width": 28,
@@ -666,25 +468,14 @@ exports[`Circle renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "50%",
-              "MozBoxShadow": "inset 0 0 0 15px #8bc34a",
-              "MozTransition": "100ms box-shadow ease",
-              "OBorderRadius": "50%",
-              "OBoxShadow": "inset 0 0 0 15px #8bc34a",
-              "OTransition": "100ms box-shadow ease",
-              "WebkitBorderRadius": "50%",
-              "WebkitBoxShadow": "inset 0 0 0 15px #8bc34a",
-              "WebkitTransition": "100ms box-shadow ease",
               "background": "transparent",
               "borderRadius": "50%",
               "boxShadow": "inset 0 0 0 15px #8bc34a",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "50%",
-              "msBoxShadow": "inset 0 0 0 15px #8bc34a",
-              "msTransition": "100ms box-shadow ease",
               "outline": "none",
               "position": "relative",
+              "transform": undefined,
               "transition": "100ms box-shadow ease",
               "width": "100%",
             }
@@ -694,25 +485,17 @@ exports[`Circle renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
       style={
         {
-          "MozTransform": "scale(1)",
-          "MozTransition": "100ms transform ease",
-          "OTransform": "scale(1)",
-          "OTransition": "100ms transform ease",
-          "WebkitTransform": "scale(1)",
-          "WebkitTransition": "100ms transform ease",
           "height": 28,
           "marginBottom": 14,
           "marginRight": 14,
-          "msTransform": "scale(1)",
-          "msTransition": "100ms transform ease",
           "transform": "scale(1)",
           "transition": "100ms transform ease",
           "width": 28,
@@ -728,25 +511,14 @@ exports[`Circle renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "50%",
-              "MozBoxShadow": "inset 0 0 0 15px #cddc39",
-              "MozTransition": "100ms box-shadow ease",
-              "OBorderRadius": "50%",
-              "OBoxShadow": "inset 0 0 0 15px #cddc39",
-              "OTransition": "100ms box-shadow ease",
-              "WebkitBorderRadius": "50%",
-              "WebkitBoxShadow": "inset 0 0 0 15px #cddc39",
-              "WebkitTransition": "100ms box-shadow ease",
               "background": "transparent",
               "borderRadius": "50%",
               "boxShadow": "inset 0 0 0 15px #cddc39",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "50%",
-              "msBoxShadow": "inset 0 0 0 15px #cddc39",
-              "msTransition": "100ms box-shadow ease",
               "outline": "none",
               "position": "relative",
+              "transform": undefined,
               "transition": "100ms box-shadow ease",
               "width": "100%",
             }
@@ -756,25 +528,17 @@ exports[`Circle renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
       style={
         {
-          "MozTransform": "scale(1)",
-          "MozTransition": "100ms transform ease",
-          "OTransform": "scale(1)",
-          "OTransition": "100ms transform ease",
-          "WebkitTransform": "scale(1)",
-          "WebkitTransition": "100ms transform ease",
           "height": 28,
           "marginBottom": 14,
           "marginRight": 14,
-          "msTransform": "scale(1)",
-          "msTransition": "100ms transform ease",
           "transform": "scale(1)",
           "transition": "100ms transform ease",
           "width": 28,
@@ -790,25 +554,14 @@ exports[`Circle renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "50%",
-              "MozBoxShadow": "inset 0 0 0 15px #ffeb3b",
-              "MozTransition": "100ms box-shadow ease",
-              "OBorderRadius": "50%",
-              "OBoxShadow": "inset 0 0 0 15px #ffeb3b",
-              "OTransition": "100ms box-shadow ease",
-              "WebkitBorderRadius": "50%",
-              "WebkitBoxShadow": "inset 0 0 0 15px #ffeb3b",
-              "WebkitTransition": "100ms box-shadow ease",
               "background": "transparent",
               "borderRadius": "50%",
               "boxShadow": "inset 0 0 0 15px #ffeb3b",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "50%",
-              "msBoxShadow": "inset 0 0 0 15px #ffeb3b",
-              "msTransition": "100ms box-shadow ease",
               "outline": "none",
               "position": "relative",
+              "transform": undefined,
               "transition": "100ms box-shadow ease",
               "width": "100%",
             }
@@ -818,25 +571,17 @@ exports[`Circle renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
       style={
         {
-          "MozTransform": "scale(1)",
-          "MozTransition": "100ms transform ease",
-          "OTransform": "scale(1)",
-          "OTransition": "100ms transform ease",
-          "WebkitTransform": "scale(1)",
-          "WebkitTransition": "100ms transform ease",
           "height": 28,
           "marginBottom": 14,
           "marginRight": 14,
-          "msTransform": "scale(1)",
-          "msTransition": "100ms transform ease",
           "transform": "scale(1)",
           "transition": "100ms transform ease",
           "width": 28,
@@ -852,25 +597,14 @@ exports[`Circle renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "50%",
-              "MozBoxShadow": "inset 0 0 0 15px #ffc107",
-              "MozTransition": "100ms box-shadow ease",
-              "OBorderRadius": "50%",
-              "OBoxShadow": "inset 0 0 0 15px #ffc107",
-              "OTransition": "100ms box-shadow ease",
-              "WebkitBorderRadius": "50%",
-              "WebkitBoxShadow": "inset 0 0 0 15px #ffc107",
-              "WebkitTransition": "100ms box-shadow ease",
               "background": "transparent",
               "borderRadius": "50%",
               "boxShadow": "inset 0 0 0 15px #ffc107",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "50%",
-              "msBoxShadow": "inset 0 0 0 15px #ffc107",
-              "msTransition": "100ms box-shadow ease",
               "outline": "none",
               "position": "relative",
+              "transform": undefined,
               "transition": "100ms box-shadow ease",
               "width": "100%",
             }
@@ -880,25 +614,17 @@ exports[`Circle renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
       style={
         {
-          "MozTransform": "scale(1)",
-          "MozTransition": "100ms transform ease",
-          "OTransform": "scale(1)",
-          "OTransition": "100ms transform ease",
-          "WebkitTransform": "scale(1)",
-          "WebkitTransition": "100ms transform ease",
           "height": 28,
           "marginBottom": 14,
           "marginRight": 14,
-          "msTransform": "scale(1)",
-          "msTransition": "100ms transform ease",
           "transform": "scale(1)",
           "transition": "100ms transform ease",
           "width": 28,
@@ -914,25 +640,14 @@ exports[`Circle renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "50%",
-              "MozBoxShadow": "inset 0 0 0 15px #ff9800",
-              "MozTransition": "100ms box-shadow ease",
-              "OBorderRadius": "50%",
-              "OBoxShadow": "inset 0 0 0 15px #ff9800",
-              "OTransition": "100ms box-shadow ease",
-              "WebkitBorderRadius": "50%",
-              "WebkitBoxShadow": "inset 0 0 0 15px #ff9800",
-              "WebkitTransition": "100ms box-shadow ease",
               "background": "transparent",
               "borderRadius": "50%",
               "boxShadow": "inset 0 0 0 15px #ff9800",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "50%",
-              "msBoxShadow": "inset 0 0 0 15px #ff9800",
-              "msTransition": "100ms box-shadow ease",
               "outline": "none",
               "position": "relative",
+              "transform": undefined,
               "transition": "100ms box-shadow ease",
               "width": "100%",
             }
@@ -942,25 +657,17 @@ exports[`Circle renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
       style={
         {
-          "MozTransform": "scale(1)",
-          "MozTransition": "100ms transform ease",
-          "OTransform": "scale(1)",
-          "OTransition": "100ms transform ease",
-          "WebkitTransform": "scale(1)",
-          "WebkitTransition": "100ms transform ease",
           "height": 28,
           "marginBottom": 14,
           "marginRight": 14,
-          "msTransform": "scale(1)",
-          "msTransition": "100ms transform ease",
           "transform": "scale(1)",
           "transition": "100ms transform ease",
           "width": 28,
@@ -976,25 +683,14 @@ exports[`Circle renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "50%",
-              "MozBoxShadow": "inset 0 0 0 15px #ff5722",
-              "MozTransition": "100ms box-shadow ease",
-              "OBorderRadius": "50%",
-              "OBoxShadow": "inset 0 0 0 15px #ff5722",
-              "OTransition": "100ms box-shadow ease",
-              "WebkitBorderRadius": "50%",
-              "WebkitBoxShadow": "inset 0 0 0 15px #ff5722",
-              "WebkitTransition": "100ms box-shadow ease",
               "background": "transparent",
               "borderRadius": "50%",
               "boxShadow": "inset 0 0 0 15px #ff5722",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "50%",
-              "msBoxShadow": "inset 0 0 0 15px #ff5722",
-              "msTransition": "100ms box-shadow ease",
               "outline": "none",
               "position": "relative",
+              "transform": undefined,
               "transition": "100ms box-shadow ease",
               "width": "100%",
             }
@@ -1004,25 +700,17 @@ exports[`Circle renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
       style={
         {
-          "MozTransform": "scale(1)",
-          "MozTransition": "100ms transform ease",
-          "OTransform": "scale(1)",
-          "OTransition": "100ms transform ease",
-          "WebkitTransform": "scale(1)",
-          "WebkitTransition": "100ms transform ease",
           "height": 28,
           "marginBottom": 14,
           "marginRight": 14,
-          "msTransform": "scale(1)",
-          "msTransition": "100ms transform ease",
           "transform": "scale(1)",
           "transition": "100ms transform ease",
           "width": 28,
@@ -1038,25 +726,14 @@ exports[`Circle renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "50%",
-              "MozBoxShadow": "inset 0 0 0 15px #795548",
-              "MozTransition": "100ms box-shadow ease",
-              "OBorderRadius": "50%",
-              "OBoxShadow": "inset 0 0 0 15px #795548",
-              "OTransition": "100ms box-shadow ease",
-              "WebkitBorderRadius": "50%",
-              "WebkitBoxShadow": "inset 0 0 0 15px #795548",
-              "WebkitTransition": "100ms box-shadow ease",
               "background": "transparent",
               "borderRadius": "50%",
               "boxShadow": "inset 0 0 0 15px #795548",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "50%",
-              "msBoxShadow": "inset 0 0 0 15px #795548",
-              "msTransition": "100ms box-shadow ease",
               "outline": "none",
               "position": "relative",
+              "transform": undefined,
               "transition": "100ms box-shadow ease",
               "width": "100%",
             }
@@ -1066,25 +743,17 @@ exports[`Circle renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
-  <span
+  </div>
+  <div
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
       style={
         {
-          "MozTransform": "scale(1)",
-          "MozTransition": "100ms transform ease",
-          "OTransform": "scale(1)",
-          "OTransition": "100ms transform ease",
-          "WebkitTransform": "scale(1)",
-          "WebkitTransition": "100ms transform ease",
           "height": 28,
           "marginBottom": 14,
           "marginRight": 14,
-          "msTransform": "scale(1)",
-          "msTransition": "100ms transform ease",
           "transform": "scale(1)",
           "transition": "100ms transform ease",
           "width": 28,
@@ -1100,25 +769,14 @@ exports[`Circle renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "50%",
-              "MozBoxShadow": "inset 0 0 0 15px #607d8b",
-              "MozTransition": "100ms box-shadow ease",
-              "OBorderRadius": "50%",
-              "OBoxShadow": "inset 0 0 0 15px #607d8b",
-              "OTransition": "100ms box-shadow ease",
-              "WebkitBorderRadius": "50%",
-              "WebkitBoxShadow": "inset 0 0 0 15px #607d8b",
-              "WebkitTransition": "100ms box-shadow ease",
               "background": "transparent",
               "borderRadius": "50%",
               "boxShadow": "inset 0 0 0 15px #607d8b",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "50%",
-              "msBoxShadow": "inset 0 0 0 15px #607d8b",
-              "msTransition": "100ms box-shadow ease",
               "outline": "none",
               "position": "relative",
+              "transform": undefined,
               "transition": "100ms box-shadow ease",
               "width": "100%",
             }
@@ -1128,29 +786,21 @@ exports[`Circle renders correctly 1`] = `
         />
       </span>
     </div>
-  </span>
+  </div>
 </div>
 `;
 
 exports[`CircleSwatch renders correctly 1`] = `
-<span
+<div
   onMouseOut={[Function]}
   onMouseOver={[Function]}
 >
   <div
     style={
       {
-        "MozTransform": "scale(1)",
-        "MozTransition": "100ms transform ease",
-        "OTransform": "scale(1)",
-        "OTransition": "100ms transform ease",
-        "WebkitTransform": "scale(1)",
-        "WebkitTransition": "100ms transform ease",
         "height": 28,
         "marginBottom": 14,
         "marginRight": 14,
-        "msTransform": "scale(1)",
-        "msTransition": "100ms transform ease",
         "transform": "scale(1)",
         "transition": "100ms transform ease",
         "width": 28,
@@ -1166,25 +816,14 @@ exports[`CircleSwatch renders correctly 1`] = `
         onKeyDown={[Function]}
         style={
           {
-            "MozBorderRadius": "50%",
-            "MozBoxShadow": "inset 0 0 0 15px undefined",
-            "MozTransition": "100ms box-shadow ease",
-            "OBorderRadius": "50%",
-            "OBoxShadow": "inset 0 0 0 15px undefined",
-            "OTransition": "100ms box-shadow ease",
-            "WebkitBorderRadius": "50%",
-            "WebkitBoxShadow": "inset 0 0 0 15px undefined",
-            "WebkitTransition": "100ms box-shadow ease",
             "background": "transparent",
             "borderRadius": "50%",
             "boxShadow": "inset 0 0 0 15px undefined",
             "cursor": "pointer",
             "height": "100%",
-            "msBorderRadius": "50%",
-            "msBoxShadow": "inset 0 0 0 15px undefined",
-            "msTransition": "100ms box-shadow ease",
             "outline": "none",
             "position": "relative",
+            "transform": undefined,
             "transition": "100ms box-shadow ease",
             "width": "100%",
           }
@@ -1193,28 +832,20 @@ exports[`CircleSwatch renders correctly 1`] = `
       />
     </span>
   </div>
-</span>
+</div>
 `;
 
 exports[`CircleSwatch renders with sizing and spacing 1`] = `
-<span
+<div
   onMouseOut={[Function]}
   onMouseOver={[Function]}
 >
   <div
     style={
       {
-        "MozTransform": "scale(1)",
-        "MozTransition": "100ms transform ease",
-        "OTransform": "scale(1)",
-        "OTransition": "100ms transform ease",
-        "WebkitTransform": "scale(1)",
-        "WebkitTransition": "100ms transform ease",
         "height": 40,
         "marginBottom": 40,
         "marginRight": 40,
-        "msTransform": "scale(1)",
-        "msTransition": "100ms transform ease",
         "transform": "scale(1)",
         "transition": "100ms transform ease",
         "width": 40,
@@ -1230,25 +861,14 @@ exports[`CircleSwatch renders with sizing and spacing 1`] = `
         onKeyDown={[Function]}
         style={
           {
-            "MozBorderRadius": "50%",
-            "MozBoxShadow": "inset 0 0 0 21px undefined",
-            "MozTransition": "100ms box-shadow ease",
-            "OBorderRadius": "50%",
-            "OBoxShadow": "inset 0 0 0 21px undefined",
-            "OTransition": "100ms box-shadow ease",
-            "WebkitBorderRadius": "50%",
-            "WebkitBoxShadow": "inset 0 0 0 21px undefined",
-            "WebkitTransition": "100ms box-shadow ease",
             "background": "transparent",
             "borderRadius": "50%",
             "boxShadow": "inset 0 0 0 21px undefined",
             "cursor": "pointer",
             "height": "100%",
-            "msBorderRadius": "50%",
-            "msBoxShadow": "inset 0 0 0 21px undefined",
-            "msTransition": "100ms box-shadow ease",
             "outline": "none",
             "position": "relative",
+            "transform": undefined,
             "transition": "100ms box-shadow ease",
             "width": "100%",
           }
@@ -1257,5 +877,5 @@ exports[`CircleSwatch renders with sizing and spacing 1`] = `
       />
     </span>
   </div>
-</span>
+</div>
 `;

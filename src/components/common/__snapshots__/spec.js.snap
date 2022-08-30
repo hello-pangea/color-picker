@@ -4,55 +4,30 @@ exports[`Alpha renders correctly 1`] = `
 <div
   style={
     {
-      "MozBorderRadius": undefined,
-      "OBorderRadius": undefined,
-      "WebkitBorderRadius": undefined,
       "borderRadius": undefined,
-      "bottom": "0px",
-      "left": "0px",
-      "msBorderRadius": undefined,
+      "inset": "0px",
       "position": "absolute",
-      "right": "0px",
-      "top": "0px",
     }
   }
 >
   <div
     style={
       {
-        "MozBorderRadius": undefined,
-        "OBorderRadius": undefined,
-        "WebkitBorderRadius": undefined,
         "borderRadius": undefined,
-        "bottom": "0px",
-        "left": "0px",
-        "msBorderRadius": undefined,
+        "inset": "0px",
         "overflow": "hidden",
         "position": "absolute",
-        "right": "0px",
-        "top": "0px",
       }
     }
   >
     <div
       style={
         {
-          "MozBorderRadius": undefined,
-          "MozBoxShadow": undefined,
-          "OBorderRadius": undefined,
-          "OBoxShadow": undefined,
-          "WebkitBorderRadius": undefined,
-          "WebkitBoxShadow": undefined,
           "background": "url(null) center left",
           "borderRadius": undefined,
-          "bottom": "0px",
           "boxShadow": undefined,
-          "left": "0px",
-          "msBorderRadius": undefined,
-          "msBoxShadow": undefined,
+          "inset": "0px",
           "position": "absolute",
-          "right": "0px",
-          "top": "0px",
         }
       }
     />
@@ -60,23 +35,12 @@ exports[`Alpha renders correctly 1`] = `
   <div
     style={
       {
-        "MozBorderRadius": undefined,
-        "MozBoxShadow": undefined,
-        "OBorderRadius": undefined,
-        "OBoxShadow": undefined,
-        "WebkitBorderRadius": undefined,
-        "WebkitBoxShadow": undefined,
         "background": "linear-gradient(to right, rgba(255,0,0, 0) 0%,
            rgba(255,0,0, 1) 100%)",
         "borderRadius": undefined,
-        "bottom": "0px",
         "boxShadow": undefined,
-        "left": "0px",
-        "msBorderRadius": undefined,
-        "msBoxShadow": undefined,
+        "inset": "0px",
         "position": "absolute",
-        "right": "0px",
-        "top": "0px",
       }
     }
   />
@@ -97,29 +61,18 @@ exports[`Alpha renders correctly 1`] = `
         {
           "left": "100%",
           "position": "absolute",
+          "top": undefined,
         }
       }
     >
       <div
         style={
           {
-            "MozBorderRadius": "1px",
-            "MozBoxShadow": "0 0 2px rgba(0, 0, 0, .6)",
-            "MozTransform": "translateX(-2px)",
-            "OBorderRadius": "1px",
-            "OBoxShadow": "0 0 2px rgba(0, 0, 0, .6)",
-            "OTransform": "translateX(-2px)",
-            "WebkitBorderRadius": "1px",
-            "WebkitBoxShadow": "0 0 2px rgba(0, 0, 0, .6)",
-            "WebkitTransform": "translateX(-2px)",
             "background": "#fff",
             "borderRadius": "1px",
             "boxShadow": "0 0 2px rgba(0, 0, 0, .6)",
             "height": "8px",
             "marginTop": "1px",
-            "msBorderRadius": "1px",
-            "msBoxShadow": "0 0 2px rgba(0, 0, 0, .6)",
-            "msTransform": "translateX(-2px)",
             "transform": "translateX(-2px)",
             "width": "4px",
           }
@@ -134,22 +87,11 @@ exports[`Checkboard renders children correctly 1`] = `
 <button
   style={
     {
-      "MozBorderRadius": undefined,
-      "MozBoxShadow": undefined,
-      "OBorderRadius": undefined,
-      "OBoxShadow": undefined,
-      "WebkitBorderRadius": undefined,
-      "WebkitBoxShadow": undefined,
       "background": "url(null) center left",
       "borderRadius": undefined,
-      "bottom": "0px",
       "boxShadow": undefined,
-      "left": "0px",
-      "msBorderRadius": undefined,
-      "msBoxShadow": undefined,
+      "inset": "0px",
       "position": "absolute",
-      "right": "0px",
-      "top": "0px",
     }
   }
 >
@@ -161,22 +103,11 @@ exports[`Checkboard renders correctly 1`] = `
 <div
   style={
     {
-      "MozBorderRadius": undefined,
-      "MozBoxShadow": undefined,
-      "OBorderRadius": undefined,
-      "OBoxShadow": undefined,
-      "WebkitBorderRadius": undefined,
-      "WebkitBoxShadow": undefined,
       "background": "url(null) center left",
       "borderRadius": undefined,
-      "bottom": "0px",
       "boxShadow": undefined,
-      "left": "0px",
-      "msBorderRadius": undefined,
-      "msBoxShadow": undefined,
+      "inset": "0px",
       "position": "absolute",
-      "right": "0px",
-      "top": "0px",
     }
   }
 />
@@ -203,7 +134,11 @@ exports[`EditableInput renders correctly 1`] = `
   <label
     htmlFor="rc-editable-input-1"
     onMouseDown={[Function]}
-    style={{}}
+    style={
+      {
+        "cursor": undefined,
+      }
+    }
   >
     Hex
   </label>
@@ -214,21 +149,10 @@ exports[`Hue renders correctly 1`] = `
 <div
   style={
     {
-      "MozBorderRadius": undefined,
-      "MozBoxShadow": undefined,
-      "OBorderRadius": undefined,
-      "OBoxShadow": undefined,
-      "WebkitBorderRadius": undefined,
-      "WebkitBoxShadow": undefined,
       "borderRadius": undefined,
-      "bottom": "0px",
       "boxShadow": undefined,
-      "left": "0px",
-      "msBorderRadius": undefined,
-      "msBoxShadow": undefined,
+      "inset": "0px",
       "position": "absolute",
-      "right": "0px",
-      "top": "0px",
     }
   }
 >
@@ -239,12 +163,8 @@ exports[`Hue renders correctly 1`] = `
     onTouchStart={[Function]}
     style={
       {
-        "MozBorderRadius": undefined,
-        "OBorderRadius": undefined,
-        "WebkitBorderRadius": undefined,
         "borderRadius": undefined,
         "height": "100%",
-        "msBorderRadius": undefined,
         "padding": "0 2px",
         "position": "relative",
       }
@@ -272,29 +192,18 @@ exports[`Hue renders correctly 1`] = `
         {
           "left": "0%",
           "position": "absolute",
+          "top": undefined,
         }
       }
     >
       <div
         style={
           {
-            "MozBorderRadius": "1px",
-            "MozBoxShadow": "0 0 2px rgba(0, 0, 0, .6)",
-            "MozTransform": "translateX(-2px)",
-            "OBorderRadius": "1px",
-            "OBoxShadow": "0 0 2px rgba(0, 0, 0, .6)",
-            "OTransform": "translateX(-2px)",
-            "WebkitBorderRadius": "1px",
-            "WebkitBoxShadow": "0 0 2px rgba(0, 0, 0, .6)",
-            "WebkitTransform": "translateX(-2px)",
             "background": "#fff",
             "borderRadius": "1px",
             "boxShadow": "0 0 2px rgba(0, 0, 0, .6)",
             "height": "8px",
             "marginTop": "1px",
-            "msBorderRadius": "1px",
-            "msBoxShadow": "0 0 2px rgba(0, 0, 0, .6)",
-            "msTransform": "translateX(-2px)",
             "transform": "translateX(-2px)",
             "width": "4px",
           }
@@ -312,17 +221,10 @@ exports[`Saturation renders correctly 1`] = `
   onTouchStart={[Function]}
   style={
     {
-      "MozBorderRadius": undefined,
-      "OBorderRadius": undefined,
-      "WebkitBorderRadius": undefined,
       "background": "hsl(0,100%, 50%)",
       "borderRadius": undefined,
-      "bottom": "0px",
-      "left": "0px",
-      "msBorderRadius": undefined,
+      "inset": "0px",
       "position": "absolute",
-      "right": "0px",
-      "top": "0px",
     }
   }
 >
@@ -342,16 +244,9 @@ exports[`Saturation renders correctly 1`] = `
     className="saturation-white"
     style={
       {
-        "MozBorderRadius": undefined,
-        "OBorderRadius": undefined,
-        "WebkitBorderRadius": undefined,
         "borderRadius": undefined,
-        "bottom": "0px",
-        "left": "0px",
-        "msBorderRadius": undefined,
+        "inset": "0px",
         "position": "absolute",
-        "right": "0px",
-        "top": "0px",
       }
     }
   >
@@ -359,21 +254,10 @@ exports[`Saturation renders correctly 1`] = `
       className="saturation-black"
       style={
         {
-          "MozBorderRadius": undefined,
-          "MozBoxShadow": undefined,
-          "OBorderRadius": undefined,
-          "OBoxShadow": undefined,
-          "WebkitBorderRadius": undefined,
-          "WebkitBoxShadow": undefined,
           "borderRadius": undefined,
-          "bottom": "0px",
           "boxShadow": undefined,
-          "left": "0px",
-          "msBorderRadius": undefined,
-          "msBoxShadow": undefined,
+          "inset": "0px",
           "position": "absolute",
-          "right": "0px",
-          "top": "0px",
         }
       }
     />
@@ -390,27 +274,11 @@ exports[`Saturation renders correctly 1`] = `
       <div
         style={
           {
-            "MozBorderRadius": "50%",
-            "MozBoxShadow": "0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0,0,0,.3),
-            0 0 1px 2px rgba(0,0,0,.4)",
-            "MozTransform": "translate(-2px, -2px)",
-            "OBorderRadius": "50%",
-            "OBoxShadow": "0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0,0,0,.3),
-            0 0 1px 2px rgba(0,0,0,.4)",
-            "OTransform": "translate(-2px, -2px)",
-            "WebkitBorderRadius": "50%",
-            "WebkitBoxShadow": "0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0,0,0,.3),
-            0 0 1px 2px rgba(0,0,0,.4)",
-            "WebkitTransform": "translate(-2px, -2px)",
             "borderRadius": "50%",
             "boxShadow": "0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0,0,0,.3),
             0 0 1px 2px rgba(0,0,0,.4)",
             "cursor": "hand",
             "height": "4px",
-            "msBorderRadius": "50%",
-            "msBoxShadow": "0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0,0,0,.3),
-            0 0 1px 2px rgba(0,0,0,.4)",
-            "msTransform": "translate(-2px, -2px)",
             "transform": "translate(-2px, -2px)",
             "width": "4px",
           }

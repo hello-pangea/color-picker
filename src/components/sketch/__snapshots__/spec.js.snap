@@ -5,18 +5,10 @@ exports[`Sketch renders correctly 1`] = `
   className="sketch-picker "
   style={
     {
-      "MozBorderRadius": "4px",
-      "MozBoxShadow": "0 0 0 1px rgba(0,0,0,.15), 0 8px 16px rgba(0,0,0,.15)",
-      "OBorderRadius": "4px",
-      "OBoxShadow": "0 0 0 1px rgba(0,0,0,.15), 0 8px 16px rgba(0,0,0,.15)",
-      "WebkitBorderRadius": "4px",
-      "WebkitBoxShadow": "0 0 0 1px rgba(0,0,0,.15), 0 8px 16px rgba(0,0,0,.15)",
       "background": "#fff",
       "borderRadius": "4px",
       "boxShadow": "0 0 0 1px rgba(0,0,0,.15), 0 8px 16px rgba(0,0,0,.15)",
       "boxSizing": "initial",
-      "msBorderRadius": "4px",
-      "msBoxShadow": "0 0 0 1px rgba(0,0,0,.15), 0 8px 16px rgba(0,0,0,.15)",
       "padding": "10px 10px 0",
       "width": 200,
     }
@@ -38,17 +30,10 @@ exports[`Sketch renders correctly 1`] = `
       onTouchStart={[Function]}
       style={
         {
-          "MozBorderRadius": undefined,
-          "OBorderRadius": undefined,
-          "WebkitBorderRadius": undefined,
           "background": "hsl(249.99999999999994,100%, 50%)",
           "borderRadius": undefined,
-          "bottom": "0px",
-          "left": "0px",
-          "msBorderRadius": undefined,
+          "inset": "0px",
           "position": "absolute",
-          "right": "0px",
-          "top": "0px",
         }
       }
     >
@@ -68,16 +53,9 @@ exports[`Sketch renders correctly 1`] = `
         className="saturation-white"
         style={
           {
-            "MozBorderRadius": undefined,
-            "OBorderRadius": undefined,
-            "WebkitBorderRadius": undefined,
             "borderRadius": undefined,
-            "bottom": "0px",
-            "left": "0px",
-            "msBorderRadius": undefined,
+            "inset": "0px",
             "position": "absolute",
-            "right": "0px",
-            "top": "0px",
           }
         }
       >
@@ -85,21 +63,10 @@ exports[`Sketch renders correctly 1`] = `
           className="saturation-black"
           style={
             {
-              "MozBorderRadius": undefined,
-              "MozBoxShadow": undefined,
-              "OBorderRadius": undefined,
-              "OBoxShadow": undefined,
-              "WebkitBorderRadius": undefined,
-              "WebkitBoxShadow": undefined,
               "borderRadius": undefined,
-              "bottom": "0px",
               "boxShadow": undefined,
-              "left": "0px",
-              "msBorderRadius": undefined,
-              "msBoxShadow": undefined,
+              "inset": "0px",
               "position": "absolute",
-              "right": "0px",
-              "top": "0px",
             }
           }
         />
@@ -116,27 +83,11 @@ exports[`Sketch renders correctly 1`] = `
           <div
             style={
               {
-                "MozBorderRadius": "50%",
-                "MozBoxShadow": "0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0,0,0,.3),
-            0 0 1px 2px rgba(0,0,0,.4)",
-                "MozTransform": "translate(-2px, -2px)",
-                "OBorderRadius": "50%",
-                "OBoxShadow": "0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0,0,0,.3),
-            0 0 1px 2px rgba(0,0,0,.4)",
-                "OTransform": "translate(-2px, -2px)",
-                "WebkitBorderRadius": "50%",
-                "WebkitBoxShadow": "0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0,0,0,.3),
-            0 0 1px 2px rgba(0,0,0,.4)",
-                "WebkitTransform": "translate(-2px, -2px)",
                 "borderRadius": "50%",
                 "boxShadow": "0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0,0,0,.3),
             0 0 1px 2px rgba(0,0,0,.4)",
                 "cursor": "hand",
                 "height": "4px",
-                "msBorderRadius": "50%",
-                "msBoxShadow": "0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0,0,0,.3),
-            0 0 1px 2px rgba(0,0,0,.4)",
-                "msTransform": "translate(-2px, -2px)",
                 "transform": "translate(-2px, -2px)",
                 "width": "4px",
               }
@@ -157,11 +108,7 @@ exports[`Sketch renders correctly 1`] = `
     <div
       style={
         {
-          "MozBoxFlex": "1",
-          "WebkitBoxFlex": "1",
-          "WebkitFlex": "1",
           "flex": "1",
-          "msFlex": "1",
           "padding": "4px 0",
         }
       }
@@ -178,21 +125,10 @@ exports[`Sketch renders correctly 1`] = `
         <div
           style={
             {
-              "MozBorderRadius": undefined,
-              "MozBoxShadow": undefined,
-              "OBorderRadius": undefined,
-              "OBoxShadow": undefined,
-              "WebkitBorderRadius": undefined,
-              "WebkitBoxShadow": undefined,
               "borderRadius": undefined,
-              "bottom": "0px",
               "boxShadow": undefined,
-              "left": "0px",
-              "msBorderRadius": undefined,
-              "msBoxShadow": undefined,
+              "inset": "0px",
               "position": "absolute",
-              "right": "0px",
-              "top": "0px",
             }
           }
         >
@@ -203,12 +139,8 @@ exports[`Sketch renders correctly 1`] = `
             onTouchStart={[Function]}
             style={
               {
-                "MozBorderRadius": undefined,
-                "OBorderRadius": undefined,
-                "WebkitBorderRadius": undefined,
                 "borderRadius": undefined,
                 "height": "100%",
-                "msBorderRadius": undefined,
                 "padding": "0 2px",
                 "position": "relative",
               }
@@ -236,29 +168,18 @@ exports[`Sketch renders correctly 1`] = `
                 {
                   "left": "69.44444444444443%",
                   "position": "absolute",
+                  "top": undefined,
                 }
               }
             >
               <div
                 style={
                   {
-                    "MozBorderRadius": "1px",
-                    "MozBoxShadow": "0 0 2px rgba(0, 0, 0, .6)",
-                    "MozTransform": "translateX(-2px)",
-                    "OBorderRadius": "1px",
-                    "OBoxShadow": "0 0 2px rgba(0, 0, 0, .6)",
-                    "OTransform": "translateX(-2px)",
-                    "WebkitBorderRadius": "1px",
-                    "WebkitBoxShadow": "0 0 2px rgba(0, 0, 0, .6)",
-                    "WebkitTransform": "translateX(-2px)",
                     "background": "#fff",
                     "borderRadius": "1px",
                     "boxShadow": "0 0 2px rgba(0, 0, 0, .6)",
                     "height": "8px",
                     "marginTop": "1px",
-                    "msBorderRadius": "1px",
-                    "msBoxShadow": "0 0 2px rgba(0, 0, 0, .6)",
-                    "msTransform": "translateX(-2px)",
                     "transform": "translateX(-2px)",
                     "width": "4px",
                   }
@@ -271,6 +192,7 @@ exports[`Sketch renders correctly 1`] = `
       <div
         style={
           {
+            "display": undefined,
             "height": "10px",
             "marginTop": "4px",
             "overflow": "hidden",
@@ -281,55 +203,30 @@ exports[`Sketch renders correctly 1`] = `
         <div
           style={
             {
-              "MozBorderRadius": undefined,
-              "OBorderRadius": undefined,
-              "WebkitBorderRadius": undefined,
               "borderRadius": undefined,
-              "bottom": "0px",
-              "left": "0px",
-              "msBorderRadius": undefined,
+              "inset": "0px",
               "position": "absolute",
-              "right": "0px",
-              "top": "0px",
             }
           }
         >
           <div
             style={
               {
-                "MozBorderRadius": undefined,
-                "OBorderRadius": undefined,
-                "WebkitBorderRadius": undefined,
                 "borderRadius": undefined,
-                "bottom": "0px",
-                "left": "0px",
-                "msBorderRadius": undefined,
+                "inset": "0px",
                 "overflow": "hidden",
                 "position": "absolute",
-                "right": "0px",
-                "top": "0px",
               }
             }
           >
             <div
               style={
                 {
-                  "MozBorderRadius": undefined,
-                  "MozBoxShadow": undefined,
-                  "OBorderRadius": undefined,
-                  "OBoxShadow": undefined,
-                  "WebkitBorderRadius": undefined,
-                  "WebkitBoxShadow": undefined,
                   "background": "url(null) center left",
                   "borderRadius": undefined,
-                  "bottom": "0px",
                   "boxShadow": undefined,
-                  "left": "0px",
-                  "msBorderRadius": undefined,
-                  "msBoxShadow": undefined,
+                  "inset": "0px",
                   "position": "absolute",
-                  "right": "0px",
-                  "top": "0px",
                 }
               }
             />
@@ -337,23 +234,12 @@ exports[`Sketch renders correctly 1`] = `
           <div
             style={
               {
-                "MozBorderRadius": undefined,
-                "MozBoxShadow": undefined,
-                "OBorderRadius": undefined,
-                "OBoxShadow": undefined,
-                "WebkitBorderRadius": undefined,
-                "WebkitBoxShadow": undefined,
                 "background": "linear-gradient(to right, rgba(34,25,77, 0) 0%,
            rgba(34,25,77, 1) 100%)",
                 "borderRadius": undefined,
-                "bottom": "0px",
                 "boxShadow": undefined,
-                "left": "0px",
-                "msBorderRadius": undefined,
-                "msBoxShadow": undefined,
+                "inset": "0px",
                 "position": "absolute",
-                "right": "0px",
-                "top": "0px",
               }
             }
           />
@@ -374,29 +260,18 @@ exports[`Sketch renders correctly 1`] = `
                 {
                   "left": "100%",
                   "position": "absolute",
+                  "top": undefined,
                 }
               }
             >
               <div
                 style={
                   {
-                    "MozBorderRadius": "1px",
-                    "MozBoxShadow": "0 0 2px rgba(0, 0, 0, .6)",
-                    "MozTransform": "translateX(-2px)",
-                    "OBorderRadius": "1px",
-                    "OBoxShadow": "0 0 2px rgba(0, 0, 0, .6)",
-                    "OTransform": "translateX(-2px)",
-                    "WebkitBorderRadius": "1px",
-                    "WebkitBoxShadow": "0 0 2px rgba(0, 0, 0, .6)",
-                    "WebkitTransform": "translateX(-2px)",
                     "background": "#fff",
                     "borderRadius": "1px",
                     "boxShadow": "0 0 2px rgba(0, 0, 0, .6)",
                     "height": "8px",
                     "marginTop": "1px",
-                    "msBorderRadius": "1px",
-                    "msBoxShadow": "0 0 2px rgba(0, 0, 0, .6)",
-                    "msTransform": "translateX(-2px)",
                     "transform": "translateX(-2px)",
                     "width": "4px",
                   }
@@ -410,14 +285,10 @@ exports[`Sketch renders correctly 1`] = `
     <div
       style={
         {
-          "MozBorderRadius": "3px",
-          "OBorderRadius": "3px",
-          "WebkitBorderRadius": "3px",
           "borderRadius": "3px",
           "height": "24px",
           "marginLeft": "4px",
           "marginTop": "4px",
-          "msBorderRadius": "3px",
           "position": "relative",
           "width": "24px",
         }
@@ -426,44 +297,22 @@ exports[`Sketch renders correctly 1`] = `
       <div
         style={
           {
-            "MozBorderRadius": undefined,
-            "MozBoxShadow": undefined,
-            "OBorderRadius": undefined,
-            "OBoxShadow": undefined,
-            "WebkitBorderRadius": undefined,
-            "WebkitBoxShadow": undefined,
             "background": "url(null) center left",
             "borderRadius": undefined,
-            "bottom": "0px",
             "boxShadow": undefined,
-            "left": "0px",
-            "msBorderRadius": undefined,
-            "msBoxShadow": undefined,
+            "inset": "0px",
             "position": "absolute",
-            "right": "0px",
-            "top": "0px",
           }
         }
       />
       <div
         style={
           {
-            "MozBorderRadius": "2px",
-            "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15), inset 0 0 4px rgba(0,0,0,.25)",
-            "OBorderRadius": "2px",
-            "OBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15), inset 0 0 4px rgba(0,0,0,.25)",
-            "WebkitBorderRadius": "2px",
-            "WebkitBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15), inset 0 0 4px rgba(0,0,0,.25)",
             "background": "rgba(34,25,77,1)",
             "borderRadius": "2px",
-            "bottom": "0px",
             "boxShadow": "inset 0 0 0 1px rgba(0,0,0,.15), inset 0 0 4px rgba(0,0,0,.25)",
-            "left": "0px",
-            "msBorderRadius": "2px",
-            "msBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15), inset 0 0 4px rgba(0,0,0,.25)",
+            "inset": "0px",
             "position": "absolute",
-            "right": "0px",
-            "top": "0px",
           }
         }
       />
@@ -481,11 +330,7 @@ exports[`Sketch renders correctly 1`] = `
     <div
       style={
         {
-          "MozBoxFlex": "2",
-          "WebkitBoxFlex": "2",
-          "WebkitFlex": "2",
           "flex": "2",
-          "msFlex": "2",
         }
       }
     >
@@ -504,13 +349,9 @@ exports[`Sketch renders correctly 1`] = `
           spellCheck="false"
           style={
             {
-              "MozBoxShadow": "inset 0 0 0 1px #ccc",
-              "OBoxShadow": "inset 0 0 0 1px #ccc",
-              "WebkitBoxShadow": "inset 0 0 0 1px #ccc",
               "border": "none",
               "boxShadow": "inset 0 0 0 1px #ccc",
               "fontSize": "11px",
-              "msBoxShadow": "inset 0 0 0 1px #ccc",
               "padding": "4px 10% 3px",
               "width": "80%",
             }
@@ -523,6 +364,7 @@ exports[`Sketch renders correctly 1`] = `
           style={
             {
               "color": "#222",
+              "cursor": undefined,
               "display": "block",
               "fontSize": "11px",
               "paddingBottom": "4px",
@@ -539,11 +381,7 @@ exports[`Sketch renders correctly 1`] = `
     <div
       style={
         {
-          "MozBoxFlex": "1",
-          "WebkitBoxFlex": "1",
-          "WebkitFlex": "1",
           "flex": "1",
-          "msFlex": "1",
           "paddingLeft": "6px",
         }
       }
@@ -563,13 +401,9 @@ exports[`Sketch renders correctly 1`] = `
           spellCheck="false"
           style={
             {
-              "MozBoxShadow": "inset 0 0 0 1px #ccc",
-              "OBoxShadow": "inset 0 0 0 1px #ccc",
-              "WebkitBoxShadow": "inset 0 0 0 1px #ccc",
               "border": "none",
               "boxShadow": "inset 0 0 0 1px #ccc",
               "fontSize": "11px",
-              "msBoxShadow": "inset 0 0 0 1px #ccc",
               "padding": "4px 10% 3px",
               "width": "80%",
             }
@@ -582,7 +416,7 @@ exports[`Sketch renders correctly 1`] = `
           style={
             {
               "color": "#222",
-              "cursor": "ew-resize",
+              "cursor": undefined,
               "display": "block",
               "fontSize": "11px",
               "paddingBottom": "4px",
@@ -599,11 +433,7 @@ exports[`Sketch renders correctly 1`] = `
     <div
       style={
         {
-          "MozBoxFlex": "1",
-          "WebkitBoxFlex": "1",
-          "WebkitFlex": "1",
           "flex": "1",
-          "msFlex": "1",
           "paddingLeft": "6px",
         }
       }
@@ -623,13 +453,9 @@ exports[`Sketch renders correctly 1`] = `
           spellCheck="false"
           style={
             {
-              "MozBoxShadow": "inset 0 0 0 1px #ccc",
-              "OBoxShadow": "inset 0 0 0 1px #ccc",
-              "WebkitBoxShadow": "inset 0 0 0 1px #ccc",
               "border": "none",
               "boxShadow": "inset 0 0 0 1px #ccc",
               "fontSize": "11px",
-              "msBoxShadow": "inset 0 0 0 1px #ccc",
               "padding": "4px 10% 3px",
               "width": "80%",
             }
@@ -642,7 +468,7 @@ exports[`Sketch renders correctly 1`] = `
           style={
             {
               "color": "#222",
-              "cursor": "ew-resize",
+              "cursor": undefined,
               "display": "block",
               "fontSize": "11px",
               "paddingBottom": "4px",
@@ -659,11 +485,7 @@ exports[`Sketch renders correctly 1`] = `
     <div
       style={
         {
-          "MozBoxFlex": "1",
-          "WebkitBoxFlex": "1",
-          "WebkitFlex": "1",
           "flex": "1",
-          "msFlex": "1",
           "paddingLeft": "6px",
         }
       }
@@ -683,13 +505,9 @@ exports[`Sketch renders correctly 1`] = `
           spellCheck="false"
           style={
             {
-              "MozBoxShadow": "inset 0 0 0 1px #ccc",
-              "OBoxShadow": "inset 0 0 0 1px #ccc",
-              "WebkitBoxShadow": "inset 0 0 0 1px #ccc",
               "border": "none",
               "boxShadow": "inset 0 0 0 1px #ccc",
               "fontSize": "11px",
-              "msBoxShadow": "inset 0 0 0 1px #ccc",
               "padding": "4px 10% 3px",
               "width": "80%",
             }
@@ -702,7 +520,7 @@ exports[`Sketch renders correctly 1`] = `
           style={
             {
               "color": "#222",
-              "cursor": "ew-resize",
+              "cursor": undefined,
               "display": "block",
               "fontSize": "11px",
               "paddingBottom": "4px",
@@ -719,11 +537,8 @@ exports[`Sketch renders correctly 1`] = `
     <div
       style={
         {
-          "MozBoxFlex": "1",
-          "WebkitBoxFlex": "1",
-          "WebkitFlex": "1",
+          "display": undefined,
           "flex": "1",
-          "msFlex": "1",
           "paddingLeft": "6px",
         }
       }
@@ -743,13 +558,9 @@ exports[`Sketch renders correctly 1`] = `
           spellCheck="false"
           style={
             {
-              "MozBoxShadow": "inset 0 0 0 1px #ccc",
-              "OBoxShadow": "inset 0 0 0 1px #ccc",
-              "WebkitBoxShadow": "inset 0 0 0 1px #ccc",
               "border": "none",
               "boxShadow": "inset 0 0 0 1px #ccc",
               "fontSize": "11px",
-              "msBoxShadow": "inset 0 0 0 1px #ccc",
               "padding": "4px 10% 3px",
               "width": "80%",
             }
@@ -762,7 +573,7 @@ exports[`Sketch renders correctly 1`] = `
           style={
             {
               "color": "#222",
-              "cursor": "ew-resize",
+              "cursor": undefined,
               "display": "block",
               "fontSize": "11px",
               "paddingBottom": "4px",
@@ -808,19 +619,11 @@ exports[`Sketch renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "3px",
-              "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "OBorderRadius": "3px",
-              "OBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "WebkitBorderRadius": "3px",
-              "WebkitBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "background": "#D0021B",
               "borderRadius": "3px",
               "boxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "3px",
-              "msBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "outline": "none",
               "position": "relative",
               "width": "100%",
@@ -849,19 +652,11 @@ exports[`Sketch renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "3px",
-              "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "OBorderRadius": "3px",
-              "OBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "WebkitBorderRadius": "3px",
-              "WebkitBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "background": "#F5A623",
               "borderRadius": "3px",
               "boxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "3px",
-              "msBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "outline": "none",
               "position": "relative",
               "width": "100%",
@@ -890,19 +685,11 @@ exports[`Sketch renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "3px",
-              "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "OBorderRadius": "3px",
-              "OBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "WebkitBorderRadius": "3px",
-              "WebkitBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "background": "#F8E71C",
               "borderRadius": "3px",
               "boxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "3px",
-              "msBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "outline": "none",
               "position": "relative",
               "width": "100%",
@@ -931,19 +718,11 @@ exports[`Sketch renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "3px",
-              "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "OBorderRadius": "3px",
-              "OBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "WebkitBorderRadius": "3px",
-              "WebkitBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "background": "#8B572A",
               "borderRadius": "3px",
               "boxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "3px",
-              "msBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "outline": "none",
               "position": "relative",
               "width": "100%",
@@ -972,19 +751,11 @@ exports[`Sketch renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "3px",
-              "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "OBorderRadius": "3px",
-              "OBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "WebkitBorderRadius": "3px",
-              "WebkitBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "background": "#7ED321",
               "borderRadius": "3px",
               "boxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "3px",
-              "msBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "outline": "none",
               "position": "relative",
               "width": "100%",
@@ -1013,19 +784,11 @@ exports[`Sketch renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "3px",
-              "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "OBorderRadius": "3px",
-              "OBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "WebkitBorderRadius": "3px",
-              "WebkitBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "background": "#417505",
               "borderRadius": "3px",
               "boxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "3px",
-              "msBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "outline": "none",
               "position": "relative",
               "width": "100%",
@@ -1054,19 +817,11 @@ exports[`Sketch renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "3px",
-              "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "OBorderRadius": "3px",
-              "OBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "WebkitBorderRadius": "3px",
-              "WebkitBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "background": "#BD10E0",
               "borderRadius": "3px",
               "boxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "3px",
-              "msBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "outline": "none",
               "position": "relative",
               "width": "100%",
@@ -1095,19 +850,11 @@ exports[`Sketch renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "3px",
-              "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "OBorderRadius": "3px",
-              "OBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "WebkitBorderRadius": "3px",
-              "WebkitBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "background": "#9013FE",
               "borderRadius": "3px",
               "boxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "3px",
-              "msBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "outline": "none",
               "position": "relative",
               "width": "100%",
@@ -1136,19 +883,11 @@ exports[`Sketch renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "3px",
-              "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "OBorderRadius": "3px",
-              "OBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "WebkitBorderRadius": "3px",
-              "WebkitBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "background": "#4A90E2",
               "borderRadius": "3px",
               "boxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "3px",
-              "msBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "outline": "none",
               "position": "relative",
               "width": "100%",
@@ -1177,19 +916,11 @@ exports[`Sketch renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "3px",
-              "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "OBorderRadius": "3px",
-              "OBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "WebkitBorderRadius": "3px",
-              "WebkitBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "background": "#50E3C2",
               "borderRadius": "3px",
               "boxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "3px",
-              "msBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "outline": "none",
               "position": "relative",
               "width": "100%",
@@ -1218,19 +949,11 @@ exports[`Sketch renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "3px",
-              "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "OBorderRadius": "3px",
-              "OBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "WebkitBorderRadius": "3px",
-              "WebkitBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "background": "#B8E986",
               "borderRadius": "3px",
               "boxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "3px",
-              "msBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "outline": "none",
               "position": "relative",
               "width": "100%",
@@ -1259,19 +982,11 @@ exports[`Sketch renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "3px",
-              "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "OBorderRadius": "3px",
-              "OBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "WebkitBorderRadius": "3px",
-              "WebkitBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "background": "#000000",
               "borderRadius": "3px",
               "boxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "3px",
-              "msBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "outline": "none",
               "position": "relative",
               "width": "100%",
@@ -1300,19 +1015,11 @@ exports[`Sketch renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "3px",
-              "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "OBorderRadius": "3px",
-              "OBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "WebkitBorderRadius": "3px",
-              "WebkitBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "background": "#4A4A4A",
               "borderRadius": "3px",
               "boxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "3px",
-              "msBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "outline": "none",
               "position": "relative",
               "width": "100%",
@@ -1341,19 +1048,11 @@ exports[`Sketch renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "3px",
-              "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "OBorderRadius": "3px",
-              "OBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "WebkitBorderRadius": "3px",
-              "WebkitBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "background": "#9B9B9B",
               "borderRadius": "3px",
               "boxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "3px",
-              "msBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "outline": "none",
               "position": "relative",
               "width": "100%",
@@ -1382,19 +1081,11 @@ exports[`Sketch renders correctly 1`] = `
           onKeyDown={[Function]}
           style={
             {
-              "MozBorderRadius": "3px",
-              "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "OBorderRadius": "3px",
-              "OBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-              "WebkitBorderRadius": "3px",
-              "WebkitBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "background": "#FFFFFF",
               "borderRadius": "3px",
               "boxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "cursor": "pointer",
               "height": "100%",
-              "msBorderRadius": "3px",
-              "msBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
               "outline": "none",
               "position": "relative",
               "width": "100%",
@@ -1422,11 +1113,7 @@ exports[`SketchFields renders correctly 1`] = `
   <div
     style={
       {
-        "MozBoxFlex": "2",
-        "WebkitBoxFlex": "2",
-        "WebkitFlex": "2",
         "flex": "2",
-        "msFlex": "2",
       }
     }
   >
@@ -1445,13 +1132,9 @@ exports[`SketchFields renders correctly 1`] = `
         spellCheck="false"
         style={
           {
-            "MozBoxShadow": "inset 0 0 0 1px #ccc",
-            "OBoxShadow": "inset 0 0 0 1px #ccc",
-            "WebkitBoxShadow": "inset 0 0 0 1px #ccc",
             "border": "none",
             "boxShadow": "inset 0 0 0 1px #ccc",
             "fontSize": "11px",
-            "msBoxShadow": "inset 0 0 0 1px #ccc",
             "padding": "4px 10% 3px",
             "width": "80%",
           }
@@ -1464,6 +1147,7 @@ exports[`SketchFields renders correctly 1`] = `
         style={
           {
             "color": "#222",
+            "cursor": undefined,
             "display": "block",
             "fontSize": "11px",
             "paddingBottom": "4px",
@@ -1480,11 +1164,7 @@ exports[`SketchFields renders correctly 1`] = `
   <div
     style={
       {
-        "MozBoxFlex": "1",
-        "WebkitBoxFlex": "1",
-        "WebkitFlex": "1",
         "flex": "1",
-        "msFlex": "1",
         "paddingLeft": "6px",
       }
     }
@@ -1504,13 +1184,9 @@ exports[`SketchFields renders correctly 1`] = `
         spellCheck="false"
         style={
           {
-            "MozBoxShadow": "inset 0 0 0 1px #ccc",
-            "OBoxShadow": "inset 0 0 0 1px #ccc",
-            "WebkitBoxShadow": "inset 0 0 0 1px #ccc",
             "border": "none",
             "boxShadow": "inset 0 0 0 1px #ccc",
             "fontSize": "11px",
-            "msBoxShadow": "inset 0 0 0 1px #ccc",
             "padding": "4px 10% 3px",
             "width": "80%",
           }
@@ -1523,7 +1199,7 @@ exports[`SketchFields renders correctly 1`] = `
         style={
           {
             "color": "#222",
-            "cursor": "ew-resize",
+            "cursor": undefined,
             "display": "block",
             "fontSize": "11px",
             "paddingBottom": "4px",
@@ -1540,11 +1216,7 @@ exports[`SketchFields renders correctly 1`] = `
   <div
     style={
       {
-        "MozBoxFlex": "1",
-        "WebkitBoxFlex": "1",
-        "WebkitFlex": "1",
         "flex": "1",
-        "msFlex": "1",
         "paddingLeft": "6px",
       }
     }
@@ -1564,13 +1236,9 @@ exports[`SketchFields renders correctly 1`] = `
         spellCheck="false"
         style={
           {
-            "MozBoxShadow": "inset 0 0 0 1px #ccc",
-            "OBoxShadow": "inset 0 0 0 1px #ccc",
-            "WebkitBoxShadow": "inset 0 0 0 1px #ccc",
             "border": "none",
             "boxShadow": "inset 0 0 0 1px #ccc",
             "fontSize": "11px",
-            "msBoxShadow": "inset 0 0 0 1px #ccc",
             "padding": "4px 10% 3px",
             "width": "80%",
           }
@@ -1583,7 +1251,7 @@ exports[`SketchFields renders correctly 1`] = `
         style={
           {
             "color": "#222",
-            "cursor": "ew-resize",
+            "cursor": undefined,
             "display": "block",
             "fontSize": "11px",
             "paddingBottom": "4px",
@@ -1600,11 +1268,7 @@ exports[`SketchFields renders correctly 1`] = `
   <div
     style={
       {
-        "MozBoxFlex": "1",
-        "WebkitBoxFlex": "1",
-        "WebkitFlex": "1",
         "flex": "1",
-        "msFlex": "1",
         "paddingLeft": "6px",
       }
     }
@@ -1624,13 +1288,9 @@ exports[`SketchFields renders correctly 1`] = `
         spellCheck="false"
         style={
           {
-            "MozBoxShadow": "inset 0 0 0 1px #ccc",
-            "OBoxShadow": "inset 0 0 0 1px #ccc",
-            "WebkitBoxShadow": "inset 0 0 0 1px #ccc",
             "border": "none",
             "boxShadow": "inset 0 0 0 1px #ccc",
             "fontSize": "11px",
-            "msBoxShadow": "inset 0 0 0 1px #ccc",
             "padding": "4px 10% 3px",
             "width": "80%",
           }
@@ -1643,7 +1303,7 @@ exports[`SketchFields renders correctly 1`] = `
         style={
           {
             "color": "#222",
-            "cursor": "ew-resize",
+            "cursor": undefined,
             "display": "block",
             "fontSize": "11px",
             "paddingBottom": "4px",
@@ -1660,11 +1320,8 @@ exports[`SketchFields renders correctly 1`] = `
   <div
     style={
       {
-        "MozBoxFlex": "1",
-        "WebkitBoxFlex": "1",
-        "WebkitFlex": "1",
+        "display": undefined,
         "flex": "1",
-        "msFlex": "1",
         "paddingLeft": "6px",
       }
     }
@@ -1684,13 +1341,9 @@ exports[`SketchFields renders correctly 1`] = `
         spellCheck="false"
         style={
           {
-            "MozBoxShadow": "inset 0 0 0 1px #ccc",
-            "OBoxShadow": "inset 0 0 0 1px #ccc",
-            "WebkitBoxShadow": "inset 0 0 0 1px #ccc",
             "border": "none",
             "boxShadow": "inset 0 0 0 1px #ccc",
             "fontSize": "11px",
-            "msBoxShadow": "inset 0 0 0 1px #ccc",
             "padding": "4px 10% 3px",
             "width": "80%",
           }
@@ -1703,7 +1356,7 @@ exports[`SketchFields renders correctly 1`] = `
         style={
           {
             "color": "#222",
-            "cursor": "ew-resize",
+            "cursor": undefined,
             "display": "block",
             "fontSize": "11px",
             "paddingBottom": "4px",
@@ -1752,19 +1405,11 @@ exports[`SketchPresetColors renders correctly 1`] = `
         onKeyDown={[Function]}
         style={
           {
-            "MozBorderRadius": "3px",
-            "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-            "OBorderRadius": "3px",
-            "OBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-            "WebkitBorderRadius": "3px",
-            "WebkitBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "background": "#fff",
             "borderRadius": "3px",
             "boxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "cursor": "pointer",
             "height": "100%",
-            "msBorderRadius": "3px",
-            "msBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "outline": "none",
             "position": "relative",
             "width": "100%",
@@ -1793,19 +1438,11 @@ exports[`SketchPresetColors renders correctly 1`] = `
         onKeyDown={[Function]}
         style={
           {
-            "MozBorderRadius": "3px",
-            "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-            "OBorderRadius": "3px",
-            "OBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-            "WebkitBorderRadius": "3px",
-            "WebkitBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "background": "#999",
             "borderRadius": "3px",
             "boxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "cursor": "pointer",
             "height": "100%",
-            "msBorderRadius": "3px",
-            "msBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "outline": "none",
             "position": "relative",
             "width": "100%",
@@ -1834,19 +1471,11 @@ exports[`SketchPresetColors renders correctly 1`] = `
         onKeyDown={[Function]}
         style={
           {
-            "MozBorderRadius": "3px",
-            "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-            "OBorderRadius": "3px",
-            "OBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-            "WebkitBorderRadius": "3px",
-            "WebkitBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "background": "#000",
             "borderRadius": "3px",
             "boxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "cursor": "pointer",
             "height": "100%",
-            "msBorderRadius": "3px",
-            "msBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "outline": "none",
             "position": "relative",
             "width": "100%",
@@ -1892,19 +1521,11 @@ exports[`SketchPresetColors with custom titles renders correctly 1`] = `
         onKeyDown={[Function]}
         style={
           {
-            "MozBorderRadius": "3px",
-            "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-            "OBorderRadius": "3px",
-            "OBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-            "WebkitBorderRadius": "3px",
-            "WebkitBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "background": "#fff",
             "borderRadius": "3px",
             "boxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "cursor": "pointer",
             "height": "100%",
-            "msBorderRadius": "3px",
-            "msBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "outline": "none",
             "position": "relative",
             "width": "100%",
@@ -1933,19 +1554,11 @@ exports[`SketchPresetColors with custom titles renders correctly 1`] = `
         onKeyDown={[Function]}
         style={
           {
-            "MozBorderRadius": "3px",
-            "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-            "OBorderRadius": "3px",
-            "OBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-            "WebkitBorderRadius": "3px",
-            "WebkitBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "background": "#999",
             "borderRadius": "3px",
             "boxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "cursor": "pointer",
             "height": "100%",
-            "msBorderRadius": "3px",
-            "msBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "outline": "none",
             "position": "relative",
             "width": "100%",
@@ -1974,19 +1587,11 @@ exports[`SketchPresetColors with custom titles renders correctly 1`] = `
         onKeyDown={[Function]}
         style={
           {
-            "MozBorderRadius": "3px",
-            "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-            "OBorderRadius": "3px",
-            "OBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-            "WebkitBorderRadius": "3px",
-            "WebkitBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "background": "#000",
             "borderRadius": "3px",
             "boxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "cursor": "pointer",
             "height": "100%",
-            "msBorderRadius": "3px",
-            "msBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "outline": "none",
             "position": "relative",
             "width": "100%",
@@ -2015,19 +1620,11 @@ exports[`SketchPresetColors with custom titles renders correctly 1`] = `
         onKeyDown={[Function]}
         style={
           {
-            "MozBorderRadius": "3px",
-            "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-            "OBorderRadius": "3px",
-            "OBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
-            "WebkitBorderRadius": "3px",
-            "WebkitBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "background": "#f00",
             "borderRadius": "3px",
             "boxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "cursor": "pointer",
             "height": "100%",
-            "msBorderRadius": "3px",
-            "msBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.15)",
             "outline": "none",
             "position": "relative",
             "width": "100%",
