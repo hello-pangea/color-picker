@@ -7,7 +7,7 @@ import React, {
   useState,
 } from "react";
 import * as color from "../helpers/color";
-import { Hex, Hsl, Hsv, Rgb } from "../types/colors";
+import { Color, Hex, Hsl, Hsv, Rgb } from "../types/colors";
 
 export type Colors = {
   hex: Hex;
@@ -36,23 +36,22 @@ type Props = {
   children: React.ReactNode;
   onChangeComplete?: any;
   onChange?: any;
+  color?: Color;
 };
 
 export default function ColorProvider({
   children,
   onChangeComplete,
   onChange,
+  color: defaultColor = {
+    h: 250,
+    s: 0.5,
+    l: 0.2,
+    a: 1,
+  },
 }: Props) {
   const [colors, setColors] = useState<Colors>({
-    ...color.toState(
-      {
-        h: 250,
-        s: 0.5,
-        l: 0.2,
-        a: 1,
-      },
-      0
-    ),
+    ...color.toState(defaultColor, 0),
   });
   const debounceFn = useCallback(
     (fn: any, data: any, event: any) => debounce(fn(data, event), 1000),
