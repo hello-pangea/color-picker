@@ -1,5 +1,4 @@
 import React from "react";
-import reactCSS from "reactcss";
 import * as colorUtils from "../../helpers/color";
 import { Color } from "../../types/colors";
 import { Swatch } from "../common";
@@ -17,51 +16,31 @@ export default function CompactColor({
   onSwatchHover,
   active,
 }: Props) {
-  const styles = reactCSS<any>(
-    {
-      default: {
-        color: {
-          background: color,
-          width: "15px",
-          height: "15px",
-          float: "left",
-          marginRight: "5px",
-          marginBottom: "5px",
-          position: "relative",
-          cursor: "pointer",
-        },
-        dot: {
-          absolute: "5px 5px 5px 5px",
-          background: colorUtils.getContrastingColor(color),
-          borderRadius: "50%",
-          opacity: "0",
-        },
-      },
-      active: {
-        dot: {
-          opacity: "1",
-        },
-      },
-      "color-#FFFFFF": {
-        color: {
-          boxShadow: "inset 0 0 0 1px #ddd",
-        },
-        dot: {
-          background: "#000",
-        },
-      },
-      transparent: {
-        dot: {
-          background: "#000",
-        },
-      },
+  const styles: Record<string, React.CSSProperties> = {
+    color: {
+      background: color,
+      width: "15px",
+      height: "15px",
+      float: "left",
+      marginRight: "5px",
+      marginBottom: "5px",
+      position: "relative",
+      cursor: "pointer",
+      boxShadow: color === "#FFFFFF" ? "inset 0 0 0 1px #ddd" : undefined,
     },
-    {
-      active,
-      "color-#FFFFFF": color === "#FFFFFF",
-      transparent: color === "transparent",
-    }
-  );
+    dot: {
+      position: "absolute",
+      inset: "5px",
+      background:
+        color === "#FFFFFF"
+          ? "#000"
+          : color === "transparent"
+          ? "#000"
+          : colorUtils.getContrastingColor(color),
+      borderRadius: "50%",
+      opacity: active ? 1 : 0,
+    },
+  };
 
   return (
     <Swatch

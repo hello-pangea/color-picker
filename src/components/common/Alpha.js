@@ -1,5 +1,5 @@
+import merge from "lodash/merge";
 import React, { Component, PureComponent } from "react";
-import reactCSS from "reactcss";
 import * as alpha from "../../helpers/alpha";
 
 import Checkboard from "./Checkboard";
@@ -40,63 +40,53 @@ export class Alpha extends (PureComponent || Component) {
   render() {
     const rgb = this.props.rgb;
 
-    console.log("rgb", rgb);
-    const styles = reactCSS(
+    const styles = merge(
       {
-        default: {
-          alpha: {
-            absolute: "0px 0px 0px 0px",
-            borderRadius: this.props.radius,
-          },
-          checkboard: {
-            absolute: "0px 0px 0px 0px",
-            overflow: "hidden",
-            borderRadius: this.props.radius,
-          },
-          gradient: {
-            absolute: "0px 0px 0px 0px",
-            background: `linear-gradient(to right, rgba(${rgb.r},${rgb.g},${rgb.b}, 0) 0%,
-           rgba(${rgb.r},${rgb.g},${rgb.b}, 1) 100%)`,
-            boxShadow: this.props.shadow,
-            borderRadius: this.props.radius,
-          },
-          container: {
-            position: "relative",
-            height: "100%",
-            margin: "0 3px",
-          },
-          pointer: {
-            position: "absolute",
-            left: `${rgb.a * 100}%`,
-          },
-          slider: {
-            width: "4px",
-            borderRadius: "1px",
-            height: "8px",
-            boxShadow: "0 0 2px rgba(0, 0, 0, .6)",
-            background: "#fff",
-            marginTop: "1px",
-            transform: "translateX(-2px)",
-          },
+        alpha: {
+          position: "absolute",
+          inset: "0px",
+          borderRadius: this.props.radius,
         },
-        vertical: {
-          gradient: {
-            background: `linear-gradient(to bottom, rgba(${rgb.r},${rgb.g},${rgb.b}, 0) 0%,
-           rgba(${rgb.r},${rgb.g},${rgb.b}, 1) 100%)`,
-          },
-          pointer: {
-            left: 0,
-            top: `${rgb.a * 100}%`,
-          },
+        checkboard: {
+          position: "absolute",
+          inset: "0px",
+          overflow: "hidden",
+          borderRadius: this.props.radius,
         },
-        overwrite: {
-          ...this.props.style,
+        gradient: {
+          position: "absolute",
+          inset: "0px",
+          background:
+            this.props.direction === "vertical"
+              ? `linear-gradient(to bottom, rgba(${rgb.r},${rgb.g},${rgb.b}, 0) 0%,
+            rgba(${rgb.r},${rgb.g},${rgb.b}, 1) 100%)`
+              : `linear-gradient(to right, rgba(${rgb.r},${rgb.g},${rgb.b}, 0) 0%,
+           rgba(${rgb.r},${rgb.g},${rgb.b}, 1) 100%)`,
+          boxShadow: this.props.shadow,
+          borderRadius: this.props.radius,
+        },
+        container: {
+          position: "relative",
+          height: "100%",
+          margin: "0 3px",
+        },
+        pointer: {
+          position: "absolute",
+          left: this.props.direction === "vertical" ? 0 : `${rgb.a * 100}%`,
+          top:
+            this.props.direction === "vertical" ? `${rgb.a * 100}%` : undefined,
+        },
+        slider: {
+          width: "4px",
+          borderRadius: "1px",
+          height: "8px",
+          boxShadow: "0 0 2px rgba(0, 0, 0, .6)",
+          background: "#fff",
+          marginTop: "1px",
+          transform: "translateX(-2px)",
         },
       },
-      {
-        vertical: this.props.direction === "vertical",
-        overwrite: true,
-      }
+      this.props.style
     );
 
     return (

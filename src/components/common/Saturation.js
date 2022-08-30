@@ -1,6 +1,6 @@
-import React, { Component, PureComponent } from "react";
-import reactCSS from "reactcss";
+import merge from "lodash/merge";
 import throttle from "lodash/throttle";
+import React, { Component, PureComponent } from "react";
 import * as saturation from "../../helpers/saturation";
 
 export class Saturation extends (PureComponent || Component) {
@@ -57,49 +57,50 @@ export class Saturation extends (PureComponent || Component) {
 
   render() {
     const { color, white, black, pointer, circle } = this.props.style || {};
-    const styles = reactCSS(
-      {
-        default: {
-          color: {
-            absolute: "0px 0px 0px 0px",
-            background: `hsl(${this.props.hsl.h},100%, 50%)`,
-            borderRadius: this.props.radius,
-          },
-          white: {
-            absolute: "0px 0px 0px 0px",
-            borderRadius: this.props.radius,
-          },
-          black: {
-            absolute: "0px 0px 0px 0px",
-            boxShadow: this.props.shadow,
-            borderRadius: this.props.radius,
-          },
-          pointer: {
-            position: "absolute",
-            top: `${-(this.props.hsv.v * 100) + 100}%`,
-            left: `${this.props.hsv.s * 100}%`,
-            cursor: "default",
-          },
-          circle: {
-            width: "4px",
-            height: "4px",
-            boxShadow: `0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0,0,0,.3),
-            0 0 1px 2px rgba(0,0,0,.4)`,
-            borderRadius: "50%",
-            cursor: "hand",
-            transform: "translate(-2px, -2px)",
-          },
-        },
-        custom: {
-          color,
-          white,
-          black,
-          pointer,
-          circle,
-        },
+    let styles = {
+      color: {
+        position: "absolute",
+        inset: "0px",
+        background: `hsl(${this.props.hsl.h},100%, 50%)`,
+        borderRadius: this.props.radius,
       },
-      { custom: !!this.props.style }
-    );
+      white: {
+        position: "absolute",
+        inset: "0px",
+        borderRadius: this.props.radius,
+      },
+      black: {
+        position: "absolute",
+        inset: "0px",
+        boxShadow: this.props.shadow,
+        borderRadius: this.props.radius,
+      },
+      pointer: {
+        position: "absolute",
+        top: `${-(this.props.hsv.v * 100) + 100}%`,
+        left: `${this.props.hsv.s * 100}%`,
+        cursor: "default",
+      },
+      circle: {
+        width: "4px",
+        height: "4px",
+        boxShadow: `0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0,0,0,.3),
+            0 0 1px 2px rgba(0,0,0,.4)`,
+        borderRadius: "50%",
+        cursor: "hand",
+        transform: "translate(-2px, -2px)",
+      },
+    };
+
+    if (this.props.style) {
+      styles = merge(styles, {
+        color,
+        white,
+        black,
+        pointer,
+        circle,
+      });
+    }
 
     return (
       <div

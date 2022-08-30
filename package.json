@@ -52,7 +52,6 @@
     "@babel/runtime": "^7.18.9",
     "lodash": "^4.17.21",
     "material-colors": "^1.2.6",
-    "reactcss": "^1.2.3",
     "tinycolor2": "^1.4.2"
   },
   "peerDependencies": {

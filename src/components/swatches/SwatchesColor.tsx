@@ -1,5 +1,4 @@
 import React from "react";
-import reactCSS from "reactcss";
 import CheckIcon from "../../../icons/check.svg";
 import * as colorUtils from "../../helpers/color";
 import { Color } from "../../types/colors";
@@ -22,61 +21,26 @@ export default function SwatchesColor({
   last,
   active,
 }: Props) {
-  const styles = reactCSS<any>(
-    {
-      default: {
-        color: {
-          width: "40px",
-          height: "24px",
-          cursor: "pointer",
-          background: color,
-          marginBottom: "1px",
-        },
-        check: {
-          color: colorUtils.getContrastingColor(color),
-          marginLeft: "8px",
-          display: "none",
-        },
-      },
-      first: {
-        color: {
-          overflow: "hidden",
-          borderRadius: "2px 2px 0 0",
-        },
-      },
-      last: {
-        color: {
-          overflow: "hidden",
-          borderRadius: "0 0 2px 2px",
-        },
-      },
-      active: {
-        check: {
-          display: "block",
-        },
-      },
-      "color-#FFFFFF": {
-        color: {
-          boxShadow: "inset 0 0 0 1px #ddd",
-        },
-        check: {
-          color: "#333",
-        },
-      },
-      transparent: {
-        check: {
-          color: "#333",
-        },
-      },
+  const styles: Record<string, React.CSSProperties> = {
+    color: {
+      width: "40px",
+      height: "24px",
+      cursor: "pointer",
+      background: color,
+      marginBottom: "1px",
+      overflow: first || last ? "hidden" : undefined,
+      borderRadius: first ? "2px 2px 0 0" : last ? "0 0 2px 2px" : undefined,
+      boxShadow: color === "#FFFFFF" ? "inset 0 0 0 1px #ddd" : undefined,
     },
-    {
-      first,
-      last,
-      active,
-      "color-#FFFFFF": color === "#FFFFFF",
-      transparent: color === "transparent",
-    }
-  );
+    check: {
+      color:
+        color === "#FFFFFF" || color === "transparent"
+          ? "#333"
+          : colorUtils.getContrastingColor(color),
+      marginLeft: "8px",
+      display: active ? "block" : "none",
+    },
+  };
 
   return (
     <Swatch

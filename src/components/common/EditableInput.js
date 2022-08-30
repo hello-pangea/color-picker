@@ -1,5 +1,4 @@
 import React, { Component, PureComponent } from "react";
-import reactCSS from "reactcss";
 
 const DEFAULT_ARROW_OFFSET = 1;
 
@@ -117,38 +116,26 @@ export class EditableInput extends (PureComponent || Component) {
   };
 
   render() {
-    const styles = reactCSS(
-      {
-        default: {
-          wrap: {
-            position: "relative",
-          },
-        },
-        "user-override": {
-          wrap:
-            this.props.style && this.props.style.wrap
-              ? this.props.style.wrap
-              : {},
-          input:
-            this.props.style && this.props.style.input
-              ? this.props.style.input
-              : {},
-          label:
-            this.props.style && this.props.style.label
-              ? this.props.style.label
-              : {},
-        },
-        "dragLabel-true": {
-          label: {
-            cursor: "ew-resize",
-          },
-        },
+    const styles = {
+      wrap: {
+        position: "relative",
       },
-      {
-        "user-override": true,
+      input:
+        this.props.style && this.props.style.input
+          ? this.props.style.input
+          : {},
+      label: {
+        cursor: this.props["dragLabel-true"] ? "ew-resize" : undefined,
       },
-      this.props
-    );
+    };
+
+    if (this.props.style && this.props.style.wrap) {
+      styles.wrap = { ...styles.wrap, ...this.props.style.wrap };
+    }
+
+    if (this.props.style && this.props.style.label) {
+      styles.label = { ...styles.label, ...this.props.style.label };
+    }
 
     return (
       <div style={styles.wrap}>
