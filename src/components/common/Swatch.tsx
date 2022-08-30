@@ -1,5 +1,4 @@
 import React from "react";
-import reactCSS from "reactcss";
 import { handleFocus } from "../../helpers/interaction";
 import Checkboard from "./Checkboard";
 
@@ -27,20 +26,18 @@ export const Swatch = ({
   focusStyle = {},
 }: Props) => {
   const transparent = color === "transparent";
-  const styles = reactCSS<any>({
-    default: {
-      swatch: {
-        background: color,
-        height: "100%",
-        width: "100%",
-        cursor: "pointer",
-        position: "relative",
-        outline: "none",
-        ...style,
-        ...(focus ? focusStyle : {}),
-      },
+  const styles: Record<string, React.CSSProperties> = {
+    swatch: {
+      background: color,
+      height: "100%",
+      width: "100%",
+      cursor: "pointer",
+      position: "relative",
+      outline: "none",
+      ...style,
+      ...(focus ? focusStyle : {}),
     },
-  });
+  };
 
   const handleClick = (e: React.MouseEvent) => onClick(color, e);
   const handleKeyDown = (e: React.KeyboardEvent) =>

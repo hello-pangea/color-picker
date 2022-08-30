@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import reactCSS from "reactcss";
 import UnfoldMoreHorizontalIcon from "../../../icons/unfold-more-horizontal.svg";
 import * as color from "../../helpers/color";
 import { EditableInput } from "../common";
@@ -10,6 +9,7 @@ type Props = {
   rgb: any;
   hsl: any;
   hex: any;
+  disableAlpha?: boolean;
 };
 
 export default function ChromeFields({
@@ -117,83 +117,73 @@ export default function ChromeFields({
     e.currentTarget.style.background = "transparent";
   }
 
-  const styles = reactCSS<any>(
-    {
-      default: {
-        wrap: {
-          paddingTop: "16px",
-          display: "flex",
-        },
-        fields: {
-          flex: "1",
-          display: "flex",
-          marginLeft: "-6px",
-        },
-        field: {
-          paddingLeft: "6px",
-          width: "100%",
-        },
-        alpha: {
-          paddingLeft: "6px",
-          width: "100%",
-        },
-        toggle: {
-          width: "32px",
-          textAlign: "right",
-          position: "relative",
-        },
-        icon: {
-          marginRight: "-4px",
-          marginTop: "12px",
-          cursor: "pointer",
-          position: "relative",
-        },
-        iconHighlight: {
-          position: "absolute",
-          width: "24px",
-          height: "28px",
-          background: "#eee",
-          borderRadius: "4px",
-          top: "10px",
-          left: "12px",
-          display: "none",
-        },
-        input: {
-          fontSize: "11px",
-          color: "#333",
-          width: "100%",
-          borderRadius: "2px",
-          border: "none",
-          boxShadow: "inset 0 0 0 1px #dadada",
-          height: "21px",
-          textAlign: "center",
-        },
-        label: {
-          textTransform: "uppercase",
-          fontSize: "11px",
-          lineHeight: "11px",
-          color: "#969696",
-          textAlign: "center",
-          display: "block",
-          marginTop: "12px",
-        },
-        svg: {
-          fill: "#333",
-          width: "24px",
-          height: "24px",
-          border: "1px transparent solid",
-          borderRadius: "5px",
-        },
-      },
-      disableAlpha: {
-        alpha: {
-          display: "none",
-        },
-      },
+  const styles: Record<string, React.CSSProperties> = {
+    wrap: {
+      paddingTop: "16px",
+      display: "flex",
     },
-    props
-    // this.state
-  );
+    fields: {
+      flex: "1",
+      display: "flex",
+      marginLeft: "-6px",
+    },
+    field: {
+      paddingLeft: "6px",
+      width: "100%",
+    },
+    alpha: {
+      paddingLeft: "6px",
+      width: "100%",
+      display: props.disableAlpha ? "none" : undefined,
+    },
+    toggle: {
+      width: "32px",
+      textAlign: "right",
+      position: "relative",
+    },
+    icon: {
+      marginRight: "-4px",
+      marginTop: "12px",
+      cursor: "pointer",
+      position: "relative",
+    },
+    iconHighlight: {
+      position: "absolute",
+      width: "24px",
+      height: "28px",
+      background: "#eee",
+      borderRadius: "4px",
+      top: "10px",
+      left: "12px",
+      display: "none",
+    },
+    input: {
+      fontSize: "11px",
+      color: "#333",
+      width: "100%",
+      borderRadius: "2px",
+      border: "none",
+      boxShadow: "inset 0 0 0 1px #dadada",
+      height: "21px",
+      textAlign: "center",
+    },
+    label: {
+      textTransform: "uppercase",
+      fontSize: "11px",
+      lineHeight: "11px",
+      color: "#969696",
+      textAlign: "center",
+      display: "block",
+      marginTop: "12px",
+    },
+    svg: {
+      fill: "#333",
+      width: "24px",
+      height: "24px",
+      border: "1px transparent solid",
+      borderRadius: "5px",
+    },
+  };
 
   let fields;
   if (view === "hex") {

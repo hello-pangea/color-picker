@@ -1,6 +1,5 @@
 import merge from "lodash/merge";
 import React from "react";
-import reactCSS from "reactcss";
 import { useColor, withColorProvider } from "../../context/useColor";
 import * as color from "../../helpers/color";
 import { Color, Hex } from "../../types/colors";
@@ -49,67 +48,61 @@ export const Block = ({
       );
   };
 
-  const styles = reactCSS<any>(
-    merge(
-      {
-        default: {
-          card: {
-            width,
-            background: "#fff",
-            boxShadow: "0 1px rgba(0,0,0,.1)",
-            borderRadius: "6px",
-            position: "relative",
-          },
-          head: {
-            height: "110px",
-            background: hex,
-            borderRadius: "6px 6px 0 0",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            position: "relative",
-          },
-          body: {
-            padding: "10px",
-          },
-          label: {
-            fontSize: "18px",
-            color: color.getContrastingColor(hex),
-            position: "relative",
-          },
-          triangle: {
-            width: "0px",
-            height: "0px",
-            borderStyle: "solid",
-            borderWidth: "0 10px 10px 10px",
-            borderColor: `transparent transparent ${hex} transparent`,
-            position: "absolute",
-            top: "-10px",
-            left: "50%",
-            marginLeft: "-10px",
-          },
-          input: {
-            width: "100%",
-            fontSize: "12px",
-            color: "#666",
-            border: "0px",
-            outline: "none",
-            height: "22px",
-            boxShadow: "inset 0 0 0 1px #ddd",
-            borderRadius: "4px",
-            padding: "0 7px",
-            boxSizing: "border-box",
-          },
-        },
-        "hide-triangle": {
-          triangle: {
-            display: "none",
-          },
-        },
+  const styles = merge<
+    Record<string, React.CSSProperties>,
+    Record<string, React.CSSProperties>
+  >(
+    {
+      card: {
+        width,
+        background: "#fff",
+        boxShadow: "0 1px rgba(0,0,0,.1)",
+        borderRadius: "6px",
+        position: "relative",
       },
-      passedStyles as any
-    ),
-    { "hide-triangle": triangle === "hide" }
+      head: {
+        height: "110px",
+        background: hex,
+        borderRadius: "6px 6px 0 0",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        position: "relative",
+      },
+      body: {
+        padding: "10px",
+      },
+      label: {
+        fontSize: "18px",
+        color: color.getContrastingColor(hex),
+        position: "relative",
+      },
+      triangle: {
+        width: "0px",
+        height: "0px",
+        borderStyle: "solid",
+        borderWidth: "0 10px 10px 10px",
+        borderColor: `transparent transparent ${hex} transparent`,
+        position: "absolute",
+        top: "-10px",
+        left: "50%",
+        marginLeft: "-10px",
+        display: triangle === "hide" ? "none" : undefined,
+      },
+      input: {
+        width: "100%",
+        fontSize: "12px",
+        color: "#666",
+        border: "0px",
+        outline: "none",
+        height: "22px",
+        boxShadow: "inset 0 0 0 1px #ddd",
+        borderRadius: "4px",
+        padding: "0 7px",
+        boxSizing: "border-box",
+      },
+    },
+    passedStyles
   );
 
   return (

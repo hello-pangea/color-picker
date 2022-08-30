@@ -6,7 +6,7 @@ type Props = {
   white?: string;
   grey?: string;
   renderers?: any;
-  borderRadius?: string;
+  borderRadius?: string | number;
   boxShadow?: string;
   children?: React.ReactNode;
 };

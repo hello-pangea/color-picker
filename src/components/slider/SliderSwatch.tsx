@@ -1,5 +1,4 @@
 import React from "react";
-import reactCSS from "reactcss";
 import { Hsl } from "../../types/colors";
 
 type Props = {
@@ -19,34 +18,21 @@ export default function SliderSwatch({
   first,
   last,
 }: Props) {
-  const styles = reactCSS<any>(
-    {
-      default: {
-        swatch: {
-          height: "12px",
-          background: `hsl(${hsl.h}, 50%, ${offset * 100}%)`,
-          cursor: "pointer",
-        },
-      },
-      first: {
-        swatch: {
-          borderRadius: "2px 0 0 2px",
-        },
-      },
-      last: {
-        swatch: {
-          borderRadius: "0 2px 2px 0",
-        },
-      },
-      active: {
-        swatch: {
-          transform: "scaleY(1.8)",
-          borderRadius: "3.6px/2px",
-        },
-      },
+  const styles: Record<string, React.CSSProperties> = {
+    swatch: {
+      height: "12px",
+      background: `hsl(${hsl.h}, 50%, ${offset * 100}%)`,
+      cursor: "pointer",
+      borderRadius: active
+        ? "3.6px/2px"
+        : first
+        ? "2px 0 0 2px"
+        : last
+        ? "0 2px 2px 0"
+        : undefined,
+      transform: active ? "scaleY(1.8)" : undefined,
     },
-    { active, first, last }
-  );
+  };
 
   const handleClick = (e: React.MouseEvent) =>
     onClick(

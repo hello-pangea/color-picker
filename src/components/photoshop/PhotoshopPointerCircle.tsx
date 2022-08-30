@@ -1,5 +1,4 @@
 import React from "react";
-import reactCSS from "reactcss";
 import { Hsl } from "../../types/colors";
 
 type Props = {
@@ -7,25 +6,15 @@ type Props = {
 };
 
 export default function PhotoshopPointerCircle({ hsl }: Props) {
-  const styles = reactCSS<any>(
-    {
-      default: {
-        picker: {
-          width: "12px",
-          height: "12px",
-          borderRadius: "6px",
-          boxShadow: "inset 0 0 0 1px #fff",
-          transform: "translate(-6px, -6px)",
-        },
-      },
-      "black-outline": {
-        picker: {
-          boxShadow: "inset 0 0 0 1px #000",
-        },
-      },
+  const styles: Record<string, React.CSSProperties> = {
+    picker: {
+      width: "12px",
+      height: "12px",
+      borderRadius: "6px",
+      boxShadow: hsl.l > 0.5 ? "inset 0 0 0 1px #000" : "inset 0 0 0 1px #fff",
+      transform: "translate(-6px, -6px)",
     },
-    { "black-outline": hsl.l > 0.5 }
-  );
+  };
 
   return <div style={styles.picker} />;
 }

@@ -1,5 +1,4 @@
 import React from "react";
-// @ts-ignore
 import { ChangeColor } from "../../context/useColor";
 import { Color } from "../../types/colors";
 import { Swatch } from "../common";
