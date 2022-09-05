@@ -33,3 +33,5 @@ build-storybook.log
 yarn-error.log
 npm-debug.log
 npm-debug.log.*
+
+.env
