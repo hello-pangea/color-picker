@@ -2,14 +2,13 @@ import merge from "lodash/merge";
 import * as material from "material-colors";
 import React from "react";
 import { useColor, withColorProvider } from "../../context/useColor";
-import { Color, Hex } from "../../types/colors";
+import { Hex } from "../../types/colors";
 import CircleSwatch from "./CircleSwatch";
 
 type Props = {
   width?: string | number;
   circleSize?: number;
   circleSpacing?: number;
-  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
   className?: string;
   colors?: string[];
   styles?: Record<string, React.CSSProperties>;
@@ -17,7 +16,6 @@ type Props = {
 
 export function Circle({
   width = 252,
-  onSwatchHover,
   colors = [
     material.red["500"],
     material.pink["500"],
@@ -72,7 +70,6 @@ export function Circle({
           key={c}
           color={c}
           onClick={handleChange}
-          onSwatchHover={onSwatchHover}
           active={hex === c.toLowerCase()}
           circleSize={circleSize}
           circleSpacing={circleSpacing}

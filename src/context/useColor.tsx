@@ -2,8 +2,8 @@ import { debounce } from "lodash";
 import React, {
   Context,
   createContext,
-  useCallback,
   useContext,
+  useMemo,
   useState,
 } from "react";
 import * as color from "../helpers/color";
@@ -26,6 +26,7 @@ export type ChangeColor =
 export interface ColorContextType {
   colors: Colors;
   changeColor: (newColor: ChangeColor, event?: React.MouseEvent) => void;
+  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
 }
 
 export const ColorContext = createContext<ColorContextType | undefined>(
@@ -35,14 +36,16 @@ export const ColorContext = createContext<ColorContextType | undefined>(
 type Props = {
   children: React.ReactNode;
   onChangeComplete?: any;
+  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
   onChange?: any;
-  color?: Color;
+  color?: ChangeColor;
 };
 
 export default function ColorProvider({
   children,
   onChangeComplete,
   onChange,
+  onSwatchHover,
   color: defaultColor = {
     h: 250,
     s: 0.5,
@@ -53,10 +56,10 @@ export default function ColorProvider({
   const [colors, setColors] = useState<Colors>({
     ...color.toState(defaultColor, 0),
   });
-  const debounceFn = useCallback(
-    (fn: any, data: any, event: any) => debounce(fn(data, event), 1000),
-    []
-  );
+
+  const handler = (fn: any, data: any, event: any) => fn(data, event);
+
+  const debouncedChangeHandler = useMemo(() => debounce(handler, 100), []);
 
   function changeColor(newColor: ChangeColor, event?: React.MouseEvent) {
     const isValidColor = color.simpleCheckForValidColor(newColor);
@@ -68,8 +71,21 @@ export default function ColorProvider({
 
       setColors(newColors);
 
-      onChangeComplete && debounceFn(onChangeComplete, colors, event);
+      onChangeComplete &&
+        debouncedChangeHandler(onChangeComplete, colors, event);
       onChange && onChange(colors, event);
+    }
+  }
+
+  function handleSwatchHover(data: Color, event: React.MouseEvent) {
+    const isValidColor = color.simpleCheckForValidColor(data);
+    if (isValidColor) {
+      const newColors = color.toState(
+        data,
+        (typeof data !== "string" && "h" in data ? data.h : undefined) ||
+          colors.oldHue
+      );
+      onSwatchHover && onSwatchHover(newColors as any, event);
     }
   }
 
@@ -78,6 +94,7 @@ export default function ColorProvider({
       value={{
         colors: colors,
         changeColor: changeColor,
+        onSwatchHover: onSwatchHover ? handleSwatchHover : undefined,
       }}
     >
       {children}
@@ -90,7 +107,7 @@ export const useColor = (): ColorContextType =>
 
 export const withColorProvider = (Component: React.FC<any>) => (props: any) =>
   (
-    <ColorProvider>
-      <Component {...props} />
+    <ColorProvider {...props}>
+      <Component />
     </ColorProvider>
   );

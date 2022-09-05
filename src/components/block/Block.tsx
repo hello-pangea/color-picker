@@ -2,7 +2,7 @@ import merge from "lodash/merge";
 import React from "react";
 import { useColor, withColorProvider } from "../../context/useColor";
 import * as color from "../../helpers/color";
-import { Color, Hex } from "../../types/colors";
+import { Hex } from "../../types/colors";
 import { Checkboard, EditableInput } from "../common";
 import BlockSwatches from "./BlockSwatches";
 
@@ -12,11 +12,9 @@ type Props = {
   triangle?: "top" | "hide";
   className?: string;
   styles?: Record<string, React.CSSProperties>;
-  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
 };
 
 export const Block = ({
-  onSwatchHover,
   colors = [
     "#D9E3F0",
     "#F47373",
@@ -115,11 +113,7 @@ export const Block = ({
       </div>
 
       <div style={styles.body}>
-        <BlockSwatches
-          colors={colors}
-          onClick={handleChange}
-          onSwatchHover={onSwatchHover}
-        />
+        <BlockSwatches colors={colors} onClick={handleChange} />
         <EditableInput
           style={{ input: styles.input }}
           value={hex}

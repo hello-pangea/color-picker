@@ -1,18 +1,15 @@
 import React from "react";
 import { ChangeColor } from "../../context/useColor";
-import { Color } from "../../types/colors";
 import { Swatch } from "../common";
 
 type Props = {
   colors: (string | { color: string; title?: string })[];
-  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
   onClick?: (newColor: ChangeColor, event: React.MouseEvent) => void;
 };
 
 export default function SketchPresetColors({
   colors,
   onClick = () => {},
-  onSwatchHover,
 }: Props) {
   const noPresets = !colors || !colors.length;
 
@@ -60,7 +57,6 @@ export default function SketchPresetColors({
               {...c}
               style={styles.swatch}
               onClick={handleClick}
-              onHover={onSwatchHover}
               focusStyle={{
                 boxShadow: `inset 0 0 0 1px rgba(0,0,0,.15), 0 0 4px ${c.color}`,
               }}

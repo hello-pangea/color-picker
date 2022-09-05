@@ -2,20 +2,17 @@ import merge from "lodash/merge";
 import React from "react";
 import { useColor, withColorProvider } from "../../context/useColor";
 import * as color from "../../helpers/color";
-import { Color } from "../../types/colors";
 import { Raised } from "../common";
 import CompactColor from "./CompactColor";
 import CompactFields from "./CompactFields";
 
 type Props = {
   colors?: string[];
-  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
   styles?: Record<string, React.CSSProperties>;
   className?: string;
 };
 
 export function Compact({
-  onSwatchHover,
   colors = [
     "#4D4D4D",
     "#999999",
@@ -107,7 +104,6 @@ export function Compact({
               color={c}
               active={c.toLowerCase() === hex}
               onClick={handleChange}
-              onSwatchHover={onSwatchHover}
             />
           ))}
           <div style={styles.clear} />

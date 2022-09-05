@@ -1,17 +1,15 @@
 import React from "react";
 import { ChangeColor } from "../../context/useColor";
-import { Color } from "../../types/colors";
 import { Swatch } from "../common";
 import { withHover } from "../common/withHover";
 
 type Props = {
   hover?: boolean;
   color: string;
-  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
   onClick?: (newColor: ChangeColor, event: React.MouseEvent) => void;
 };
 
-export function GithubSwatch({ hover, color, onClick, onSwatchHover }: Props) {
+export function GithubSwatch({ hover, color, onClick }: Props) {
   const hoverSwatch: React.CSSProperties = {
     position: "relative",
     zIndex: "2",
@@ -33,12 +31,7 @@ export function GithubSwatch({ hover, color, onClick, onSwatchHover }: Props) {
 
   return (
     <div style={styles.swatch}>
-      <Swatch
-        color={color}
-        onClick={onClick}
-        onHover={onSwatchHover}
-        focusStyle={hoverSwatch}
-      />
+      <Swatch color={color} onClick={onClick} focusStyle={hoverSwatch} />
     </div>
   );
 }

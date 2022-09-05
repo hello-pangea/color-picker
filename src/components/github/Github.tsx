@@ -1,7 +1,7 @@
 import merge from "lodash/merge";
 import React from "react";
 import { useColor, withColorProvider } from "../../context/useColor";
-import { Color, Hex } from "../../types/colors";
+import { Hex } from "../../types/colors";
 import GithubSwatch from "./GithubSwatch";
 
 type Props = {
@@ -10,7 +10,6 @@ type Props = {
   className?: string;
   triangle?: "hide" | "top-left" | "top-right" | "bottom-left" | "bottom-right";
   colors?: string[];
-  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
 };
 
 export function Github({
@@ -33,7 +32,6 @@ export function Github({
     "#BED3F3",
     "#D4C4FB",
   ],
-  onSwatchHover,
   triangle = "top-left",
   styles: passedStyles = {},
   className = "",
@@ -112,12 +110,7 @@ export function Github({
       <div style={styles.triangleShadow} />
       <div style={styles.triangle} />
       {colors.map((c) => (
-        <GithubSwatch
-          color={c}
-          key={c}
-          onClick={handleChange}
-          onSwatchHover={onSwatchHover}
-        />
+        <GithubSwatch color={c} key={c} onClick={handleChange} />
       ))}
     </div>
   );

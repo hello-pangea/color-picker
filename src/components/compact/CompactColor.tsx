@@ -1,10 +1,8 @@
 import React from "react";
 import * as colorUtils from "../../helpers/color";
-import { Color } from "../../types/colors";
 import { Swatch } from "../common";
 
 type Props = {
-  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
   color: string;
   active: boolean;
   onClick: any;
@@ -13,7 +11,6 @@ type Props = {
 export default function CompactColor({
   color,
   onClick = () => {},
-  onSwatchHover,
   active,
 }: Props) {
   const styles: Record<string, React.CSSProperties> = {
@@ -47,7 +44,6 @@ export default function CompactColor({
       style={styles.color}
       color={color}
       onClick={onClick}
-      onHover={onSwatchHover}
       focusStyle={{ boxShadow: `0 0 4px ${color}` }}
     >
       <div style={styles.dot} />

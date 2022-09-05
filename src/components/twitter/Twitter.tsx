@@ -2,11 +2,9 @@ import merge from "lodash/merge";
 import React from "react";
 import { useColor, withColorProvider } from "../../context/useColor";
 import * as color from "../../helpers/color";
-import { Color } from "../../types/colors";
 import { EditableInput, Swatch } from "../common";
 
 type Props = {
-  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
   width?: string | number;
   triangle?: "hide" | "top-left" | "top-right";
   colors?: string[];
@@ -15,7 +13,6 @@ type Props = {
 };
 
 export const Twitter = ({
-  onSwatchHover,
   colors = [
     "#FF6900",
     "#FCB900",
@@ -153,7 +150,6 @@ export const Twitter = ({
               hex={c}
               style={styles.swatch}
               onClick={handleChange}
-              onHover={onSwatchHover}
               focusStyle={{
                 boxShadow: `0 0 4px ${c}`,
               }}

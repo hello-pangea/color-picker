@@ -7,7 +7,6 @@ import { Swatch } from "../common";
 type Props = {
   color: string;
   onClick: (color: Color, event: React.MouseEvent) => void;
-  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
   first: boolean;
   last: boolean;
   active: boolean;
@@ -16,7 +15,6 @@ type Props = {
 export default function SwatchesColor({
   color,
   onClick = () => {},
-  onSwatchHover,
   first,
   last,
   active,
@@ -47,7 +45,6 @@ export default function SwatchesColor({
       color={color}
       style={styles.color}
       onClick={onClick}
-      onHover={onSwatchHover}
       focusStyle={{ boxShadow: `0 0 4px ${color}` }}
     >
       <div style={styles.check}>

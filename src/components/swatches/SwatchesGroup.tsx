@@ -4,17 +4,11 @@ import SwatchesColor from "./SwatchesColor";
 
 type Props = {
   onClick: (color: Color, event: React.MouseEvent) => void;
-  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
   active: Hex;
   group: string[];
 };
 
-export default function SwatchesGroup({
-  onClick,
-  onSwatchHover,
-  group,
-  active,
-}: Props) {
+export default function SwatchesGroup({ onClick, group, active }: Props) {
   const styles: Record<string, React.CSSProperties> = {
     group: {
       paddingBottom: "10px",
@@ -34,7 +28,6 @@ export default function SwatchesGroup({
           first={i === 0}
           last={i === group.length - 1}
           onClick={onClick}
-          onSwatchHover={onSwatchHover}
         />
       ))}
     </div>

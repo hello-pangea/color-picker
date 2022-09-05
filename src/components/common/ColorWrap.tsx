@@ -13,7 +13,7 @@ type Props = {
 };
 
 export const ColorWrap = (Picker: any) => {
-  function ColorPicker({ onSwatchHover }: Props) {
+  function ColorPicker({ onSwatchHover, color: defaultColor }: Props) {
     const { colors, changeColor } = useColor();
 
     function handleSwatchHover(data: any, event: React.MouseEvent) {
@@ -30,8 +30,8 @@ export const ColorWrap = (Picker: any) => {
     }
 
     return (
-      <ColorProvider>
-        <Picker {...colors} onChange={changeColor} {...optionalEvents} />
+      <ColorProvider color={defaultColor} {...optionalEvents}>
+        <Picker {...colors} onChange={changeColor} />
       </ColorProvider>
     );
   }

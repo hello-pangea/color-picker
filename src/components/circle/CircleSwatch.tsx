@@ -1,12 +1,11 @@
 import React from "react";
-import { Color, Hex } from "../../types/colors";
+import { Hex } from "../../types/colors";
 import { Swatch } from "../common";
 import { withHover } from "../common/withHover";
 
 type Props = {
   circleSize?: number;
   circleSpacing?: number;
-  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
   className?: string;
   color: string;
   active?: boolean;
@@ -17,7 +16,6 @@ type Props = {
 export const CircleSwatch = ({
   color,
   onClick,
-  onSwatchHover,
   hover,
   active,
   circleSize = 28,
@@ -49,7 +47,6 @@ export const CircleSwatch = ({
         style={styles.Swatch}
         color={color}
         onClick={onClick}
-        onHover={onSwatchHover}
         focusStyle={{
           boxShadow: `${styles.Swatch.boxShadow}, 0 0 5px ${color}`,
         }}

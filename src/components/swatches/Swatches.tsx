@@ -9,7 +9,6 @@ import SwatchesGroup from "./SwatchesGroup";
 type Props = {
   width?: string | number;
   height?: string | number;
-  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
   className?: string;
   styles?: Record<string, React.CSSProperties>;
   colors?: string[][];
@@ -18,7 +17,6 @@ type Props = {
 export function Swatches({
   width = 320,
   height = 240,
-  onSwatchHover,
   colors = [
     [
       material.red["900"],
@@ -191,7 +189,6 @@ export function Swatches({
                 group={group}
                 active={hex}
                 onClick={handleChange}
-                onSwatchHover={onSwatchHover}
               />
             ))}
             <div style={styles.clear} />

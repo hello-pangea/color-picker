@@ -1,14 +1,13 @@
 import React from "react";
-import { Color, Hex } from "../../types/colors";
+import { Hex } from "../../types/colors";
 import { Swatch } from "../common";
 
 type Props = {
   colors: string[];
-  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
   onClick: (hexCode: Hex, e: React.MouseEvent) => void;
 };
 
-export const BlockSwatches = ({ colors, onClick, onSwatchHover }: Props) => {
+export const BlockSwatches = ({ colors, onClick }: Props) => {
   const styles: Record<string, React.CSSProperties> = {
     swatches: {
       marginRight: "-10px",
@@ -34,7 +33,6 @@ export const BlockSwatches = ({ colors, onClick, onSwatchHover }: Props) => {
           color={c}
           style={styles.swatch}
           onClick={onClick}
-          onHover={onSwatchHover}
           focusStyle={{
             boxShadow: `0 0 4px ${c}`,
           }}

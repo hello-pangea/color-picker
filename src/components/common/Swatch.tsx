@@ -1,4 +1,5 @@
 import React from "react";
+import { useColor } from "../../context/useColor";
 import { handleFocus } from "../../helpers/interaction";
 import Checkboard from "./Checkboard";
 
@@ -8,7 +9,6 @@ type Props = {
   color: string;
   style?: React.CSSProperties;
   onClick: any;
-  onHover: any;
   title?: string;
   children?: React.ReactNode;
   focus?: any;
@@ -19,12 +19,13 @@ export const Swatch = ({
   color,
   style,
   onClick = () => {},
-  onHover,
   title = color,
   children,
   focus,
   focusStyle = {},
 }: Props) => {
+  const { onSwatchHover } = useColor();
+
   const transparent = color === "transparent";
   const styles: Record<string, React.CSSProperties> = {
     swatch: {
@@ -42,12 +43,6 @@ export const Swatch = ({
   const handleClick = (e: React.MouseEvent) => onClick(color, e);
   const handleKeyDown = (e: React.KeyboardEvent) =>
     e.keyCode === ENTER && onClick(color, e);
-  const handleHover = (e: React.MouseEvent) => onHover(color, e);
-
-  const optionalEvents: any = {};
-  if (onHover) {
-    optionalEvents.onMouseOver = handleHover;
-  }
 
   return (
     <div
@@ -56,7 +51,9 @@ export const Swatch = ({
       title={title}
       tabIndex={0}
       onKeyDown={handleKeyDown}
-      {...optionalEvents}
+      onMouseOver={(event) => {
+        onSwatchHover && onSwatchHover(color, event);
+      }}
     >
       {children}
       {transparent && (

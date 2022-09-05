@@ -1,13 +1,11 @@
 import merge from "lodash/merge";
 import React from "react";
 import { useColor, withColorProvider } from "../../context/useColor";
-import { Color } from "../../types/colors";
 import { Alpha, Checkboard, Hue, Saturation } from "../common";
 import SketchFields from "./SketchFields";
 import SketchPresetColors from "./SketchPresetColors";
 
 type Props = {
-  onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
   disableAlpha?: boolean;
   width?: string | number;
   className?: string;
@@ -18,7 +16,6 @@ type Props = {
 
 export function Sketch({
   width = 200,
-  onSwatchHover,
   disableAlpha = false,
   presetColors = [
     "#D0021B",
@@ -157,11 +154,7 @@ export function Sketch({
         onChange={changeColor}
         disableAlpha={disableAlpha}
       />
-      <SketchPresetColors
-        colors={presetColors}
-        onClick={changeColor}
-        onSwatchHover={onSwatchHover}
-      />
+      <SketchPresetColors colors={presetColors} onClick={changeColor} />
     </div>
   );
 }
