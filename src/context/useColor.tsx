@@ -23,7 +23,7 @@ type Props = {
   children: React.ReactNode;
   onChangeComplete?: (color: ColorObject) => void;
   onSwatchHover?: (color: ColorObject, event: React.MouseEvent) => void;
-  onChange?: any;
+  onChange?: (color: ColorObject, event?: React.MouseEvent) => void;
   color?: Color;
 };
 
