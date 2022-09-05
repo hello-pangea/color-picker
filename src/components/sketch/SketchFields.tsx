@@ -8,15 +8,15 @@ import { Hex, Hsl, Rgb } from "../../types/colors";
 import { EditableInput } from "../common";
 
 type Props = {
-  onChange: (color: ChangeColor, event: React.MouseEvent) => void;
+  onChange?: (color: ChangeColor, event: React.MouseEvent) => void;
   rgb: Rgb;
   hsl: Hsl;
   hex: Hex;
-  disableAlpha: boolean;
+  disableAlpha?: boolean;
 };
 
 export const SketchFields = ({
-  onChange,
+  onChange = () => {},
   rgb,
   hsl,
   hex,

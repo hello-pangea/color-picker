@@ -15,7 +15,7 @@
     "skipLibCheck": true,
     "strictNullChecks": true,
     "strictFunctionTypes": true,
-    "types": [],
+    "types": ["jest"],
     "lib": ["dom", "esnext"]
   },
   "exclude": ["node_modules"],

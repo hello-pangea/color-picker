@@ -4,7 +4,7 @@ import { Color } from "../../types/colors";
 import { Swatch } from "../common";
 
 type Props = {
-  colors: (string | { color: string; title: string })[];
+  colors: (string | { color: string; title?: string })[];
   onSwatchHover?: (color: Color, event: React.MouseEvent) => void;
   onClick?: (newColor: ChangeColor, event: React.MouseEvent) => void;
 };

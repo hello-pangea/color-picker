@@ -6,8 +6,9 @@ const config: Config = {
   resetMocks: true,
   resetModules: true,
   restoreMocks: true,
-  testEnvironment: "jsdom",
-  setupFiles: ["./test/setupTests.js"],
+  setupFiles: ["./test/setup/env-setup.ts"],
+  setupFilesAfterEnv: ["./test/setup/test-setup.ts"],
+  testEnvironment: "./test/setup/environment.ts",
   transform: {
     "\\.[jt]sx?$": "babel-jest",
   },
