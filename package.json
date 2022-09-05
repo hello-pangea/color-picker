@@ -1,6 +1,6 @@
 {
   "name": "@hello-pangea/color-picker",
-  "version": "2.19.4",
+  "version": "3.0.0",
   "private": false,
   "description": "A Collection of Color Pickers from Sketch, Photoshop, Chrome & more",
   "main": "dist/color-picker.cjs.js",
