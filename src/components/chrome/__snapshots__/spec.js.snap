@@ -4,7 +4,7 @@ exports[`Chrome renders correctly 1`] = `
 <div
   className="chrome-picker "
   style={
-    Object {
+    {
       "MozBorderRadius": "2px",
       "MozBoxShadow": "0 0 2px rgba(0,0,0,.3), 0 4px 8px rgba(0,0,0,.3)",
       "OBorderRadius": "2px",
@@ -24,7 +24,7 @@ exports[`Chrome renders correctly 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "MozBorderRadius": "2px 2px 0 0",
         "OBorderRadius": "2px 2px 0 0",
         "WebkitBorderRadius": "2px 2px 0 0",
@@ -42,7 +42,7 @@ exports[`Chrome renders correctly 1`] = `
       onTouchMove={[Function]}
       onTouchStart={[Function]}
       style={
-        Object {
+        {
           "MozBorderRadius": undefined,
           "OBorderRadius": undefined,
           "WebkitBorderRadius": undefined,
@@ -59,20 +59,20 @@ exports[`Chrome renders correctly 1`] = `
     >
       <style>
         
-                  .saturation-white {
-                    background: -webkit-linear-gradient(to right, #fff, rgba(255,255,255,0));
-                    background: linear-gradient(to right, #fff, rgba(255,255,255,0));
-                  }
-                  .saturation-black {
-                    background: -webkit-linear-gradient(to top, #000, rgba(0,0,0,0));
-                    background: linear-gradient(to top, #000, rgba(0,0,0,0));
-                  }
-                
+          .saturation-white {
+            background: -webkit-linear-gradient(to right, #fff, rgba(255,255,255,0));
+            background: linear-gradient(to right, #fff, rgba(255,255,255,0));
+          }
+          .saturation-black {
+            background: -webkit-linear-gradient(to top, #000, rgba(0,0,0,0));
+            background: linear-gradient(to top, #000, rgba(0,0,0,0));
+          }
+        
       </style>
       <div
         className="saturation-white"
         style={
-          Object {
+          {
             "MozBorderRadius": undefined,
             "OBorderRadius": undefined,
             "WebkitBorderRadius": undefined,
@@ -89,7 +89,7 @@ exports[`Chrome renders correctly 1`] = `
         <div
           className="saturation-black"
           style={
-            Object {
+            {
               "MozBorderRadius": undefined,
               "MozBoxShadow": undefined,
               "OBorderRadius": undefined,
@@ -110,7 +110,7 @@ exports[`Chrome renders correctly 1`] = `
         />
         <div
           style={
-            Object {
+            {
               "cursor": "default",
               "left": "66.66666666666667%",
               "position": "absolute",
@@ -120,7 +120,7 @@ exports[`Chrome renders correctly 1`] = `
         >
           <div
             style={
-              Object {
+              {
                 "MozBorderRadius": "6px",
                 "MozBoxShadow": "inset 0 0 0 1px #fff",
                 "MozTransform": "translate(-6px, -6px)",
@@ -147,7 +147,7 @@ exports[`Chrome renders correctly 1`] = `
   </div>
   <div
     style={
-      Object {
+      {
         "padding": "16px 16px 12px",
       }
     }
@@ -155,21 +155,21 @@ exports[`Chrome renders correctly 1`] = `
     <div
       className="flexbox-fix"
       style={
-        Object {
+        {
           "display": "flex",
         }
       }
     >
       <div
         style={
-          Object {
+          {
             "width": "32px",
           }
         }
       >
         <div
           style={
-            Object {
+            {
               "MozBorderRadius": "8px",
               "OBorderRadius": "8px",
               "WebkitBorderRadius": "8px",
@@ -185,7 +185,7 @@ exports[`Chrome renders correctly 1`] = `
         >
           <div
             style={
-              Object {
+              {
                 "MozBorderRadius": "8px",
                 "MozBoxShadow": "inset 0 0 0 1px rgba(0,0,0,.1)",
                 "OBorderRadius": "8px",
@@ -208,7 +208,7 @@ exports[`Chrome renders correctly 1`] = `
           />
           <div
             style={
-              Object {
+              {
                 "MozBorderRadius": undefined,
                 "MozBoxShadow": undefined,
                 "OBorderRadius": undefined,
@@ -232,7 +232,7 @@ exports[`Chrome renders correctly 1`] = `
       </div>
       <div
         style={
-          Object {
+          {
             "MozBoxFlex": "1",
             "WebkitBoxFlex": "1",
             "WebkitFlex": "1",
@@ -243,7 +243,7 @@ exports[`Chrome renders correctly 1`] = `
       >
         <div
           style={
-            Object {
+            {
               "height": "10px",
               "marginBottom": "8px",
               "position": "relative",
@@ -252,7 +252,7 @@ exports[`Chrome renders correctly 1`] = `
         >
           <div
             style={
-              Object {
+              {
                 "MozBorderRadius": undefined,
                 "MozBoxShadow": undefined,
                 "OBorderRadius": undefined,
@@ -277,7 +277,7 @@ exports[`Chrome renders correctly 1`] = `
               onTouchMove={[Function]}
               onTouchStart={[Function]}
               style={
-                Object {
+                {
                   "MozBorderRadius": undefined,
                   "OBorderRadius": undefined,
                   "WebkitBorderRadius": undefined,
@@ -291,24 +291,24 @@ exports[`Chrome renders correctly 1`] = `
             >
               <style>
                 
-                            .hue-horizontal {
-                              background: linear-gradient(to right, #f00 0%, #ff0 17%, #0f0
-                                33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
-                              background: -webkit-linear-gradient(to right, #f00 0%, #ff0
-                                17%, #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
-                            }
-                
-                            .hue-vertical {
-                              background: linear-gradient(to top, #f00 0%, #ff0 17%, #0f0 33%,
-                                #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
-                              background: -webkit-linear-gradient(to top, #f00 0%, #ff0 17%,
-                                #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
-                            }
-                          
+            .hue-horizontal {
+              background: linear-gradient(to right, #f00 0%, #ff0 17%, #0f0
+                33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
+              background: -webkit-linear-gradient(to right, #f00 0%, #ff0
+                17%, #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
+            }
+
+            .hue-vertical {
+              background: linear-gradient(to top, #f00 0%, #ff0 17%, #0f0 33%,
+                #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
+              background: -webkit-linear-gradient(to top, #f00 0%, #ff0 17%,
+                #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
+            }
+          
               </style>
               <div
                 style={
-                  Object {
+                  {
                     "left": "69.44444444444443%",
                     "position": "absolute",
                   }
@@ -316,7 +316,7 @@ exports[`Chrome renders correctly 1`] = `
               >
                 <div
                   style={
-                    Object {
+                    {
                       "MozBorderRadius": "6px",
                       "MozBoxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
                       "MozTransform": "translate(-6px, -1px)",
@@ -344,7 +344,7 @@ exports[`Chrome renders correctly 1`] = `
         </div>
         <div
           style={
-            Object {
+            {
               "height": "10px",
               "position": "relative",
             }
@@ -352,7 +352,7 @@ exports[`Chrome renders correctly 1`] = `
         >
           <div
             style={
-              Object {
+              {
                 "MozBorderRadius": undefined,
                 "OBorderRadius": undefined,
                 "WebkitBorderRadius": undefined,
@@ -368,7 +368,7 @@ exports[`Chrome renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": undefined,
                   "OBorderRadius": undefined,
                   "WebkitBorderRadius": undefined,
@@ -385,7 +385,7 @@ exports[`Chrome renders correctly 1`] = `
             >
               <div
                 style={
-                  Object {
+                  {
                     "MozBorderRadius": undefined,
                     "MozBoxShadow": undefined,
                     "OBorderRadius": undefined,
@@ -408,7 +408,7 @@ exports[`Chrome renders correctly 1`] = `
             </div>
             <div
               style={
-                Object {
+                {
                   "MozBorderRadius": undefined,
                   "MozBoxShadow": undefined,
                   "OBorderRadius": undefined,
@@ -416,7 +416,7 @@ exports[`Chrome renders correctly 1`] = `
                   "WebkitBorderRadius": undefined,
                   "WebkitBoxShadow": undefined,
                   "background": "linear-gradient(to right, rgba(34,25,77, 0) 0%,
-                           rgba(34,25,77, 1) 100%)",
+           rgba(34,25,77, 1) 100%)",
                   "borderRadius": undefined,
                   "bottom": "0px",
                   "boxShadow": undefined,
@@ -434,7 +434,7 @@ exports[`Chrome renders correctly 1`] = `
               onTouchMove={[Function]}
               onTouchStart={[Function]}
               style={
-                Object {
+                {
                   "height": "100%",
                   "margin": "0 3px",
                   "position": "relative",
@@ -443,7 +443,7 @@ exports[`Chrome renders correctly 1`] = `
             >
               <div
                 style={
-                  Object {
+                  {
                     "left": "100%",
                     "position": "absolute",
                   }
@@ -451,7 +451,7 @@ exports[`Chrome renders correctly 1`] = `
               >
                 <div
                   style={
-                    Object {
+                    {
                       "MozBorderRadius": "6px",
                       "MozBoxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
                       "MozTransform": "translate(-6px, -1px)",
@@ -482,7 +482,7 @@ exports[`Chrome renders correctly 1`] = `
     <div
       className="flexbox-fix"
       style={
-        Object {
+        {
           "display": "flex",
           "paddingTop": "16px",
         }
@@ -491,7 +491,7 @@ exports[`Chrome renders correctly 1`] = `
       <div
         className="flexbox-fix"
         style={
-          Object {
+          {
             "MozBoxFlex": "1",
             "WebkitBoxFlex": "1",
             "WebkitFlex": "1",
@@ -504,7 +504,7 @@ exports[`Chrome renders correctly 1`] = `
       >
         <div
           style={
-            Object {
+            {
               "paddingLeft": "6px",
               "width": "100%",
             }
@@ -512,7 +512,7 @@ exports[`Chrome renders correctly 1`] = `
         >
           <div
             style={
-              Object {
+              {
                 "position": "relative",
               }
             }
@@ -522,10 +522,9 @@ exports[`Chrome renders correctly 1`] = `
               onBlur={[Function]}
               onChange={[Function]}
               onKeyDown={[Function]}
-              placeholder={undefined}
               spellCheck="false"
               style={
-                Object {
+                {
                   "MozBorderRadius": "2px",
                   "MozBoxShadow": "inset 0 0 0 1px #dadada",
                   "OBorderRadius": "2px",
@@ -550,7 +549,7 @@ exports[`Chrome renders correctly 1`] = `
               htmlFor="rc-editable-input-1"
               onMouseDown={[Function]}
               style={
-                Object {
+                {
                   "color": "#969696",
                   "display": "block",
                   "fontSize": "11px",
@@ -568,7 +567,7 @@ exports[`Chrome renders correctly 1`] = `
       </div>
       <div
         style={
-          Object {
+          {
             "position": "relative",
             "textAlign": "right",
             "width": "32px",
@@ -578,7 +577,7 @@ exports[`Chrome renders correctly 1`] = `
         <div
           onClick={[Function]}
           style={
-            Object {
+            {
               "cursor": "pointer",
               "marginRight": "-4px",
               "marginTop": "12px",
@@ -591,7 +590,7 @@ exports[`Chrome renders correctly 1`] = `
             onMouseOut={[Function]}
             onMouseOver={[Function]}
             style={
-              Object {
+              {
                 "MozBorderRadius": "5px",
                 "OBorderRadius": "5px",
                 "WebkitBorderRadius": "5px",
@@ -620,7 +619,7 @@ exports[`ChromeFields renders correctly 1`] = `
 <div
   className="flexbox-fix"
   style={
-    Object {
+    {
       "display": "flex",
       "paddingTop": "16px",
     }
@@ -629,7 +628,7 @@ exports[`ChromeFields renders correctly 1`] = `
   <div
     className="flexbox-fix"
     style={
-      Object {
+      {
         "MozBoxFlex": "1",
         "WebkitBoxFlex": "1",
         "WebkitFlex": "1",
@@ -642,7 +641,7 @@ exports[`ChromeFields renders correctly 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "paddingLeft": "6px",
           "width": "100%",
         }
@@ -650,7 +649,7 @@ exports[`ChromeFields renders correctly 1`] = `
     >
       <div
         style={
-          Object {
+          {
             "position": "relative",
           }
         }
@@ -660,10 +659,9 @@ exports[`ChromeFields renders correctly 1`] = `
           onBlur={[Function]}
           onChange={[Function]}
           onKeyDown={[Function]}
-          placeholder={undefined}
           spellCheck="false"
           style={
-            Object {
+            {
               "MozBorderRadius": "2px",
               "MozBoxShadow": "inset 0 0 0 1px #dadada",
               "OBorderRadius": "2px",
@@ -688,7 +686,7 @@ exports[`ChromeFields renders correctly 1`] = `
           htmlFor="rc-editable-input-3"
           onMouseDown={[Function]}
           style={
-            Object {
+            {
               "color": "#969696",
               "display": "block",
               "fontSize": "11px",
@@ -706,7 +704,7 @@ exports[`ChromeFields renders correctly 1`] = `
   </div>
   <div
     style={
-      Object {
+      {
         "position": "relative",
         "textAlign": "right",
         "width": "32px",
@@ -716,7 +714,7 @@ exports[`ChromeFields renders correctly 1`] = `
     <div
       onClick={[Function]}
       style={
-        Object {
+        {
           "cursor": "pointer",
           "marginRight": "-4px",
           "marginTop": "12px",
@@ -729,7 +727,7 @@ exports[`ChromeFields renders correctly 1`] = `
         onMouseOut={[Function]}
         onMouseOver={[Function]}
         style={
-          Object {
+          {
             "MozBorderRadius": "5px",
             "OBorderRadius": "5px",
             "WebkitBorderRadius": "5px",
@@ -755,7 +753,7 @@ exports[`ChromeFields renders correctly 1`] = `
 exports[`ChromePointer renders correctly 1`] = `
 <div
   style={
-    Object {
+    {
       "MozBorderRadius": "6px",
       "MozBoxShadow": "0 1px 4px 0 rgba(0, 0, 0, 0.37)",
       "MozTransform": "translate(-6px, -1px)",
@@ -782,7 +780,7 @@ exports[`ChromePointer renders correctly 1`] = `
 exports[`ChromePointerCircle renders correctly 1`] = `
 <div
   style={
-    Object {
+    {
       "MozBorderRadius": "6px",
       "MozBoxShadow": "inset 0 0 0 1px #fff",
       "MozTransform": "translate(-6px, -6px)",

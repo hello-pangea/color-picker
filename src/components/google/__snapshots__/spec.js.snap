@@ -4,24 +4,20 @@ exports[`Google renders correctly 1`] = `
 <div
   className="google-picker "
   style={
-    Object {
-      "MozBorderRadius": "8px 8px 0px 0px",
-      "OBorderRadius": "8px 8px 0px 0px",
-      "WebkitBorderRadius": "8px 8px 0px 0px",
+    {
       "background": "#fff",
       "border": "1px solid #dfe1e5",
       "borderRadius": "8px 8px 0px 0px",
       "boxSizing": "initial",
       "display": "flex",
       "flexWrap": "wrap",
-      "msBorderRadius": "8px 8px 0px 0px",
       "width": 652,
     }
   }
 >
   <div
     style={
-      Object {
+      {
         "boxSizing": "border-box",
         "fontFamily": "Roboto-Regular,HelveticaNeue,Arial,sans-serif",
         "fontSize": "20px",
@@ -37,7 +33,7 @@ exports[`Google renders correctly 1`] = `
   </div>
   <div
     style={
-      Object {
+      {
         "background": "rgba(34, 25, 77, 1)",
         "height": "228px",
         "overflow": "hidden",
@@ -49,7 +45,7 @@ exports[`Google renders correctly 1`] = `
   />
   <div
     style={
-      Object {
+      {
         "overflow": "hidden",
         "padding": "0px",
         "position": "relative",
@@ -62,75 +58,50 @@ exports[`Google renders correctly 1`] = `
       onTouchMove={[Function]}
       onTouchStart={[Function]}
       style={
-        Object {
-          "MozBorderRadius": undefined,
-          "OBorderRadius": undefined,
-          "WebkitBorderRadius": undefined,
+        {
           "background": "hsl(249.99999999999994,100%, 50%)",
           "borderRadius": undefined,
-          "bottom": "0px",
-          "left": "0px",
-          "msBorderRadius": undefined,
+          "inset": "0px",
           "position": "absolute",
-          "right": "0px",
-          "top": "0px",
         }
       }
     >
       <style>
         
-                  .saturation-white {
-                    background: -webkit-linear-gradient(to right, #fff, rgba(255,255,255,0));
-                    background: linear-gradient(to right, #fff, rgba(255,255,255,0));
-                  }
-                  .saturation-black {
-                    background: -webkit-linear-gradient(to top, #000, rgba(0,0,0,0));
-                    background: linear-gradient(to top, #000, rgba(0,0,0,0));
-                  }
-                
+          .saturation-white {
+            background: -webkit-linear-gradient(to right, #fff, rgba(255,255,255,0));
+            background: linear-gradient(to right, #fff, rgba(255,255,255,0));
+          }
+          .saturation-black {
+            background: -webkit-linear-gradient(to top, #000, rgba(0,0,0,0));
+            background: linear-gradient(to top, #000, rgba(0,0,0,0));
+          }
+        
       </style>
       <div
         className="saturation-white"
         style={
-          Object {
-            "MozBorderRadius": undefined,
-            "OBorderRadius": undefined,
-            "WebkitBorderRadius": undefined,
+          {
             "borderRadius": undefined,
-            "bottom": "0px",
-            "left": "0px",
-            "msBorderRadius": undefined,
+            "inset": "0px",
             "position": "absolute",
-            "right": "0px",
-            "top": "0px",
           }
         }
       >
         <div
           className="saturation-black"
           style={
-            Object {
-              "MozBorderRadius": undefined,
-              "MozBoxShadow": undefined,
-              "OBorderRadius": undefined,
-              "OBoxShadow": undefined,
-              "WebkitBorderRadius": undefined,
-              "WebkitBoxShadow": undefined,
+            {
               "borderRadius": undefined,
-              "bottom": "0px",
               "boxShadow": undefined,
-              "left": "0px",
-              "msBorderRadius": undefined,
-              "msBoxShadow": undefined,
+              "inset": "0px",
               "position": "absolute",
-              "right": "0px",
-              "top": "0px",
             }
           }
         />
         <div
           style={
-            Object {
+            {
               "cursor": "default",
               "left": "66.66666666666667%",
               "position": "absolute",
@@ -140,19 +111,11 @@ exports[`Google renders correctly 1`] = `
         >
           <div
             style={
-              Object {
-                "MozBorderRadius": "22px",
-                "MozTransform": "translate(-12px, -13px)",
-                "OBorderRadius": "22px",
-                "OTransform": "translate(-12px, -13px)",
-                "WebkitBorderRadius": "22px",
-                "WebkitTransform": "translate(-12px, -13px)",
+              {
                 "background": "hsl(250, 50%, 20%)",
                 "border": "2px #fff solid",
                 "borderRadius": "22px",
                 "height": "20px",
-                "msBorderRadius": "22px",
-                "msTransform": "translate(-12px, -13px)",
                 "transform": "translate(-12px, -13px)",
                 "width": "20px",
               }
@@ -164,7 +127,7 @@ exports[`Google renders correctly 1`] = `
   </div>
   <div
     style={
-      Object {
+      {
         "margin": "auto",
         "width": "95%",
       }
@@ -173,7 +136,7 @@ exports[`Google renders correctly 1`] = `
     <div
       className="flexbox-fix"
       style={
-        Object {
+        {
           "boxSizing": "border-box",
           "display": "flex",
           "height": "52px",
@@ -183,7 +146,7 @@ exports[`Google renders correctly 1`] = `
     >
       <div
         style={
-          Object {
+          {
             "height": "8px",
             "margin": "0px 16px 0px 16px",
             "position": "relative",
@@ -193,22 +156,11 @@ exports[`Google renders correctly 1`] = `
       >
         <div
           style={
-            Object {
-              "MozBorderRadius": "4px",
-              "MozBoxShadow": undefined,
-              "OBorderRadius": "4px",
-              "OBoxShadow": undefined,
-              "WebkitBorderRadius": "4px",
-              "WebkitBoxShadow": undefined,
+            {
               "borderRadius": "4px",
-              "bottom": "0px",
               "boxShadow": undefined,
-              "left": "0px",
-              "msBorderRadius": "4px",
-              "msBoxShadow": undefined,
+              "inset": "0px",
               "position": "absolute",
-              "right": "0px",
-              "top": "0px",
             }
           }
         >
@@ -218,13 +170,9 @@ exports[`Google renders correctly 1`] = `
             onTouchMove={[Function]}
             onTouchStart={[Function]}
             style={
-              Object {
-                "MozBorderRadius": "4px",
-                "OBorderRadius": "4px",
-                "WebkitBorderRadius": "4px",
+              {
                 "borderRadius": "4px",
                 "height": "100%",
-                "msBorderRadius": "4px",
                 "padding": "0 2px",
                 "position": "relative",
               }
@@ -232,44 +180,37 @@ exports[`Google renders correctly 1`] = `
           >
             <style>
               
-                          .hue-horizontal {
-                            background: linear-gradient(to right, #f00 0%, #ff0 17%, #0f0
-                              33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
-                            background: -webkit-linear-gradient(to right, #f00 0%, #ff0
-                              17%, #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
-                          }
-              
-                          .hue-vertical {
-                            background: linear-gradient(to top, #f00 0%, #ff0 17%, #0f0 33%,
-                              #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
-                            background: -webkit-linear-gradient(to top, #f00 0%, #ff0 17%,
-                              #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
-                          }
-                        
+            .hue-horizontal {
+              background: linear-gradient(to right, #f00 0%, #ff0 17%, #0f0
+                33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
+              background: -webkit-linear-gradient(to right, #f00 0%, #ff0
+                17%, #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
+            }
+
+            .hue-vertical {
+              background: linear-gradient(to top, #f00 0%, #ff0 17%, #0f0 33%,
+                #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
+              background: -webkit-linear-gradient(to top, #f00 0%, #ff0 17%,
+                #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
+            }
+          
             </style>
             <div
               style={
-                Object {
+                {
                   "left": "69.44444444444443%",
                   "position": "absolute",
+                  "top": undefined,
                 }
               }
             >
               <div
                 style={
-                  Object {
-                    "MozBorderRadius": "22px",
-                    "MozTransform": "translate(-10px, -7px)",
-                    "OBorderRadius": "22px",
-                    "OTransform": "translate(-10px, -7px)",
-                    "WebkitBorderRadius": "22px",
-                    "WebkitTransform": "translate(-10px, -7px)",
+                  {
                     "background": "hsl(250, 100%, 50%)",
                     "border": "2px white solid",
                     "borderRadius": "22px",
                     "height": "20px",
-                    "msBorderRadius": "22px",
-                    "msTransform": "translate(-10px, -7px)",
                     "transform": "translate(-10px, -7px)",
                     "width": "20px",
                   }
@@ -283,7 +224,7 @@ exports[`Google renders correctly 1`] = `
     <div
       className="flexbox-fix"
       style={
-        Object {
+        {
           "display": "flex",
           "height": "100px",
           "marginTop": "4px",
@@ -292,14 +233,14 @@ exports[`Google renders correctly 1`] = `
     >
       <div
         style={
-          Object {
+          {
             "width": "100%",
           }
         }
       >
         <div
           style={
-            Object {
+            {
               "boxSizing": "border-box",
               "padding": "0px 4.4px",
             }
@@ -307,7 +248,7 @@ exports[`Google renders correctly 1`] = `
         >
           <div
             style={
-              Object {
+              {
                 "position": "relative",
               }
             }
@@ -317,20 +258,15 @@ exports[`Google renders correctly 1`] = `
               onBlur={[Function]}
               onChange={[Function]}
               onKeyDown={[Function]}
-              placeholder={undefined}
               spellCheck="false"
               style={
-                Object {
-                  "MozBorderRadius": "5px",
-                  "OBorderRadius": "5px",
-                  "WebkitBorderRadius": "5px",
+                {
                   "border": "1px solid #dadce0",
                   "borderRadius": "5px",
                   "boxSizing": "border-box",
                   "fontFamily": "Roboto,Arial,sans-serif",
                   "fontSize": "11px",
                   "height": "38px",
-                  "msBorderRadius": "5px",
                   "outline": "none",
                   "padding": "4px 10% 3px",
                   "textAlign": "center",
@@ -344,9 +280,10 @@ exports[`Google renders correctly 1`] = `
               htmlFor="rc-editable-input-1"
               onMouseDown={[Function]}
               style={
-                Object {
+                {
                   "background": "#fff",
                   "color": "#3c4043",
+                  "cursor": undefined,
                   "fontFamily": "Roboto,Arial,sans-serif",
                   "fontSize": "12px",
                   "left": "0",
@@ -367,8 +304,7 @@ exports[`Google renders correctly 1`] = `
         </div>
         <div
           style={
-            Object {
-              "WebkitJustifyContent": "space-between",
+            {
               "display": "flex",
               "justifyContent": "space-between",
               "paddingTop": "10px",
@@ -377,7 +313,7 @@ exports[`Google renders correctly 1`] = `
         >
           <div
             style={
-              Object {
+              {
                 "flexGrow": "1",
                 "margin": "0px 4.4px",
               }
@@ -385,7 +321,7 @@ exports[`Google renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "position": "relative",
                 }
               }
@@ -395,20 +331,15 @@ exports[`Google renders correctly 1`] = `
                 onBlur={[Function]}
                 onChange={[Function]}
                 onKeyDown={[Function]}
-                placeholder={undefined}
                 spellCheck="false"
                 style={
-                  Object {
-                    "MozBorderRadius": "5px",
-                    "OBorderRadius": "5px",
-                    "WebkitBorderRadius": "5px",
+                  {
                     "border": "1px solid #dadce0",
                     "borderRadius": "5px",
                     "boxSizing": "border-box",
                     "fontFamily": "Roboto,Arial,sans-serif",
                     "fontSize": "11px",
                     "height": "38px",
-                    "msBorderRadius": "5px",
                     "outline": "none",
                     "paddingLeft": "10px",
                     "textTransform": "lowercase",
@@ -421,9 +352,10 @@ exports[`Google renders correctly 1`] = `
                 htmlFor="rc-editable-input-2"
                 onMouseDown={[Function]}
                 style={
-                  Object {
+                  {
                     "background": "#fff",
                     "color": "#3c4043",
+                    "cursor": undefined,
                     "fontFamily": "Roboto,Arial,sans-serif",
                     "fontSize": "12px",
                     "left": "10px",
@@ -441,7 +373,7 @@ exports[`Google renders correctly 1`] = `
           </div>
           <div
             style={
-              Object {
+              {
                 "flexGrow": "1",
                 "margin": "0px 4.4px",
               }
@@ -449,7 +381,7 @@ exports[`Google renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "position": "relative",
                 }
               }
@@ -459,20 +391,15 @@ exports[`Google renders correctly 1`] = `
                 onBlur={[Function]}
                 onChange={[Function]}
                 onKeyDown={[Function]}
-                placeholder={undefined}
                 spellCheck="false"
                 style={
-                  Object {
-                    "MozBorderRadius": "5px",
-                    "OBorderRadius": "5px",
-                    "WebkitBorderRadius": "5px",
+                  {
                     "border": "1px solid #dadce0",
                     "borderRadius": "5px",
                     "boxSizing": "border-box",
                     "fontFamily": "Roboto,Arial,sans-serif",
                     "fontSize": "11px",
                     "height": "38px",
-                    "msBorderRadius": "5px",
                     "outline": "none",
                     "paddingLeft": "10px",
                     "textTransform": "lowercase",
@@ -485,9 +412,10 @@ exports[`Google renders correctly 1`] = `
                 htmlFor="rc-editable-input-3"
                 onMouseDown={[Function]}
                 style={
-                  Object {
+                  {
                     "background": "#fff",
                     "color": "#3c4043",
+                    "cursor": undefined,
                     "fontFamily": "Roboto,Arial,sans-serif",
                     "fontSize": "12px",
                     "left": "10px",
@@ -505,7 +433,7 @@ exports[`Google renders correctly 1`] = `
           </div>
           <div
             style={
-              Object {
+              {
                 "flexGrow": "1",
                 "margin": "0px 4.4px",
               }
@@ -513,7 +441,7 @@ exports[`Google renders correctly 1`] = `
           >
             <div
               style={
-                Object {
+                {
                   "position": "relative",
                 }
               }
@@ -523,20 +451,15 @@ exports[`Google renders correctly 1`] = `
                 onBlur={[Function]}
                 onChange={[Function]}
                 onKeyDown={[Function]}
-                placeholder={undefined}
                 spellCheck="false"
                 style={
-                  Object {
-                    "MozBorderRadius": "5px",
-                    "OBorderRadius": "5px",
-                    "WebkitBorderRadius": "5px",
+                  {
                     "border": "1px solid #dadce0",
                     "borderRadius": "5px",
                     "boxSizing": "border-box",
                     "fontFamily": "Roboto,Arial,sans-serif",
                     "fontSize": "11px",
                     "height": "38px",
-                    "msBorderRadius": "5px",
                     "outline": "none",
                     "paddingLeft": "10px",
                     "textTransform": "lowercase",
@@ -549,9 +472,10 @@ exports[`Google renders correctly 1`] = `
                 htmlFor="rc-editable-input-4"
                 onMouseDown={[Function]}
                 style={
-                  Object {
+                  {
                     "background": "#fff",
                     "color": "#3c4043",
+                    "cursor": undefined,
                     "fontFamily": "Roboto,Arial,sans-serif",
                     "fontSize": "12px",
                     "left": "10px",
@@ -578,7 +502,7 @@ exports[`GoogleFields renders correctly 1`] = `
 <div
   className="flexbox-fix"
   style={
-    Object {
+    {
       "display": "flex",
       "height": "100px",
       "marginTop": "4px",
@@ -587,14 +511,14 @@ exports[`GoogleFields renders correctly 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "width": "100%",
       }
     }
   >
     <div
       style={
-        Object {
+        {
           "boxSizing": "border-box",
           "padding": "0px 4.4px",
         }
@@ -602,7 +526,7 @@ exports[`GoogleFields renders correctly 1`] = `
     >
       <div
         style={
-          Object {
+          {
             "position": "relative",
           }
         }
@@ -612,20 +536,15 @@ exports[`GoogleFields renders correctly 1`] = `
           onBlur={[Function]}
           onChange={[Function]}
           onKeyDown={[Function]}
-          placeholder={undefined}
           spellCheck="false"
           style={
-            Object {
-              "MozBorderRadius": "5px",
-              "OBorderRadius": "5px",
-              "WebkitBorderRadius": "5px",
+            {
               "border": "1px solid #dadce0",
               "borderRadius": "5px",
               "boxSizing": "border-box",
               "fontFamily": "Roboto,Arial,sans-serif",
               "fontSize": "11px",
               "height": "38px",
-              "msBorderRadius": "5px",
               "outline": "none",
               "padding": "4px 10% 3px",
               "textAlign": "center",
@@ -639,9 +558,10 @@ exports[`GoogleFields renders correctly 1`] = `
           htmlFor="rc-editable-input-9"
           onMouseDown={[Function]}
           style={
-            Object {
+            {
               "background": "#fff",
               "color": "#3c4043",
+              "cursor": undefined,
               "fontFamily": "Roboto,Arial,sans-serif",
               "fontSize": "12px",
               "left": "0",
@@ -662,8 +582,7 @@ exports[`GoogleFields renders correctly 1`] = `
     </div>
     <div
       style={
-        Object {
-          "WebkitJustifyContent": "space-between",
+        {
           "display": "flex",
           "justifyContent": "space-between",
           "paddingTop": "10px",
@@ -672,7 +591,7 @@ exports[`GoogleFields renders correctly 1`] = `
     >
       <div
         style={
-          Object {
+          {
             "flexGrow": "1",
             "margin": "0px 4.4px",
           }
@@ -680,7 +599,7 @@ exports[`GoogleFields renders correctly 1`] = `
       >
         <div
           style={
-            Object {
+            {
               "position": "relative",
             }
           }
@@ -690,20 +609,15 @@ exports[`GoogleFields renders correctly 1`] = `
             onBlur={[Function]}
             onChange={[Function]}
             onKeyDown={[Function]}
-            placeholder={undefined}
             spellCheck="false"
             style={
-              Object {
-                "MozBorderRadius": "5px",
-                "OBorderRadius": "5px",
-                "WebkitBorderRadius": "5px",
+              {
                 "border": "1px solid #dadce0",
                 "borderRadius": "5px",
                 "boxSizing": "border-box",
                 "fontFamily": "Roboto,Arial,sans-serif",
                 "fontSize": "11px",
                 "height": "38px",
-                "msBorderRadius": "5px",
                 "outline": "none",
                 "paddingLeft": "10px",
                 "textTransform": "lowercase",
@@ -716,9 +630,10 @@ exports[`GoogleFields renders correctly 1`] = `
             htmlFor="rc-editable-input-10"
             onMouseDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#fff",
                 "color": "#3c4043",
+                "cursor": undefined,
                 "fontFamily": "Roboto,Arial,sans-serif",
                 "fontSize": "12px",
                 "left": "10px",
@@ -736,7 +651,7 @@ exports[`GoogleFields renders correctly 1`] = `
       </div>
       <div
         style={
-          Object {
+          {
             "flexGrow": "1",
             "margin": "0px 4.4px",
           }
@@ -744,7 +659,7 @@ exports[`GoogleFields renders correctly 1`] = `
       >
         <div
           style={
-            Object {
+            {
               "position": "relative",
             }
           }
@@ -754,20 +669,15 @@ exports[`GoogleFields renders correctly 1`] = `
             onBlur={[Function]}
             onChange={[Function]}
             onKeyDown={[Function]}
-            placeholder={undefined}
             spellCheck="false"
             style={
-              Object {
-                "MozBorderRadius": "5px",
-                "OBorderRadius": "5px",
-                "WebkitBorderRadius": "5px",
+              {
                 "border": "1px solid #dadce0",
                 "borderRadius": "5px",
                 "boxSizing": "border-box",
                 "fontFamily": "Roboto,Arial,sans-serif",
                 "fontSize": "11px",
                 "height": "38px",
-                "msBorderRadius": "5px",
                 "outline": "none",
                 "paddingLeft": "10px",
                 "textTransform": "lowercase",
@@ -780,9 +690,10 @@ exports[`GoogleFields renders correctly 1`] = `
             htmlFor="rc-editable-input-11"
             onMouseDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#fff",
                 "color": "#3c4043",
+                "cursor": undefined,
                 "fontFamily": "Roboto,Arial,sans-serif",
                 "fontSize": "12px",
                 "left": "10px",
@@ -800,7 +711,7 @@ exports[`GoogleFields renders correctly 1`] = `
       </div>
       <div
         style={
-          Object {
+          {
             "flexGrow": "1",
             "margin": "0px 4.4px",
           }
@@ -808,7 +719,7 @@ exports[`GoogleFields renders correctly 1`] = `
       >
         <div
           style={
-            Object {
+            {
               "position": "relative",
             }
           }
@@ -818,20 +729,15 @@ exports[`GoogleFields renders correctly 1`] = `
             onBlur={[Function]}
             onChange={[Function]}
             onKeyDown={[Function]}
-            placeholder={undefined}
             spellCheck="false"
             style={
-              Object {
-                "MozBorderRadius": "5px",
-                "OBorderRadius": "5px",
-                "WebkitBorderRadius": "5px",
+              {
                 "border": "1px solid #dadce0",
                 "borderRadius": "5px",
                 "boxSizing": "border-box",
                 "fontFamily": "Roboto,Arial,sans-serif",
                 "fontSize": "11px",
                 "height": "38px",
-                "msBorderRadius": "5px",
                 "outline": "none",
                 "paddingLeft": "10px",
                 "textTransform": "lowercase",
@@ -844,9 +750,10 @@ exports[`GoogleFields renders correctly 1`] = `
             htmlFor="rc-editable-input-12"
             onMouseDown={[Function]}
             style={
-              Object {
+              {
                 "background": "#fff",
                 "color": "#3c4043",
+                "cursor": undefined,
                 "fontFamily": "Roboto,Arial,sans-serif",
                 "fontSize": "12px",
                 "left": "10px",
@@ -870,19 +777,11 @@ exports[`GoogleFields renders correctly 1`] = `
 exports[`GooglePointer renders correctly 1`] = `
 <div
   style={
-    Object {
-      "MozBorderRadius": "22px",
-      "MozTransform": "translate(-10px, -7px)",
-      "OBorderRadius": "22px",
-      "OTransform": "translate(-10px, -7px)",
-      "WebkitBorderRadius": "22px",
-      "WebkitTransform": "translate(-10px, -7px)",
+    {
       "background": "hsl(250, 100%, 50%)",
       "border": "2px white solid",
       "borderRadius": "22px",
       "height": "20px",
-      "msBorderRadius": "22px",
-      "msTransform": "translate(-10px, -7px)",
       "transform": "translate(-10px, -7px)",
       "width": "20px",
     }
@@ -893,19 +792,11 @@ exports[`GooglePointer renders correctly 1`] = `
 exports[`GooglePointerCircle renders correctly 1`] = `
 <div
   style={
-    Object {
-      "MozBorderRadius": "22px",
-      "MozTransform": "translate(-12px, -13px)",
-      "OBorderRadius": "22px",
-      "OTransform": "translate(-12px, -13px)",
-      "WebkitBorderRadius": "22px",
-      "WebkitTransform": "translate(-12px, -13px)",
+    {
       "background": "hsl(250, 50%, 20%)",
       "border": "2px #fff solid",
       "borderRadius": "22px",
       "height": "20px",
-      "msBorderRadius": "22px",
-      "msTransform": "translate(-12px, -13px)",
       "transform": "translate(-12px, -13px)",
       "width": "20px",
     }

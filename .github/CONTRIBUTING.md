@@ -1,15 +1,43 @@
 # Contributing
 
-Fork and then clone the repo
+Hello! All contributions are welcome 👐
 
-    git clone git@github.com:your-username/react-color.git
+Feel free to make a Github issue or discussion if you need help getting started.
 
-Install all npm scripts:
+## Sending a Pull Request
 
-    npm install
+1. Fork the repository.
+2. Clone the fork to your local machine and add upstream remote:
 
-Make Changes. If you want to contribute check out the [help wanted](https://github.com/casesandberg/react-color/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) issues for things that need fixing.
+```
+git clone https://github.com/<your username>/color-picker.git
+cd color-picker
+git remote add upstream https://github.com/@hello-pangea/color-picker.git
+```
 
-To run the docs server locally run `npm run docs` and open http://localhost:9100/docs/. If you end up making any changes to the documentation or documentation site make sure to run `npm run docs-dist` when creating a pull request.
+3. Synchronize your local `main` branch with the upstream one:
 
-Before submitting a pull request run `npm run test` to run the unit-tests and `npm run eslint` to check for linting errors in your changes.
+```
+git checkout main
+git pull upstream main
+```
+
+4. Install the dependencies with npm
+
+```
+npm install
+```
+
+5. Create a new topic branch:
+
+```
+git checkout -b my-topic-branch
+```
+
+6. Make changes, commit and push to your fork:
+
+```
+git push -u origin HEAD
+```
+
+7. Go to the [repository](https://github.com/hello-pangea/color-picker) and make a Pull Request.

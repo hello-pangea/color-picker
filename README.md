@@ -1,48 +1,46 @@
-# [React Color](http://casesandberg.github.io/react-color/)
+# Pangea color picker
 
 [![Npm Version][npm-version-image]][npm-version-url]
-[![Build Status][travis-svg]][travis-url]
 [![License][license-image]][license-url]
 [![Downloads][downloads-image]][downloads-url]
 
-* **13 Different Pickers** - Sketch, Photoshop, Chrome and many more
+Simple color picker for React.
 
-* **Make Your Own** - Use the building block components to make your own
+- **🔨 13 different pickers** - Start building with Sketch, Photoshop, Chrome and many more
+- **🎨 Make your own** - Use React Context and our building blocks to create any custom component
+- **🌲 Tree shakeable**
+- [**📖 Examples**](https://colorpicker.hellopangea.com)
+
+This library is a fork of [react-color](https://github.com/casesandberg/react-color) and builds on the amazing work of @casesandberg
 
 ## Demo
 
 ![Demo](https://media.giphy.com/media/26FfggT53qE304CwE/giphy.gif)
 
-[**Live Demo**](http://casesandberg.github.io/react-color/)
+[**Live Demo**](https://colorpicker.hellopangea.com)
 
 ## Installation & Usage
 
 ```sh
-npm install react-color --save
+npm install @hello-pangea/color-picker
 ```
 
 ### Include the Component
 
 ```js
-import React from 'react'
-import { SketchPicker } from 'react-color'
+import React from "react";
+import { SketchPicker } from "@hello-pangea/color-picker";
 
-class Component extends React.Component {
-
-  render() {
-    return <SketchPicker />
-  }
+function App() {
+  return <SketchPicker />;
 }
 ```
+
 You can import `AlphaPicker` `BlockPicker` `ChromePicker` `CirclePicker` `CompactPicker` `GithubPicker` `HuePicker` `MaterialPicker` `PhotoshopPicker` `SketchPicker` `SliderPicker` `SwatchesPicker` `TwitterPicker` respectively.
 
-> 100% inline styles via [ReactCSS](http://reactcss.com/)
-
-[travis-svg]: https://travis-ci.org/casesandberg/react-color.svg
-[travis-url]: https://travis-ci.org/casesandberg/react-color
-[license-image]: http://img.shields.io/npm/l/react-color.svg
+[license-image]: https://img.shields.io/npm/l/@hello-pangea/color-picker
 [license-url]: LICENSE
-[downloads-image]: http://img.shields.io/npm/dm/react-color.svg
-[downloads-url]: http://npm-stat.com/charts.html?package=react-color
-[npm-version-image]: https://img.shields.io/npm/v/react-color.svg
-[npm-version-url]: https://www.npmjs.com/package/react-color
+[downloads-image]: https://img.shields.io/npm/dm/@hello-pangea/color-picker
+[downloads-url]: https://npm-stat.com/charts.html?package=@hello-pangea/color-picker
+[npm-version-image]: https://img.shields.io/npm/v/@hello-pangea/color-picker
+[npm-version-url]: https://www.npmjs.com/package/@hello-pangea/color-picker

@@ -1,0 +1,30 @@
+{
+  "index.js": {
+    "bundled": 135308,
+    "minified": 80531,
+    "gzipped": 15970,
+    "treeshaked": {
+      "rollup": {
+        "code": 70207,
+        "import_statements": 936
+      },
+      "webpack": {
+        "code": 73219
+      }
+    }
+  },
+  "color-picker.esm.js": {
+    "bundled": 101421,
+    "minified": 62810,
+    "gzipped": 13818,
+    "treeshaked": {
+      "rollup": {
+        "code": 1752,
+        "import_statements": 296
+      },
+      "webpack": {
+        "code": 57653
+      }
+    }
+  }
+}
