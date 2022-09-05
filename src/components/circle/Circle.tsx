@@ -1,5 +1,4 @@
 import merge from "lodash/merge";
-import * as material from "material-colors";
 import React from "react";
 import { useColor, withColorProvider } from "../../context/useColor";
 import { Hex } from "../../types/colors";
@@ -17,24 +16,24 @@ type Props = {
 export function Circle({
   width = 252,
   colors = [
-    material.red["500"],
-    material.pink["500"],
-    material.purple["500"],
-    material.deepPurple["500"],
-    material.indigo["500"],
-    material.blue["500"],
-    material.lightBlue["500"],
-    material.cyan["500"],
-    material.teal["500"],
-    material.green["500"],
-    material.lightGreen["500"],
-    material.lime["500"],
-    material.yellow["500"],
-    material.amber["500"],
-    material.orange["500"],
-    material.deepOrange["500"],
-    material.brown["500"],
-    material.blueGrey["500"],
+    "#F44336",
+    "#E91E63",
+    "#9C27B0",
+    "#673AB7",
+    "#3F51B5",
+    "#2196F3",
+    "#03A9F4",
+    "#00BCD4",
+    "#009688",
+    "#4CAF50",
+    "#8BC34A",
+    "#CDDC39",
+    "#FFEB3B",
+    "#FFC107",
+    "#FF9800",
+    "#FF5722",
+    "#795548",
+    "#607D8B",
   ],
   circleSize = 28,
   styles: passedStyles = {},
