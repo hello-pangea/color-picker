@@ -1,5 +1,9 @@
 import React from "react";
-import ColorProvider, { ChangeColor, useColor } from "../../context/useColor";
+import ColorProvider, {
+  ChangeColor,
+  useColor,
+  withColorProvider,
+} from "../../context/useColor";
 import * as color from "../../helpers/color";
 import { Color } from "../../types/colors";
 
@@ -25,15 +29,14 @@ export const ColorWrap = (Picker: any) => {
       optionalEvents.onSwatchHover = handleSwatchHover;
     }
 
-    return <Picker {...colors} onChange={changeColor} {...optionalEvents} />;
+    return (
+      <ColorProvider>
+        <Picker {...colors} onChange={changeColor} {...optionalEvents} />
+      </ColorProvider>
+    );
   }
 
-  return ColorPicker;
+  return withColorProvider(ColorPicker);
 };
 
-export default (Component: React.FC<any>) => (props: Props) =>
-  (
-    <ColorProvider {...props}>
-      <Component {...props} />
-    </ColorProvider>
-  );
+export default ColorWrap;
