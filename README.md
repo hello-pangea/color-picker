@@ -1,13 +1,15 @@
 # Pangea color picker
 
-Simple color picker for React.
-
 [![Npm Version][npm-version-image]][npm-version-url]
 [![License][license-image]][license-url]
 [![Downloads][downloads-image]][downloads-url]
 
-- **13 Different Pickers** - Sketch, Photoshop, Chrome and many more
-- **Make Your Own** - Use the building block components to make your own
+Simple color picker for React.
+
+- **🔨 13 different pickers** - Start building with Sketch, Photoshop, Chrome and many more
+- **🎨 Make your own** - Use React Context and our building blocks to create any custom component
+- **🌲 Tree shakeable**
+- [**📖 Examples**](https://colorpicker.hellopangea.com)
 
 This library is a fork of [react-color](https://github.com/casesandberg/react-color) and builds on the amazing work of @casesandberg
 
@@ -29,16 +31,12 @@ npm install @hello-pangea/color-picker
 import React from "react";
 import { SketchPicker } from "@hello-pangea/color-picker";
 
-class Component extends React.Component {
-  render() {
-    return <SketchPicker />;
-  }
+function App() {
+  return <SketchPicker />;
 }
 ```
 
 You can import `AlphaPicker` `BlockPicker` `ChromePicker` `CirclePicker` `CompactPicker` `GithubPicker` `HuePicker` `MaterialPicker` `PhotoshopPicker` `SketchPicker` `SliderPicker` `SwatchesPicker` `TwitterPicker` respectively.
-
-> 100% inline styles via [ReactCSS](http://reactcss.com/)
 
 [license-image]: https://img.shields.io/npm/l/@hello-pangea/color-picker
 [license-url]: LICENSE
