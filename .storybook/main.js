@@ -7,5 +7,8 @@ module.exports = {
   reactOptions: {
     strictMode: true,
   },
-  stories: ["../src/**/*.stories.@(js|jsx|ts|tsx)"],
+  stories: [
+    "../src/**/*.stories.@(js|jsx|ts|tsx)",
+    "../stories/**/*.stories.@(js|jsx|ts|tsx)",
+  ],
 };
