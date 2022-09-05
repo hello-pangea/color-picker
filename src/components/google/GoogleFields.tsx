@@ -1,7 +1,6 @@
 import React from "react";
-import { ChangeColor } from "../../context/useColor";
 import * as color from "../../helpers/color";
-import { Hex, Hsl, Hsv, Rgb } from "../../types/colors";
+import { ChangeColor, Hex, Hsl, Hsv, Rgb } from "../../types/colors";
 import { EditableInput } from "../common";
 
 type Props = {

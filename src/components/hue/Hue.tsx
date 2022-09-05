@@ -1,10 +1,7 @@
 import merge from "lodash/merge";
 import React from "react";
-import {
-  ChangeColor,
-  useColor,
-  withColorProvider,
-} from "../../context/useColor";
+import { useColor, withColorProvider } from "../../context/useColor";
+import { ChangeColor } from "../../types/colors";
 import { Hue } from "../common";
 import HuePointer from "./HuePointer";
 
@@ -47,7 +44,12 @@ export function HuePicker({
 
   // Overwrite to provide pure hue color
   const handleChange = (data: ChangeColor) =>
-    changeColor({ a: 1, h: "h" in data ? data.h : 0, l: 0.5, s: 1 });
+    changeColor({
+      a: 1,
+      h: typeof data !== "string" && "h" in data ? data.h : 0,
+      l: 0.5,
+      s: 1,
+    });
 
   return (
     <div style={styles.picker} className={`hue-picker ${className}`}>

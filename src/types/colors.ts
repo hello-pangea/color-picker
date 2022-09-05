@@ -22,3 +22,18 @@ export type Rgb = {
 };
 
 export type Color = Hex | Hsl | Hsv | Rgb;
+
+export type ColorObject = {
+  hex: Hex;
+  hsl: Hsl;
+  hsv: Hsv;
+  rgb: Rgb;
+  oldHue: number;
+};
+
+export type ChangeColor =
+  | Hsl
+  | Hsv
+  | (Rgb & { source?: string })
+  | { hex: Hex; source: string }
+  | Hex;

@@ -1,5 +1,5 @@
 import React from "react";
-import { ChangeColor } from "../../context/useColor";
+import { ChangeColor } from "../../types/colors";
 import { Swatch } from "../common";
 import { withHover } from "../common/withHover";
 

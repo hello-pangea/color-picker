@@ -1,11 +1,8 @@
 import merge from "lodash/merge";
 import React from "react";
-import {
-  ChangeColor,
-  useColor,
-  withColorProvider,
-} from "../../context/useColor";
+import { useColor, withColorProvider } from "../../context/useColor";
 import * as color from "../../helpers/color";
+import { ChangeColor } from "../../types/colors";
 import { EditableInput, Raised } from "../common";
 
 type Props = {
@@ -90,7 +87,7 @@ export const Material = ({
   );
 
   const handleChange = (data: ChangeColor, e: React.MouseEvent) => {
-    if ("hex" in data) {
+    if (typeof data !== "string" && "hex" in data) {
       color.isValidHex(data.hex) &&
         changeColor(
           {
@@ -99,7 +96,10 @@ export const Material = ({
           },
           e
         );
-    } else if ("r" in data || "g" in data || "b" in data) {
+    } else if (
+      typeof data !== "string" &&
+      ("r" in data || "g" in data || "b" in data)
+    ) {
       changeColor(
         // @ts-ignore
         {

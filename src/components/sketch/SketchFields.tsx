@@ -1,9 +1,8 @@
 /* eslint-disable no-param-reassign */
 
 import React from "react";
-import { ChangeColor } from "../../context/useColor";
 import * as color from "../../helpers/color";
-import { Hex, Hsl, Rgb } from "../../types/colors";
+import { ChangeColor, Hex, Hsl, Rgb } from "../../types/colors";
 
 import { EditableInput } from "../common";
 
@@ -58,7 +57,7 @@ export const SketchFields = ({
   };
 
   const handleChange = (data: ChangeColor, e: React.MouseEvent) => {
-    if ("hex" in data) {
+    if (typeof data !== "string" && "hex" in data) {
       color.isValidHex(data.hex) &&
         onChange(
           {
@@ -67,7 +66,10 @@ export const SketchFields = ({
           },
           e
         );
-    } else if ("r" in data || "g" in data || "b" in data) {
+    } else if (
+      typeof data !== "string" &&
+      ("r" in data || "g" in data || "b" in data)
+    ) {
       onChange(
         {
           r: data.r || rgb.r,
@@ -78,7 +80,7 @@ export const SketchFields = ({
         },
         e
       );
-    } else if (data.a) {
+    } else if (typeof data !== "string" && data.a) {
       if (data.a < 0) {
         data.a = 0;
       } else if (data.a > 100) {
