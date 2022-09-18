@@ -60,8 +60,8 @@ export default function ColorProvider({
       setColors(newColors);
 
       onChangeComplete &&
-        debouncedChangeHandler(onChangeComplete, colors, event);
-      onChange && onChange(colors, event);
+        debouncedChangeHandler(onChangeComplete, newColors, event);
+      onChange && onChange(newColors, event);
     }
   }
 
