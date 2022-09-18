@@ -37,7 +37,7 @@ export default [
     output: { file: pkg.main, format: "cjs" },
     external: excludeAllExternals,
     plugins: [
-      svg(),
+      svg({ base64: true }),
       resolve({ extensions }),
       babel(getBabelOptions({ useESModules: false })),
     ],
@@ -51,7 +51,7 @@ export default [
     output: { file: pkg.module, format: "esm" },
     external: excludeAllExternals,
     plugins: [
-      svg(),
+      svg({ base64: true }),
       resolve({ extensions }),
       babel(getBabelOptions({ useESModules: true })),
       sizeSnapshot(snapshotArgs),
