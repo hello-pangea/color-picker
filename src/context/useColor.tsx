@@ -36,7 +36,11 @@ type Props = {
    */
   onChange?: (color: ColorObject, event?: React.MouseEvent) => void;
 
+  /** Allows you to control the color yourself */
   color?: Color;
+
+  /** Default color */
+  defaultColor?: Color;
 };
 
 export default function ColorProvider({
@@ -44,7 +48,8 @@ export default function ColorProvider({
   onChangeComplete,
   onChange,
   onSwatchHover,
-  color: passedColor = {
+  color: passedColor,
+  defaultColor = {
     h: 250,
     s: 0.5,
     l: 0.2,
@@ -52,7 +57,7 @@ export default function ColorProvider({
   },
 }: Props) {
   const [colors, setColors] = useState<ColorObject>({
-    ...color.toState(passedColor, 0),
+    ...color.toState(passedColor ?? defaultColor, 0),
   });
   const passedColorRef = useRef(passedColor);
 

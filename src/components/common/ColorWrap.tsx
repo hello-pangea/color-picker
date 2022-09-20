@@ -9,19 +9,22 @@ type Props = {
   onSwatchHover?: (color: ColorObject, event: React.MouseEvent) => void;
   onChangeComplete?: (color: ColorObject) => void;
   color?: Color;
+  defaultColor?: Color;
 };
 
 export const ColorWrap = (Picker: any) => {
   function ColorPicker({
     onSwatchHover,
     onChangeComplete,
-    color: defaultColor,
+    color,
+    defaultColor,
   }: Props) {
     const { colors, changeColor } = useColor();
 
     return (
       <ColorProvider
-        color={defaultColor}
+        color={color}
+        defaultColor={defaultColor}
         onChangeComplete={onChangeComplete}
         onSwatchHover={onSwatchHover}
       >
