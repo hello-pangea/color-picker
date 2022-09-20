@@ -145,7 +145,7 @@ export const SketchFields = ({
         <EditableInput
           style={{ input: styles.input, label: styles.label }}
           label="a"
-          value={Math.round(rgb.a * 100)}
+          value={Math.round((rgb.a ?? 1) * 100)}
           onChange={handleChange}
           dragLabel="true"
           dragMax="100"
