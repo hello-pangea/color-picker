@@ -1,9 +1,12 @@
 import debounce from "lodash/debounce";
+import isEqual from "lodash/isEqual";
 import React, {
   Context,
   createContext,
   useContext,
+  useEffect,
   useMemo,
+  useRef,
   useState,
 } from "react";
 import * as color from "../helpers/color";
@@ -21,9 +24,18 @@ export const ColorContext = createContext<ColorContextType | undefined>(
 
 type Props = {
   children: React.ReactNode;
+
+  /** Debounced version of `onChange`. Called after 100ms of no change */
   onChangeComplete?: (color: ColorObject) => void;
+
   onSwatchHover?: (color: ColorObject, event: React.MouseEvent) => void;
+
+  /**
+   * Called _every_ time the color changes, ex. when dragging to select a color.
+   * Use `onChangeComplete` for a debounced value (only called once picking a color is complete)
+   */
   onChange?: (color: ColorObject, event?: React.MouseEvent) => void;
+
   color?: Color;
 };
 
@@ -32,7 +44,7 @@ export default function ColorProvider({
   onChangeComplete,
   onChange,
   onSwatchHover,
-  color: defaultColor = {
+  color: passedColor = {
     h: 250,
     s: 0.5,
     l: 0.2,
@@ -40,8 +52,19 @@ export default function ColorProvider({
   },
 }: Props) {
   const [colors, setColors] = useState<ColorObject>({
-    ...color.toState(defaultColor, 0),
+    ...color.toState(passedColor, 0),
   });
+  const passedColorRef = useRef(passedColor);
+
+  if (!isEqual(passedColorRef.current, passedColor)) {
+    passedColorRef.current = passedColor;
+  }
+
+  useEffect(() => {
+    if (passedColor) {
+      setColors({ ...color.toState(passedColor, 0) });
+    }
+  }, [passedColorRef.current]);
 
   const handler = (fn: any, data: any, event: any) => fn(data, event);
 
