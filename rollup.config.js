@@ -1,7 +1,6 @@
 import babel from "@rollup/plugin-babel";
 import resolve from "@rollup/plugin-node-resolve";
 import dts from "rollup-plugin-dts";
-import { sizeSnapshot } from "rollup-plugin-size-snapshot";
 import svg from "rollup-plugin-svg";
 
 import pkg from "./package.json";
@@ -19,14 +18,6 @@ const getBabelOptions = ({ useESModules }) => ({
   babelHelpers: "runtime",
   plugins: [["@babel/plugin-transform-runtime", { useESModules }]],
 });
-
-const snapshotArgs =
-  process.env.SNAPSHOT === "match"
-    ? {
-        matchSnapshot: true,
-        threshold: 1000,
-      }
-    : {};
 
 export default [
   // CommonJS (cjs) build
@@ -54,7 +45,6 @@ export default [
       svg({ base64: true }),
       resolve({ extensions }),
       babel(getBabelOptions({ useESModules: true })),
-      sizeSnapshot(snapshotArgs),
     ],
   },
 
