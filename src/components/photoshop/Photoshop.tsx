@@ -90,6 +90,11 @@ function Photoshop({
     passedStyles
   );
 
+  function handleAccept() {
+    onAccept && onAccept();
+    setCurrentColor(hex);
+  }
+
   return (
     <div style={styles.picker} className={`photoshop-picker ${className}`}>
       <div style={styles.head}>{header}</div>
@@ -117,7 +122,7 @@ function Photoshop({
               <PhotoshopPreviews rgb={rgb} currentColor={currentColor} />
             </div>
             <div style={styles.actions}>
-              <PhotoshopButton label="OK" onClick={onAccept} active />
+              <PhotoshopButton label="OK" onClick={handleAccept} active />
               <PhotoshopButton label="Cancel" onClick={onCancel} />
               <PhotoshopFields
                 onChange={changeColor}
