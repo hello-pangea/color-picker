@@ -4,7 +4,7 @@ import { useColor, withColorProvider } from "../../context/useColor";
 import { HexColor } from "../../types/colors";
 import CircleSwatch from "./CircleSwatch";
 
-type Props = {
+export type CirclePickerProps = {
   width?: string | number;
   circleSize?: number;
   circleSpacing?: number;
@@ -39,7 +39,7 @@ export function Circle({
   styles: passedStyles = {},
   circleSpacing = 14,
   className = "",
-}: Props) {
+}: CirclePickerProps) {
   const { colors: currentColors, changeColor } = useColor();
   const { hex } = currentColors;
 

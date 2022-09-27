@@ -1,7 +1,7 @@
 import merge from "lodash/merge";
 import React from "react";
 
-type Props = {
+export type RaisedProps = {
   background?: string;
   zDepth?: 0 | 1 | 2 | 3 | 4 | 5;
   radius?: number;
@@ -15,7 +15,7 @@ export default function Raised({
   background = "#fff",
   children,
   styles: passedStyles = {},
-}: Props) {
+}: RaisedProps) {
   const styles = merge<
     Record<string, React.CSSProperties>,
     Record<string, React.CSSProperties>

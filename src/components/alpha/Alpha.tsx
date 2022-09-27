@@ -3,7 +3,7 @@ import { useColor, withColorProvider } from "../../context/useColor";
 import { Alpha } from "../common";
 import AlphaPointer from "./AlphaPointer";
 
-type Props = {
+export type AlphaPickerProps = {
   width?: string | number;
   height?: string | number;
   direction?: "horizontal" | "vertical";
@@ -21,7 +21,7 @@ export function AlphaPicker({
   renderers,
   pointer = AlphaPointer,
   className = "",
-}: Props) {
+}: AlphaPickerProps) {
   const { colors: currentColors, changeColor } = useColor();
   const { hsl, rgb } = currentColors;
 

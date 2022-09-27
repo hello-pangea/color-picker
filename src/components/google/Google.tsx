@@ -6,7 +6,7 @@ import GoogleFields from "./GoogleFields";
 import GooglePointer from "./GooglePointer";
 import GooglePointerCircle from "./GooglePointerCircle";
 
-type Props = {
+export type GooglePickerProps = {
   width?: string | number;
   styles?: Record<string, React.CSSProperties>;
   header?: string;
@@ -18,7 +18,7 @@ export function Google({
   header = "Color picker",
   styles: passedStyles = {},
   className = "",
-}: Props) {
+}: GooglePickerProps) {
   const { colors, changeColor } = useColor();
   const { rgb, hex, hsl, hsv } = colors;
 

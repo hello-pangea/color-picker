@@ -6,7 +6,7 @@ import { ChangeColor, HexColor, HslColor, RgbColor } from "../../types/colors";
 
 import { EditableInput } from "../common";
 
-type Props = {
+export type SliderPickerProps = {
   onChange?: (color: ChangeColor, event: React.MouseEvent) => void;
   rgb: RgbColor;
   hsl: HslColor;
@@ -20,7 +20,7 @@ export const SketchFields = ({
   hsl,
   hex,
   disableAlpha,
-}: Props) => {
+}: SliderPickerProps) => {
   const styles: Record<string, React.CSSProperties> = {
     fields: {
       display: "flex",

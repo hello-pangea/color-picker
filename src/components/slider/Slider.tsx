@@ -5,7 +5,7 @@ import { Hue } from "../common";
 import SliderPointer from "./SliderPointer";
 import SliderSwatches from "./SliderSwatches";
 
-type Props = {
+export type SliderPickerProps = {
   pointer?: typeof SliderPointer;
   styles?: Record<string, React.CSSProperties>;
   className?: string;
@@ -15,7 +15,7 @@ const Slider = ({
   pointer = SliderPointer,
   styles: passedStyles = {},
   className = "",
-}: Props) => {
+}: SliderPickerProps) => {
   const { colors, changeColor } = useColor();
   const { hsl } = colors;
 

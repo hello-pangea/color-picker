@@ -6,7 +6,7 @@ import { HexColor } from "../../types/colors";
 import { Checkboard, EditableInput } from "../common";
 import BlockSwatches from "./BlockSwatches";
 
-type Props = {
+export type BlockPickerProps = {
   width?: string | number;
   colors?: string[];
   triangle?: "top" | "hide";
@@ -30,7 +30,7 @@ export const Block = ({
   triangle = "top",
   styles: passedStyles = {},
   className = "",
-}: Props) => {
+}: BlockPickerProps) => {
   const { colors: currentColors, changeColor } = useColor();
   const { hex } = currentColors;
 

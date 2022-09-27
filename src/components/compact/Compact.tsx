@@ -6,7 +6,7 @@ import { Raised } from "../common";
 import CompactColor from "./CompactColor";
 import CompactFields from "./CompactFields";
 
-type Props = {
+export type CompactPickerProps = {
   colors?: string[];
   styles?: Record<string, React.CSSProperties>;
   className?: string;
@@ -53,7 +53,7 @@ export function Compact({
   ],
   styles: passedStyles = {},
   className = "",
-}: Props) {
+}: CompactPickerProps) {
   const { colors: currentColors, changeColor } = useColor();
   const { rgb, hex } = currentColors;
 

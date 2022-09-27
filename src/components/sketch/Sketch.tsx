@@ -5,7 +5,7 @@ import { Alpha, Checkboard, Hue, Saturation } from "../common";
 import SketchFields from "./SketchFields";
 import SketchPresetColors from "./SketchPresetColors";
 
-type Props = {
+export type SketchPickerProps = {
   disableAlpha?: boolean;
   width?: string | number;
   className?: string;
@@ -37,7 +37,7 @@ export function Sketch({
   renderers,
   styles: passedStyles = {},
   className = "",
-}: Props) {
+}: SketchPickerProps) {
   const { colors, changeColor } = useColor();
   const { rgb, hex, hsv, hsl } = colors;
 

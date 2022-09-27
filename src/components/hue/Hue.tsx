@@ -5,7 +5,7 @@ import { ChangeColor } from "../../types/colors";
 import { Hue } from "../common";
 import HuePointer from "./HuePointer";
 
-type Props = {
+export type HuePickerProps = {
   width?: string | number;
   height?: string | number;
   direction?: "horizontal" | "vertical";
@@ -21,7 +21,7 @@ export function HuePicker({
   pointer = HuePointer,
   styles: passedStyles = {},
   className = "",
-}: Props) {
+}: HuePickerProps) {
   const { colors, changeColor } = useColor();
   const { hsl } = colors;
 

@@ -5,7 +5,7 @@ import Checkboard from "./Checkboard";
 
 const ENTER = 13;
 
-type Props = {
+export type SwatchProps = {
   color: string;
   style?: React.CSSProperties;
   onClick: any;
@@ -23,7 +23,7 @@ export const Swatch = ({
   children,
   focus,
   focusStyle = {},
-}: Props) => {
+}: SwatchProps) => {
   const { onSwatchHover } = useColor();
 
   const transparent = color === "transparent";

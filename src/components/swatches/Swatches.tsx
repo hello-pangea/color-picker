@@ -5,7 +5,7 @@ import { Color } from "../../types/colors";
 import { Raised } from "../common";
 import SwatchesGroup from "./SwatchesGroup";
 
-type Props = {
+export type SwatchesPickerProps = {
   width?: string | number;
   height?: string | number;
   className?: string;
@@ -39,7 +39,7 @@ export function Swatches({
   ],
   styles: passedStyles = {},
   className = "",
-}: Props) {
+}: SwatchesPickerProps) {
   const { colors: currentColors, changeColor } = useColor();
   const { hex } = currentColors;
 

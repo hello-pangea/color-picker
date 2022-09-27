@@ -4,7 +4,7 @@ import { useColor, withColorProvider } from "../../context/useColor";
 import * as color from "../../helpers/color";
 import { EditableInput, Swatch } from "../common";
 
-type Props = {
+export type TwitterPickerProps = {
   width?: string | number;
   triangle?: "hide" | "top-left" | "top-right";
   colors?: string[];
@@ -29,7 +29,7 @@ export const Twitter = ({
   triangle = "top-left",
   styles: passedStyles = {},
   className = "",
-}: Props) => {
+}: TwitterPickerProps) => {
   const { colors: currentColors, changeColor } = useColor();
   const { hex } = currentColors;
 

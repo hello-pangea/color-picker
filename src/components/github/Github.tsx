@@ -4,7 +4,7 @@ import { useColor, withColorProvider } from "../../context/useColor";
 import { HexColor } from "../../types/colors";
 import GithubSwatch from "./GithubSwatch";
 
-type Props = {
+export type GithubPickerProps = {
   width?: string | number;
   styles?: Record<string, React.CSSProperties>;
   className?: string;
@@ -35,7 +35,7 @@ export function Github({
   triangle = "top-left",
   styles: passedStyles = {},
   className = "",
-}: Props) {
+}: GithubPickerProps) {
   const { changeColor } = useColor();
 
   const styles = merge<

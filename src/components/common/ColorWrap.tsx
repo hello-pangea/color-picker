@@ -5,7 +5,7 @@ import ColorProvider, {
 } from "../../context/useColor";
 import { Color, ColorResult } from "../../types/colors";
 
-type Props = {
+export type InjectedColorProps = {
   onSwatchHover?: (color: ColorResult, event: React.MouseEvent) => void;
   onChangeComplete?: (color: ColorResult) => void;
   color?: Color;
@@ -18,7 +18,7 @@ export const ColorWrap = (Picker: any) => {
     onChangeComplete,
     color,
     defaultColor,
-  }: Props) {
+  }: InjectedColorProps) {
     const { colors, changeColor } = useColor();
 
     return (

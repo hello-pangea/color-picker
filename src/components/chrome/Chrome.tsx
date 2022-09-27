@@ -6,7 +6,7 @@ import ChromeFields from "./ChromeFields";
 import ChromePointer from "./ChromePointer";
 import ChromePointerCircle from "./ChromePointerCircle";
 
-type Props = {
+export type ChromePickerProps = {
   width?: string | number;
   disableAlpha?: boolean;
   styles?: Record<string, React.CSSProperties>;
@@ -22,7 +22,7 @@ export const Chrome = ({
   styles: passedStyles = {},
   className = "",
   defaultView,
-}: Props) => {
+}: ChromePickerProps) => {
   const { colors, changeColor } = useColor();
   const { rgb, hex, hsl, hsv } = colors;
 

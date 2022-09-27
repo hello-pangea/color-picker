@@ -8,7 +8,7 @@ import PhotoshopPointer from "./PhotoshopPointer";
 import PhotoshopPointerCircle from "./PhotoshopPointerCircle";
 import PhotoshopPreviews from "./PhotoshopPreviews";
 
-type Props = {
+export type PhotoshopPickerProps = {
   header?: string;
   styles?: Record<string, React.CSSProperties>;
   className?: string;
@@ -22,7 +22,7 @@ function Photoshop({
   className = "",
   onAccept,
   onCancel,
-}: Props) {
+}: PhotoshopPickerProps) {
   const { colors, changeColor } = useColor();
   const { rgb, hex, hsv, hsl } = colors;
 

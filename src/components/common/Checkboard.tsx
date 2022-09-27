@@ -1,7 +1,7 @@
 import React, { isValidElement } from "react";
 import * as checkboard from "../../helpers/checkboard";
 
-type Props = {
+export type CheckboardProps = {
   size?: number;
   white?: string;
   grey?: string;
@@ -19,7 +19,7 @@ export default function Checkboard({
   borderRadius,
   boxShadow,
   children,
-}: Props) {
+}: CheckboardProps) {
   const styles: Record<string, React.CSSProperties> = {
     grid: {
       borderRadius,

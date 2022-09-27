@@ -5,7 +5,7 @@ import * as color from "../../helpers/color";
 import { ChangeColor } from "../../types/colors";
 import { EditableInput, Raised } from "../common";
 
-type Props = {
+export type MaterialPickerProps = {
   styles?: Record<string, React.CSSProperties>;
   className?: string;
 };
@@ -13,7 +13,7 @@ type Props = {
 export const Material = ({
   styles: passedStyles = {},
   className = "",
-}: Props) => {
+}: MaterialPickerProps) => {
   const { colors, changeColor } = useColor();
   const { rgb, hex } = colors;
 
