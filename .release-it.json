@@ -16,16 +16,6 @@
         "name": "conventionalcommits",
         "types": [
           {
-            "type": "chore",
-            "section": "Others 🔧",
-            "hidden": false
-          },
-          {
-            "type": "revert",
-            "section": "Reverts ◀",
-            "hidden": false
-          },
-          {
             "type": "feat",
             "section": "Features 🔥",
             "hidden": false
@@ -33,6 +23,16 @@
           {
             "type": "fix",
             "section": "Bug Fixes 🛠",
+            "hidden": false
+          },
+          {
+            "type": "chore",
+            "section": "Others 🔧",
+            "hidden": false
+          },
+          {
+            "type": "revert",
+            "section": "Reverts ◀",
             "hidden": false
           },
           {
@@ -73,6 +73,11 @@
           {
             "type": "ci",
             "section": "CI 🛠",
+            "hidden": false
+          },
+          {
+            "type": "misc",
+            "section": "Miscellaneous 🛠",
             "hidden": false
           }
         ]
