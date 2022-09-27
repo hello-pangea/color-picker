@@ -2,7 +2,7 @@
   "name": "@hello-pangea/color-picker",
   "version": "3.2.0",
   "private": false,
-  "description": "A Collection of Color Pickers from Sketch, Photoshop, Chrome & more",
+  "description": "React color pickers from Sketch, Photoshop, Chrome, Github, Twitter & more",
   "main": "dist/color-picker.cjs.js",
   "module": "dist/color-picker.esm.js",
   "types": "dist/color-picker.d.ts",
@@ -14,6 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/hello-pangea/color-picker.git"
   },
+  "homepage": "https://colorpicker.hellopangea.com/",
   "author": "case <case@casesandberg.com>",
   "maintainers": [
     "Reece Carolan <reece@hellopangea.com>"
