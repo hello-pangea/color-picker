@@ -1,10 +1,10 @@
 import React from "react";
-import { Hex, Rgb } from "../../types/colors";
+import { HexColor, RgbColor } from "../../types/colors";
 import { EditableInput } from "../common";
 
 type Props = {
-  hex: Hex;
-  rgb: Rgb;
+  hex: HexColor;
+  rgb: RgbColor;
   onChange: any;
 };
 

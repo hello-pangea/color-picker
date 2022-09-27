@@ -1,8 +1,8 @@
 import React from "react";
-import { Hsl } from "../../types/colors";
+import { HslColor } from "../../types/colors";
 
 type Props = {
-  hsl: Hsl;
+  hsl: HslColor;
   onClick: any;
   offset: number;
   active?: boolean;

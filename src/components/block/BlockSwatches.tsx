@@ -1,10 +1,10 @@
 import React from "react";
-import { Hex } from "../../types/colors";
+import { HexColor } from "../../types/colors";
 import { Swatch } from "../common";
 
 type Props = {
   colors: string[];
-  onClick: (hexCode: Hex, e: React.MouseEvent) => void;
+  onClick: (hexCode: HexColor, e: React.MouseEvent) => void;
 };
 
 export const BlockSwatches = ({ colors, onClick }: Props) => {

@@ -1,10 +1,10 @@
 import React from "react";
-import { Hsl } from "../../types/colors";
+import { HslColor } from "../../types/colors";
 import SliderSwatch from "./SliderSwatch";
 
 type Props = {
   onClick: any;
-  hsl: Hsl;
+  hsl: HslColor;
 };
 
 export default function SliderSwatches({ onClick, hsl }: Props) {

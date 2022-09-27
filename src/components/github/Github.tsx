@@ -1,7 +1,7 @@
 import merge from "lodash/merge";
 import React from "react";
 import { useColor, withColorProvider } from "../../context/useColor";
-import { Hex } from "../../types/colors";
+import { HexColor } from "../../types/colors";
 import GithubSwatch from "./GithubSwatch";
 
 type Props = {
@@ -102,7 +102,7 @@ export function Github({
     passedStyles
   );
 
-  const handleChange = (hex: Hex, e: React.MouseEvent) =>
+  const handleChange = (hex: HexColor, e: React.MouseEvent) =>
     changeColor({ hex, source: "hex" }, e);
 
   return (

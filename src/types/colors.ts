@@ -1,39 +1,39 @@
-export type Hex = string;
+export type HexColor = string;
 
-export type Hsl = {
+export type HslColor = {
   h: number;
   l: number;
   s: number;
   a?: number;
 };
 
-export type Hsv = {
+export type HsvColor = {
   h: number;
   s: number;
   v: number;
   a?: number;
 };
 
-export type Rgb = {
+export type RgbColor = {
   r: number;
   g: number;
   b: number;
   a?: number;
 };
 
-export type Color = Hex | Hsl | Hsv | Rgb;
+export type Color = HexColor | HslColor | HsvColor | RgbColor;
 
-export type ColorObject = {
-  hex: Hex;
-  hsl: Hsl;
-  hsv: Hsv;
-  rgb: Rgb;
+export type ColorResult = {
+  hex: HexColor;
+  hsl: HslColor;
+  hsv: HsvColor;
+  rgb: RgbColor;
   oldHue: number;
 };
 
 export type ChangeColor =
-  | Hsl
-  | Hsv
-  | (Rgb & { source?: string })
-  | { hex: Hex; source: string }
-  | Hex;
+  | HslColor
+  | HsvColor
+  | (RgbColor & { source?: string })
+  | { hex: HexColor; source: string }
+  | HexColor;

@@ -1,8 +1,8 @@
 import React from "react";
-import { Rgb } from "../../types/colors";
+import { RgbColor } from "../../types/colors";
 
 type Props = {
-  rgb: Rgb;
+  rgb: RgbColor;
   currentColor: string;
 };
 

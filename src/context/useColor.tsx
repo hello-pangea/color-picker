@@ -10,10 +10,10 @@ import React, {
   useState,
 } from "react";
 import * as color from "../helpers/color";
-import { ChangeColor, Color, ColorObject } from "../types/colors";
+import { ChangeColor, Color, ColorResult } from "../types/colors";
 
 export interface ColorContextType {
-  colors: ColorObject;
+  colors: ColorResult;
   changeColor: (color: ChangeColor, event?: React.MouseEvent) => void;
   onSwatchHover?: (color: ChangeColor, event: React.MouseEvent) => void;
 }
@@ -26,15 +26,15 @@ type Props = {
   children: React.ReactNode;
 
   /** Debounced version of `onChange`. Called after 100ms of no change */
-  onChangeComplete?: (color: ColorObject) => void;
+  onChangeComplete?: (color: ColorResult) => void;
 
-  onSwatchHover?: (color: ColorObject, event: React.MouseEvent) => void;
+  onSwatchHover?: (color: ColorResult, event: React.MouseEvent) => void;
 
   /**
    * Called _every_ time the color changes, ex. when dragging to select a color.
    * Use `onChangeComplete` for a debounced value (only called once picking a color is complete)
    */
-  onChange?: (color: ColorObject, event?: React.MouseEvent) => void;
+  onChange?: (color: ColorResult, event?: React.MouseEvent) => void;
 
   /** Allows you to control the color yourself */
   color?: Color;
@@ -56,7 +56,7 @@ export default function ColorProvider({
     a: 1,
   },
 }: Props) {
-  const [colors, setColors] = useState<ColorObject>({
+  const [colors, setColors] = useState<ColorResult>({
     ...color.toState(passedColor ?? defaultColor, 0),
   });
   const passedColorRef = useRef(passedColor);

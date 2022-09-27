@@ -3,11 +3,11 @@ import ColorProvider, {
   useColor,
   withColorProvider,
 } from "../../context/useColor";
-import { Color, ColorObject } from "../../types/colors";
+import { Color, ColorResult } from "../../types/colors";
 
 type Props = {
-  onSwatchHover?: (color: ColorObject, event: React.MouseEvent) => void;
-  onChangeComplete?: (color: ColorObject) => void;
+  onSwatchHover?: (color: ColorResult, event: React.MouseEvent) => void;
+  onChangeComplete?: (color: ColorResult) => void;
   color?: Color;
   defaultColor?: Color;
 };

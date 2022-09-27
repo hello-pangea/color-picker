@@ -2,7 +2,7 @@ import merge from "lodash/merge";
 import React from "react";
 import { useColor, withColorProvider } from "../../context/useColor";
 import * as color from "../../helpers/color";
-import { Hex } from "../../types/colors";
+import { HexColor } from "../../types/colors";
 import { Checkboard, EditableInput } from "../common";
 import BlockSwatches from "./BlockSwatches";
 
@@ -35,7 +35,7 @@ export const Block = ({
   const { hex } = currentColors;
 
   const transparent = hex === "transparent";
-  const handleChange = (hexCode: Hex, e: React.MouseEvent) => {
+  const handleChange = (hexCode: HexColor, e: React.MouseEvent) => {
     color.isValidHex(hexCode) &&
       changeColor(
         {

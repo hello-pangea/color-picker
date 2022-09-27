@@ -1,7 +1,7 @@
 import merge from "lodash/merge";
 import React from "react";
 import { useColor, withColorProvider } from "../../context/useColor";
-import { Hex } from "../../types/colors";
+import { HexColor } from "../../types/colors";
 import CircleSwatch from "./CircleSwatch";
 
 type Props = {
@@ -59,7 +59,7 @@ export function Circle({
     passedStyles
   );
 
-  const handleChange = (hexCode: Hex, e: React.MouseEvent) =>
+  const handleChange = (hexCode: HexColor, e: React.MouseEvent) =>
     changeColor({ hex: hexCode, source: "hex" }, e);
 
   return (
