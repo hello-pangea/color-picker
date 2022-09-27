@@ -1,5 +1,27 @@
 
 
+### [3.2.1](https://github.com/hello-pangea/color-picker/compare/v3.2.0...v3.2.1) (2022-09-27)
+
+
+### Bug Fixes 🛠
+
+* export additional types ([5de2b4d](https://github.com/hello-pangea/color-picker/commit/5de2b4d29096796b876eecd81256210e7451edda))
+* photoshop "ok" button works ([1c016b4](https://github.com/hello-pangea/color-picker/commit/1c016b47a39d88af98a436dc9b38c86f0e305e3a))
+
+
+### Code Refactoring 🖌
+
+* rename types to match DefinitelyTyped ([f362474](https://github.com/hello-pangea/color-picker/commit/f3624749cb2d49e7ab5d02582469d410d929a59b))
+
+
+### Others 🔧
+
+* add homepage to package.json ([cbc36cb](https://github.com/hello-pangea/color-picker/commit/cbc36cb33d12e6ff0391892fd9cf4df55fb2ae61))
+* export picker props ([5f66ff6](https://github.com/hello-pangea/color-picker/commit/5f66ff678e7a3667d3f145798f8266b3b774482e))
+* reorder changelog items ([f716134](https://github.com/hello-pangea/color-picker/commit/f716134ce68e1a5ca6174cce9fb2c4e4f5b06a9d))
+* stricter tsconfig ([1ab4d8b](https://github.com/hello-pangea/color-picker/commit/1ab4d8b086ddb08a40bc028c638e74977db7a768))
+* update deps ([8bf9e85](https://github.com/hello-pangea/color-picker/commit/8bf9e85c13006c8fa29c378b68852f0bfa98c77b))
+
 ## [3.2.0](https://github.com/hello-pangea/color-picker/compare/v3.1.1...v3.2.0) (2022-09-20)
 
 
