@@ -3,7 +3,7 @@ import resolve from "@rollup/plugin-node-resolve";
 import dts from "rollup-plugin-dts";
 import svg from "rollup-plugin-svg";
 
-import pkg from "./package.json";
+import pkg from "./package.json" assert { type: "json" };
 
 const input = "./src/index.ts";
 const extensions = [".ts", ".tsx", ".js", ".jsx", ".svg"];
@@ -21,8 +21,6 @@ const getBabelOptions = ({ useESModules }) => ({
 
 export default [
   // CommonJS (cjs) build
-  // - Keeping console.log statements
-  // - All external packages are not bundled
   {
     input,
     output: { file: pkg.main, format: "cjs" },
@@ -35,11 +33,9 @@ export default [
   },
 
   // EcmaScript Module (esm) build
-  // - Keeping console.log statements
-  // - All external packages are not bundled
   {
     input,
-    output: { file: pkg.module, format: "esm" },
+    output: { file: pkg.module, format: "esm", esModule: true },
     external: excludeAllExternals,
     plugins: [
       svg({ base64: true }),
