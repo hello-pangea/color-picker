@@ -9,19 +9,16 @@ export const App = () => {
       <div style={{ marginBottom: "16px" }}>
         <ChromePicker
           color={colorValue}
-          onChangeComplete={(e) => setColorValue(e.hex)}
+          onChange={(e) => setColorValue(e.hex)}
         />
       </div>
       <div style={{ marginBottom: "16px" }}>
         <GooglePicker
           color={colorValue}
-          onChangeComplete={(e) => setColorValue(e.hex)}
+          onChange={(e) => setColorValue(e.hex)}
         />
       </div>
-      <CirclePicker
-        color={colorValue}
-        onChangeComplete={(e) => setColorValue(e.hex)}
-      />
+      <CirclePicker color={colorValue} onChange={(e) => setColorValue(e.hex)} />
     </>
   );
 };
