@@ -1,5 +1,23 @@
 
 
+### [3.2.2](https://github.com/hello-pangea/color-picker/compare/v3.2.1...v3.2.2) (2022-11-06)
+
+
+### Others 🔧
+
+* update deps ([c1b432e](https://github.com/hello-pangea/color-picker/commit/c1b432ef14cb3682eb9d6cc9c1a0531f431527c8))
+* update deps (rollup 3) ([c8fc145](https://github.com/hello-pangea/color-picker/commit/c8fc145731b9fa9b511cc9efe1b8ca8ae731ff6a))
+
+
+### Performance Improvements 🚀
+
+* improve performance of saturation component ([a3ece10](https://github.com/hello-pangea/color-picker/commit/a3ece10dce77a22db4631f4e2166b20abd25e5f4))
+
+
+### Docs 📃
+
+* make Multiple Pickers more reactive ([e53faac](https://github.com/hello-pangea/color-picker/commit/e53faac124d761dc9782ea54f08adc691fb25476))
+
 ### [3.2.1](https://github.com/hello-pangea/color-picker/compare/v3.2.0...v3.2.1) (2022-09-27)
 
 
