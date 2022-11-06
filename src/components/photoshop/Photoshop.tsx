@@ -104,7 +104,7 @@ function Photoshop({
           <Saturation
             hsl={hsl}
             hsv={hsv}
-            pointer={PhotoshopPointerCircle}
+            pointer={<PhotoshopPointerCircle hsl={hsl} />}
             onChange={changeColor}
           />
         </div>

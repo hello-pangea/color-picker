@@ -1,4 +1,4 @@
-export const calculateChange = (e, hsl, container) => {
+export function calculateChange(e, hsl, container) {
   const { width: containerWidth, height: containerHeight } =
     container.getBoundingClientRect();
   const x = typeof e.pageX === "number" ? e.pageX : e.touches[0].pageX;
@@ -28,4 +28,4 @@ export const calculateChange = (e, hsl, container) => {
     a: hsl.a,
     source: "hsv",
   };
-};
+}

@@ -94,7 +94,7 @@ export function Google({
         <Saturation
           hsl={hsl}
           hsv={hsv}
-          pointer={GooglePointerCircle}
+          pointer={<GooglePointerCircle hsl={hsl} />}
           onChange={changeColor}
         />
       </div>

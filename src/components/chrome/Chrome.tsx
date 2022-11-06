@@ -104,7 +104,7 @@ export const Chrome = ({
           style={styles.Saturation}
           hsl={hsl}
           hsv={hsv}
-          pointer={ChromePointerCircle}
+          pointer={<ChromePointerCircle />}
           onChange={changeColor}
         />
       </div>

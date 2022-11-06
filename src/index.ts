@@ -16,6 +16,7 @@ export { default as Hue } from "./components/common/Hue";
 export { default as Raised } from "./components/common/Raised";
 export type { RaisedProps } from "./components/common/Raised";
 export { default as Saturation } from "./components/common/Saturation";
+export type { SaturationProps } from "./components/common/Saturation";
 export { default as Swatch } from "./components/common/Swatch";
 export type { SwatchProps } from "./components/common/Swatch";
 export { default as CompactPicker } from "./components/compact/Compact";
