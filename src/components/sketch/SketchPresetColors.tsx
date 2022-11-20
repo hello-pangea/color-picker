@@ -34,6 +34,7 @@ export default function SketchPresetColors({
       boxShadow: "inset 0 0 0 1px rgba(0,0,0,.15)",
       fontSize: "14px",
       textAlign: "center",
+      lineHeight: "16px",
       fontWeight: "bold",
     },
   };
