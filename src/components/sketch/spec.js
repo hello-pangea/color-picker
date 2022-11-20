@@ -61,7 +61,12 @@ test("SketchFields renders correctly", () => {
 
 test("SketchPresetColors renders correctly", () => {
   const tree = renderer
-    .create(<SketchPresetColors colors={["#fff", "#999", "#000"]} />)
+    .create(
+      <SketchPresetColors
+        colors={["#fff", "#999", "#000"]}
+        currentColor={color.red}
+      />
+    )
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
@@ -81,6 +86,8 @@ test("SketchPresetColors with custom titles renders correctly", () => {
     },
     "#f00",
   ];
-  const tree = renderer.create(<SketchPresetColors colors={colors} />).toJSON();
+  const tree = renderer
+    .create(<SketchPresetColors colors={colors} currentColor={color.red} />)
+    .toJSON();
   expect(tree).toMatchSnapshot();
 });
