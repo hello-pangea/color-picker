@@ -1,14 +1,16 @@
 import React from "react";
-import { ChangeColor } from "../../types/colors";
+import { ChangeColor, ColorResult } from "../../types/colors";
 import { Swatch } from "../common";
 
 type Props = {
   colors: (string | { color: string; title?: string })[];
+  currentColor: ColorResult;
   onClick?: (newColor: ChangeColor, event: React.MouseEvent) => void;
 };
 
 export default function SketchPresetColors({
   colors,
+  currentColor,
   onClick = () => {},
 }: Props) {
   const noPresets = !colors || !colors.length;
@@ -30,6 +32,10 @@ export default function SketchPresetColors({
     swatch: {
       borderRadius: "3px",
       boxShadow: "inset 0 0 0 1px rgba(0,0,0,.15)",
+      fontSize: "14px",
+      textAlign: "center",
+      lineHeight: "16px",
+      fontWeight: "bold",
     },
   };
 
@@ -51,16 +57,32 @@ export default function SketchPresetColors({
             ? { color: colorObjOrString }
             : colorObjOrString;
         const key = `${c.color}${("title" in c ? c.title : "") || ""}`;
+
+        const isCurrent = currentColor.hex.toUpperCase() === c.color;
+
+        const textColor =
+          currentColor.rgb.r * 0.299 +
+            currentColor.rgb.g * 0.587 +
+            currentColor.rgb.b * 0.114 >
+          186
+            ? "#000000"
+            : "#ffffff";
+
         return (
           <div key={key} style={styles.swatchWrap}>
             <Swatch
               {...c}
-              style={styles.swatch}
+              style={{
+                ...styles.swatch,
+                color: textColor,
+              }}
               onClick={handleClick}
               focusStyle={{
                 boxShadow: `inset 0 0 0 1px rgba(0,0,0,.15), 0 0 4px ${c.color}`,
               }}
-            />
+            >
+              {isCurrent && <>&#x2713;</>}
+            </Swatch>
           </div>
         );
       })}

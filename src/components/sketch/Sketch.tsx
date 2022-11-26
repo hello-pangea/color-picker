@@ -154,7 +154,11 @@ export function Sketch({
         onChange={changeColor}
         disableAlpha={disableAlpha}
       />
-      <SketchPresetColors colors={presetColors} onClick={changeColor} />
+      <SketchPresetColors
+        colors={presetColors}
+        currentColor={colors}
+        onClick={changeColor}
+      />
     </div>
   );
 }
