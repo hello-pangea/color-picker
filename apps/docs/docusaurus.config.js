@@ -10,7 +10,7 @@ const config = {
   tagline: "Color pickers for react",
   url: "https://color-picker.hellopangea.dev",
   baseUrl: "/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/color-picker-logo.png",
 
