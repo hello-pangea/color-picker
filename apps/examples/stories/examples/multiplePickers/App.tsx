@@ -2,7 +2,7 @@ import {
   ChromePicker,
   CirclePicker,
   GooglePicker,
-} from "@hello-pangea/color-picker";
+} from "@hello-pangea/color-picker/src/index";
 import React, { useState } from "react";
 
 export const App = () => {

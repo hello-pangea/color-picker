@@ -1,4 +1,8 @@
-import { Alpha, useColor, withColorProvider } from "@hello-pangea/color-picker";
+import {
+  Alpha,
+  useColor,
+  withColorProvider,
+} from "@hello-pangea/color-picker/src/index";
 import React from "react";
 import MyPointer from "./MyPointer";
 

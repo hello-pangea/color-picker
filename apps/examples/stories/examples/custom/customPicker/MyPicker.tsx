@@ -3,7 +3,7 @@ import {
   Hue,
   useColor,
   withColorProvider,
-} from "@hello-pangea/color-picker";
+} from "@hello-pangea/color-picker/src/index";
 import React from "react";
 
 function MyPicker() {

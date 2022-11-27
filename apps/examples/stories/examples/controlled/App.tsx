@@ -1,4 +1,7 @@
-import { ColorResult, GooglePicker } from "@hello-pangea/color-picker";
+import {
+  ColorResult,
+  GooglePicker,
+} from "@hello-pangea/color-picker/src/index";
 import React, { useState } from "react";
 
 export default function App() {
