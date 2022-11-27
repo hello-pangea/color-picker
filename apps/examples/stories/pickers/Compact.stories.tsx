@@ -1,4 +1,4 @@
-import { CompactPicker } from "@hello-pangea/color-picker";
+import { CompactPicker } from "@hello-pangea/color-picker/src/index";
 import React from "react";
 
 export default {

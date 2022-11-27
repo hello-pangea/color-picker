@@ -1,4 +1,4 @@
-import { SketchPicker } from "@hello-pangea/color-picker";
+import { SketchPicker } from "@hello-pangea/color-picker/src/index";
 import React from "react";
 
 export default {

@@ -1,4 +1,4 @@
-import { AlphaPicker } from "@hello-pangea/color-picker";
+import { AlphaPicker } from "@hello-pangea/color-picker/src/index";
 import React from "react";
 
 export default {
