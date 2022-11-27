@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Pangea Color Picker",
   tagline: "Color pickers for react",
-  url: "https://color-picker.hellopangea.dev",
+  url: "https://colorpicker.hellopangea.dev",
   baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
