@@ -45,7 +45,8 @@
     "build": "pnpm run build:clean && pnpm run build:dist",
     "build:clean": "rimraf dist",
     "build:dist": "NODE_ENV=production rollup -c",
-    "prepublishOnly": "pnpm run build"
+    "prepublishOnly": "pnpm run build",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "dependencies": {
     "@babel/runtime": "^7.20.1",

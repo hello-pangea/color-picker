@@ -10,11 +10,7 @@ module.exports = {
   reactOptions: {
     strictMode: true,
   },
-  stories: [
-    "../../../packages/color-picker/src/components/google/Google.stories.tsx",
-    "../../../packages/color-picker/src/**/*.stories.@(js|jsx|ts|tsx)",
-    "../stories/**/*.stories.@(js|jsx|ts|tsx)",
-  ],
+  stories: ["../stories/**/*.stories.@(js|jsx|ts|tsx)"],
   async viteFinal(config, { configType }) {
     // customize the Vite config here
     return {

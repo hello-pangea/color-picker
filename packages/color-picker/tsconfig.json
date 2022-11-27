@@ -21,6 +21,10 @@
     "types": ["jest"],
     "lib": ["dom", "esnext"]
   },
-  "exclude": ["node_modules"],
-  "include": ["src/**/*", "icons/**/*"]
+  "exclude": ["node_modules", "dist"],
+  "include": [
+    "src/**/*",
+    "icons/**/*",
+    "../../apps/examples/stories/pickers/Compact.stories.tsx"
+  ]
 }
