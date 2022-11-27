@@ -41,4 +41,4 @@ export default function App() {
 
 ## Live demos
 
-Check out our [examples site](/examples) to play with live demos.
+Check out our [examples site](https://colorpickerexamples.hellopangea.dev) to play with live demos.

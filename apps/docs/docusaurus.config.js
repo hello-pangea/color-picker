@@ -55,7 +55,7 @@ const config = {
             position: "right",
           },
           {
-            to: "/examples",
+            href: "https://colorpickerexamples.hellopangea.dev",
             label: "Examples",
             position: "right",
           },

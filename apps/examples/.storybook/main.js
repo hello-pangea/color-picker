@@ -14,8 +14,6 @@ module.exports = {
   async viteFinal(config, { configType }) {
     // customize the Vite config here
 
-    config.base = "/examples/";
-
     return {
       ...config,
       resolve: {
