@@ -13,6 +13,9 @@ module.exports = {
   stories: ["../stories/**/*.stories.@(js|jsx|ts|tsx)"],
   async viteFinal(config, { configType }) {
     // customize the Vite config here
+
+    config.base = "/examples/";
+
     return {
       ...config,
       resolve: {
