@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "start-storybook -p 6006",
-    "build": "build-storybook --examples",
+    "build": "build-storybook",
     "clean": "rm -rf .turbo && rm -rf node_modules"
   },
   "dependencies": {

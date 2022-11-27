@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/examples/",
+      "destination": "https://colorpicker-examples.hellopangea.dev/"
+    },
+    {
+      "source": "/examples/:match*",
+      "destination": "https://colorpicker-examples.hellopangea.dev/:match*"
+    }
+  ]
+}
