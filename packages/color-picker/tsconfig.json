@@ -22,9 +22,5 @@
     "lib": ["dom", "esnext"]
   },
   "exclude": ["node_modules", "dist"],
-  "include": [
-    "src/**/*",
-    "icons/**/*",
-    "../../apps/examples/stories/pickers/Compact.stories.tsx"
-  ]
+  "include": ["src/**/*", "icons/**/*"]
 }
