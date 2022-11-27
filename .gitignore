@@ -1,6 +1,5 @@
 # editors
 .idea
-.vscode
 
 # library
 node_modules/
@@ -35,3 +34,15 @@ npm-debug.log
 npm-debug.log.*
 
 .env
+
+# Turborepo
+.turbo
+*.log
+.next
+dist
+dist-ssr
+*.local
+.cache
+server/dist
+public/dist
+storybook-static/
