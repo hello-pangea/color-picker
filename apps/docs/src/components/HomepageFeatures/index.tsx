@@ -9,7 +9,7 @@ const FeatureList = [
     description: (
       <>
         Use 13 pre-made color pickers from GitHub, Sketch, Photoshop, and more.{" "}
-        <a href="https://colorpickerexamples.hellopangea.dev">
+        <a href="https://colorpickerexamples.hellopangea.dev" target="_blank">
           Color picker examples
         </a>
         .
