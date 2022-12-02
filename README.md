@@ -44,3 +44,26 @@ You can import `AlphaPicker` `BlockPicker` `ChromePicker` `CirclePicker` `Compac
 [downloads-url]: https://npm-stat.com/charts.html?package=@hello-pangea/color-picker
 [npm-version-image]: https://img.shields.io/npm/v/@hello-pangea/color-picker
 [npm-version-url]: https://www.npmjs.com/package/@hello-pangea/color-picker
+
+### Customizing Styles
+
+Pass a `styles` object to override the default inline styles.
+
+```js
+import React from 'react'
+import { SketchPicker } from '@hello-pangea/color-picker'
+
+const sketchPickerStyles = {
+    // See the individual picker source for which keys to use
+    picker: {
+        boxShadow: 'none',
+    },
+}
+
+function App() {
+    return (
+        <SketchPicker styles={sketchPickerStyles} />
+    )
+}
+```
+
