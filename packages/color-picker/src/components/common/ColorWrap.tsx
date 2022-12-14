@@ -1,6 +1,5 @@
 import React from "react";
 import ColorProvider, {
-  ColorContextType,
   useColor,
   withColorProvider,
 } from "../../context/useColor";
@@ -8,6 +7,7 @@ import { Color, ColorResult } from "../../types/colors";
 
 export type InjectedColorProps = {
   onSwatchHover?: (color: ColorResult, event: React.MouseEvent) => void;
+  onChange?: (color: ColorResult, event?: React.MouseEvent) => void;
   onChangeComplete?: (color: ColorResult) => void;
   color?: Color;
   defaultColor?: Color;
@@ -15,7 +15,7 @@ export type InjectedColorProps = {
 
 // The wrapped component will receive the following props
 export type ColorWrapProps = ColorResult & {
-  onChange: ColorContextType["changeColor"];
+  onChange: InjectedColorProps["onChange"];
 };
 
 export const ColorWrap = <
@@ -27,6 +27,7 @@ export const ColorWrap = <
   function ColorPicker({
     onSwatchHover,
     onChangeComplete,
+    onChange,
     color,
     defaultColor,
     ...rest
@@ -41,6 +42,7 @@ export const ColorWrap = <
         color={color}
         defaultColor={defaultColor}
         onChangeComplete={onChangeComplete}
+        onChange={onChange}
         onSwatchHover={onSwatchHover}
       >
         <Picker {...(colors as any)} {...rest} onChange={changeColor} />
