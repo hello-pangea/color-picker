@@ -1,7 +1,7 @@
 import React from "react";
 import ColorProvider, {
   useColor,
-  withColorProvider,
+  withColorProvider
 } from "../../context/useColor";
 import { Color, ColorResult } from "../../types/colors";
 
@@ -18,6 +18,7 @@ export const ColorWrap = (Picker: any) => {
     onChangeComplete,
     color,
     defaultColor,
+    ...rest
   }: InjectedColorProps) {
     const { colors, changeColor } = useColor();
 
@@ -28,7 +29,7 @@ export const ColorWrap = (Picker: any) => {
         onChangeComplete={onChangeComplete}
         onSwatchHover={onSwatchHover}
       >
-        <Picker {...colors} onChange={changeColor} />
+        <Picker {...colors} {...rest} onChange={changeColor} />
       </ColorProvider>
     );
   }
