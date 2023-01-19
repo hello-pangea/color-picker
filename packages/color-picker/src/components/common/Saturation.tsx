@@ -23,6 +23,10 @@ export default function Saturation({
   style,
 }: SaturationProps) {
   const ref = useRef<HTMLDivElement>(null);
+  const [pointerPosition, pointerPositionSet] = React.useState({
+    saturation: hsv.s * 100,
+    brightness: hsv.v * 100,
+  });
 
   useEffect(() => {
     return () => {
@@ -34,7 +38,12 @@ export default function Saturation({
     event: React.MouseEvent | React.TouchEvent | MouseEvent
   ) {
     if (onChange) {
-      onChange(calculateChange(event, hsl, ref.current), event as any);
+      const newData = calculateChange(event, hsl, ref.current);
+      pointerPositionSet({
+        saturation: newData.s * 100,
+        brightness: newData.v * 100,
+      });
+      onChange(newData, event as any);
     }
   }
 
@@ -79,8 +88,8 @@ export default function Saturation({
     },
     pointer: {
       position: "absolute",
-      top: `${-(hsv.v * 100) + 100}%`,
-      left: `${hsv.s * 100}%`,
+      top: `${Math.max(0, Math.min(100, 100 - pointerPosition.brightness))}%`,
+      left: `${Math.max(0, Math.min(100, pointerPosition.saturation))}%`,
       cursor: "default",
     },
     circle: {
